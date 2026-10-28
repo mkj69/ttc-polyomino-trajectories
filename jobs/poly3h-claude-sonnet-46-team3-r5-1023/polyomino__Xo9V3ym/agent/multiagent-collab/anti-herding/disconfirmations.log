@@ -1,0 +1,2 @@
+[slot 2 08:37:09] Hypothesis: skyline approach valid for correctness; disconfirm: tried n=100 random, no overlaps with colMin-based placement
+[slot 0 08:45:07] DISCONFIRM: skyline does NOT improve over shelf for realistic distribution (both ~70%). The bottleneck is piece bounding box fill ratio, not placement algorithm.

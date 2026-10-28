@@ -1,0 +1,9 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/hardscore.cpp
+Lineage: exact persistent sid18 hybrid + only default greedy perimeter/size scoring.
+Policy: n<500: (37,37); n500..5000: (-20,-37); n>5000: (20,0).
+Meaning: prioritize depletion of high-perimeter difficult pieces at moderate inventory sizes, while retaining stronger geometric contact preference in the largest inventories.
+Independent evidence: 21 paired full-budget uniform inputs, no density losses. Mean improvements at n1000/1500/3000/5000/7000/10000: .001685/.004415/.003142/.001584/.000496/.000818. n700 equal (global beam wins).
+Validity: 42 adaptive output geometry validations, plus 40 ASan/UBSan independent cases including 20 tiny reference searches.
+Official result: sid21 score 0.9794269303, beats prior persistent sid18 0.9788209165.
+Cost so far: 90 parameter-screening outputs (~45 CPU s), 42 adaptive outputs (~45 CPU s), 40 sanitizer cases (~14 CPU s), one graded 70-case evaluation.
+Counter-evidence: this is size-dependent. Strongly negative perimeter weighting at n10000 reduced density; do not extrapolate one fixed hard-piece-first score to every n. n<500 unchanged.

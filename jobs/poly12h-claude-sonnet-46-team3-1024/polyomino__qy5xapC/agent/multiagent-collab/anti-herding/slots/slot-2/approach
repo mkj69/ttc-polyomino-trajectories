@@ -1,0 +1,1 @@
+Approach (slot 2): Shelf + skyline packing hybrid. Try bounding-box shelf (NFDH) for fast baseline. Then try skyline/height-map packing for better quality. Focus on orientation selection and width sweep. Deliberately NOT using exact cell-level interleaving for slot 0 to cover.

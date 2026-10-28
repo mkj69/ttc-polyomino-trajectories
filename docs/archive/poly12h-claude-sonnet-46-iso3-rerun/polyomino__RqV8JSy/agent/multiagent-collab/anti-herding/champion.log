@@ -1,0 +1,32 @@
+[slot 2 20:23:51] Initial submission - skyline BL with shelf sweep, ~91% efficiency on n=10000
+[slot 1 20:59:02] score=73.09%; TLE-safe (1.5s budget, max trial time tracking); fixed Phase 2 estimation bug
+[slot 0 21:05:39] score=76.12%; two-phase BL+skyline with compaction; work-0/solution.cpp
+[slot 1 21:09:24] score=73.37%; neighbor widths in Phase 2 for small n; no full-shuffle
+[slot 2 21:55:29] score=78.09%; BL packing for n<=500 + skyline for n>500 + Y+X compact; work-2/solution.cpp
+[slot 1 22:32:28] score=78.24%; BL extended to n<=700; skyline for n>700; sid=18
+[slot 1 23:01:36] score=78.26%; BL n<=700, topK=10 for n<=300, topK=8 otherwise; sid=25
+[slot 1 23:58:10] score=78.26442%; BL n<=800 (topK=4 for n=701-800), safety baseline, sid=28
+[slot 1 00:04:59] score=78.2660%; BL n<=800(topK=4), n<=1000(topK=2), safety baseline; sid=33
+[slot 2 01:44:39] score=79.77%; valley-filling skyline + BL n<=700; valley-sky minimizes skyline-area-increase instead of max-H; sid=53
+[slot 2 01:50:19] score=79.90%; valley-filling skyline for ALL n (n>700 added); sid=54
+[slot 0 update] champion updated to 79.79% with skylinePackValley! Need to implement valley skyline.
+[slot 1 02:13:21] score=81.04%; valley_v2: replaced skylinePack with skylinePackValley in runSky + BL n<=1000 extension; sid=57
+[slot 0 02:23:32] score=81.34%; adopted slot1 v3 + valley-after-BL in Phase2 for n<=200; sid=59
+[slot 0 02:41:57] score=81.70%; valley-ranking for n=701-1000 (massive n=800-1000 improvement); + valley-after-BL for n<=200; sid=62
+[slot 2 02:48:56] score=81.85%; sep_max_trial_bl + valley_p2_n300 on 81.70% champion; n=700: +1914, n=500: +612 locally; sid=65
+[slot 2 02:55:40] score=82.17%; valley-ranking ALL n + tryR in ranking for n<=700; n=700: +7521 locally; sid=66
+[slot 1 03:04:09] score=82.18%; vrankall: sep_mxbl + valley-rank ALL n + tryR ALL n; n=500: -254 n=700: -450 local; sid=68
+[slot 2 03:31:43] score=82.45%; bumpiness tie-breaking in skylinePackValley; n=700: +917, overall: +665 locally; sid=71
+[slot 1 03:44:14] score=82.48%; bump: wcenter + bumpiness tie-breaking in skylinePackValley; n=5000 avg -241 local; sid=74
+[slot 2 03:46:00] score=82.68%; internal top_bump added to valley tiebreak (+388 n100, +242 n300, +197 n500); sid=75
+[slot 2 03:53:31] score=82.73%; delta-bumpiness tiebreak in valley (uses prefix sum of sky bumpiness); n=100 +432, n=700 +298, overall +156 vs v6; sid=77
+[slot 2 04:02:44] score=82.80%; bump-before-ym tiebreak order; n=300 +307, n=500 +349, overall +175 vs v7; sid=78
+[slot 1 04:16:14] score=82.84%; adoptv2: ibump+wcenter + delta-bump(full) + bump-before-ym; sid=80
+[slot 0 04:21:28] score=82.86%; wcenter (sqrtC-proximity sort for n=1001-5000) on 82.80% base; n=1500: 8/8 wins; sid=81
+[slot 1 04:34:36] score=82.87%; coarse2: adoptv2 + strategic width priority for n=1001-5000; n=5000 avg -819 local; sid=83
+[slot 0 04:50:56] score=82.88%; ordH in Phase2 every 3rd iteration for n>500; n=1000: 3W/1L, n=1500: 3W/0L; sid=84
+[slot 1 06:32:25] score=82.89%; ordBBrev small-first ordering in Phase2 for n<=300 (every 4th iter); on coarse2 base; sid=98
+[slot 2 06:40:53] score=82.93%; v26: strategic_priority+ordH+ordBBrev(small-first n<=300); n=100: +152 locally, overall +30 vs v15; sid=100
+[slot 0 07:00:43] score=83.04%; combined metric 8*dA+bump in skylinePackValley; n=700 9/5, n=1000 10/4, n=1500 10/4 wins (16 seeds); sid=103
+[slot 0 07:42:16] score=83.10%; krev (ordKrev declared every 6th n>500, timing/binary change); locally 5W/2L mild; judge 83.10%>83.04%; sid=109
+[slot 2 07:59:30] score=83.14%; v43: adopt slot0 krev_p1_1k(comb8+krev+ordH_p1_1k) + greedyBLPack(n<=100) + ordBBrev_p2(n<=300); n=100:+76 n=200:+63 n=500:+33 vs champ; sid=116

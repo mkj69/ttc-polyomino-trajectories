@@ -1,0 +1,6 @@
+score=98.23599453714286
+lineage=compact-resource-greedy-v13+medium601..1200sampledbeam
+source=/logs/agent/multiagent-collab/anti-herding/work-1/medium-compact-beam-v14.cpp
+evidence=14heldoutpaired.985559->.988248,8wins2losses;official
+cost=30schedulecases53.5s+28paired48.3s+1official
+counterevidence=n1500..2000oftenlosewhenreplacingmultistartgreedy; gatedn<=1200

@@ -1,0 +1,7 @@
+lineage=slot1-frontier,slot2-streaming-cavity,slot0-hashed-beam
+source=/logs/agent/multiagent-collab/anti-herding/work-0/cavity-beam-v2.cpp
+evidence=n150 mean .955933; n10000 3seed mean .994007,1.74s; 300 random beam cases
+cost=313 local cases,24s; official pending
+counterevidence=beam truncated at1.7s and only n<=600; no tail exact repair
+official_score=96.18424554857144
+submission=24ae0d9c-364d-432e-8579-3f8d4edb03f8

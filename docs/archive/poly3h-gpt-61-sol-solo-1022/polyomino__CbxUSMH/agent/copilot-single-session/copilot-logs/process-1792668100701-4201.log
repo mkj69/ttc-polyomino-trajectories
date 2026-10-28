@@ -1,0 +1,22 @@
+2026-10-22T11:21:40.702Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-22T11:21:40.702Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-22T11:21:40.705Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-22T11:21:40.705Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-22T11:21:40.719Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-22T11:21:40.720Z [INFO] OpenTelemetry tracker created for session 14d73910-30b7-4fd5-a4b7-89e3e0a60181
+2026-10-22T11:21:40.799Z [INFO] Workspace initialized: 14d73910-30b7-4fd5-a4b7-89e3e0a60181 (checkpoints: 0)
+2026-10-22T11:21:40.814Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-22T11:21:40.814Z [INFO] Node.js version: v24.16.0
+2026-10-22T11:21:40.839Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-22T11:21:40.847Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-22T11:21:40.933Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-22T11:21:40.933Z [INFO]  
+2026-10-22T11:21:40.933Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-22T11:21:40.933Z [INFO] --- End of group ---
+2026-10-22T11:21:40.963Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T11:21:40.964Z [INFO] --- End of group ---
+2026-10-22T12:19:53.492Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T12:19:53.493Z [INFO] --- End of group ---
+2026-10-22T12:22:32.905Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T12:22:32.942Z [INFO] Persisted checkpoint #1: Polyomino Packing Portfolio Optimization
+2026-10-22T12:22:38.218Z [INFO] CompactionProcessor: Compaction complete - replaced 241 messages with summary + 11 new messages, saved ~96891 tokens

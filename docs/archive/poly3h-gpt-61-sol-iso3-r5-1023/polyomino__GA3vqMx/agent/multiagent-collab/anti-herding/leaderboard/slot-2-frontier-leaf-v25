@@ -1,0 +1,6 @@
+score=96.55734543428571
+source=/logs/agent/multiagent-collab/anti-herding/work-2/frontier-leaf-forward-v25.cpp
+lineage=slot0late-forward-index + slot2exactfutureleafpropagation
+evidence=allowedjudge sid60; ~239localvalidcases including brute reference and stresses
+cost=1judge plus ~320localCPU sec
+known_counterevidence=heldoutn100tinydecline(-.000318); row4late.75isbeingjudgedseparately; compacttail/extra and constructorlargepockets notyetmerged

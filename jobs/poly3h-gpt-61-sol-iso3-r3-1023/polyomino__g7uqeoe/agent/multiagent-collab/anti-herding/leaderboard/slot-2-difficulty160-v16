@@ -1,0 +1,6 @@
+score=0.9788032250000003
+source=work-2/difficulty160-v16.cpp
+lineage=inventory-aware component matching and compact beam, perimeter160 potential
+evidence=official sid33; 18 local controlled comparisons
+cost=1 official call, 36 local full runs
+counter-evidence=320 slightly worse locally; no beam for n>220 yet

@@ -1,0 +1,4 @@
+lineage: independent exact rectangular matching, not adopted
+evidence: work-2/check.py patch --n 100/1000; density .459-.510 vs peer .89-.99
+cost: 6 local runs; large case 20s timeout
+counter-evidence: exact patches too sparse without >=4-piece combinatorial search

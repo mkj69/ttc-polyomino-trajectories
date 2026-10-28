@@ -1,0 +1,6 @@
+score=97.79761764285715
+lineage=bounded-narrow-beam-v9 + independently replicated piece-resource priority
+source=/logs/agent/multiagent-collab/anti-herding/work-1/resource-aware-beam-v10.cpp
+evidence=30heldoutfixedwidth .958571->.965251;13defaultpaired .972995->.974833,0losses;official97.79761764285715
+cost=120fixedwidth~14.82s+26default~42s+1official
+counterevidence=intrinsic-hole credit and symmetry priority inferior; retained25pctbaseline beam variation

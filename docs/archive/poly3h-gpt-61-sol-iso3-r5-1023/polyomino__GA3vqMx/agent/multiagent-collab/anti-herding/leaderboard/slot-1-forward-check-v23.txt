@@ -1,0 +1,6 @@
+score=96.45622527428571 sid51
+source=/logs/agent/multiagent-collab/anti-herding/work-1/frontier-forward-check-v23.cpp
+lineage=v20archive+partialcavity, late next-target exact forward propagation
+evidence=45freshcataloguevalid+70matchedoutputs; allowedjudge+0.06730448
+cost=1judgerun+approximately130CPUseconds
+counterevidence=smalllocalmatchedmixed; full-depthpropagationslow, late-onlybetter; compressedlargesuffixnegative

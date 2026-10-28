@@ -1,0 +1,6 @@
+score=0.9663905869714281
+lineage=slot2 beam + slot0 flood + slot1 global exact-fit index for beam and large packing, cap10
+evidence=official grade, exact per-cell beam candidate assertions on100 random inputs,203 generic validitychecks
+cost=1grade
+counterevidence=beam256 can spend1.71s and not always improve128; exact cavity exemption rejected
+source=/logs/agent/multiagent-collab/anti-herding/work-1/indexed-beam-v2.cpp

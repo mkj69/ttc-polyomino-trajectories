@@ -1,0 +1,1 @@
+score=0.9426764662; lineage=slot0 frontier-v1 + slot2 many-restart width schedule; path=/logs/agent/multiagent-collab/anti-herding/work-2/candidate-v2.cpp; evidence=official 94.26764662 and local 9-case mean 0.945898; cost=2 total graded checks; counter=large n unchanged at 0.960 density due time budget

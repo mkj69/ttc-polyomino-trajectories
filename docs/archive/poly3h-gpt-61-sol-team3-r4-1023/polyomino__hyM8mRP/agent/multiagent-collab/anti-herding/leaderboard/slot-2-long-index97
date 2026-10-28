@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/long_index_best_sid21.cpp
+lineage=longbeam sid20 + fullmedium/boundedlargeinventoryindex sid19
+score=97.72922327285717
+submission=sid21
+evidence=indexstrictgeometry>100cases;smallnlongbeamunchanged
+cost=1judge20s
+counterevidence=indexsmalln<=400disabled;cachedthroughputvariantpending

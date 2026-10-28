@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scanned_files": 9565,
+  "unique_payloads_checked": 4165,
+  "stored_bytes_excluding_git": 1147232817,
+  "largest_file_bytes": 11858999,
+  "parsed_jsonl_rows_unique_payloads": 7779984,
+  "failed_rule_counts": {},
+  "failures": [],
+  "limitations": "Pattern and process-env scan, including decompressed data; identical bytes with the same archive policy are scanned once. No credential files accessed. Not a proof that arbitrary unrecognized secrets or encoded credentials do not exist."
+}

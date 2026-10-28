@@ -1,0 +1,19 @@
+2026-10-26T07:56:41.175Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-26T07:56:41.176Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-26T07:56:41.178Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-26T07:56:41.179Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-26T07:56:41.191Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-26T07:56:41.192Z [INFO] OpenTelemetry tracker created for session f0fb0a8a-5868-4562-9b2c-80f848f94bfb
+2026-10-26T07:56:41.252Z [INFO] Workspace initialized: f0fb0a8a-5868-4562-9b2c-80f848f94bfb (checkpoints: 0)
+2026-10-26T07:56:41.261Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-26T07:56:41.261Z [INFO] Node.js version: v24.16.0
+2026-10-26T07:56:41.271Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-26T07:56:41.277Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-26T07:56:41.455Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-26T07:56:41.456Z [INFO]  
+2026-10-26T07:56:41.456Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-26T07:56:41.456Z [INFO] --- End of group ---
+2026-10-26T07:56:41.492Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T07:56:41.492Z [INFO] --- End of group ---
+2026-10-26T08:46:27.055Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T08:46:27.055Z [INFO] --- End of group ---

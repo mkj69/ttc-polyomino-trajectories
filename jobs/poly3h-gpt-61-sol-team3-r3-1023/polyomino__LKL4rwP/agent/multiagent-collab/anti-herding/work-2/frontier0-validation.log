@@ -1,0 +1,33 @@
+case=0 n=1 density=0.083333 elapsed=0.0038
+case=1 n=2 density=0.104167 elapsed=0.0038
+case=2 n=3 density=0.250000 elapsed=0.0021
+case=3 n=4 density=0.229167 elapsed=0.0019
+case=4 n=1 density=0.062500 elapsed=0.0036
+case=5 n=2 density=0.218750 elapsed=0.0036
+case=6 n=3 density=0.500000 elapsed=0.0042
+case=7 n=4 density=0.437500 elapsed=0.0018
+case=8 n=1 density=0.083333 elapsed=0.0018
+case=9 n=2 density=0.218750 elapsed=0.0032
+case=10 n=3 density=0.187500 elapsed=0.0029
+case=11 n=4 density=0.343750 elapsed=0.0018
+case=12 n=1 density=0.083333 elapsed=0.0019
+case=13 n=2 density=0.145833 elapsed=0.0038
+case=14 n=3 density=0.375000 elapsed=0.0020
+case=15 n=4 density=0.343750 elapsed=0.0018
+case=16 n=1 density=0.125000 elapsed=0.0032
+case=17 n=2 density=0.156250 elapsed=0.0019
+case=18 n=3 density=0.281250 elapsed=0.0030
+case=19 n=4 density=0.270833 elapsed=0.0038
+case=20 n=10000 density=0.971331 elapsed=0.5405
+case=40 n=100 density=0.837838 elapsed=0.0093
+case=60 n=101 density=0.841325 elapsed=0.0095
+SUMMARY n=1 cases=5 density=0.087500 max_seconds=0.0038
+SUMMARY n=2 cases=5 density=0.168750 max_seconds=0.0038
+SUMMARY n=3 cases=5 density=0.318750 max_seconds=0.0042
+SUMMARY n=4 cases=5 density=0.325000 max_seconds=0.0038
+SUMMARY n=100 cases=14 density=0.867484 max_seconds=0.0093
+SUMMARY n=101 cases=8 density=0.859011 max_seconds=0.0096
+SUMMARY n=300 cases=10 density=0.910961 max_seconds=0.0287
+SUMMARY n=1000 cases=6 density=0.952202 max_seconds=0.0680
+SUMMARY n=3000 cases=10 density=0.966928 max_seconds=0.1797
+SUMMARY n=10000 cases=12 density=0.971468 max_seconds=0.5536

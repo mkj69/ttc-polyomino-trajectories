@@ -1,0 +1,1 @@
+Skyline BL packing with per-column min/max tracking; tries ~25 W values near sqrt(totalCells); sorts pieces by size descending; does NOT use shelf/row-based packing or guillotine cuts

@@ -1,0 +1,1 @@
+Skyline BL packing: sort by decreasing height, use skyline structure to find best-fit positions, try multiple target widths, pick width near sqrt(total_cells). Deliberately not assuming: fixed width, fixed row packing, or simple strip packing.

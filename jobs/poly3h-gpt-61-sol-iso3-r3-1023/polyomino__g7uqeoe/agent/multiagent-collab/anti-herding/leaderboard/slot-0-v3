@@ -1,0 +1,6 @@
+score=0.9485012095857144
+lineage=slot0 bitfront-v2 + stronger area weight30
+source=/logs/agent/multiagent-collab/anti-herding/work-0/area-v3.cpp
+evidence=38 controlled runs before grade; official UUIDabc06753-abb7-4f95-999b-faec9d34d2bd
+cost=1 new grade;3 cumulative slot0
+counterevidence=n10000 local density slightly below v2 on2seeds

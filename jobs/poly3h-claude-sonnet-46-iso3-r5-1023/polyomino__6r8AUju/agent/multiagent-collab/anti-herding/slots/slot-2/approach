@@ -1,0 +1,1 @@
+Gravity-based skyline packing (cell-level, no bounding-box waste): for each piece try all 8 orientations at all x-positions; place at minimum-y (then min-x) using column-height gravity; no shelf assumption; tries ~7 target widths around sqrt(T). Deliberately avoids shelf/shelf-height sorting used by slots 0&1.

@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/beam_regret.cpp
+lineage=slot0 sid12beam +slot2 inventorydifficultyperimeter7 n>400
+score=97.07925282999999
+submission=sid13 uuid25192344-954c-4bd2-a1d8-49653516d5ff
+evidence=30controlledfullschedulerinputsvalid; n500 +.00412 n1000+.00283 n10000+.00222
+cost=1approvedcall20s +~50slocal
+counterevidence=weight15regresseslargestinputs, n<=400notchanged

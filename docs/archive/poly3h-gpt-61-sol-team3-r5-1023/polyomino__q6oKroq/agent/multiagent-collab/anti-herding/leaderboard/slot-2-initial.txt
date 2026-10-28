@@ -1,0 +1,6 @@
+Lineage: independent piece-first bitset/contact strip packing, three width/order passes.
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/candidate.cpp
+Graded result: 0.8184753225857142 normalized; submit uuid c3873a7e-d02a-45cc-a9d7-a7c480ed2c7c.
+Cost: one graded invocation of 70 cases.
+Local checks: 150 tiny brute-backed output validations, 20 n=100 and four n=10000 growth-generated mostly large shapes; max n=10000 runtime 0.419 seconds.
+Counter-evidence: growth generator biases compact shapes and yielded 0.93 rather than graded 0.82; small-line case density 0.90 shows avoidable width wastage. Uniform free-shape enumeration being added.

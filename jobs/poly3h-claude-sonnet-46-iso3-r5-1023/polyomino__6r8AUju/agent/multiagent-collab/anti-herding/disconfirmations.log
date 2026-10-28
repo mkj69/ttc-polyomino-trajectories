@@ -1,0 +1,2 @@
+[slot 2 12:57:42] stochastic restarts within priority groups (same min_bh or same k) gives +1.99% for n=1000; +0.57% for n=316; neutral for n=100 (noise). Drop still dominant for n≤500.
+[slot 0 13:21:28] DISCONFIRM: full_drop (search to py=0) gives 78.85% < max_drop=20 (78.91%). More drop depth reduces restarts; max_drop≈20 is optimal for test cases

@@ -1,0 +1,1 @@
+Scattered-hole large-neighborhood exact repair: mandatory last-row pieces + pieces adjacent to internal holes anywhere in packing, precomputed placements and mandatory-piece MRV/original-placement ordering. Do not assume bottom-only removal reaches distributed wasted area; disconfirm on identical full packings.

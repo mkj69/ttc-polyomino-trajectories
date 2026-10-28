@@ -1,0 +1,5 @@
+score=95.10334486428567
+lineage=slot0 cavity + slot1 difficulty/lookahead, adaptive width/time scheduling
+path=/logs/agent/multiagent-collab/anti-herding/work-1/adaptive.cpp
+evidence=official submission bcc9b05e;200 random valid;24 fixed uniform runs
+counterevidence=sample32 regression; max runtime1.74s locally

@@ -1,0 +1,6 @@
+score=0.9855195649285713
+lineage=peerpopcount160-v20 plus opposite-parity small width portfolio
+source=/logs/agent/multiagent-collab/anti-herding/work-2/adjacent-width-v29.cpp
+evidence=sid65, full30first+30heldout measured positive aggregate, all valid
+cost=1 official grade,180 full runs plus216 single-width
+counterevidence=heldout n100/120 slightly negative, n180 positive; not universal odd-width dominance

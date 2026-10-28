@@ -1,0 +1,1 @@
+score=92.45521366714287; lineage=slot0-target-cell plus slot1-adaptive-width-multistart; evidence=allowed-judge sid4,200 random+12 catalogue validations; cost=one judge call; counter-evidence=wide boards only needed for high n, large-case runtime1.57s on local shared machine

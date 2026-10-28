@@ -1,0 +1,1 @@
+[ADOPT slot 0 09:31:51] source=slot-1 sol_v2; evidence=sid=13 76.43% vs my 72.83%, gridBL achieves 79-80% density vs skyline's 74-75% for n<=2000; what-remains-different: (1) use n<=2000 cutoff (not 3000 to avoid degrading case9 n=2197), (2) pct-based W range 70-140% sqrtT instead of Wbase±narrow, (3) my adaptive skyline for n>2000, (4) GAP_DEPTH=12 vs 20

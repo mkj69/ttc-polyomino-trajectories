@@ -1,0 +1,35 @@
+2026-10-23T08:14:06.973Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T08:14:06.975Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T08:14:06.975Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T08:14:06.994Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T08:14:06.994Z [INFO] OpenTelemetry tracker created for session 9e01d9da-3080-42dd-97a4-9290bdcf48d2
+2026-10-23T08:14:07.029Z [INFO] Workspace initialized: 9e01d9da-3080-42dd-97a4-9290bdcf48d2 (checkpoints: 0)
+2026-10-23T08:14:07.077Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T08:14:07.077Z [INFO] Node.js version: v24.16.0
+2026-10-23T08:14:07.100Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T08:14:07.109Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T08:14:07.201Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T08:14:07.202Z [INFO]  
+2026-10-23T08:14:07.318Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T08:14:07.319Z [INFO] --- End of group ---
+2026-10-23T08:47:13.872Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T08:47:13.872Z [INFO] --- End of group ---
+2026-10-23T08:48:05.736Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T08:48:05.742Z [INFO] Persisted checkpoint #1: Polyomino packing 2D BL optimization
+2026-10-23T08:48:36.296Z [INFO] CompactionProcessor: Compaction complete - replaced 101 messages with summary + 8 new messages, saved ~124385 tokens
+2026-10-23T09:21:46.822Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T09:21:46.823Z [INFO] --- End of group ---
+2026-10-23T09:22:56.753Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T09:22:56.758Z [INFO] Persisted checkpoint #2: GridBL extended to n=2000, score 76.4%
+2026-10-23T09:23:08.463Z [INFO] CompactionProcessor: Compaction complete - replaced 90 messages with summary + 6 new messages, saved ~124962 tokens
+2026-10-23T09:32:36.884Z [INFO] System notification: Shell command "Test n=2000 and n=3500 with various GAP_DEPTH" (shellId: 96) has ...
+2026-10-23T09:58:53.637Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T09:58:53.637Z [INFO] --- End of group ---
+2026-10-23T10:00:18.402Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T10:00:18.408Z [INFO] Persisted checkpoint #3: GridBL-fast for all n, discovering minimize-top cost
+2026-10-23T10:00:41.565Z [INFO] CompactionProcessor: Compaction complete - replaced 88 messages with summary + 4 new messages, saved ~119792 tokens
+2026-10-23T10:41:45.309Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T10:41:45.309Z [INFO] --- End of group ---
+2026-10-23T10:42:51.663Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T10:42:51.669Z [INFO] Persisted checkpoint #4: Budget restarts, cost=top, v8 alternating W
+2026-10-23T10:44:29.060Z [INFO] CompactionProcessor: Compaction complete - replaced 131 messages with summary + 6 new messages, saved ~125189 tokens

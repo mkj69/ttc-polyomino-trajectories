@@ -1,0 +1,6 @@
+score=0.970221630185714
+lineage=slot1componentmatchendgame+slot0inverse-remainingdepthwidthbase128
+source=/logs/agent/multiagent-collab/anti-herding/work-0/adaptive-beam-v9.cpp
+cost=1newgrade,9cumulativeslot0
+evidence=officialee1f0516-b8f4-4f30-84ad-46abda1f982b;30controlledsinglebeamgain0.003707
+counterevidence=default384adaptivefullschedulelosesheldoutvsfixed384;usedbase128instead

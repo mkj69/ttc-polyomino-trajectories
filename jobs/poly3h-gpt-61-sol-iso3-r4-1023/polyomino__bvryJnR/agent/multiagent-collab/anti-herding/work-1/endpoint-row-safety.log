@@ -1,0 +1,65 @@
+n=1 seed=13 policy=0 density=0.400000 seconds=0.004
+n=1 seed=13 policy=2 density=0.400000 seconds=0.003
+n=1 seed=13 policy=3 density=0.400000 seconds=0.002
+n=1 seed=59 policy=0 density=0.500000 seconds=0.003
+n=1 seed=59 policy=2 density=0.500000 seconds=0.002
+n=1 seed=59 policy=3 density=0.500000 seconds=0.004
+n=1 seed=108 policy=0 density=0.562500 seconds=0.003
+n=1 seed=108 policy=2 density=0.562500 seconds=0.002
+n=1 seed=108 policy=3 density=0.562500 seconds=0.004
+n=1 seed=975 policy=0 density=0.416667 seconds=0.002
+n=1 seed=975 policy=2 density=0.416667 seconds=0.002
+n=1 seed=975 policy=3 density=0.416667 seconds=0.002
+MEAN 1 {0: (0.469792, 0.003211), 2: (0.469792, 0.002245), 3: (0.469792, 0.003047)}
+n=2 seed=13 policy=0 density=0.500000 seconds=0.004
+n=2 seed=13 policy=2 density=0.500000 seconds=0.003
+n=2 seed=13 policy=3 density=0.500000 seconds=0.002
+n=2 seed=59 policy=0 density=0.542857 seconds=0.002
+n=2 seed=59 policy=2 density=0.542857 seconds=0.003
+n=2 seed=59 policy=3 density=0.542857 seconds=0.003
+n=2 seed=108 policy=0 density=0.633333 seconds=0.002
+n=2 seed=108 policy=2 density=0.633333 seconds=0.003
+n=2 seed=108 policy=3 density=0.633333 seconds=0.002
+n=2 seed=975 policy=0 density=0.500000 seconds=0.004
+n=2 seed=975 policy=2 density=0.444444 seconds=0.002
+n=2 seed=975 policy=3 density=0.500000 seconds=0.002
+MEAN 2 {0: (0.544048, 0.00296), 2: (0.530159, 0.00305), 3: (0.544048, 0.002253)}
+n=5 seed=13 policy=0 density=0.612500 seconds=0.004
+n=5 seed=13 policy=2 density=0.612500 seconds=0.004
+n=5 seed=13 policy=3 density=0.612500 seconds=0.004
+n=5 seed=59 policy=0 density=0.734375 seconds=0.004
+n=5 seed=59 policy=2 density=0.734375 seconds=0.008
+n=5 seed=59 policy=3 density=0.734375 seconds=0.004
+n=5 seed=108 policy=0 density=0.750000 seconds=0.002
+n=5 seed=108 policy=2 density=0.750000 seconds=0.004
+n=5 seed=108 policy=3 density=0.750000 seconds=0.004
+n=5 seed=975 policy=0 density=0.685714 seconds=0.002
+n=5 seed=975 policy=2 density=0.685714 seconds=0.004
+n=5 seed=975 policy=3 density=0.685714 seconds=0.002
+MEAN 5 {0: (0.695647, 0.002975), 2: (0.695647, 0.004909), 3: (0.695647, 0.003595)}
+n=10 seed=13 policy=0 density=0.816667 seconds=0.004
+n=10 seed=13 policy=2 density=0.816667 seconds=0.005
+n=10 seed=13 policy=3 density=0.816667 seconds=0.005
+n=10 seed=59 policy=0 density=0.734375 seconds=0.005
+n=10 seed=59 policy=2 density=0.734375 seconds=0.005
+n=10 seed=59 policy=3 density=0.734375 seconds=0.004
+n=10 seed=108 policy=0 density=0.800000 seconds=0.005
+n=10 seed=108 policy=2 density=0.800000 seconds=0.005
+n=10 seed=108 policy=3 density=0.800000 seconds=0.005
+n=10 seed=975 policy=0 density=0.800000 seconds=0.005
+n=10 seed=975 policy=2 density=0.800000 seconds=0.005
+n=10 seed=975 policy=3 density=0.750000 seconds=0.005
+MEAN 10 {0: (0.78776, 0.004751), 2: (0.78776, 0.00509), 3: (0.77526, 0.004921)}
+n=30 seed=13 policy=0 density=0.851190 seconds=0.005
+n=30 seed=13 policy=2 density=0.851190 seconds=0.009
+n=30 seed=13 policy=3 density=0.851190 seconds=0.011
+n=30 seed=59 policy=0 density=0.828488 seconds=0.010
+n=30 seed=59 policy=2 density=0.848214 seconds=0.011
+n=30 seed=59 policy=3 density=0.848214 seconds=0.011
+n=30 seed=108 policy=0 density=0.896875 seconds=0.010
+n=30 seed=108 policy=2 density=0.875000 seconds=0.006
+n=30 seed=108 policy=3 density=0.875000 seconds=0.011
+n=30 seed=975 policy=0 density=0.857143 seconds=0.010
+n=30 seed=975 policy=2 density=0.857143 seconds=0.011
+n=30 seed=975 policy=3 density=0.837209 seconds=0.015
+MEAN 30 {0: (0.858424, 0.009105), 2: (0.857887, 0.009164), 3: (0.852904, 0.012184)}

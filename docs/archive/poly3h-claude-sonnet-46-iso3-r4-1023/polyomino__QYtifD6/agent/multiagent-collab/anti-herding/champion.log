@@ -1,0 +1,17 @@
+[slot 0 03:11:59] score=0.7689 topmost-y scoring + BL fill for small n; path=work-0/solution.cpp
+[slot 1 03:29:23] 77.29/100; 2D pocket-filling+trap-bonus+adaptive-budget; work-1/solution.cpp
+[slot 1
+2
+1 03:36:32] score=0.7717 n=800-1500 BL coarse+fine, n=1500-2000 packAll+limited-BL; work-1
+2
+1/solution.cpp
+[slot 1 03:54:01] score=0.8025 mode2-valley-fill-Phase2; baseline+mode2 in Phase2; work-1/solution.cpp
+[slot 2 03:54:43] score=0.7744; topmost-y+waste-min+pack2D(drop-into-gaps)+compaction; work-2/solution.cpp
+[slot 2 03:54:56] CORRECTION: restored slot-1 champion (0.8025) which was incorrectly overwritten by my 0.7744. Slot-1 remains champion.
+[slot 2 03:57:30] score=0.8048; topmost-y+valley-fill(mode2)+waste-min+pack2D+compaction; work-2/solution.cpp
+[slot 2 04:00:57] score=0.8182; valley-fill(mode2)+pack2D(mode2)+topmost-y+waste-min+compaction; work-2/solution.cpp
+[slot 0 04:19:18] score=0.8243; pack2D(drop-into-gaps,valley-fill)+packAll+packBL+compaction; work-0/solution.cpp
+[slot 0 04:25:33] score=0.8254; pack2D(valley-fill,max_drop=20)+packAll+packBL; n<=800+800-1500 routing; work-0/solution.cpp
+[slot 0 04:34:17] score=0.8257; pack2D(unlimited-drop,valley-fill)+packAll+packBL; n<=1500 routing; work-0/solution.cpp
+[slot 0 05:05:08] score=0.8267; pack2D-full (extend pack2D to full budget for n<=800 with random orderings); /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 0 05:08:04] score=0.8273; pack2D-full both paths (n<=800 AND n<=1500 extend pack2D to budget with random orderings); /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp

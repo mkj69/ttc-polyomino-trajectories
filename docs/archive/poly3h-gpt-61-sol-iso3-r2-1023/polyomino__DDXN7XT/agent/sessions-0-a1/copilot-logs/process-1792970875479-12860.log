@@ -1,0 +1,32 @@
+2026-10-25T23:27:55.480Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-25T23:27:55.480Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-25T23:27:55.482Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-25T23:27:55.484Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-25T23:27:55.671Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-25T23:27:55.672Z [INFO] OpenTelemetry tracker created for session d8c29c7f-17f0-4dfa-a375-f6a5eb287c36
+2026-10-25T23:27:55.674Z [INFO] Workspace initialized: d8c29c7f-17f0-4dfa-a375-f6a5eb287c36 (checkpoints: 0)
+2026-10-25T23:27:55.701Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-25T23:27:55.701Z [INFO] Node.js version: v24.16.0
+2026-10-25T23:27:55.745Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-25T23:27:55.753Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-25T23:27:55.846Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-25T23:27:55.847Z [INFO]  
+2026-10-25T23:27:55.847Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-25T23:27:55.847Z [INFO] --- End of group ---
+2026-10-25T23:27:55.866Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-25T23:27:55.866Z [INFO] --- End of group ---
+2026-10-25T23:28:48.737Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-25T23:28:48.738Z [INFO] --- End of group ---
+2026-10-25T23:31:14.448Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-25T23:31:14.453Z [INFO] Persisted checkpoint #1: Packing Champion and Beam Restart
+2026-10-25T23:31:20.072Z [INFO] CompactionProcessor: Compaction complete - replaced 175 messages with summary + 10 new messages, saved ~87205 tokens
+2026-10-26T00:20:11.764Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T00:20:11.764Z [INFO] --- End of group ---
+2026-10-26T00:23:28.327Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T00:23:28.338Z [INFO] Persisted checkpoint #2: Beam Packing Reaches 98 Percent
+2026-10-26T00:25:30.844Z [INFO] CompactionProcessor: Compaction complete - replaced 186 messages with summary + 16 new messages, saved ~84796 tokens
+2026-10-26T01:21:57.475Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T01:21:57.475Z [INFO] --- End of group ---
+2026-10-26T01:25:23.464Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T01:25:23.471Z [INFO] Persisted checkpoint #3: Faster Beams and Large Packing
+2026-10-26T01:25:36.959Z [INFO] CompactionProcessor: Compaction complete - replaced 198 messages with summary + 15 new messages, saved ~84481 tokens

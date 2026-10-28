@@ -1,0 +1,6 @@
+score=97.08964414571429
+lineage=beam-cavity plus adaptive-medium beam up ton400
+path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-medium.cpp
+evidence=officialadfabc93;fixed12mediumcases allmeans improved;200random valid
+cost=1graded+32local+11secvalid
+counterevidence=initialmediumgate performance input-dependent, larger n unchanged

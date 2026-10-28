@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/compact_indexed.cpp
+lineage=slot0compact sid15+slot2fullinventoryfit sid16
+score=97.13897447142855
+submission=sid17
+evidence=48fullmainvalid; gate2000n10000fallbacktimely; controlledn2000+.00288density
+cost=1judge20s+79slocalmain
+counterevidence=beamreserve750msprobablywasteful n700..1500 vsstrongfullinventoryfrontier

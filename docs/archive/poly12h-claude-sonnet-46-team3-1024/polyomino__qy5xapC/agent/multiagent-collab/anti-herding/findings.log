@@ -1,0 +1,24 @@
+[slot 2 02:48:13] TIER-1; baseline shelf+skyline hybrid gets 80.52% on judge; case details: n~6824 gets 89.6%, n~1923 gets 85.8%; overhead ~10-15%; skyline currently does 11 CW values for n>3000
+[slot 1 03:00:38] STRONG: Skyline+waste metric gives 95%+ density for large n; slot 0 TLEs for n>4000; my code runs 1.9s for n=10k; adding BL-fill for small n would help
+[slot 1 03:00:38] Tested: w=948 wrong for n=10000 (another agent overwrote solution.cpp); slot 0 code TLEs at 4.5s for n=10000 k=10; my waste metric code gets 95% density in 1.94s
+[slot 2 05:20:17] TIER1; sid=43=83.07% new best; TL_MS=1750 + n>7500 20xsqS*30/10 + n<=7500 20xsqS*25/10 + W_hi extensions for n<=2500,3500,6000; no TLEs; net +0.03% vs sid=39(83.04%)
+[slot 2 05:20:17] n>7500 key insight: 20xsqS*30/10 consistently better than 6-8xsqS*22/10; adding BLnear to n<=7500,n<=6000 had NO effect (budget always full); TL_MS=1750 safe (all 70 cases <2s)
+[slot 0 06:27:58] TIER1; 40-widths for n<=200: 83.12% (sid=80); all 70 cases use n<=200 branch; sweet spot: 40 widths > 28 > 56; evidence: sid=78(16w=83.03%), sid=80(40w=83.12%), sid=81(56w=83.05%)
+[slot 0 06:45:45] TIER1; Contact-maximizing BL tie-breaking: 83.80% (sid=99); huge improvement from 83.13%; contact counts adjacent filled cells + walls; evidence: sid=99; cost: adds O(4k) per position check
+[slot 0 06:57:13] TIER1; Verified: 40 widths + contact 4-conn = 83.80% (sid=109,115); contact slows calls by ~2x so 18 modes in budget; width coverage > mode diversity with contact
+[slot 0 07:32:33] TIER1; Best: 83.846% sid=154; 7 systematic modes x40 widths + adaptive narrow random (±3 from bW, 7 widths); contact-BL TL=1850; better than 83.80% baseline
+[slot 0 07:43:18] TIER1; MAJOR: 83.937% achieved; key changes: W_hi=20/10 (was 32/10) for systematic + narrow±5 random modes; adaptive bW exploitation + mode-0 at new bW
+[slot 0 07:49:59] TIER1; Best 83.960% (sid=188); config: 5 sys modes (0-4) x40 widths x W_hi=20/10 + narrow±5 adaptive random + mode-0 exploit; replicated via submission
+[slot 0 07:57:31] TIER1; 83.998% (sid=214); W_hi=21/10 sweet spot found; 5 sys x40 + narrow±6 adaptive; config optimized significantly from 83.80% to 83.998%
+[slot 1 08:41:54] TIER1; 84.01% (sid=301); 8w+sqS*25/10 for n>7500 vs 6w+sqS*22/10; +0.02% vs 83.99%; n=10000 efficiency 96.13% vs 96.01%; timing: 1849ms for n=10000 (safe)
+[slot 0 08:54:09] BREAKTHROUGH: cscore=ct*9-waste and new mode(sum_cmax1_desc) → 84.048-84.064%; evidence=sids317-318; cost=2 submissions
+[slot 1 10:30:26] TIER1; 84.058% (sid=489); combined: mode7(sum_cmax1_desc)+ct9+anch_narrow+mode7_exploit+8w_large; +0.048% vs 84.01%; evidence=submission
+[slot 1 10:59:06] TIER1; 84.080% (sid=548); mode7 pre-sweep×40w + modes0-4×40w + adaptive+mode7 exploit + 8w n>7500; sol_combined_v2
+[slot 2 11:48:26] TIER1; v65(ct*8)=84.085% vs v57(ct*9)=84.084%; key insight: ct*8 better for case52(+0.013) but worse for case68(-0.005); v57 base=sol_combined_v2+adaptive_for_n<=1000+wider_W_hi_sqS30 for some cases; all 70 judge cases n<=200; widening W_hi hurts; narrowing adaptive hurts; mode7_max_orientations hurts
+[slot 2 11:51:22] TIER1; v65(ct*8+adaptive_n<=1000)=84.085%; beat slot1 sol_combined_v2(84.080%); key: ct*8 better than ct*9 for case52(+0.013), net +0.001% overall; v57(ct*9) intermediate at 84.084%; adaptive_n<=450/700/1000 adds ~0.003%; all 70 judge cases are n<=200 (slot0 observation), but some may be 200-450; code_chars=9655
+[slot 0 11:58:45] STRONG; breakthrough: adding systematic modes 0-4,7 at START of narrow phase raises score from 84.110%→84.126%→84.131%; evidence: 4/5 submit runs at 84.131%, 1/5 at 84.124%; cost: 5 submits
+[slot 0 11:58:45] pre_60_sys_30: mode7×60 + modes0-4×30 vs mode7×40 + modes0-4×40: 84.126% vs 84.110%; both are stable. wider mode7 pre + fewer sys widths gives more narrow modes
+[slot 0 12:48:15] BREAKTHROUGH: pre-sweep W_hi=sqS*25/10 (vs 21/10) → 84.157-84.164%; was 84.138% with W_hi=21; sweet spot: 25 (tested 20-40); case55 improves +0.013; sys W_hi stays at 21/10; evidence: 5 confirmed runs at 84.157-84.164%
+[slot 2 12:51:25] TIER1; v77=84.145% (sol_ct8+sqS*22/10 anchor for mode7); beat slot1(84.080%) and slot0(84.131%); mode7x60+extra_anchor+modes0-4x30+adaptive_0-4_7_random; all variations tried (ct weights, exploit modes, width ranges, 2-opt SA, full_scan variants) either same or worse; 70 judge cases span n=100-6200; large n (>200) use skyline; small n (100-200) use BL+adaptive
+[slot 2 13:42:21] MAJOR: perturbed mode7 in adaptive. Instead of random shuffles, perturb mode7 ordering with increasing # swaps (m-5)*3. v131=84.224-84.245% vs v123=84.188%. evidence: 7 runs, all 84.22%+. cost: 7 submits
+[slot 1 14:17:51] Progress check: v8g=84.163% (sid=933), testing n=800-1200 improvements. All small-n tweaks noise-level locally. Large-n BL mode7 shows n=1000 +0.7% vs -0.4% (mixed). Focus: reliable improvements needed.

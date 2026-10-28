@@ -1,0 +1,36 @@
+2026-10-24T11:23:27.183Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-24T11:23:27.185Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-24T11:23:27.185Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-24T11:23:27.203Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-24T11:23:27.203Z [INFO] OpenTelemetry tracker created for session 9c12e400-ebb4-42d8-b90a-fadfdc1572a3
+2026-10-24T11:23:27.261Z [INFO] Workspace initialized: 9c12e400-ebb4-42d8-b90a-fadfdc1572a3 (checkpoints: 0)
+2026-10-24T11:23:27.277Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-24T11:23:27.277Z [INFO] Node.js version: v24.16.0
+2026-10-24T11:23:27.300Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-24T11:23:27.308Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-24T11:23:27.423Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-24T11:23:27.424Z [INFO]  
+2026-10-24T11:23:27.466Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T11:23:27.466Z [INFO] --- End of group ---
+2026-10-24T11:57:36.782Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T11:57:36.782Z [INFO] --- End of group ---
+2026-10-24T11:58:38.340Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T11:58:38.345Z [INFO] Persisted checkpoint #1: Polyomino skyline packing, 71% score
+2026-10-24T11:58:51.767Z [INFO] CompactionProcessor: Compaction complete - replaced 69 messages with summary + 2 new messages, saved ~122397 tokens
+2026-10-24T12:40:32.280Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T12:40:32.281Z [INFO] --- End of group ---
+2026-10-24T12:41:42.326Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T12:41:42.331Z [INFO] Persisted checkpoint #2: Polyomino packing: col_gaps+ssum, 76.67% score
+2026-10-24T12:41:52.886Z [INFO] CompactionProcessor: Compaction complete - replaced 163 messages with summary + 10 new messages, saved ~124082 tokens
+2026-10-24T13:13:47.919Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T13:13:47.919Z [INFO] --- End of group ---
+2026-10-24T13:15:04.241Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T13:15:04.245Z [INFO] Persisted checkpoint #3: Drop packing bug fix, 78.47% champion
+2026-10-24T13:16:12.886Z [INFO] CompactionProcessor: Compaction complete - replaced 140 messages with summary + 6 new messages, saved ~120494 tokens
+2026-10-24T13:47:08.631Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T13:47:08.632Z [INFO] --- End of group ---
+2026-10-24T13:48:26.976Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T13:48:27.020Z [INFO] Persisted checkpoint #4: Phase 2 wCands anchor bug fix
+2026-10-24T13:49:40.024Z [INFO] CompactionProcessor: Compaction complete - replaced 87 messages with summary + 6 new messages, saved ~119611 tokens
+2026-10-24T14:23:04.719Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T14:23:04.720Z [INFO] --- End of group ---

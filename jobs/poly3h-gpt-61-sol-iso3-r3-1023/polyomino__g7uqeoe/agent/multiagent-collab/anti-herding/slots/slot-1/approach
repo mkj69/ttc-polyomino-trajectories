@@ -1,0 +1,1 @@
+Exact coverage-propagating checkpoint completion: extend bounded MRV to track move-support counts for cells, forced-waste lower bounds and mandatory-cell branches. Keep online global depth-two (official positive) as independent measured feature; do not assume older larger-endgame or bitset-MRV failures apply to stronger exact-cover propagation.

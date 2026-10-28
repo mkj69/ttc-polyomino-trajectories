@@ -1,0 +1,1 @@
+[slot 2 23:44:04] DISCONFIRM; FFDH sort(minBH desc) gave 68.18% vs k_desc 72.84%; minBH sort is WORSE for this distribution; suspect: pieces are mostly k=9-10 so minBH varies less than k, creating arbitrary tie-breaking

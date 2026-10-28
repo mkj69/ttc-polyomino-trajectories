@@ -1,0 +1,6 @@
+score=98.41271985571429
+lineage=ownexact4v16+all-positionMRV8
+source=/logs/agent/multiagent-collab/anti-herding/work-1/constraint-frontier-beam-v17.cpp
+evidence=30fixedheldout5wins0losses,mean.974396->.975613;8production3wins1loss;official
+cost=~214localvalidationseconds+1official
+counterevidence=32pctfixedoverhead;1smallproductioncaseworsefromfewertrials;optionalcellnotuseful

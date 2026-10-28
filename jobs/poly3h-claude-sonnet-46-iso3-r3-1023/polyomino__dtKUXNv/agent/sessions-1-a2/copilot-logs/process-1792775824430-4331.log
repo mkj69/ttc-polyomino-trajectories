@@ -1,0 +1,30 @@
+2026-10-23T17:17:04.431Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T17:17:04.434Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T17:17:04.434Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T17:17:04.506Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T17:17:04.506Z [INFO] OpenTelemetry tracker created for session 9bceab96-b091-469e-a0fb-6a072ac3edc0
+2026-10-23T17:17:04.512Z [INFO] Workspace initialized: 9bceab96-b091-469e-a0fb-6a072ac3edc0 (checkpoints: 0)
+2026-10-23T17:17:04.522Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T17:17:04.522Z [INFO] Node.js version: v24.16.0
+2026-10-23T17:17:04.538Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T17:17:04.543Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T17:17:04.667Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T17:17:04.667Z [INFO]  
+2026-10-23T17:17:04.712Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:17:04.713Z [INFO] --- End of group ---
+2026-10-23T17:53:58.955Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:53:58.956Z [INFO] --- End of group ---
+2026-10-23T17:55:24.812Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T17:55:24.818Z [INFO] Persisted checkpoint #1: Polyomino packing with beam search
+2026-10-23T17:55:53.683Z [INFO] CompactionProcessor: Compaction complete - replaced 121 messages with summary + 10 new messages, saved ~128549 tokens
+2026-10-23T18:37:04.390Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T18:37:04.391Z [INFO] --- End of group ---
+2026-10-23T18:38:44.045Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T18:38:44.051Z [INFO] Persisted checkpoint #2: Polyomino packing 83.84% beam+greedy hybrid
+2026-10-23T18:38:49.395Z [INFO] CompactionProcessor: Compaction complete - replaced 141 messages with summary + 4 new messages, saved ~124869 tokens
+2026-10-23T19:24:47.512Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T19:24:47.512Z [INFO] --- End of group ---
+2026-10-23T19:26:15.487Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T19:26:15.492Z [INFO] Persisted checkpoint #3: Wide widths + gap cost, 84.08% achieved
+2026-10-23T19:27:53.008Z [INFO] CompactionProcessor: Compaction complete - replaced 190 messages with summary + 6 new messages, saved ~123276 tokens
+2026-10-23T19:56:49.625Z [INFO] System notification: Shell command "Compare sort vs no-sort on n=300 with ceil fix" (shellId: 231) ha...

@@ -1,0 +1,6 @@
+score=0.9827186788285714
+source=/logs/agent/multiagent-collab/anti-herding/work-0/empirical-scarcity-v15.cpp
+lineage=v14+empirical-first-vacancy-fitlogprobabilitypotential8
+evidence=officiale6b7e63f-47a7-4855-b2d0-c5b36217c87c
+cost=1grade,total15slot0;414localcontrolled/fullcomparisons
+counterevidence=heldout60singlebeammeanunchanged,featurecontributionuncertainunderdeadline

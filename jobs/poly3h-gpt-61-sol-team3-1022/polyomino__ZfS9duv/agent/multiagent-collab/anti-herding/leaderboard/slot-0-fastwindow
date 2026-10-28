@@ -1,0 +1,6 @@
+lineage: slot1 nested32+slot0 cache/forcedblank/narrowwidth/cheap2ply/bitwindow
+allowed sid29 .9616725620285716
+source:/app/solution.cpp,best96167.cpp
+evidence:350byte-identical fixedsearches across64bitboundary vs slowwindow,700validitychecks
+cost:1grade+14.84CPUlocal
+counterevidence: gain.052pointispartlytimingnoise; nooptimalityclaim

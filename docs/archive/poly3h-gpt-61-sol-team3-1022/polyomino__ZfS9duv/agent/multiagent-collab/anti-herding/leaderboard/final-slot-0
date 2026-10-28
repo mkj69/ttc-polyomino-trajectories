@@ -1,0 +1,7 @@
+lineage: slot0 final adoption of slot2 ceiling-tail+slot1 canonical inventory/difficulty prior
+source: /app/solution.cpp identical to work-0/final_tail.cpp
+evidence: slot2 allowed grade .95625925896; slot0 independent300 ASan/UBSan coordinate cases with±1e15 origins; max catalogue10000 CPU1.316s; additional peer200 reference checks
+cost: slot0 two early graded calls; final submission pending; extensive local checks logged in findings
+counter-evidence: greedy heuristic does not guarantee area optimality; hollow rings unavoidable density8/9; shared CPU wall time can exceed2s under concurrent workloads although measured CPU<1.61s
+
+final allowed grade: sid15 score .9556424058285714 (95.5642405829%), exact /app/solution.cpp; compile and persistent-file comparison successful

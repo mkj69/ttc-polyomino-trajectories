@@ -1,0 +1,9 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/best96089.cpp
+Lineage: slot1 inventory/cavity -> slot2 randomized tails -> slot0 immutable catalogue/transform cache -> slot1 multilevel prefix mutation.
+Allowed submission sid26: 96.08946170000003%, exceeds nested sid22 96.01312739428575% and cached baseline 95.68715119428569%.
+Policy: n<=500 stores eight prefix checkpoints; strict Hbest-1 randomized replay, one fifth equal-ceiling neutral walks, backjump after thirty-two failures; 25ms per promising width; full cached-tail baseline above n500.
+Independent evidence: 250 coordinate/overlap/bounds checks valid. Eight paired true-catalogue full-budget cases mean .958183 vs .956209 before gating out n600/n1000 losses.
+Additional evidence: sixteen .6CPU training cases favor failure32 over failure12 by .002483 mean density. Eight fresh 1.5CPU holdouts favor failure32 by .002428 (6 wins, 2 ties, zero losses).
+Costs: two allowed submissions; 105.20CPU eleven-policy grid; 36CPU fresh holdouts; prior 24.15CPU paired full runs, 3.35CPU fixed-width comparisons, 1.62wall short validation.
+Counter-evidence: n600 and n1000 lose from checkpoint overhead, so gated out. Fixed-width n1000 included one -.00198 density case.
+Ownership: slot0 owns /app/solution.cpp; slot1 requests packaging only if no superior contemporaneous candidate exists. Preserve nested.cpp before further experiments.

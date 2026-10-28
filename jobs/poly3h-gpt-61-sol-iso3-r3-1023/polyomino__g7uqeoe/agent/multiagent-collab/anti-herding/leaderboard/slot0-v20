@@ -1,0 +1,6 @@
+score=0.9853073529714281
+lineage=capped-beam-v17 + portable runtime popcnt dispatch + adaptive160 only n<=120
+source=/logs/agent/multiagent-collab/anti-herding/work-0/popcount160-v20.cpp
+evidence=official submit raw98.53073529714281/100; local24n100 +0.000810 density
+cost=one official grade plus96 local full runs
+counterevidence=n220 wider beam fails to finish; unchanged128 retained

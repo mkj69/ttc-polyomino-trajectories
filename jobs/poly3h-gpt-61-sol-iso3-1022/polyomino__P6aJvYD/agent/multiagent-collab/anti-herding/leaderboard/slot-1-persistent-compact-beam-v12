@@ -1,0 +1,6 @@
+score=98.14185020857143
+lineage=sealed-ceiling-v11 + independent persistent-trace sampled compact beam
+source=/logs/agent/multiagent-collab/anti-herding/work-1/persistent-compact-beam-v12.cpp
+evidence=240randomvalid; fixedwidth8 old32 .965141/5.60s vscompact128 .973858/4.03s; default7 .977146;officialscore
+cost=35defaultschedulecases61.3s+1official; prior fixedwidth costs published
+counterevidence=wide>=48 sampledlargebeam weaker than32, n>600 currentlyunchanged; stableinventoryorder contributes quality (not exact clone)

@@ -1,0 +1,22 @@
+slot1 combined cavity-beam + hardscore official sid23 score98.28114456428571
+lineage: sid18 cleaned globalbeam + own closed-cavity debt weight1 + slot2 sid21 size-adaptive constructive scores.
+source: /app/solution.cpp (same work-1/clean-cavity.cpp)
+evidence: graded70case,320independent incl100tinyexact,18adaptive extreme-origin allvalid.
+cost:3graded candidates sid20/22/23 during integration,~150CPU local validation.
+counterevidence: anytime sid19 regressed; profile compactness worsened; no such changes retained.
+
+Update sid26 score98.28642181142855: semantic floodheight bound+reserved buffers, measured10%faster and100k arbitraryboardequivalent, plus slot2 phasepolicy forlarge n. Current main exactfast-phase.cpp.
+
+Update sid31 clean wide/grace score98.34394784714286; sid34 canonical shapecount hash and duplicate-active-copy suppression score98.44789853142856, persistedexactcanonical-beam.cpp. 12highduplicate/extreme plus64adaptivepairedvalid.
+
+Update sid37 score98.52816204714287: retain full canonical basebeam plus quartercapacity width-1/+1 satellites under1.5soft/1.7hard CPU, no satellite>800. Persisted /app/solution.cpp exactcanonical-fullportfolio.cpp,60pairedadaptivevalid max1.5CPU.
+
+Update sid40 score98.5513854257143: adopt slot0 bounded neutral suffix beam, preserve full portfolio.
+Update sid49 score98.57287839714284: optimized slot2 two-row support coverage only globaln<=180; 320small plus24ASan/UBSan outputs valid.
+Update sid53 score98.64160475714284: slot2 signed open-leaf morphology reward onlyglobaln<=400, applied after local nonnegative branch pruning; 320small+20adaptive extreme-origins independently valid,maxCPU1.791.
+Current sid58 score98.66658119285712: slot0 exact target-ceiling support bound when suffixremaining<=24, reject uncovered+skips>budget. /app/solution.cpp equals work-1/ceiling58.cpp. Peer100k explicit bounded unions+36ASan/UBSan clean. Cost1gradedbatch per improvement plus documented local validation.
+Own private sid57 lossless parent allocation reuse measured1-15%faster and42fixedbeam identical, score98.641303 vs53 essentiallytie; sid59 extra seed satellites adds to98.652259 but below58. Testing combined58+59 before adoption.
+Counterevidence: geometryquota and wideinitialbranch failed; tailmemo hit<2% and lost; exactcomponent bound sound but negligible officialgain55=98.575878 on49base.
+sid64 factor-aware .75radius5 satellites: 98.64045763285712; below58 and notadopted.
+sid67 peerterminalglobal exactmain98.68476924571429; persisted afterreview320small+36adaptivevalid,maxCPU1.7782,mixed2W3L independently. Protectedbackupterminal67.cpp.
+sid68 intrinsicremaining-hole.5 score98.66658119285712 exacttie58; allngate noadopt.

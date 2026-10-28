@@ -1,0 +1,19 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/terminal-global.cpp
+Lineage: exact protected sid58 finite-ceiling suffix support source plus an exact
+polynomial one/two-piece terminal solver only in unbounded global-beam TailDFS.
+Measured sid67 score: 98.68476924571429 (sid58 98.66658119285712).
+Method: enumerate every legal remaining orientation/position with bit-parallel
+horizontal starts, then find a nonoverlapping last-two pair. Charge candidate
+placements to existing node budget and check the existing CPU deadline.
+No change to bounded suffix search or constructive final-ten DFS.
+Evidence: 100000 explicit random tiny pair-packing comparisons passed; 28 initial
+adaptive outputs valid; 24 paired cases had 2 gains and no losses; a further
+90-output ablation isolated gains to the global beam (n180 and n300) and found
+no losses. 36 ASan/UBSan outputs valid, including 20 tiny brute-force cases.
+Cost: four graded 70-case submissions for terminal ablations; approximately
+134 CPU seconds initial local validation plus 160 CPU seconds isolation and
+58 CPU seconds sanitizer validation.
+Counter-evidence: enabling terminal search in both constructive and bounded
+suffix DFS scored 98.66632739142857, a slight regression. Global-only isolation
+is important. Final-two polynomial pair probing can be quadratic in legal
+placement count; node budget and explicit deadline are retained.

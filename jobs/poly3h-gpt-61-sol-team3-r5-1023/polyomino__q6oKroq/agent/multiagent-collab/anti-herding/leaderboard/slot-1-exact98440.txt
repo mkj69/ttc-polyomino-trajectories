@@ -1,0 +1,6 @@
+Lineage: base984 (slot0 beam+slot1 cavity+slot2tail) -> exact-cover piece+cell DLX with bounded holes and tiny random region extraction.
+Source: /logs/agent/multiagent-collab/anti-herding/work-1/exact-graded98440.cpp
+Graded score:0.9844014311857143 (98.44014311857143 raw),uuidfbefb844-3c3a-4b70-8d40-29eba159ff28
+Cost:1 new graded call;136 matched neighborhood tests and22+22 full portfolio local checks.
+Evidence: fixed beam n100 eight-seed density .952881->.966228 with DLX top6+random6 versus standard tail .954677. Default official improvement small but positive.
+Counter-evidence: remove>=40 pieces underconstrains search; full n10000 no measured gain due disconnected holes; tiny region inventory shifts benefit mostly small n.

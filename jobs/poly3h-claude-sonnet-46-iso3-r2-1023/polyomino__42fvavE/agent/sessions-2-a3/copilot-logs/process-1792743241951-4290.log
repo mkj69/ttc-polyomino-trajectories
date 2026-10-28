@@ -1,0 +1,34 @@
+2026-10-23T08:14:01.952Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T08:14:01.955Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T08:14:01.955Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T08:14:01.974Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T08:14:01.974Z [INFO] OpenTelemetry tracker created for session 5dbff156-1239-4f8a-a517-31c33869bf9d
+2026-10-23T08:14:02.005Z [INFO] Workspace initialized: 5dbff156-1239-4f8a-a517-31c33869bf9d (checkpoints: 0)
+2026-10-23T08:14:02.016Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T08:14:02.016Z [INFO] Node.js version: v24.16.0
+2026-10-23T08:14:02.029Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T08:14:02.079Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T08:14:02.182Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T08:14:02.183Z [INFO]  
+2026-10-23T08:14:02.262Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T08:14:02.263Z [INFO] --- End of group ---
+2026-10-23T08:44:38.788Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T08:44:38.788Z [INFO] --- End of group ---
+2026-10-23T08:46:01.141Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T08:46:01.148Z [INFO] Persisted checkpoint #1: Polyomino packing skyline optimization
+2026-10-23T08:52:57.405Z [INFO] CompactionProcessor: Compaction complete - replaced 87 messages with summary + 4 new messages, saved ~102052 tokens
+2026-10-23T09:19:16.233Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T09:19:16.233Z [INFO] --- End of group ---
+2026-10-23T09:20:51.990Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T09:20:51.996Z [INFO] Persisted checkpoint #2: Polyomino skyline adaptive W optimization
+2026-10-23T09:20:54.886Z [INFO] CompactionProcessor: Compaction complete - replaced 69 messages with summary + 4 new messages, saved ~121809 tokens
+2026-10-23T09:50:20.743Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T09:50:20.743Z [INFO] --- End of group ---
+2026-10-23T09:51:41.736Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T09:51:41.741Z [INFO] Persisted checkpoint #3: GridBL adoption + skyline cost fix
+2026-10-23T09:52:55.905Z [INFO] CompactionProcessor: Compaction complete - replaced 80 messages with summary + 16 new messages, saved ~117713 tokens
+2026-10-23T10:27:16.083Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T10:27:16.083Z [INFO] --- End of group ---
+2026-10-23T10:28:44.117Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T10:28:44.124Z [INFO] Persisted checkpoint #4: GridBL optimization 77.66% champion
+2026-10-23T10:29:15.780Z [INFO] CompactionProcessor: Compaction complete - replaced 189 messages with summary + 6 new messages, saved ~120021 tokens

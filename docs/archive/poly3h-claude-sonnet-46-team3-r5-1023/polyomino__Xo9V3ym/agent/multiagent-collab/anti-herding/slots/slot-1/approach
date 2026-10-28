@@ -1,0 +1,1 @@
+Skyline-based packing with multiple widths: will NOT assume a fixed orientation or width. Will explore all 8 orientations per piece and multiple candidate widths (0.5x to 2x sqrt(T)).

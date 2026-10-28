@@ -1,0 +1,5 @@
+score=97.16883085857143
+source=/logs/agent/multiagent-collab/anti-herding/work-0/ejection-chain-v1.cpp
+lineage=champion6 plus nonoverlap ejection chain
+cost=1submission;100small outputchecks+30uniform
+counterevidence=only2of10targets solved with1sextra, often cycling

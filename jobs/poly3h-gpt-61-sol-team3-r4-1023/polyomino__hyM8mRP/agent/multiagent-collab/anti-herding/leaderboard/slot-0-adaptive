@@ -1,0 +1,5 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/adaptive_best_sid18.cpp
+Lineage: sid15 compactbeam + adaptivewidth64branch16last48piecesonlyn<=400.
+Evidence: approved sid18 score97.58443241714289, 15strictgeometrylocalpairsmean.971535->.973963.
+Cost: 1approvedcall+30localruns49.65s.
+Knowncounterevidence: some n333 localcasesworse; fixedcapbeamandexactcavitydidnothelp.

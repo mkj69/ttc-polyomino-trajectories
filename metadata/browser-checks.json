@@ -1,0 +1,276 @@
+{
+  "base": "/ttc-polyomino-trajectories/",
+  "checks": [
+    {
+      "name": "33 archived runs",
+      "passed": true
+    },
+    {
+      "name": "overview summary rows",
+      "passed": true
+    },
+    {
+      "name": "complete run index",
+      "passed": true
+    },
+    {
+      "name": "score curve exists",
+      "passed": true
+    },
+    {
+      "name": "event detail interaction",
+      "passed": true
+    },
+    {
+      "name": "submission event filter",
+      "passed": true
+    },
+    {
+      "name": "overview model/protocol filters",
+      "passed": true
+    },
+    {
+      "name": "mobile viewport avoids page overflow",
+      "passed": true
+    },
+    {
+      "name": "fresh Harbor deep link HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "native Harbor trajectory renders",
+      "passed": true
+    },
+    {
+      "name": "snapshot API pagination",
+      "passed": true
+    },
+    {
+      "name": "snapshot labels all agents",
+      "passed": true
+    },
+    {
+      "name": "snapshot file endpoint",
+      "passed": true
+    },
+    {
+      "name": "snapshot rejects writes",
+      "passed": true
+    },
+    {
+      "name": "all 33 native trajectory APIs",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "passed": true
+    },
+    {
+      "name": "no failed browser network requests",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "failed_requests": [],
+  "api_runs": [
+    {
+      "id": "poly12h-claude-sonnet-46-iso3-rerun",
+      "status": 200,
+      "steps": 4017,
+      "expected": 4017
+    },
+    {
+      "id": "poly12h-claude-sonnet-46-solo-1024",
+      "status": 200,
+      "steps": 1108,
+      "expected": 1108
+    },
+    {
+      "id": "poly12h-claude-sonnet-46-team3-1024",
+      "status": 200,
+      "steps": 4571,
+      "expected": 4571
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-1022",
+      "status": 200,
+      "steps": 1018,
+      "expected": 1018
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r2-1023",
+      "status": 200,
+      "steps": 1245,
+      "expected": 1245
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r3-1023",
+      "status": 200,
+      "steps": 1342,
+      "expected": 1342
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r4-1023",
+      "status": 200,
+      "steps": 1555,
+      "expected": 1555
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r5-1023",
+      "status": 200,
+      "steps": 1268,
+      "expected": 1268
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-1019-1604",
+      "status": 200,
+      "steps": 304,
+      "expected": 304
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r2-1023",
+      "status": 200,
+      "steps": 348,
+      "expected": 348
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r3-1023",
+      "status": 200,
+      "steps": 255,
+      "expected": 255
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r4-1023",
+      "status": 200,
+      "steps": 309,
+      "expected": 309
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r5-1023",
+      "status": 200,
+      "steps": 368,
+      "expected": 368
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-1019-1604",
+      "status": 200,
+      "steps": 1439,
+      "expected": 1439
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r2-1023",
+      "status": 200,
+      "steps": 1327,
+      "expected": 1327
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r3-1023",
+      "status": 200,
+      "steps": 1250,
+      "expected": 1250
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r4-1023",
+      "status": 200,
+      "steps": 1396,
+      "expected": 1396
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r5-1023",
+      "status": 200,
+      "steps": 1298,
+      "expected": 1298
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-1022",
+      "status": 200,
+      "steps": 2348,
+      "expected": 2348
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r2-1023",
+      "status": 200,
+      "steps": 2063,
+      "expected": 2063
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r3-1023",
+      "status": 200,
+      "steps": 1516,
+      "expected": 1516
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r4-1023",
+      "status": 200,
+      "steps": 1670,
+      "expected": 1670
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r5-1023",
+      "status": 200,
+      "steps": 1653,
+      "expected": 1653
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-1022",
+      "status": 200,
+      "steps": 738,
+      "expected": 738
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r2-1023",
+      "status": 200,
+      "steps": 552,
+      "expected": 552
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r3-1023",
+      "status": 200,
+      "steps": 794,
+      "expected": 794
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r4-1023",
+      "status": 200,
+      "steps": 619,
+      "expected": 619
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r5-1023",
+      "status": 200,
+      "steps": 846,
+      "expected": 846
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-1022",
+      "status": 200,
+      "steps": 1989,
+      "expected": 1989
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r2-1023",
+      "status": 200,
+      "steps": 2048,
+      "expected": 2048
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r3-1023",
+      "status": 200,
+      "steps": 1634,
+      "expected": 1634
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r4-1023",
+      "status": 200,
+      "steps": 1850,
+      "expected": 1850
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r5-1023",
+      "status": 200,
+      "steps": 1635,
+      "expected": 1635
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,6 @@
+slot2 portfolio sid30 0.9836357265999999
+Lineage: exact sid26 fast-phase main, replace one beam with width offsets 0,-1,+1 and half beam widths 128/32/16 sharing unchanged absolute 1.2 CPU deadline.
+Reproduce: bash /app/submit.sh /logs/agent/multiagent-collab/anti-herding/work-2/portfolio.cpp
+Evidence: official 70 cases; 21 paired uniform random cases; 35 sanitizer/reference cases.
+Counter-evidence: n1000 3-seed mean loses .000546 to original full beam; possible gate>800 under investigation.
+Cost: 1 official 70-case evaluation; about 70 child CPU seconds local validation+comparisons.

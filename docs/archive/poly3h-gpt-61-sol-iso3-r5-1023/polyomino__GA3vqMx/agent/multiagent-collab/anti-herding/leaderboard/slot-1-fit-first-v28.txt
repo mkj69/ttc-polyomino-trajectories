@@ -1,0 +1,6 @@
+score=96.82003575571426 sid66
+source=/logs/agent/multiagent-collab/anti-herding/work-1/frontier-fit-first-v28.cpp
+lineage=anytimev27+collisionfirstfrontier
+evidence=45freshvalid+24matched;3wins0loss; measured5..7percentCPU
+cost=1judge+approximately110CPUseconds
+counterevidence=noneyet; backtrackingbudget.05 maynotoptimal

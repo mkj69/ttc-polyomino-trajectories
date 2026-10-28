@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-1/frontier_exact.cpp
+lineage=approved slot1 sid5 openfix + slot1 bounded DFS final4to12pieces
+score=96.06820038571429
+submission=sid7 uuidfbe50c89-46ac-403e-b339-f288ee9bab39
+evidence=50 controlled fixedpass cases improve every n-group; fullscheduler20cases valid1.656smax
+cost=onejudgecall +25s localCPU
+counterevidence=only+.094points over sid5; complexity120lines; may lose benefit under packed-scheduler changes

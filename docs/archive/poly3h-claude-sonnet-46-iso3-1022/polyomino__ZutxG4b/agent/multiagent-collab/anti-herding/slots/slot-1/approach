@@ -1,0 +1,1 @@
+Row-shelf FFDH packing with exhaustive W-search + skyline refinement. Sort by multiple criteria (cells, bbox-area). Different from slot 0: uses FFDH O(n log n) coarse search over wide W range, then skyline 'best-fit density' metric for top candidates. NOT using min-height skyline metric or single sort.

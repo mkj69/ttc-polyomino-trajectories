@@ -1,0 +1,34 @@
+2026-10-24T02:20:33.295Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-24T02:20:33.297Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-24T02:20:33.297Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-24T02:20:33.312Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-24T02:20:33.312Z [INFO] OpenTelemetry tracker created for session 7cd3275d-2c5a-44e7-aa13-dd58eafebd67
+2026-10-24T02:20:33.324Z [INFO] Workspace initialized: 7cd3275d-2c5a-44e7-aa13-dd58eafebd67 (checkpoints: 0)
+2026-10-24T02:20:33.331Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-24T02:20:33.331Z [INFO] Node.js version: v24.16.0
+2026-10-24T02:20:33.341Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-24T02:20:33.346Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-24T02:20:33.475Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-24T02:20:33.475Z [INFO]  
+2026-10-24T02:20:33.506Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T02:20:33.507Z [INFO] --- End of group ---
+2026-10-24T02:55:48.552Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T02:55:48.552Z [INFO] --- End of group ---
+2026-10-24T02:56:43.462Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T02:56:43.470Z [INFO] Persisted checkpoint #1: Polyomino packing greedy optimizer 71.83% score
+2026-10-24T02:57:25.645Z [INFO] CompactionProcessor: Compaction complete - replaced 131 messages with summary + 4 new messages, saved ~123118 tokens
+2026-10-24T03:35:09.268Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T03:35:09.269Z [INFO] --- End of group ---
+2026-10-24T03:36:31.033Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T03:36:31.037Z [INFO] Persisted checkpoint #2: 2D pocket-filling boosts score to 77.29%
+2026-10-24T03:36:43.794Z [INFO] CompactionProcessor: Compaction complete - replaced 93 messages with summary + 4 new messages, saved ~126419 tokens
+2026-10-24T04:26:45.694Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T04:26:45.694Z [INFO] --- End of group ---
+2026-10-24T04:27:52.151Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T04:27:52.178Z [INFO] Persisted checkpoint #3: Valley-fill mode=2 scoring breakthrough at 80.25%
+2026-10-24T04:27:54.384Z [INFO] CompactionProcessor: Compaction complete - replaced 111 messages with summary + 2 new messages, saved ~124599 tokens
+2026-10-24T05:11:41.581Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T05:11:41.582Z [INFO] --- End of group ---
+2026-10-24T05:13:10.284Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T05:13:10.289Z [INFO] Persisted checkpoint #4: Random orderings, hybrid debugging, 82.57% plateau
+2026-10-24T05:13:47.607Z [INFO] CompactionProcessor: Compaction complete - replaced 142 messages with summary + 6 new messages, saved ~123476 tokens

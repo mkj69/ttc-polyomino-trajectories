@@ -1,0 +1,1 @@
+[slot 0 08:55:23] ADOPT: adopting grid+lookBack approach from slot 1/2 (evidence: 74% vs 70.5% judge score), but fixing TLE by adding time budget check. Will keep shelf packing as fallback (different parameter set).

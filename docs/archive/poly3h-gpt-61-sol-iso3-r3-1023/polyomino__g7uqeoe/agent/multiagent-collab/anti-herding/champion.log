@@ -1,0 +1,30 @@
+[slot 2 08:02:12] score=0.7967719706857142; lineage=piece-driven v1; /logs/agent/multiagent-collab/anti-herding/work-2/solution.cpp
+[slot 0 08:03:04] score=0.9278206325571428; frontier-v1; /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 2 08:09:03] score=0.9426764662; lineage=slot0 frontier + slot2 restarts v2; /logs/agent/multiagent-collab/anti-herding/work-2/candidate-v2.cpp
+[slot 0 08:16:18] score=0.9449486620428569; bitfront-v2; /logs/agent/multiagent-collab/anti-herding/work-0/bitfront-v2.cpp
+[slot 0 08:20:15] score=0.9485012095857144; area-v3; /logs/agent/multiagent-collab/anti-herding/work-0/area-v3.cpp
+[slot 0 08:24:28] score=0.9579046010857141; flood-v4; /logs/agent/multiagent-collab/anti-herding/work-0/flood-v4.cpp
+[slot 2 08:32:15] score=0.9643912157428569; lineage=sealed-profile beam+flood v5; /logs/agent/multiagent-collab/anti-herding/work-2/beam-flood-v5.cpp
+[slot 0 08:38:47] score=0.9652814811857141; beam-tail-v5; /logs/agent/multiagent-collab/anti-herding/work-0/beam-tail-v5.cpp
+[slot 1 08:39:27] score=0.9663905869714281; lineage=beam128+cap10flood+globalindex; /logs/agent/multiagent-collab/anti-herding/work-1/indexed-beam-v2.cpp
+[slot 1 08:43:28] score=0.9667398199714282; lineage=indexbeam128+exact-tail; /logs/agent/multiagent-collab/anti-herding/work-1/index-beam-tail-v3.cpp
+[slot 2 08:50:21] score=0.967077601271428; lineage=compact indexedbeam v8; /logs/agent/multiagent-collab/anti-herding/work-2/compact-index-v8.cpp
+[slot 0 08:53:18] score=0.9675877572714286; exactpatch-v7; /logs/agent/multiagent-collab/anti-herding/work-0/patch-lns-v7.cpp
+[slot 2 inventory-v10] score=0.967835904357143; lineage=compact indexedbeam plus remaining-identity cavity feasibility; /logs/agent/multiagent-collab/anti-herding/work-2/component-match-v10.cpp
+[slot 1 09:14:40] score=0.9680449729714283; lineage=component-match+checkpoint-exact-endgame; /logs/agent/multiagent-collab/anti-herding/work-1/beam-endgame-v5.cpp
+[slot 2 difficulty-v14] score=0.970796104071429; lineage=inventory-matched compact beam plus residual-perimeter potential20; /logs/agent/multiagent-collab/anti-herding/work-2/difficulty-v14.cpp
+[slot 2 difficulty80-v15] score=0.9765093874714287; lineage=inventory-matched compact beam plus residual-perimeter potential80; /logs/agent/multiagent-collab/anti-herding/work-2/difficulty80-v15.cpp
+[slot 2 difficulty160-v16] score=0.9788032250000003; lineage=inventory-matched compact beam plus residual-perimeter potential160; /logs/agent/multiagent-collab/anti-herding/work-2/difficulty160-v16.cpp
+[slot 2 beam512-v17] score=0.9790216764428574; lineage=difficulty160 plus8wordinventory/beamthrough512; /logs/agent/multiagent-collab/anti-herding/work-2/beam512-v17.cpp
+[slot 1 09:28:57] score=0.9801406688571433; lineage=perimeter160+checkpoint-endgame6+medium-exactpatch; /logs/agent/multiagent-collab/anti-herding/work-1/difficulty-endgame-patch-v7.cpp
+[slot 2 extended-endgame-v19] score=0.9802412632571432; lineage=peer1endgame+patch plus template4/8/16 beamthrough1024; /logs/agent/multiagent-collab/anti-herding/work-2/extended-endgame-v19.cpp
+[slot 0 09:39:22] score=0.9803123964000002; adaptive160+densityscaled-widthportfolio; /logs/agent/multiagent-collab/anti-herding/work-0/profile-width-v13.cpp
+[slot 2 box40-v21] score=0.9817821239142859; lineage=extended endgame/patch plus minbbox-waste potential40; /logs/agent/multiagent-collab/anti-herding/work-2/box40-v21.cpp
+[slot 0 09:49:01] score=0.9820335276000003; adaptive160+box40+canonicaltypes+widthportfolio; /logs/agent/multiagent-collab/anti-herding/work-0/canonical-box-v14.cpp
+[slot 1 09:50:25] score=0.9821337214714286; lineage=greedyPerimeter20+beamPerimeter160Box40+template1024+endgame6patch; /logs/agent/multiagent-collab/anti-herding/work-1/greedy-box-v11.cpp
+[slot 0 09:58:18] score=0.9827186788285714; empiricalfit-scarcity8+adaptive128+canonical/box40; /logs/agent/multiagent-collab/anti-herding/work-0/empirical-scarcity-v15.cpp
+[slot 0 10:03:23] score=0.984847153242857; empiricaladaptive-small+constanttemplate1024+greedyperimeter20; /logs/agent/multiagent-collab/anti-herding/work-0/scarcity-medium-v16b.cpp
+[slot 0 10:09:06] score=0.9851285263571427; incumbent-area-cappedbeam+empiricaladaptivehybrid; /logs/agent/multiagent-collab/anti-herding/work-0/capped-beam-v17.cpp
+[slot 0 10:36:58] score=0.9853073529714281; cappedbeam+runtimepopcount+adaptive160onlyn<=120; /logs/agent/multiagent-collab/anti-herding/work-0/popcount160-v20.cpp
+[slot 1 10:43:17] score=0.9856983507571427; lineage=popcount160+onlinegreedyDepth2+index1025; /logs/agent/multiagent-collab/anti-herding/work-1/rollout-native-v16.cpp
+[slot 1 10:48:19] score=0.9859901635714282; lineage=runtimepopcount160+onlinegreedyDepth2+jointrootfuturebudgets; /logs/agent/multiagent-collab/anti-herding/work-1/joint-budget-v17.cpp

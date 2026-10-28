@@ -1,0 +1,30 @@
+2026-10-23T17:16:55.383Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T17:16:55.385Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T17:16:55.385Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T17:16:55.400Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T17:16:55.400Z [INFO] OpenTelemetry tracker created for session 2087638b-71ae-4292-99e3-a74bb144503d
+2026-10-23T17:16:55.469Z [INFO] Workspace initialized: 2087638b-71ae-4292-99e3-a74bb144503d (checkpoints: 0)
+2026-10-23T17:16:55.483Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T17:16:55.483Z [INFO] Node.js version: v24.16.0
+2026-10-23T17:16:55.505Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T17:16:55.512Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T17:16:55.582Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T17:16:55.582Z [INFO]  
+2026-10-23T17:16:55.614Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:16:55.615Z [INFO] --- End of group ---
+2026-10-23T17:49:59.146Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:49:59.147Z [INFO] --- End of group ---
+2026-10-23T17:50:57.465Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T17:50:57.470Z [INFO] Persisted checkpoint #1: Polyomino packing with skyline BL heuristic
+2026-10-23T17:51:08.854Z [INFO] CompactionProcessor: Compaction complete - replaced 87 messages with summary + 8 new messages, saved ~125613 tokens
+2026-10-23T18:25:34.723Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T18:25:34.724Z [INFO] --- End of group ---
+2026-10-23T18:26:51.016Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T18:26:51.021Z [INFO] Persisted checkpoint #2: Protrusion skyline + beam search 83.91%
+2026-10-23T18:27:01.218Z [INFO] CompactionProcessor: Compaction complete - replaced 183 messages with summary + 6 new messages, saved ~123676 tokens
+2026-10-23T19:13:25.252Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T19:13:25.253Z [INFO] --- End of group ---
+2026-10-23T19:14:48.466Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T19:14:48.487Z [INFO] Persisted checkpoint #3: N-dependent W targets boost to 84.21%
+2026-10-23T19:15:30.864Z [INFO] CompactionProcessor: Compaction complete - replaced 131 messages with summary + 4 new messages, saved ~125096 tokens
+2026-10-23T19:45:17.893Z [INFO] System notification: Shell command "Compare v4b vs v6" (shellId: 201) has completed successfully. Use...

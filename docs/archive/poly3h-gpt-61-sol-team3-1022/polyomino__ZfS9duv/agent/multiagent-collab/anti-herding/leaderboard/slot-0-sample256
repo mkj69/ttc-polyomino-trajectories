@@ -1,0 +1,6 @@
+source:work-0/sample256.cpp
+allowed sid33: .9664244894999999
+lineage: sample128small/sample256above500 +teamnested32/slot0morph+twoply+width+window
+evidence:12fullbudgetlargeholdoutwins12/12 over128,mean+.00292
+cost:1grade+36pairedstudyruns51.08CPU(shared)
+counterevidence:judge96.6424only+.0024pointv128, runtime/nsmallnoisehigh

@@ -1,0 +1,7 @@
+score=97.9466769957143
+source=/logs/agent/multiagent-collab/anti-herding/work-0/resource-rollout-elite-suffix-v6.cpp
+submission=79746d43-35a4-4dd6-9ef9-01e438eab7ab
+lineage=measured resource beam and terminal rollout plus own compact-prefix multiwidth suffix target reconstruction
+validation=60 fixed-beam exact differentials with rollout disabled;100 random rollout outputs;3 n150 and2 n10000 default uniform outputs independently validated
+cost=one official submission;15sec local validation;37.5sec paired prefix memory ablation
+counterevidence=resource priority in suffix did not improve repaired case set;v5 official97.88643 was below peer97.89554

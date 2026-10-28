@@ -1,0 +1,4 @@
+lineage=slot1 depth3 small + slot0 unique256 sampled large/depth2 + initial128 fallback
+official_score_raw=95.64522372857142; submission=17; cost=one 70-case judge run
+source=/logs/agent/multiagent-collab/anti-herding/work-0/merged256.cpp
+known-counter-evidence=small stochastic width/bias loses .00247 official so removed; max1.74s

@@ -1,0 +1,5 @@
+score=95.51360418285712
+lineage=slot0 cavity + slot1 difficulty and depth3 rollout, adaptive sample128
+path=/logs/agent/multiagent-collab/anti-herding/work-1/depth3.cpp
+evidence=official bd29069f;200 random valid;32 fixed uniform inputs
+counterevidence=depth3 slower at large n and therefore gated

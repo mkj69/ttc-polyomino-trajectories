@@ -1,0 +1,20 @@
+Candidate: work-1/seam-cut.cpp, parent70 raw96.9051266471
+Algorithm: directed min-vertex-cut selects intact unchanged/up-shifted owners
+and minimally removed owners before native ejection repair. One-row compression
+can choose a nonlinear seam anywhere rather than merely crop bottom rows.
+Policy2 always mincut, unit owner cost. No other repair logic changed.
+
+Measured: eight fresh default-narrow0 uniform cases n100/200, control mean
+.95655232, select lower heuristic .95655232, always seam .95760133,
+dual root .95563064. All32outputs legal. Dual root counter-evidence: one
+n200 loses an incumbent row, so production candidate uses seam-only.
+
+Independent proof: work-1/seam-check.cpp compiled ASan+UBSan.
+1800 crop/seam state pairs legal with exact raw-coordinate geometry, pending,
+hash and heuristic consistency; seam orphan count never exceeds crop;
+487 strict reductions, total8314->7268 orphans. 600 tiny cases additionally
+match exhaustive3-way unchanged/shift/remove enumeration exactly.
+Input translations shifted by +/-10^12.
+
+Cost:32fullruns~60s,1800sanitizedpairs+600bruteforcecomparisons~10s.
+Grade pending. Root remains owner0's source.

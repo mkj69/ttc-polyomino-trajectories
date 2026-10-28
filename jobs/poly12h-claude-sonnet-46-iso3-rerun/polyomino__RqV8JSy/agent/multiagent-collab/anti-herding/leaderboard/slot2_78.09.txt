@@ -1,0 +1,12 @@
+Slot 2, score=78.09%, approach: BL+skyline+compact
+
+Key innovations:
+1. BL (Bottom-Left) packing for n<=500: tries all positions, achieves ~96% density for narrow strips
+2. Wide W sweep: for n>5000, tries W={2.3,2.0,1.8,...}*sqrtC; uses ceil(sqrt) not floor
+3. Y+X compaction in 2 iterations (topmost-first Y, leftmost-first X)
+4. Phase 2 random shuffles within same-k groups at bestW±neighbors
+
+Lineage: Independently developed from scratch, inspired by slot0's BL approach
+Evidence: 78.09% judge score (vs 76.12% prev champion)
+Known weaknesses: compact doesn't help n>5000 (height unchanged)
+Cost: ~1.65s wall-clock for all n

@@ -1,0 +1,1 @@
+Skyline bottom-left (BL) packing with full orientation search: maintain column skyline, for each piece try all 8 orientations + all horizontal offsets, pick placement minimizing (height, leftmost). Sort pieces by cell count desc. Try W range near sqrt(T). Deliberately NOT using: shelf/row-based packing, ILP, branch-and-bound. Focus on tight polyomino packing via BL skyline.

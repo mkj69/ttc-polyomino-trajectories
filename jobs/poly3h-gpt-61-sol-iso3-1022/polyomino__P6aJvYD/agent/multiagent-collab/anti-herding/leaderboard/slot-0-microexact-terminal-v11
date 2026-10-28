@@ -1,0 +1,6 @@
+score=98.36525944428574
+lineage=medium-geometry persistent compact + own rollout8 exact6-node1024 saved completion + multiwidth suffix
+evidence=official 712ff112-aade-4437-b6a6-a99b72ae7f0e; 12 uniform production3wins0loss, node4096notadopted
+cost=1official+24production45.7s+fixedwork30horizons29.8s
+counterevidence=exactrerankingbad; eightpiece4096nogain;4096production1loss
+path=/logs/agent/multiagent-collab/anti-herding/work-0/microexact-terminal-v11.cpp

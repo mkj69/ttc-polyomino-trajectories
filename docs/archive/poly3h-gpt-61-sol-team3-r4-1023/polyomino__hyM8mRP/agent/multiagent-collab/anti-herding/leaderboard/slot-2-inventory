@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/candidate.cpp
+lineage=independent inventory sampling, row-major cavity filling, contacts heuristic, 3 widths
+score=91.13776529142861
+submission=sid1 uuid79e64883-73ae-44e1-bd3d-7425d3e4c06e
+evidence=100 randomized valid; 5 n10000 size10 cases runtime1.04s density.98608
+cost=one judge submission, local ~15s
+counterevidence=small n100 size10 mean density.931; random uniform k predicts score poorly

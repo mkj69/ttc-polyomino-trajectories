@@ -1,0 +1,7 @@
+slot2 support coverage sid43 0.9855022340999999
+Lineage: sid37 full-base portfolio, sound lower bound from unavailable placement support on first two compressed frontier rows, enabled n<=180 only. Exact lazy top-K reranking, all remaining orientations/offsets, preserves closed-cavity debt for all n.
+Source: /logs/agent/multiagent-collab/anti-herding/work-2/coverage-small.cpp
+Optimized helper: /logs/agent/multiagent-collab/anti-herding/work-2/coverage-useful.cpp; 100000 domain equivalence checks, 15 paired final areas identical, 3-5% total CPU saved.
+Evidence: official 70-case score .9855022341 vs matched baseline .98528162047; 40 sanitizer/reference outputs clean.
+Counter-evidence: rows3 and n<=400 gate less effective, last48-only gate mixed.
+Cost: four correct 70-case grades plus two confounded guard-bug grades; ~150 local adaptive/sanitized outputs and 200000 domain checks.

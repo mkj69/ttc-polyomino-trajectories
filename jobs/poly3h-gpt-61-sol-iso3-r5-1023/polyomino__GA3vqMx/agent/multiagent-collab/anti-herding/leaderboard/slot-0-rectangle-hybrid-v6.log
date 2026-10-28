@@ -1,0 +1,8 @@
+score=96.0464974285714
+submission_sid=34
+submission_uuid=ea11de29-0c8c-4af0-9e03-90ad79395b78
+source=/logs/agent/multiagent-collab/anti-herding/work-0/rectangle-hybrid-v6.cpp
+lineage=slot0-reserved-tailbeam-plus-independent-four-wall-rectangle-DFS
+evidence=60 random/tiny-reference and 5 stress valid; matched n100seed0 area1040->1036, n250seed0 area2470->2436, seven other cases unchanged
+cost=1 allowed submission plus approximately70 solverCPU seconds
+counter_evidence=pure rectangle search fails almost all96percent targets; useful only as opportunistic dimension-diverse fallback

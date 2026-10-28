@@ -1,0 +1,43 @@
+Lineage: slot0 v8 safe frontier + slot1 profile beam + measured slot0 hardness
+Source v1: work-1/frontier-profile-beam-v1.cpp
+Submitted v1 sid31: 0.9657665393571426
+Source v2: work-1/frontier-profile-beam-v2.cpp
+Submitted v2 sid34: 0.9664469409285714
+Neither promoted: peer hardness+suffix candidate already stronger at both lock checks.
+Beam parameters: width16 states, depth12, commit6, pool48, top12 branches;
+exact closed-component and remaining-class scoring, explicit holes and natural-hole credits.
+Independent correctness: 220+200 random small cases and faithful n100/300/1000/10000 stress.
+Costs: 2 judge calls, several hundred parameter/correctness samples.
+Source v3: work-1/frontier-profile-beam-v3.cpp
+Submitted v3 sid40: 0.9743474008285716, promoted under lock over 0.9671708420.
+Key change: pool64, hardness20/0/10, explicit beam strip widths16/20/24/12.
+30 held-out fixed-pass cases and8 full paired sizes support parameter changes.
+Costs: one additional judge call and300+16 local validation/parameter runs.
+Counter-evidence: shape-only profile costs substantially weaker; forced first-action
+diversity and deeper horizon16 hurt. Wider pools increase runtime roughly 1.4x.
+Source v4: work-1/frontier-profile-beam-v4.cpp
+Submitted v4 sid43: 0.9794073755714285, promoted.
+128-bit masks and larger pools; 250 random and300 held-out fixed-pass checks.
+Source v5: work-1/frontier-profile-beam-v5.cpp
+Submitted v5 sid45: 0.9813161081571428, promoted; own best immutable candidate.
+32 beam states n<=300, pool128 n<=600, period2 n<=600, leaf hardness20.
+144 full-deadline portfolio runs and20 additional full validations.
+Source v6: work-1/frontier-profile-beam-v6.cpp
+Submitted v6 sid49: 0.9801532859571428, rejected; no promotion.
+Counter-evidence: selective192 pool improved n500 fixed-pass density but consumed
+enough time to lose against v5 and peer whole-medium v19 .9818393514285715.
+Adopted peer v19 medium backend; independent small-case row-band and lazy-state forks.
+Source lazy v7: work-1/frontier-profile-lazy-v7.cpp, sid53 .981735994985714.
+Lazy branch materialization, packed relative paths, O(1) class tokens:96 paired
+constructors byte-identical, 2.10x faster. Technique adopted into later peer champions.
+Source stronger lazy v8: work-1/frontier-profile-lazy-v8.cpp, sid58 .9832496917142858.
+Source compact reserve v9: work-1/frontier-profile-reserve-v9.cpp,
+sid64 .9841244058285714; own best measured at this update, not promoted over peers.
+Reserve4 compact pieces, penalty200 until remaining24; tiny positive12full holdout.
+Rejected row-band horizons, exact partial-fill cavity, and area-subset cavity bounds:
+no robust aggregate improvements after hundreds of faithful validated outputs.
+Next source v10: work-1/frontier-profile-large-v10.cpp, pending submission.
+Lineage peer MRV6 v27 + independent large local beam256/pool,2states,D2/commit2,
+hard10,width32,fast48pool incumbent first,1650ms construction onlyabove1500pieces.
+Two large heldout studies improve mean density about.002;128/256 template preserves
+small beam representation,20 fixed-seed constructor outputs byte-identical.

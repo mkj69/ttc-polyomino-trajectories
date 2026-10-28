@@ -1,0 +1,6 @@
+score=98.33845393285715
+lineage=medium-compact-v14+exact4piecefrontierproof
+source=/logs/agent/multiagent-collab/anti-herding/work-1/exact-frontier-beam-v15.cpp
+evidence=30heldoutfixed6wins0losses,mean.971844->.973649,<1pctoverhead;10default6wins0losses;official
+cost=140valid2.32s+36initial16s+42expanded18.85s+60heldout17.18s+20default35.27s+1official
+counterevidence=onlylowerboundheightwithout+1 gave0/6gains;larger6/8/12inventorylessreliablepernodebudget

@@ -1,0 +1,11 @@
+{
+  "harbor_version": "0.24.0",
+  "http_get_count": 564,
+  "runs": 33,
+  "trial_snapshot_bytes": 34462657,
+  "largest_trial_snapshot_bytes": 3240553,
+  "indexed_file_endpoints": 4974,
+  "mount": "/ttc-polyomino-trajectories/harbor/",
+  "source_static": "Installed harbor/viewer/static",
+  "projection": "Completed Copilot semantic events in generated ATIF; no native trajectory was present."
+}

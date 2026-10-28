@@ -1,0 +1,6 @@
+score=0.9667398199714282
+lineage=indexed-beam-v2 + adopted exact-MRV tail with0.22s budget
+evidence=official grade,212validlocalruns
+cost=1grade
+counterevidence=smallabsolute officialgain; globalindexedlarge wall up1.84s withCPUtime cutoff
+source=/logs/agent/multiagent-collab/anti-herding/work-1/index-beam-tail-v3.cpp

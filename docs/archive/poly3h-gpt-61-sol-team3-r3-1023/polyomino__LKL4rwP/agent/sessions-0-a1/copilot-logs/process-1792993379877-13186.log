@@ -1,0 +1,29 @@
+2026-10-26T05:42:59.878Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-26T05:42:59.878Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-26T05:42:59.881Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-26T05:42:59.883Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-26T05:43:00.196Z [INFO] Workspace initialized: d8e873e2-40ac-4ba3-b239-2e4a876654f5 (checkpoints: 1)
+2026-10-26T05:43:00.584Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-26T05:43:00.585Z [INFO] OpenTelemetry tracker created for session d8e873e2-40ac-4ba3-b239-2e4a876654f5
+2026-10-26T05:43:00.610Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-26T05:43:00.610Z [INFO] Node.js version: v24.16.0
+2026-10-26T05:43:00.688Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-26T05:43:00.696Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-26T05:43:00.912Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-26T05:43:00.913Z [INFO]  
+2026-10-26T05:43:00.914Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-26T05:43:00.914Z [INFO] --- End of group ---
+2026-10-26T05:43:00.996Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T05:43:00.996Z [INFO] --- End of group ---
+2026-10-26T06:21:58.191Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T06:21:58.192Z [INFO] --- End of group ---
+2026-10-26T06:24:42.571Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T06:24:42.576Z [INFO] Persisted checkpoint #2: Exploring Large Suffix Repair
+2026-10-26T06:26:08.595Z [INFO] CompactionProcessor: Compaction complete - replaced 204 messages with summary + 8 new messages, saved ~87230 tokens
+2026-10-26T07:10:25.514Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T07:10:25.515Z [INFO] --- End of group ---
+2026-10-26T07:13:37.291Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T07:13:37.297Z [INFO] Persisted checkpoint #3: Bounded Suffix Beam Improvements
+2026-10-26T07:13:56.499Z [INFO] CompactionProcessor: Compaction complete - replaced 139 messages with summary + 7 new messages, saved ~90998 tokens
+2026-10-26T07:13:59.638Z [INFO] System notification: Shell command "Measure bounded inventory-size debt for previously ignored large ...
+2026-10-26T07:39:55.680Z [INFO] System notification: Shell command "Isolate terminal solver effects in beam, constructive, single and...

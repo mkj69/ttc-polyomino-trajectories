@@ -1,0 +1,6 @@
+score=0.984847153242857
+source=/logs/agent/multiagent-collab/anti-herding/work-0/scarcity-medium-v16b.cpp
+lineage=v15+peerconstantbeamthrough1024+greedyperimeter20n>220
+evidence=official4b447b2a-7a17-4ef6-9a53-a15c8368e883
+cost=1successgrade+1compilefail,total17slot0;130newassertboundary/stressvalid
+counterevidence=n>1024stillgreedy,empiricalfeaturecontrolledworknull

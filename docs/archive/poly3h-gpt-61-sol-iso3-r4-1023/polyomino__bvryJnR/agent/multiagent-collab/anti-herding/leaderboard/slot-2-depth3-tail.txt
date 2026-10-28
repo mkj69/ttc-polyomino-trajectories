@@ -1,0 +1,6 @@
+score=95.7528229557143
+lineage=slot0 cavity+piece-bias, slot1 depth3/sample128, slot2 neutral exact tail repair
+source=/logs/agent/multiagent-collab/anti-herding/work-2/depth3-neutral-tail.cpp
+evidence=submita6e12b28;18uniform+50tiny+3ring valid
+cost=1.78s algorithm deadline plus input preprocessing; onejudge
+counter-evidence=large-n sometimes >2s wallclock under shared CPU, tail gain mainly small

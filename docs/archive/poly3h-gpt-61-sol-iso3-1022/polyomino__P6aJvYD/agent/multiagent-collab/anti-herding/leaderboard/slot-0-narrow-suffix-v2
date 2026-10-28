@@ -1,0 +1,6 @@
+score=97.44649683857139
+source=/logs/agent/multiagent-collab/anti-herding/work-0/narrow-suffix-beam-v2.cpp
+lineage=slot1 narrow-bounded-v9 plus slot0 constrained-prefix suffix inventory beam
+evidence=official sid28; 80exact differential random,8defaultuniform150; cached4of18targetrepairs150ms
+cost=1official plus18svalidation plus~60srepair-tuning
+counterevidence=repair often impossible because trapped lower-prefix holes consume slack; solves only4of18cachedtargets

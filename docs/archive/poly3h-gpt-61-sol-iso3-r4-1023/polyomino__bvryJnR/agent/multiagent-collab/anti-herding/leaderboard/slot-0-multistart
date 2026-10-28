@@ -1,0 +1,4 @@
+approach=original cavity-first, full sampling small n, width multistart, degree0/1 penalties
+official_score_raw=92.95754355285715; submission=5; cost=one 70-case judge run
+source=/logs/agent/multiagent-collab/anti-herding/work-0/multistart.cpp
+known-counter-evidence=large n density ~.96 and up to1.7s; generation now complete uniform free catalogue

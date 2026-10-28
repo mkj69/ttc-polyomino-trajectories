@@ -1,0 +1,6 @@
+score=93.79143962
+lineage=slot0-core+slot2-exact-pockets+slot1-widths+slot2-CPU-deadline
+source=/logs/agent/multiagent-collab/anti-herding/work-2/exact-pocket-multiwidth-v2.cpp
+evidence=judge-sid7;200-random-valid;28-catalogue-comparisons
+cost=1 allowed submission,local10k1.438s
+counterevidence=n2000 single-width run can beat schedule from RNG path; second-width large usually no gain

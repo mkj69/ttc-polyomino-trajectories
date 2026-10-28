@@ -1,0 +1,1 @@
+Skyline packing with global-max-aware comparison, column profiles, multi-sort-order, focused width range [0.8*sqrt(T), 1.2*sqrt(T)]. NOT identical to slot-1 (which uses broader width range); NOT using per-cell exact collision (slot-2 approach).

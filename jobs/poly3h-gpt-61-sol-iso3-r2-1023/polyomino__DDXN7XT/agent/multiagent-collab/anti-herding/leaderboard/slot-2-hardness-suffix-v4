@@ -1,0 +1,6 @@
+score=.9669762530000003
+lineage=hardness-v11+mixed top/interior legal greedy LNS
+source=work-2/hardness-suffix-mixed-v4.cpp
+evidence=sid35 raw96.69762530000003
+cost=1judge70cases
+counterevidence=near tie v3, observed delta below timing noise

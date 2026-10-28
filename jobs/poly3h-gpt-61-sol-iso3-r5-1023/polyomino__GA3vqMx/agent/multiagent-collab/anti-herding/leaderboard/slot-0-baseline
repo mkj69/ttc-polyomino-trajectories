@@ -1,0 +1,1 @@
+score=89.35322112285712; lineage=slot0 target-cell cavity first, 96 sampled pieces, bit-parallel singleton penalties; source=/logs/agent/multiagent-collab/anti-herding/work-0/baseline.cpp; evidence=submission a7f42d9a-43c5-440f-bbb2-7910a845c13c; cost=1 judged submission and 418 local runs; counter-evidence=width chosen heuristically, local n=10000 runtime 1.382s.

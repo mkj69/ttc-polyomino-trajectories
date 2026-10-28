@@ -1,0 +1,17 @@
+lineage: slot1 inventory snapshot14:29 + slot2 counted inventory, flat-grid undo tail replay
+source: /logs/agent/multiagent-collab/anti-herding/work-2/tail.cpp
+score: .9395996767 (inferior to slot1 .94235)
+reproduce: g++ -std=gnu++17 -O2 tail.cpp -o tail; tail [width] [seconds] [tail-count]
+evidence: 200 random transformed coordinate checks passed; true-catalog10k W40 density.98178937 in.531s; 3n100 densities.910-.923; 2n1000.973-.974
+cost:1 submission,200 smallchecks,7catalogue cases
+counter-evidence: tail-only budget allocation loses to manywidth restarts; small fixedwidth can waste space for n<100
+latest score: .9459139721 from ceiling-limited optional12ms replay +1203 mixed widths
+source: /logs/agent/multiagent-collab/anti-herding/work-2/tail.cpp
+cost: 2 tail judged evaluations total, latest > old no-difficulty inventory but <difficulty6
+latest score: .9562592589571429 (95.6259%), allowed submit sid12
+lineage: slot1 inventory core + mixed difficulty prior independently replicated; slot2 flat-grid count snapshots, reverse undo log, incumbent-gated12ms tail replay at strict Hbest-1 ceiling, 1203 width restarts
+geometry: 200 random translated-checker runs after difficulty merge; additional200 after ceiling targeting; max n10000 faithful-catalogue difficulty10 .98622638 in.359s onepass
+known issue: output currently not landscape tie-normalized (easy final wholepacking rotation); final adversarial runtime sweep pending
+final audit: wholepacking rotation H<=W added (area neutral); 250ASan/UBSan translated cases pass; 19 adversarial cases include all6473types, origins+/-1e12 and maxn10000 mono/line/ring/slab/snake; maxCPU1.504s
+counter-evidence: n1 intentionally weak minwidth10 outside input constraints; CPU-budget decisions create timing-dependent restart count but every trial complete/valid
+final judged landscape version: .955267756657143, sid14; prior .95625926 area-neutral unnormalized version; runtime-driven restart variance ~0.10% observed.

@@ -1,0 +1,1 @@
+NFDH strip packing with bounding boxes; will NOT assume exact-fit is needed (bounding boxes always valid)

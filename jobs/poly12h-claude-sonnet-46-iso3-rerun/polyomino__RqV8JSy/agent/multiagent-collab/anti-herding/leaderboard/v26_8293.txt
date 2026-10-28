@@ -1,0 +1,7 @@
+APPROACH: v26 = v7b (delta-bumpiness + bump-before-ym) + strategic width priority (n=1001-5000) + ordH phase2 (n>500, every 3rd) + ordBBrev phase2 (n<=300, every 4th)
+SCORE: 82.93% (raw=82.92954294142856%) sid=100
+LINEAGE: v7b → v11 (wcenter) → v14 (strategic) → v15 (ordH) → v26 (ordBBrev)
+KEY: ordBBrev = small-first ordering in BL phase2 for n<=300
+LOCALLY: +152 for n=100, +16 for n=200, neutral for n>=300
+KNOWN COUNTER-EVIDENCE: slot1 saw n=100 avg-2, n=200 avg-4 locally (different generator)
+CODE: /logs/agent/multiagent-collab/anti-herding/work-2/solution.cpp

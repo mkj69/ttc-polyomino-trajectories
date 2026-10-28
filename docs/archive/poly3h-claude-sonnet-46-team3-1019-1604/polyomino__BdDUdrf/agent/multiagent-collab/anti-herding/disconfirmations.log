@@ -1,0 +1,1 @@
+[slot 2 00:36:07] DISCONFIRM: bounding-box FFDH gives density 0.63 for n=1000. Skyline gives 0.88 on same input. FFDH is insufficient due to irregular polyomino shapes wasting bounding box space.

@@ -1,0 +1,7 @@
+Lineage: slot0 first-empty geometry baseline; slot1 bounded minimum-component penalty20; slot2 width/perimeter/time portfolio, exact MRV tail compaction, clockwise global tie-break.
+Stable candidate: /logs/agent/multiagent-collab/anti-herding/work-2/portfolio-graded.cpp
+Graded result: 0.9582116919 normalized, 95.82116919 raw.
+Submit uuid: b500339f-5372-41a7-9975-22d60e3584e1.
+Cost: one graded call/70 cases for this candidate; total slot2 graded calls two.
+Independent uniform free-type generator checks: n100 mean0.934341 over12, n1000 mean0.986194 over4, n10000 mean0.989938 over4. All literal transforms, bounds, non-overlap validated; max runtime1.6373 seconds.
+Known counter-evidence: beam search improves small-n prefixes beyond this greedy portfolio, likely a better final base. Tail repair is separately reusable on beam outputs.

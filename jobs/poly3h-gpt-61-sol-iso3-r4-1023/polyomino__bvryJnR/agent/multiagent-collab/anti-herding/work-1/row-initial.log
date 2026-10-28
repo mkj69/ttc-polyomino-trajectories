@@ -1,0 +1,82 @@
+n=100 seed=143 policy=0 density=0.956044 seconds=0.126
+warmstart 31x34
+beam 11 -> 11x91 time 0.100943
+
+n=100 seed=143 policy=1 density=0.956044 seconds=0.173
+warmstart 31x34
+beam 11 -> 11x91 time 0.148129
+
+n=100 seed=143 policy=2 density=0.956044 seconds=0.166
+warmstart 31x34
+beam 11 -> 11x91 time 0.142672
+
+n=100 seed=143 policy=3 density=0.945652 seconds=0.163
+warmstart 31x34
+beam 11 -> 11x92 time 0.136546
+
+n=100 seed=143 policy=4 density=0.956044 seconds=0.170
+warmstart 31x34
+beam 11 -> 11x91 time 0.1439
+
+n=100 seed=925 policy=0 density=0.943676 seconds=0.115
+warmstart 16x67
+beam 11 -> 11x92 time 0.090334
+
+n=100 seed=925 policy=1 density=0.943676 seconds=0.165
+warmstart 16x67
+beam 11 -> 11x92 time 0.139412
+
+n=100 seed=925 policy=2 density=0.954046 seconds=0.158
+warmstart 16x67
+beam 11 -> 11x91 time 0.131543
+
+n=100 seed=925 policy=3 density=0.954046 seconds=0.189
+warmstart 16x67
+beam 11 -> 11x91 time 0.164193
+
+n=100 seed=925 policy=4 density=0.954046 seconds=0.152
+warmstart 16x67
+beam 11 -> 11x91 time 0.126585
+
+MEAN 100 {0: (0.94986, 0.12056), 1: (0.94986, 0.168641), 2: (0.955045, 0.161818), 3: (0.949849, 0.175671), 4: (0.955045, 0.160986)}
+n=150 seed=143 policy=0 density=0.967677 seconds=0.232
+warmstart 20x78
+beam 11 -> 11x135 time 0.203032
+
+n=150 seed=143 policy=1 density=0.967677 seconds=0.297
+warmstart 20x78
+beam 11 -> 11x135 time 0.270413
+
+n=150 seed=143 policy=2 density=0.974898 seconds=0.389
+warmstart 20x78
+beam 11 -> 11x134 time 0.361918
+
+n=150 seed=143 policy=3 density=0.967677 seconds=0.311
+warmstart 20x78
+beam 11 -> 11x135 time 0.283136
+
+n=150 seed=143 policy=4 density=0.967677 seconds=0.381
+warmstart 20x78
+beam 11 -> 11x135 time 0.355264
+
+n=150 seed=925 policy=0 density=0.970828 seconds=0.205
+warmstart 16x95
+beam 11 -> 11x134 time 0.17897
+
+n=150 seed=925 policy=1 density=0.963636 seconds=0.287
+warmstart 16x95
+beam 11 -> 11x135 time 0.26038
+
+n=150 seed=925 policy=2 density=0.963636 seconds=0.273
+warmstart 16x95
+beam 11 -> 11x135 time 0.246261
+
+n=150 seed=925 policy=3 density=0.970828 seconds=0.264
+warmstart 16x95
+beam 11 -> 11x134 time 0.237498
+
+n=150 seed=925 policy=4 density=0.963636 seconds=0.316
+warmstart 16x95
+beam 11 -> 11x135 time 0.291381
+
+MEAN 150 {0: (0.969252, 0.218671), 1: (0.965657, 0.291625), 2: (0.969267, 0.330625), 3: (0.969252, 0.287043), 4: (0.965657, 0.348478)}

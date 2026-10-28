@@ -1,0 +1,1 @@
+Distinct policy: exact SIMD over constructor FrontierIndex query, not ejection owner planes. Transpose190 collision cells across orientation-word axis; filter4words with AVX2 then emit in identical randomized native word order. Preserve query RNG/fits/results, scalar fallback and partialwrap. Existing sharedvisitedflood2.3xsynthetic butno maxpack gain, gradepending; rootbest88.

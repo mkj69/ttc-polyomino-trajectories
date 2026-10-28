@@ -1,0 +1,6 @@
+score=98.37252579428574
+lineage=peer small microexact6 + own fastgreedy/fourwordtail + largepool384
+source=/logs/agent/multiagent-collab/anti-herding/work-2/large-pool-v22.cpp
+evidence=officialuuid1f5de988;8heldoutpaired4wins2loss2ties,mean+.000373
+cost=1official+72fixed41s+24production45.85s
+counterevidence=512slightlybetterinheldoutbutnotfixed; n1250/1500losses

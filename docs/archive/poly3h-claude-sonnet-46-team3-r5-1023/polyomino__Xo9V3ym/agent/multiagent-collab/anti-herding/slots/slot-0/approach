@@ -1,0 +1,1 @@
+approach: Shelf packing (NFDH) with bounding boxes; try multiple strip widths; avoid skyline/grid-based cell-level packing as primary

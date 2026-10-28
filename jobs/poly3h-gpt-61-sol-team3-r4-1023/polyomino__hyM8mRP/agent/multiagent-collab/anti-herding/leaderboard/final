@@ -1,0 +1,9 @@
+candidate=/app/solution.cpp
+lineage=slot2 inventory frontier + slot0 width/cavity scheduling + slot1 BFS-open and bounded exact suffix DFS
+approved_source=/logs/agent/multiagent-collab/anti-herding/work-1/frontier_exact.cpp
+approved_sid=7
+approved_score=96.06820038571429
+source_identity=byte-identical to approved exact-tail source; cutoff11 experiment reverted after slightly worse score
+validation=hundreds random geometry/transform cases, true-free uniform catalog, N10000 stress, exhaustive tiny-area reference
+cost=slot0 four approved calls, peer calls recorded separately; many local tests
+counterevidence=heuristic not globally optimal; time-dependent search can vary score slightly

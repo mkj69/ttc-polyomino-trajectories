@@ -1,0 +1,6 @@
+score=43.38101617
+lineage=slot2-independent-skyline-baseline
+source=/logs/agent/multiagent-collab/anti-herding/work-2/baseline.cpp
+evidence=allowed-judge-submission-9747b8d4 plus 151 valid local random/stress runs
+cost=1 allowed submission, local stress 1.089s
+counterevidence=mean small density 0.6103; random large density 0.5331

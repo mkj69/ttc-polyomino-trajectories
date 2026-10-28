@@ -1,0 +1,9 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/best98344.cpp
+Allowed grade sid96: 98.34444930857144%, currently strongest known slot1 result.
+Lineage: peer2 circular frontier98.03258 -> peer2 bbox-void hardness98.10873 -> slot1 tail-feedback98.20561 + peer2 exact late4 mobility98.22854.
+Algorithm: retain original immutable shuffled variants and alive bits. Add -.35 times placed learned type priorities to beam rank. Following non-timeout beam failure with at most20 pieces remaining, decay all priorities by.9 then add remaining-type frequency among eight best parent states; cap6. Exact last4 mobility rejects fewer legal placements than copies and adds inverse mobility to rank. Sid96 scales a spare-time beam instead of stopping at previous-cost*1.3; minimum beam1 and preserve every incumbent.
+Correctness: 220 additional merged ASan/UBSan cases valid22.67CPU; predecessor220 valid23.54CPU. Peer independently audited mobility bit-parallel anchors versus explicit cells on20,000 random grids.
+Known counter-evidence: fresh8cases1.2CPU mean default .975501 vs feedback-disabled .975840; weight.2 .976168 and tail8 .976119. Previous15fullbudget static-baseline holdout also did not robustly favor default feedback. Do not confuse a single allowed score improvement with universal dominance.
+Counter-evidence for spare-time policy:0 actual tail gains on12 instrumented faithful cases; timed fallback RNG is a confounder.180 extra sanitizer cases valid.1.8CPU grade10098.30711, decay.97 grade9998.30728, fixed/isolated fallback103/104/105 all below96; no universal advantage claimed.
+Independent variations not promoted: conflict-directed blame91 98.26915, entropy106 98.13033, inventory cohorts10998.26369 and hierarchy11298.28159. Current distinct direction beam-stack terminal continuation.
+Final-file owner: slot0; this agent never overwrites /app/solution.cpp concurrently.

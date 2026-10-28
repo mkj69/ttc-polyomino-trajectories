@@ -1,0 +1,1 @@
+Dynamic orientation selection + multiple sort orders (k-desc and H-desc) per width. NOT pre-fixing orientation before packing. Will try k-sort and H-sort orderings. Distinct from slot 0 which pre-selects orientation and sorts by bbox-H only.

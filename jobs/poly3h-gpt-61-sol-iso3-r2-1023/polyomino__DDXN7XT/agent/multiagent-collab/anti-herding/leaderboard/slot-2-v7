@@ -1,0 +1,7 @@
+lineage=peer1-beam-v4+mixedsuffix350ms+bitboardexacttail
+score=0.9790127598714287
+submission=sid47
+source=/logs/agent/multiagent-collab/anti-herding/work-2/beam-suffix-bits-v7.cpp
+evidence=4faithfulstress+60small geometricvalid
+cost=1judge+64local
+counterevidence=belowpeer1v4 .9794073755714285; notpromoted

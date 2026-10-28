@@ -1,0 +1,646 @@
+{
+  "reward": 0.7347437834285713,
+  "detail": "Using best iterative submission after final solution scored below best submission: ",
+  "score": 73.47437834285712,
+  "best_submission_reward": 0.7347437834285713,
+  "used_best_submission": 1,
+  "raw_result": {
+    "status": "done",
+    "passed": false,
+    "result": "Wrong Answer",
+    "score": 73.47437834285712,
+    "scoreUnbounded": 73.47437834285712,
+    "cases": [
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1600495299,
+        "memory": 7741440,
+        "msg": "points 0.7897649559 Ratio: 0.789764956 (cells=37532, W=511, H=93, area=47523)\n",
+        "scoreRatio": 0.789764956,
+        "scoreRatioUnbounded": 0.789764956
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1562131759,
+        "memory": 2351104,
+        "msg": "points 0.7650462963 Ratio: 0.765046296 (cells=10576, W=288, H=48, area=13824)\n",
+        "scoreRatio": 0.765046296,
+        "scoreRatioUnbounded": 0.765046296
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1557505118,
+        "memory": 2646016,
+        "msg": "points 0.7646963824 Ratio: 0.764696382 (cells=9470, W=344, H=36, area=12384)\n",
+        "scoreRatio": 0.764696382,
+        "scoreRatioUnbounded": 0.764696382
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1557210969,
+        "memory": 1892352,
+        "msg": "points 0.7631639194 Ratio: 0.763163919 (cells=6667, W=336, H=26, area=8736)\n",
+        "scoreRatio": 0.763163919,
+        "scoreRatioUnbounded": 0.763163919
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1558724088,
+        "memory": 2232320,
+        "msg": "points 0.7631511199 Ratio: 0.763151120 (cells=8893, W=271, H=43, area=11653)\n",
+        "scoreRatio": 0.76315112,
+        "scoreRatioUnbounded": 0.76315112
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1557228312,
+        "memory": 1335296,
+        "msg": "points 0.7477777778 Ratio: 0.747777778 (cells=4711, W=225, H=28, area=6300)\n",
+        "scoreRatio": 0.747777778,
+        "scoreRatioUnbounded": 0.747777778
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1646194865,
+        "memory": 9875456,
+        "msg": "points 0.789164324 Ratio: 0.789164324 (cells=49408, W=728, H=86, area=62608)\n",
+        "scoreRatio": 0.789164324,
+        "scoreRatioUnbounded": 0.789164324
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1566417924,
+        "memory": 2351104,
+        "msg": "points 0.7662860489 Ratio: 0.766286049 (cells=10469, W=297, H=46, area=13662)\n",
+        "scoreRatio": 0.766286049,
+        "scoreRatioUnbounded": 0.766286049
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553716781,
+        "memory": 1011712,
+        "msg": "points 0.7353535354 Ratio: 0.735353535 (cells=2184, W=99, H=30, area=2970)\n",
+        "scoreRatio": 0.735353535,
+        "scoreRatioUnbounded": 0.735353535
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1576351313,
+        "memory": 4448256,
+        "msg": "points 0.780409281 Ratio: 0.780409281 (cells=21089, W=443, H=61, area=27023)\n",
+        "scoreRatio": 0.780409281,
+        "scoreRatioUnbounded": 0.780409281
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1558772401,
+        "memory": 1597440,
+        "msg": "points 0.7666272539 Ratio: 0.766627254 (cells=5187, W=199, H=34, area=6766)\n",
+        "scoreRatio": 0.766627254,
+        "scoreRatioUnbounded": 0.766627254
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554324593,
+        "memory": 1482752,
+        "msg": "points 0.7509920635 Ratio: 0.750992063 (cells=4542, W=189, H=32, area=6048)\n",
+        "scoreRatio": 0.750992063,
+        "scoreRatioUnbounded": 0.750992063
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1598409972,
+        "memory": 12140544,
+        "msg": "points 0.7970824497 Ratio: 0.797082450 (cells=62017, W=819, H=95, area=77805)\n",
+        "scoreRatio": 0.79708245,
+        "scoreRatioUnbounded": 0.79708245
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1565711490,
+        "memory": 2551808,
+        "msg": "points 0.7596196373 Ratio: 0.759619637 (cells=10305, W=357, H=38, area=13566)\n",
+        "scoreRatio": 0.759619637,
+        "scoreRatioUnbounded": 0.759619637
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554596778,
+        "memory": 872448,
+        "msg": "points 0.7297297297 Ratio: 0.729729730 (cells=1539, W=57, H=37, area=2109)\n",
+        "scoreRatio": 0.72972973,
+        "scoreRatioUnbounded": 0.72972973
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1558953975,
+        "memory": 1601536,
+        "msg": "points 0.75 Ratio: 0.750000000 (cells=5136, W=214, H=32, area=6848)\n",
+        "scoreRatio": 0.75,
+        "scoreRatioUnbounded": 0.75
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1562131499,
+        "memory": 2088960,
+        "msg": "points 0.7594599243 Ratio: 0.759459924 (cells=8831, W=323, H=36, area=11628)\n",
+        "scoreRatio": 0.759459924,
+        "scoreRatioUnbounded": 0.759459924
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1558669916,
+        "memory": 1634304,
+        "msg": "points 0.7596838969 Ratio: 0.759683897 (cells=5864, W=249, H=31, area=7719)\n",
+        "scoreRatio": 0.759683897,
+        "scoreRatioUnbounded": 0.759683897
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554407190,
+        "memory": 778240,
+        "msg": "points 0.7224358974 Ratio: 0.722435897 (cells=1127, W=60, H=26, area=1560)\n",
+        "scoreRatio": 0.722435897,
+        "scoreRatioUnbounded": 0.722435897
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553885970,
+        "memory": 778240,
+        "msg": "points 0.7315068493 Ratio: 0.731506849 (cells=1602, W=73, H=30, area=2190)\n",
+        "scoreRatio": 0.731506849,
+        "scoreRatioUnbounded": 0.731506849
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554148138,
+        "memory": 811008,
+        "msg": "points 0.7219512195 Ratio: 0.721951220 (cells=1480, W=82, H=25, area=2050)\n",
+        "scoreRatio": 0.72195122,
+        "scoreRatioUnbounded": 0.72195122
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553073969,
+        "memory": 933888,
+        "msg": "points 0.7236622074 Ratio: 0.723662207 (cells=1731, W=52, H=46, area=2392)\n",
+        "scoreRatio": 0.723662207,
+        "scoreRatioUnbounded": 0.723662207
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1555298361,
+        "memory": 1040384,
+        "msg": "points 0.7237704918 Ratio: 0.723770492 (cells=1766, W=122, H=20, area=2440)\n",
+        "scoreRatio": 0.723770492,
+        "scoreRatioUnbounded": 0.723770492
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553974238,
+        "memory": 933888,
+        "msg": "points 0.7203988367 Ratio: 0.720398837 (cells=1734, W=83, H=29, area=2407)\n",
+        "scoreRatio": 0.720398837,
+        "scoreRatioUnbounded": 0.720398837
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554523300,
+        "memory": 1040384,
+        "msg": "points 0.7279693487 Ratio: 0.727969349 (cells=1330, W=63, H=29, area=1827)\n",
+        "scoreRatio": 0.727969349,
+        "scoreRatioUnbounded": 0.727969349
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554531093,
+        "memory": 929792,
+        "msg": "points 0.7254166667 Ratio: 0.725416667 (cells=1741, W=60, H=40, area=2400)\n",
+        "scoreRatio": 0.725416667,
+        "scoreRatioUnbounded": 0.725416667
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554367089,
+        "memory": 831488,
+        "msg": "points 0.7152941176 Ratio: 0.715294118 (cells=1216, W=68, H=25, area=1700)\n",
+        "scoreRatio": 0.715294118,
+        "scoreRatioUnbounded": 0.715294118
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553576257,
+        "memory": 929792,
+        "msg": "points 0.7196581197 Ratio: 0.719658120 (cells=1684, W=90, H=26, area=2340)\n",
+        "scoreRatio": 0.71965812,
+        "scoreRatioUnbounded": 0.71965812
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553307238,
+        "memory": 790528,
+        "msg": "points 0.7237215909 Ratio: 0.723721591 (cells=1019, W=64, H=22, area=1408)\n",
+        "scoreRatio": 0.723721591,
+        "scoreRatioUnbounded": 0.723721591
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554053505,
+        "memory": 831488,
+        "msg": "points 0.7089855072 Ratio: 0.708985507 (cells=1223, W=69, H=25, area=1725)\n",
+        "scoreRatio": 0.708985507,
+        "scoreRatioUnbounded": 0.708985507
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553553424,
+        "memory": 901120,
+        "msg": "points 0.7134724858 Ratio: 0.713472486 (cells=1504, W=62, H=34, area=2108)\n",
+        "scoreRatio": 0.713472486,
+        "scoreRatioUnbounded": 0.713472486
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553595056,
+        "memory": 811008,
+        "msg": "points 0.737189441 Ratio: 0.737189441 (cells=1899, W=92, H=28, area=2576)\n",
+        "scoreRatio": 0.737189441,
+        "scoreRatioUnbounded": 0.737189441
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554527185,
+        "memory": 802816,
+        "msg": "points 0.7205882353 Ratio: 0.720588235 (cells=1029, W=68, H=21, area=1428)\n",
+        "scoreRatio": 0.720588235,
+        "scoreRatioUnbounded": 0.720588235
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553503560,
+        "memory": 831488,
+        "msg": "points 0.7282338308 Ratio: 0.728233831 (cells=1171, W=67, H=24, area=1608)\n",
+        "scoreRatio": 0.728233831,
+        "scoreRatioUnbounded": 0.728233831
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553490537,
+        "memory": 1040384,
+        "msg": "points 0.7296401515 Ratio: 0.729640152 (cells=1541, W=96, H=22, area=2112)\n",
+        "scoreRatio": 0.729640152,
+        "scoreRatioUnbounded": 0.729640152
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553535580,
+        "memory": 778240,
+        "msg": "points 0.724137931 Ratio: 0.724137931 (cells=1512, W=72, H=29, area=2088)\n",
+        "scoreRatio": 0.724137931,
+        "scoreRatioUnbounded": 0.724137931
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554361088,
+        "memory": 778240,
+        "msg": "points 0.7186907021 Ratio: 0.718690702 (cells=1515, W=68, H=31, area=2108)\n",
+        "scoreRatio": 0.718690702,
+        "scoreRatioUnbounded": 0.718690702
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553588363,
+        "memory": 929792,
+        "msg": "points 0.7311688312 Ratio: 0.731168831 (cells=1689, W=66, H=35, area=2310)\n",
+        "scoreRatio": 0.731168831,
+        "scoreRatioUnbounded": 0.731168831
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553317940,
+        "memory": 880640,
+        "msg": "points 0.7370820669 Ratio: 0.737082067 (cells=1455, W=94, H=21, area=1974)\n",
+        "scoreRatio": 0.737082067,
+        "scoreRatioUnbounded": 0.737082067
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554534970,
+        "memory": 811008,
+        "msg": "points 0.7308467742 Ratio: 0.730846774 (cells=1450, W=64, H=31, area=1984)\n",
+        "scoreRatio": 0.730846774,
+        "scoreRatioUnbounded": 0.730846774
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554242886,
+        "memory": 884736,
+        "msg": "points 0.7337986042 Ratio: 0.733798604 (cells=1472, W=59, H=34, area=2006)\n",
+        "scoreRatio": 0.733798604,
+        "scoreRatioUnbounded": 0.733798604
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554583812,
+        "memory": 921600,
+        "msg": "points 0.7217391304 Ratio: 0.721739130 (cells=1660, W=92, H=25, area=2300)\n",
+        "scoreRatio": 0.72173913,
+        "scoreRatioUnbounded": 0.72173913
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553720815,
+        "memory": 798720,
+        "msg": "points 0.7114707952 Ratio: 0.711470795 (cells=1011, W=49, H=29, area=1421)\n",
+        "scoreRatio": 0.711470795,
+        "scoreRatioUnbounded": 0.711470795
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554580965,
+        "memory": 864256,
+        "msg": "points 0.7287179487 Ratio: 0.728717949 (cells=1421, W=65, H=30, area=1950)\n",
+        "scoreRatio": 0.728717949,
+        "scoreRatioUnbounded": 0.728717949
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553793424,
+        "memory": 946176,
+        "msg": "points 0.7434318555 Ratio: 0.743431856 (cells=1811, W=87, H=28, area=2436)\n",
+        "scoreRatio": 0.743431856,
+        "scoreRatioUnbounded": 0.743431856
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554663543,
+        "memory": 835584,
+        "msg": "points 0.7289552239 Ratio: 0.728955224 (cells=1221, W=67, H=25, area=1675)\n",
+        "scoreRatio": 0.728955224,
+        "scoreRatioUnbounded": 0.728955224
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554373224,
+        "memory": 897024,
+        "msg": "points 0.7283834586 Ratio: 0.728383459 (cells=1550, W=76, H=28, area=2128)\n",
+        "scoreRatio": 0.728383459,
+        "scoreRatioUnbounded": 0.728383459
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554297497,
+        "memory": 872448,
+        "msg": "points 0.7339166238 Ratio: 0.733916624 (cells=1426, W=67, H=29, area=1943)\n",
+        "scoreRatio": 0.733916624,
+        "scoreRatioUnbounded": 0.733916624
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554609140,
+        "memory": 860160,
+        "msg": "points 0.7372958258 Ratio: 0.737295826 (cells=1625, W=58, H=38, area=2204)\n",
+        "scoreRatio": 0.737295826,
+        "scoreRatioUnbounded": 0.737295826
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554111727,
+        "memory": 811008,
+        "msg": "points 0.7147796024 Ratio: 0.714779602 (cells=1654, W=89, H=26, area=2314)\n",
+        "scoreRatio": 0.714779602,
+        "scoreRatioUnbounded": 0.714779602
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553387683,
+        "memory": 778240,
+        "msg": "points 0.7436655405 Ratio: 0.743665541 (cells=1761, W=74, H=32, area=2368)\n",
+        "scoreRatio": 0.743665541,
+        "scoreRatioUnbounded": 0.743665541
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554673963,
+        "memory": 778240,
+        "msg": "points 0.7210526316 Ratio: 0.721052632 (cells=1370, W=76, H=25, area=1900)\n",
+        "scoreRatio": 0.721052632,
+        "scoreRatioUnbounded": 0.721052632
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1555032911,
+        "memory": 1146880,
+        "msg": "points 0.7144249513 Ratio: 0.714424951 (cells=1466, W=108, H=19, area=2052)\n",
+        "scoreRatio": 0.714424951,
+        "scoreRatioUnbounded": 0.714424951
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554708359,
+        "memory": 778240,
+        "msg": "points 0.7248255234 Ratio: 0.724825523 (cells=1454, W=118, H=17, area=2006)\n",
+        "scoreRatio": 0.724825523,
+        "scoreRatioUnbounded": 0.724825523
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554958170,
+        "memory": 851968,
+        "msg": "points 0.7088 Ratio: 0.708800000 (cells=1329, W=75, H=25, area=1875)\n",
+        "scoreRatio": 0.7088,
+        "scoreRatioUnbounded": 0.7088
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554761447,
+        "memory": 782336,
+        "msg": "points 0.710989011 Ratio: 0.710989011 (cells=1294, W=91, H=20, area=1820)\n",
+        "scoreRatio": 0.710989011,
+        "scoreRatioUnbounded": 0.710989011
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553354586,
+        "memory": 786432,
+        "msg": "points 0.7214285714 Ratio: 0.721428571 (cells=1010, W=50, H=28, area=1400)\n",
+        "scoreRatio": 0.721428571,
+        "scoreRatioUnbounded": 0.721428571
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553142325,
+        "memory": 778240,
+        "msg": "points 0.7296918768 Ratio: 0.729691877 (cells=1563, W=51, H=42, area=2142)\n",
+        "scoreRatio": 0.729691877,
+        "scoreRatioUnbounded": 0.729691877
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553732263,
+        "memory": 1040384,
+        "msg": "points 0.740327381 Ratio: 0.740327381 (cells=995, W=28, H=48, area=1344)\n",
+        "scoreRatio": 0.740327381,
+        "scoreRatioUnbounded": 0.740327381
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553483631,
+        "memory": 860160,
+        "msg": "points 0.7397186147 Ratio: 0.739718615 (cells=1367, W=56, H=33, area=1848)\n",
+        "scoreRatio": 0.739718615,
+        "scoreRatioUnbounded": 0.739718615
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553424269,
+        "memory": 856064,
+        "msg": "points 0.7275641026 Ratio: 0.727564103 (cells=1362, W=48, H=39, area=1872)\n",
+        "scoreRatio": 0.727564103,
+        "scoreRatioUnbounded": 0.727564103
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553504421,
+        "memory": 778240,
+        "msg": "points 0.724 Ratio: 0.724000000 (cells=1267, W=50, H=35, area=1750)\n",
+        "scoreRatio": 0.724,
+        "scoreRatioUnbounded": 0.724
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1555134683,
+        "memory": 856064,
+        "msg": "points 0.7205726405 Ratio: 0.720572641 (cells=1359, W=82, H=23, area=1886)\n",
+        "scoreRatio": 0.720572641,
+        "scoreRatioUnbounded": 0.720572641
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554225529,
+        "memory": 778240,
+        "msg": "points 0.7285067873 Ratio: 0.728506787 (cells=1288, W=52, H=34, area=1768)\n",
+        "scoreRatio": 0.728506787,
+        "scoreRatioUnbounded": 0.728506787
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553895903,
+        "memory": 778240,
+        "msg": "points 0.7177033493 Ratio: 0.717703349 (cells=1800, W=132, H=19, area=2508)\n",
+        "scoreRatio": 0.717703349,
+        "scoreRatioUnbounded": 0.717703349
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554689769,
+        "memory": 778240,
+        "msg": "points 0.7249544627 Ratio: 0.724954463 (cells=1194, W=61, H=27, area=1647)\n",
+        "scoreRatio": 0.724954463,
+        "scoreRatioUnbounded": 0.724954463
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554782357,
+        "memory": 778240,
+        "msg": "points 0.7164556962 Ratio: 0.716455696 (cells=1415, W=79, H=25, area=1975)\n",
+        "scoreRatio": 0.716455696,
+        "scoreRatioUnbounded": 0.716455696
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554689731,
+        "memory": 786432,
+        "msg": "points 0.7228571429 Ratio: 0.722857143 (cells=1012, W=56, H=25, area=1400)\n",
+        "scoreRatio": 0.722857143,
+        "scoreRatioUnbounded": 0.722857143
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1554807703,
+        "memory": 1040384,
+        "msg": "points 0.736453202 Ratio: 0.736453202 (cells=1196, W=58, H=28, area=1624)\n",
+        "scoreRatio": 0.736453202,
+        "scoreRatioUnbounded": 0.736453202
+      },
+      {
+        "ok": false,
+        "status": "Wrong Answer",
+        "time": 1553900825,
+        "memory": 835584,
+        "msg": "points 0.701754386 Ratio: 0.701754386 (cells=1200, W=114, H=15, area=1710)\n",
+        "scoreRatio": 0.701754386,
+        "scoreRatioUnbounded": 0.701754386
+      }
+    ]
+  }
+}

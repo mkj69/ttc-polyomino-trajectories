@@ -1,0 +1,8 @@
+[slot 1 20:59:08] Phase1 overshoots budget when non-monotone width order causes last_trial_time underestimation; fix: sort widths descending + track max_trial_time
+[slot 2 21:55:42] compact Y+X iteration DOES NOT reduce height for large n (n=10000 realistic, skyH=152, aH=152) - compact only helps for small n with narrow W; cost: measured in debug
+[slot 1 01:06:32] hypothesis=separate_loops_helps_n1500; tested sol_sep1500: local 9/10 better avg-368; judge gave 78.15% WORSE; timing shift at n=700-1000 dominated; any code change to else branch (n>1000) causes binary layout change affecting ALL n values
+[slot 1 02:29:36] p2bl700 scored 81.02% (sid=61) vs 81.04% champion — Phase 2 BL threshold change to n<=700 WORSE; timing noise affects n=300
+[slot 1 03:27:38] NEGATIVE; bl1200 (BL extended to n<=1200): 80.92% vs 82.18% champion — CATASTROPHIC; timing regressions for n=1300-1500 from binary layout change dominate; do NOT extend BL beyond n=1000
+[slot 0 07:35:45] comb9 n=3000 6W/2L WAS TIMING ARTIFACT; w9n2k (same for n>=2000) shows 1W/1L for n=3000; local results for n>1500 unreliable due to Phase2 shuffle timing variance
+[slot 0 07:35:45] bumpbreak (bump as secondary tiebreak): 0W/4L for n=300; HURTS; do not use
+[slot 0 07:36:42] orientOptimize post-compact: 0W/3L for n=100; hurts timing; not viable

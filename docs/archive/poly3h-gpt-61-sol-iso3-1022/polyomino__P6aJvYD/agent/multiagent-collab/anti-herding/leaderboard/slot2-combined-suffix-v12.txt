@@ -1,0 +1,6 @@
+score=97.99698141142858
+lineage=peer small elite suffix + own compact large suffix + resource/terminal construction
+source=/logs/agent/multiagent-collab/anti-herding/work-2/combined-suffix-v12-standalone.cpp
+evidence=officialuuid44c78768;8productionvalid, extremes+/-1e9; solvermax1.910s
+cost=1official+8production15.37s
+counterevidence=no sealed-component bound merged yet; time allocated to fixed-family constructors might remain suboptimal

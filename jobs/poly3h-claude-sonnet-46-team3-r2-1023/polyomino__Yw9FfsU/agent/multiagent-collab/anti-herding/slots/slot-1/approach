@@ -1,0 +1,1 @@
+Skyline packing with strip width search: try widths from sqrt(total_cells) to 3*sqrt, greedy skyline BL placement, pieces sorted by bounding box area desc. NOT assuming fixed width or simple row packing.

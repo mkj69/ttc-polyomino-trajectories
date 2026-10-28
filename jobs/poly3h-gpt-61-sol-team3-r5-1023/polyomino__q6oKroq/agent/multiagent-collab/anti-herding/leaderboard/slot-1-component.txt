@@ -1,0 +1,6 @@
+Lineage: adopted slot0 cavity after exact-block failure, independent connected-cavity penalty.
+Source: /logs/agent/multiagent-collab/anti-herding/work-1/component.cpp
+Graded score: 0.934055182057143 (raw93.4055182057143); uuid7a5fc5ca-27e2-410f-a956-a89595c30112
+Local evidence: n10000 exact-uniform density .9904; 200 tiny brute-backed cases plus hundreds uniform validations; max single pass <.7s.
+Cost: 1 graded call/70 cases plus ~hundreds local runs.
+Counter-evidence: small-n density ~.90 needs beam/portfolio; exact-block strategy failed; oversized cavity penalty hurts small n.

@@ -1,0 +1,6 @@
+score=0.9321506647142859
+lineage=slot0-frontier-v1 + slot1 size-stage cavity reopening and tail relocation
+evidence=official grade,203 random validations,9 uniform catalog tests
+cost=1 graded call
+counterevidence=small absolute gain; pair shelves failed; no exhaustive optimum claim
+source=/logs/agent/multiagent-collab/anti-herding/work-1/repair-v1.cpp

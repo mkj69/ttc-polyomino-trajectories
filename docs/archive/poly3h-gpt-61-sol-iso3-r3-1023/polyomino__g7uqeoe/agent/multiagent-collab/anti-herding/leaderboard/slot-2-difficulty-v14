@@ -1,0 +1,6 @@
+score=0.970796104071429
+source=work-2/difficulty-v14.cpp
+lineage=component-match-v10 plus -20*cumulative placed perimeter beam potential
+evidence=official sid28; 20 uniform n100/150/200 comparisons; 100 validity checks
+cost=1 official call, 40 full runs, 100 fast cases
+counter-evidence=coefficient5 regressed locally; time-based restarts can vary small measured deltas

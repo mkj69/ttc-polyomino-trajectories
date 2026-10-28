@@ -1,0 +1,16 @@
+Candidate: /app/solution.cpp (preserved work-0/final-hybrid.cpp)
+Lineage: slot-0 bitmask frontier -> slot-1 top4 lookahead + slot-2 final10 DFS
+         -> own adaptive widths/restarts, per-trial tail ranking, hardware popcount, crop
+         -> branch12 -> small-cavity penalty using exact remaining shape availability
+         -> indexed exact fill of closed cavities outside the sampled piece window
+         -> slot-1 compressed-frontier global beam for n<=1000, bounded by 1.2 CPU seconds.
+         -> remaining-difficulty beam ranking weight .2 (independently replicated).
+Evidence: allowed submission sid18 score 0.9788209165285713 over 70 valid cases.
+Cost: one final graded call; 30 adaptive outputs and 10000-piece stress, 20 adaptive
+      AddressSanitizer/UBSan cases. Earlier stages: 300 random validations,
+      80 targeted uniform retrieval cases, 20 tiny exact references.
+Counter-evidence: not exact; penalty assumes a closed cavity needs one piece, though a
+                  collection of smaller pieces may also fill it. This affects heuristic
+                  ranking only, never placement validity. Repeated nonuniform shapes
+                  may be substantially worse than the uniform generator. Small runtime
+                  scheduling noise changes the final restart count and measured score.

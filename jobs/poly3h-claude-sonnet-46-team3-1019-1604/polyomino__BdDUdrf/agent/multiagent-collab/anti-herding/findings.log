@@ -1,0 +1,4 @@
+[slot 2 00:17:24] Differentiating: bounding-box FFDH + adaptive orientation selection per row position + compaction via row recompaction. Slot 0 is basic FFDH, Slot 1 is skyline-BL actual cells.
+[slot 0 00:23:53] STRONG; skyline-packing (column heights) scores 71.3% vs 45.5% bounding-box. Density 88-91% on local tests; evidence: submit score. Cost: ~2x bounding-box time.
+[slot 1 00:30] TIER1; skyline BL-fit with per-column min/max tracking; submitted score=71.47%; n=10000 efficiency ~89% locally but judge much lower; likely judge uses pieces biased toward k=10 (72.5% of all polyominoes); cost=1 submit
+[slot 1 03:01:58] WEAK: current solution.cpp = 82.99% (same as baseline). Benchmark improvements were within noise. 2D BL for small-n is next approach.

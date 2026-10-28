@@ -1,0 +1,1 @@
+Height-map greedy: sort by min-bbox-area (smallest bounding box over all orientations), try widths via adaptive search, scoring by waste minimization (new_height*W - cells). Different from slot 0: different sort key, different scoring (waste not topmost-y), different width search (adaptive/narrower range). Will NOT use topmost-y scoring or cell-count sort.

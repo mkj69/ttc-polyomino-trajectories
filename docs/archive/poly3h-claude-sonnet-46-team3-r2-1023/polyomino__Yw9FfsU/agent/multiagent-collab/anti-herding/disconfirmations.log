@@ -1,0 +1,1 @@
+[slot 1 05:41:19] NEGATIVE: test_width.cpp (no output, only stderr) gave invalid verify results - those 58750 area measurements were from tw which has no stdout output, so benchmarks comparing tw to bench were bogus. tw results are INVALID.

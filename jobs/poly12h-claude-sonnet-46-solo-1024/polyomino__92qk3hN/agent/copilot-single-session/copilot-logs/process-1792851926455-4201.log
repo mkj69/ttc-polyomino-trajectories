@@ -1,0 +1,70 @@
+2026-10-24T14:25:26.456Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-24T14:25:26.458Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-24T14:25:26.458Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-24T14:25:26.472Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-24T14:25:26.473Z [INFO] OpenTelemetry tracker created for session 93fb41d1-ae57-4f0c-a3cd-9e32a5066897
+2026-10-24T14:25:26.561Z [INFO] Workspace initialized: 93fb41d1-ae57-4f0c-a3cd-9e32a5066897 (checkpoints: 0)
+2026-10-24T14:25:26.576Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-24T14:25:26.576Z [INFO] Node.js version: v24.16.0
+2026-10-24T14:25:26.597Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-24T14:25:26.606Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-24T14:25:26.687Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-24T14:25:26.688Z [INFO]  
+2026-10-24T14:25:26.722Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T14:25:26.723Z [INFO] --- End of group ---
+2026-10-24T14:57:52.560Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T14:57:52.561Z [INFO] --- End of group ---
+2026-10-24T14:59:09.420Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T14:59:09.425Z [INFO] Persisted checkpoint #1: Polyomino packing skyline solver 71.77%
+2026-10-24T15:06:59.047Z [INFO] CompactionProcessor: Compaction complete - replaced 40 messages with summary + 6 new messages, saved ~100969 tokens
+2026-10-24T15:35:31.256Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T15:35:31.256Z [INFO] --- End of group ---
+2026-10-24T15:36:41.777Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T15:36:41.782Z [INFO] Persisted checkpoint #2: Polyomino packing 72.68% with random orderings
+2026-10-24T15:37:29.536Z [INFO] CompactionProcessor: Compaction complete - replaced 69 messages with summary + 6 new messages, saved ~127614 tokens
+2026-10-24T16:12:13.264Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T16:12:13.265Z [INFO] --- End of group ---
+2026-10-24T16:13:14.076Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T16:13:14.080Z [INFO] Persisted checkpoint #3: BL pixel packing 76.42% with n≤300 interlocking
+2026-10-24T16:13:21.210Z [INFO] CompactionProcessor: Compaction complete - replaced 79 messages with summary + 6 new messages, saved ~129333 tokens
+2026-10-24T16:57:03.815Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T16:57:03.815Z [INFO] --- End of group ---
+2026-10-24T16:58:07.412Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T16:58:07.417Z [INFO] Persisted checkpoint #4: Actual bounding box optimization attempt
+2026-10-24T17:00:06.471Z [INFO] CompactionProcessor: Compaction complete - replaced 87 messages with summary + 4 new messages, saved ~119742 tokens
+2026-10-24T17:30:54.558Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T17:30:54.558Z [INFO] --- End of group ---
+2026-10-24T17:32:01.244Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T17:32:01.249Z [INFO] Persisted checkpoint #5: actW optimization, ILS/colH attempts reverted
+2026-10-24T17:37:36.992Z [INFO] CompactionProcessor: Compaction complete - replaced 46 messages with summary + 2 new messages, saved ~128262 tokens
+2026-10-24T18:12:27.661Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T18:12:27.662Z [INFO] --- End of group ---
+2026-10-24T18:13:51.099Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T18:13:51.103Z [INFO] Persisted checkpoint #6: Fast bitset BL extended to n≤2000
+2026-10-24T18:14:39.611Z [INFO] CompactionProcessor: Compaction complete - replaced 38 messages with summary + 10 new messages, saved ~127409 tokens
+2026-10-24T18:58:57.490Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T18:58:57.490Z [INFO] --- End of group ---
+2026-10-24T19:00:22.085Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T19:00:22.090Z [INFO] Persisted checkpoint #7: ILS BL packing with height compression
+2026-10-24T19:00:57.398Z [INFO] CompactionProcessor: Compaction complete - replaced 165 messages with summary + 28 new messages, saved ~128807 tokens
+2026-10-24T20:42:42.900Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T20:42:42.901Z [INFO] --- End of group ---
+2026-10-24T20:44:01.251Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T20:44:01.256Z [INFO] Persisted checkpoint #8: BL ILS compression optimization 78.22%
+2026-10-24T20:47:51.777Z [INFO] CompactionProcessor: Compaction complete - replaced 239 messages with summary + 2 new messages, saved ~128778 tokens
+2026-10-24T22:32:48.768Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T22:32:48.769Z [INFO] --- End of group ---
+2026-10-24T22:34:15.640Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T22:34:15.645Z [INFO] Persisted checkpoint #9: Time budget rebalancing to 78.24%
+2026-10-24T22:34:17.631Z [INFO] CompactionProcessor: Compaction complete - replaced 189 messages with summary + 2 new messages, saved ~123029 tokens
+2026-10-24T23:41:03.668Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T23:41:03.668Z [INFO] --- End of group ---
+2026-10-24T23:42:19.994Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T23:42:19.999Z [INFO] Persisted checkpoint #10: BL extended to large n, scoring 78.30%
+2026-10-24T23:43:13.241Z [INFO] CompactionProcessor: Compaction complete - replaced 138 messages with summary + 4 new messages, saved ~127087 tokens
+2026-10-25T00:16:10.292Z [INFO] System notification: Shell command "Test 2-opt perturbation vs current" (shellId: 406) has completed ...
+2026-10-25T01:23:31.740Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-25T01:23:31.740Z [INFO] --- End of group ---
+2026-10-25T01:24:43.190Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-25T01:24:43.196Z [INFO] Persisted checkpoint #11: 2-opt perturbation and BL height limit improvements
+2026-10-25T01:25:19.809Z [INFO] CompactionProcessor: Compaction complete - replaced 187 messages with summary + 4 new messages, saved ~126728 tokens

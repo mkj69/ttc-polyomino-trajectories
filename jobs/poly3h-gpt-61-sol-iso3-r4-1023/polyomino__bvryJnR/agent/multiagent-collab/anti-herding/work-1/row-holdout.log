@@ -1,0 +1,36 @@
+n=125 seed=430 policy=0 density=0.963797 seconds=1.785
+n=125 seed=430 policy=2 density=0.969256 seconds=1.786
+n=125 seed=811 policy=0 density=0.976461 seconds=1.787
+n=125 seed=811 policy=2 density=0.967820 seconds=1.787
+n=125 seed=2067 policy=0 density=0.972154 seconds=1.786
+n=125 seed=2067 policy=2 density=0.969771 seconds=1.785
+n=125 seed=19971 policy=0 density=0.966828 seconds=1.788
+n=125 seed=19971 policy=2 density=0.969968 seconds=1.784
+MEAN 125 {0: (0.96981, 1.786532), 2: (0.969204, 1.785444)}
+n=175 seed=430 policy=0 density=0.974942 seconds=1.790
+n=175 seed=430 policy=2 density=0.981232 seconds=1.787
+n=175 seed=811 policy=0 density=0.981935 seconds=1.787
+n=175 seed=811 policy=2 density=0.975116 seconds=1.787
+n=175 seed=2067 policy=0 density=0.969890 seconds=1.794
+n=175 seed=2067 policy=2 density=0.969890 seconds=1.801
+n=175 seed=19971 policy=0 density=0.981700 seconds=1.798
+n=175 seed=19971 policy=2 density=0.975367 seconds=1.799
+MEAN 175 {0: (0.977117, 1.79214), 2: (0.975401, 1.793446)}
+n=200 seed=430 policy=0 density=0.978528 seconds=1.800
+n=200 seed=430 policy=2 density=0.977528 seconds=1.799
+n=200 seed=811 policy=0 density=0.980592 seconds=1.798
+n=200 seed=811 policy=2 density=0.980592 seconds=1.800
+n=200 seed=2067 policy=0 density=0.976507 seconds=1.799
+n=200 seed=2067 policy=2 density=0.976507 seconds=1.800
+n=200 seed=19971 policy=0 density=0.980372 seconds=1.798
+n=200 seed=19971 policy=2 density=0.980372 seconds=1.800
+MEAN 200 {0: (0.979, 1.798895), 2: (0.97875, 1.800013)}
+n=300 seed=430 policy=0 density=0.979231 seconds=1.799
+n=300 seed=430 policy=2 density=0.979231 seconds=1.800
+n=300 seed=811 policy=0 density=0.983937 seconds=1.798
+n=300 seed=811 policy=2 density=0.980252 seconds=1.800
+n=300 seed=2067 policy=0 density=0.981203 seconds=1.799
+n=300 seed=2067 policy=2 density=0.976531 seconds=1.800
+n=300 seed=19971 policy=0 density=0.981749 seconds=1.796
+n=300 seed=19971 policy=2 density=0.985482 seconds=1.800
+MEAN 300 {0: (0.98153, 1.798005), 2: (0.980374, 1.79982)}

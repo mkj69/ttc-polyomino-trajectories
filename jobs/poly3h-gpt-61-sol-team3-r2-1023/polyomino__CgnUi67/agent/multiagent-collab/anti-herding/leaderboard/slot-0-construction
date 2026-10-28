@@ -1,0 +1,5 @@
+Lineage:43smallsuffix +44allpending +48tabu1 +slot0hardwarepopcnt
+Score:96.8162658729 submission56 uuid2fdadc55-22e0-4977-9f3a-539d9f674d57
+Source: /logs/agent/multiagent-collab/anti-herding/work-0/best-96816.cpp
+Evidence:fullgrade,3maxuniformfixedpasses1.11-1.24seconds vsnonpopcntdeadlineabortall3 underconcurrency,3mediumoutputslegal.
+Cost:1grade+9localfullruns. Counterevidence:gradedgainonly.0096raw; platformx86requirespopcntsupport (confirmedbysuccessfulruns). Currentrootmatches.

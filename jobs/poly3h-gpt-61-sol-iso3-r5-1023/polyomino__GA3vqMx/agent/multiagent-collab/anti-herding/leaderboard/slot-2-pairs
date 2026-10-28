@@ -1,0 +1,5 @@
+lineage=independent-exact-pairs-contour-skyline
+source=/logs/agent/multiagent-collab/anti-herding/work-2/macro-pairs.cpp
+evidence=200 randomized valid; catalogue n10000 density0.914845, time2.134s, paired314/10000
+cost=local203 runs, no allowed submission
+counterevidence=only3.14% pair coverage, time exceeds2s, pair board same result as singles

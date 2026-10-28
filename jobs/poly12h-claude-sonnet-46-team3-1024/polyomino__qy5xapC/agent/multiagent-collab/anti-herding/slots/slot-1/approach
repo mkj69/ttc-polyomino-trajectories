@@ -1,0 +1,1 @@
+Skyline-based greedy strip packing: try multiple widths around sqrt(total_cells), for each piece try all 8 orientations and choose placement minimizing height increase; deliberately NOT assuming bounding-box approximation (using exact cell-by-cell skyline)

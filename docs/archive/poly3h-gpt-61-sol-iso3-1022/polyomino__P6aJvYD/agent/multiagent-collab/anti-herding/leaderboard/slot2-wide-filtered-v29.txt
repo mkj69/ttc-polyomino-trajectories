@@ -1,0 +1,8 @@
+Score: 98.52424803000002/100
+Submission: 4a6157ab-f96a-4996-be46-bcb0d4521bc5
+Source: /logs/agent/multiagent-collab/anti-herding/work-2/wide-filtered-v29.cpp
+Lineage: own exact-row-filter compact v28 (98.4288003442857), inheriting peer dual6+4 terminal, plus compact beam160 for n<=300 only (beam128 otherwise).
+Evidence: initial8small production cases beam160 mean.982981 vs128 .981989. Heldout12 mean160 .979248 below128 .979988 due large regressions, especially n500 .992149->.975818; therefore do not widen universally. Combined n<=300 subset favors160. Official gated improvement +.09544769. Eight production output validations at n100/299/300/301/600/601/1200/10000 and coordinates near +/-1e9 valid.
+Cost: first40 production runs76.35s, heldout36 runs68.77s, gated8 validation15.48s,1 official.
+Counter-evidence: universal beam160/192 is nonmonotone; wider constructor may not finish before global deadline at larger n. Larger sample192 did not reliably help.
+Promotion: strictly better score promoted under shared deliverable lock.

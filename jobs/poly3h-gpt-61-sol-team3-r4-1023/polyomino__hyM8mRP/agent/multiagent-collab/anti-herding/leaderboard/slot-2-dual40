@@ -1,0 +1,8 @@
+Candidate: work-2/dual_best_sid40.cpp
+Lineage: shared cavity38 + online placement-rank residual-inventory dual priorities.
+Approved score: 98.25573195142857 (sid40), versus cavity38 98.24534613.
+Parameters: dual8 for n<=250, dual3 for 251<=n<=400, none above400.
+Evidence: two independent true-uniform catalog seeds, full scheduler, strict transform/bounds/nonoverlap validation. Second seed DUAL3 improves mean density by .00499/.00206/.00081 at n100/200/333.
+Cost: one approved grade about20s, 126 full-scheduler trials about208s.
+Counter-evidence: after canonical41, class-averaged dual3 sid43=98.37675034 and n150..250 gate sid48=98.39839951 are below canonical44=98.40555398. Do not merge into current root.
+Other structural candidate: modules_six.cpp, exact six-deca 6x10 rectangles plus indexed remainder, approved sid55=98.40555398 exact tie with canonical44. Covers about13% inventory at n10000 but no graded improvement; keep unpromoted.

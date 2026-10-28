@@ -1,0 +1,243 @@
+n=100 seed=143 width=11 mode=0 density=0.945652 seconds=0.098
+warmstart 31x34
+beam 11 -> 11x92 time 0.0696794
+
+n=100 seed=143 width=11 mode=1 density=0.945652 seconds=0.123
+warmstart 31x34
+beam 11 -> 11x92 time 0.0944875
+
+n=100 seed=143 width=16 mode=0 density=0.949405 seconds=0.105
+warmstart 31x34
+beam 16 -> 16x63 time 0.0771852
+
+n=100 seed=143 width=16 mode=1 density=0.949405 seconds=0.125
+warmstart 31x34
+beam 16 -> 16x63 time 0.0984564
+
+n=100 seed=143 width=20 mode=0 density=0.920192 seconds=0.108
+warmstart 31x34
+beam 20 -> 20x52 time 0.0796497
+
+n=100 seed=143 width=20 mode=1 density=0.938235 seconds=0.129
+warmstart 31x34
+beam 20 -> 20x51 time 0.102096
+
+n=100 seed=143 width=24 mode=0 density=0.927326 seconds=0.104
+warmstart 31x34
+beam 24 -> 24x43 time 0.0774217
+
+n=100 seed=143 width=24 mode=1 density=0.927326 seconds=0.134
+warmstart 31x34
+beam 24 -> 24x43 time 0.106317
+
+n=100 seed=143 width=28 mode=0 density=0.923745 seconds=0.094
+warmstart 31x34
+beam 28 -> 28x37 time 0.0656151
+
+n=100 seed=143 width=28 mode=1 density=0.923745 seconds=0.123
+warmstart 31x34
+beam 28 -> 28x37 time 0.0964458
+
+n=100 seed=925 width=11 mode=0 density=0.943676 seconds=0.088
+warmstart 16x67
+beam 11 -> 11x92 time 0.0630923
+
+n=100 seed=925 width=11 mode=1 density=0.954046 seconds=0.113
+warmstart 16x67
+beam 11 -> 11x91 time 0.0851216
+
+n=100 seed=925 width=16 mode=0 density=0.947421 seconds=0.093
+warmstart 16x67
+beam 16 -> 16x63 time 0.0650948
+
+n=100 seed=925 width=16 mode=1 density=0.947421 seconds=0.115
+warmstart 16x67
+beam 16 -> 16x63 time 0.0867953
+
+n=100 seed=925 width=20 mode=0 density=0.936275 seconds=0.094
+warmstart 16x67
+beam 20 -> 20x51 time 0.0683439
+
+n=100 seed=925 width=20 mode=1 density=0.936275 seconds=0.117
+warmstart 16x67
+beam 20 -> 20x51 time 0.0927619
+
+n=100 seed=925 width=24 mode=0 density=0.947421 seconds=0.092
+warmstart 16x67
+beam 24 -> 24x42 time 0.0641205
+
+n=100 seed=925 width=24 mode=1 density=0.947421 seconds=0.116
+warmstart 16x67
+beam 24 -> 24x42 time 0.0893043
+
+n=100 seed=925 width=28 mode=0 density=0.921815 seconds=0.092
+warmstart 16x67
+beam 28 -> 28x37 time 0.0644382
+
+n=100 seed=925 width=28 mode=1 density=0.897556 seconds=0.134
+warmstart 16x67
+beam 28 -> 28x38 time 0.106062
+
+MEAN 100 {(11, 0): (0.944664, 0.093112), (11, 1): (0.949849, 0.117915), (16, 0): (0.948413, 0.099141), (16, 1): (0.948413, 0.119817), (20, 0): (0.928233, 0.101065), (20, 1): (0.937255, 0.123282), (24, 0): (0.937373, 0.097988), (24, 1): (0.937373, 0.124849), (28, 0): (0.92278, 0.09284), (28, 1): (0.910651, 0.128467)}
+n=150 seed=143 width=11 mode=0 density=0.967677 seconds=0.176
+warmstart 38x42
+beam 11 -> 11x135 time 0.141685
+
+n=150 seed=143 width=11 mode=1 density=0.974898 seconds=0.225
+warmstart 16x98
+beam 11 -> 11x134 time 0.197154
+
+n=150 seed=143 width=16 mode=0 density=0.955452 seconds=0.184
+warmstart 16x98
+beam 16 -> 16x94 time 0.155681
+
+n=150 seed=143 width=16 mode=1 density=0.965726 seconds=0.246
+warmstart 16x98
+beam 16 -> 16x93 time 0.217509
+
+n=150 seed=143 width=20 mode=0 density=0.958000 seconds=0.184
+warmstart 16x98
+beam 20 -> 20x75 time 0.15572
+
+n=150 seed=143 width=20 mode=1 density=0.958000 seconds=0.232
+warmstart 20x78
+beam 20 -> 20x75 time 0.205467
+
+n=150 seed=143 width=24 mode=0 density=0.950397 seconds=0.184
+warmstart 20x78
+beam 24 -> 24x63 time 0.157525
+
+n=150 seed=143 width=24 mode=1 density=0.950397 seconds=0.237
+warmstart 16x98
+beam 24 -> 24x63 time 0.20824
+
+n=150 seed=143 width=28 mode=0 density=0.933117 seconds=0.183
+warmstart 20x78
+beam 28 -> 28x55 time 0.156028
+
+n=150 seed=143 width=28 mode=1 density=0.933117 seconds=0.253
+warmstart 20x78
+beam 28 -> 28x55 time 0.226338
+
+n=150 seed=925 width=11 mode=0 density=0.963636 seconds=0.153
+warmstart 16x95
+beam 11 -> 11x135 time 0.123318
+
+n=150 seed=925 width=11 mode=1 density=0.970828 seconds=0.197
+warmstart 16x95
+beam 11 -> 11x134 time 0.168629
+
+n=150 seed=925 width=16 mode=0 density=0.961694 seconds=0.156
+warmstart 16x95
+beam 16 -> 16x93 time 0.127535
+
+n=150 seed=925 width=16 mode=1 density=0.961694 seconds=0.219
+warmstart 16x95
+beam 16 -> 16x93 time 0.19123
+
+n=150 seed=925 width=20 mode=0 density=0.966892 seconds=0.163
+warmstart 16x95
+beam 20 -> 20x74 time 0.134753
+
+n=150 seed=925 width=20 mode=1 density=0.966892 seconds=0.212
+warmstart 16x95
+beam 20 -> 20x74 time 0.185075
+
+n=150 seed=925 width=24 mode=0 density=0.946429 seconds=0.160
+warmstart 16x95
+beam 24 -> 24x63 time 0.133356
+
+n=150 seed=925 width=24 mode=1 density=0.946429 seconds=0.214
+warmstart 16x95
+beam 24 -> 24x63 time 0.18477
+
+n=150 seed=925 width=28 mode=0 density=0.946429 seconds=0.156
+warmstart 16x95
+beam 28 -> 28x54 time 0.127749
+
+n=150 seed=925 width=28 mode=1 density=0.941447 seconds=0.232
+warmstart 16x95
+beam 28 -> 28x55 time 0.204689
+
+MEAN 150 {(11, 0): (0.965657, 0.164605), (11, 1): (0.972863, 0.210968), (16, 0): (0.958573, 0.170128), (16, 1): (0.96371, 0.23221), (20, 0): (0.962446, 0.173806), (20, 1): (0.962446, 0.221576), (24, 0): (0.948413, 0.172118), (24, 1): (0.948413, 0.225434), (28, 0): (0.939773, 0.169308), (28, 1): (0.937282, 0.242821)}
+n=250 seed=143 width=11 mode=0 density=0.980840 seconds=0.374
+warmstart 50x52
+beam 11 -> 11x223 time 0.343023
+
+n=250 seed=143 width=11 mode=1 density=0.976461 seconds=0.510
+warmstart 50x52
+beam 11 -> 11x224 time 0.479271
+
+n=250 seed=143 width=16 mode=0 density=0.976461 seconds=0.407
+warmstart 50x52
+beam 16 -> 16x154 time 0.376597
+
+n=250 seed=143 width=16 mode=1 density=0.982843 seconds=0.544
+warmstart 50x52
+beam 16 -> 16x153 time 0.513378
+
+n=250 seed=143 width=20 mode=0 density=0.978049 seconds=0.424
+warmstart 50x52
+beam 20 -> 20x123 time 0.389527
+
+n=250 seed=143 width=20 mode=1 density=0.970161 seconds=0.545
+warmstart 50x52
+beam 20 -> 20x124 time 0.514619
+
+n=250 seed=143 width=24 mode=0 density=0.973301 seconds=0.382
+warmstart 50x52
+beam 24 -> 24x103 time 0.347947
+
+n=250 seed=143 width=24 mode=1 density=0.963942 seconds=0.537
+warmstart 50x52
+beam 24 -> 24x104 time 0.503461
+
+n=250 seed=143 width=28 mode=0 density=0.965490 seconds=0.388
+warmstart 50x52
+beam 28 -> 28x89 time 0.354479
+
+n=250 seed=143 width=28 mode=1 density=0.965490 seconds=0.555
+warmstart 50x52
+beam 28 -> 28x89 time 0.520845
+
+n=250 seed=925 width=11 mode=0 density=0.976355 seconds=0.496
+warmstart 49x53
+beam 11 -> 11x223 time 0.466874
+
+n=250 seed=925 width=11 mode=1 density=0.980753 seconds=0.527
+warmstart 49x53
+beam 11 -> 11x222 time 0.493416
+
+n=250 seed=925 width=16 mode=0 density=0.978350 seconds=0.362
+warmstart 49x53
+beam 16 -> 16x153 time 0.327764
+
+n=250 seed=925 width=16 mode=1 density=0.978350 seconds=0.515
+warmstart 49x53
+beam 16 -> 16x153 time 0.485673
+
+n=250 seed=925 width=20 mode=0 density=0.973577 seconds=0.375
+warmstart 49x53
+beam 20 -> 20x123 time 0.344148
+
+n=250 seed=925 width=20 mode=1 density=0.973577 seconds=0.530
+warmstart 49x53
+beam 20 -> 20x123 time 0.495817
+
+n=250 seed=925 width=24 mode=0 density=0.978350 seconds=0.363
+warmstart 49x53
+beam 24 -> 24x102 time 0.328877
+
+n=250 seed=925 width=24 mode=1 density=0.968851 seconds=0.514
+warmstart 49x53
+beam 24 -> 24x103 time 0.484749
+
+n=250 seed=925 width=28 mode=0 density=0.961075 seconds=0.350
+warmstart 49x53
+beam 28 -> 28x89 time 0.319643
+
+n=250 seed=925 width=28 mode=1 density=0.961075 seconds=0.550
+warmstart 49x53
+beam 28 -> 28x89 time 0.515949
+
+MEAN 250 {(11, 0): (0.978598, 0.435228), (11, 1): (0.978607, 0.518733), (16, 0): (0.977405, 0.384708), (16, 1): (0.980596, 0.529535), (20, 0): (0.975813, 0.399104), (20, 1): (0.971869, 0.537462), (24, 0): (0.975825, 0.372237), (24, 1): (0.966397, 0.525584), (28, 0): (0.963283, 0.368756), (28, 1): (0.963283, 0.552825)}

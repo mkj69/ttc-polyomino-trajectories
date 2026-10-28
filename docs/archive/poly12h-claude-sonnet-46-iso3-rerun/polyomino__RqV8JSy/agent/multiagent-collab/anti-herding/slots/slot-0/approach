@@ -1,0 +1,1 @@
+APPROACH: Skyline BL packing with cell-level placement. For each candidate W near sqrt(total_cells), choose min-height orientations, sort pieces by height-desc, use skyline bottom-left to pack. Will NOT assume bounding-box rectangular pieces; uses per-cell skyline update. Will NOT use row-only strip packing.

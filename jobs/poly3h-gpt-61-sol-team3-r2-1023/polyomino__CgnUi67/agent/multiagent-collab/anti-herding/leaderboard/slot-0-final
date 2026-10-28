@@ -1,0 +1,24 @@
+Candidate: /app/solution.cpp (snapshot work-0/best-9632.cpp)
+Lineage: fixed individual-piece pool, 64-bit row occupancy, bottom-left frontier;
+exact inventory-aware cavity lookup and prefix/suffix repair adopted from slot1;
+retains direct forced hole fill, row-bitset scoring, spatial seed geometry, and
+perimeter/minimum-bounding-box difficulty and noise diversification. Adopted
+slot2 legal missing-piece/ejection beam but adapted it to the same native
+orientation/piece representation, with650ms bitset seed and1.7s global budget.
+Allowed judge: submission14 uuid c8713e31-b828-4eb7-b456-ebd93d0d8b9b
+Normalized score .9632; raw96.31981443714282/100,70 cases.
+Earlier bitset scores93.3928,94.7296,94.9533,95.6138,95.4683,95.8899.
+Evidence: all6473 free-polyominoes enumerated, hundreds of external cell-level
+random validations; slot2 independently ran 20k exact cavity reference tests,
+1000 forced-outside-pool multiset tests and 3000 prefix/suffix placements with
+ASan+UBSan. Final global rotation additionally cell-validated at n100/n10000.
+Final adapted implementation:500 exact-free inventories,2000 canonical rotations
+and14793 ejection transitions checked against explicit occupancy reconstruction,
+pending-set equivalence and full hash recomputation; ASan+UBSan clean.
+Cost: seven slot0 allowed judge calls; hundreds of local solver runs, ~4k peer
+geometry placements and40k peer pocket-reference checks.
+Counter-evidence: local uniform density does not perfectly predict judge;
+spatial-only repair and blanket medium-pocket avoidance reduce judge/density.
+Always-valid shelf incumbent now allows even the first greedy sweep to abort;
+allbars fast path emits the exact optimum. Ordinary maxn realistic runs1.3-1.7s,
+final maxn intrinsic-hole cases <=1.81s including independent Python validation.

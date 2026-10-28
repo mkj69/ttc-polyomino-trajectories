@@ -1,0 +1,180 @@
+n 100 seed 0 areas [1032, 1032] cpu 0.609653 tail 16 moves 11074 iterations 4672 best_overlap 4
+ tail 16 moves 11074 iterations 4800 best_overlap 2
+ tail 16 moves 11074 iterations 4160 best_overlap 3
+ tail 16 moves 8609 iterations 4800 best_overlap 4
+ tail 16 moves 8884 iterations 4672 best_overlap 5
+ tail 16 moves 10463 iterations 4160 best_overlap 3
+attempts 6
+n 100 seed 1 areas [1008, 1008] cpu 0.6095599999999999 tail 16 moves 10392 iterations 6720 best_overlap 5
+ tail 16 moves 10392 iterations 6208 best_overlap 3
+ tail 16 moves 10392 iterations 4288 best_overlap 5
+ tail 16 moves 10392 iterations 4160 best_overlap 5
+ tail 16 moves 9578 iterations 10304 best_overlap 6
+ tail 16 moves 8242 iterations 6208 best_overlap 5
+attempts 6
+n 100 seed 2 areas [1020, 1020] cpu 0.6073000000000002 tail 16 moves 10333 iterations 5184 best_overlap 2
+ tail 16 moves 10333 iterations 4672 best_overlap 4
+ tail 16 moves 10874 iterations 5568 best_overlap 5
+ tail 16 moves 9576 iterations 4672 best_overlap 4
+ tail 16 moves 7611 iterations 7744 best_overlap 5
+ tail 16 moves 7595 iterations 7104 best_overlap 6
+attempts 6
+n 100 seed 3 areas [996, 996] cpu 0.6067210000000001 tail 16 moves 9551 iterations 8384 best_overlap 5
+ tail 16 moves 9526 iterations 10240 best_overlap 7
+ tail 16 moves 10643 iterations 11840 best_overlap 7
+ tail 16 moves 10643 iterations 6976 best_overlap 5
+ tail 16 moves 6574 iterations 12480 best_overlap 8
+ tail 16 moves 9069 iterations 9920 best_overlap 7
+attempts 6
+n 100 seed 4 areas [1040, 1040] cpu 0.6072669999999999 tail 16 moves 9787 iterations 4160 best_overlap 3
+ tail 16 moves 9787 iterations 4160 best_overlap 3
+ tail 16 moves 9787 iterations 4672 best_overlap 3
+ tail 16 moves 5284 iterations 11776 best_overlap 8
+ tail 16 moves 8581 iterations 4672 best_overlap 4
+ tail 16 moves 7760 iterations 4096 best_overlap 4
+attempts 6
+MEAN 100 [0.9424487919256185, 0.9424487919256185]
+n 150 seed 0 areas [1500, 1500] cpu 0.6077250000000001 tail 16 moves 8922 iterations 4416 best_overlap 5
+ tail 16 moves 8922 iterations 8064 best_overlap 5
+ tail 16 moves 8255 iterations 8768 best_overlap 5
+ tail 16 moves 8068 iterations 5184 best_overlap 5
+ tail 16 moves 8483 iterations 8960 best_overlap 9
+ tail 16 moves 6013 iterations 6336 best_overlap 6
+attempts 6
+n 150 seed 1 areas [1504, 1504] cpu 0.6072659999999994 tail 16 moves 8514 iterations 11840 best_overlap 7
+ tail 16 moves 8514 iterations 5696 best_overlap 5
+ tail 16 moves 8900 iterations 9280 best_overlap 5
+ tail 16 moves 8590 iterations 10560 best_overlap 8
+ tail 16 moves 7450 iterations 13184 best_overlap 7
+ tail 16 moves 5155 iterations 10368 best_overlap 12
+attempts 6
+n 150 seed 2 areas [1530, 1530] cpu 0.6069350000000006 tail 16 moves 10179 iterations 9472 best_overlap 7
+ tail 16 moves 10179 iterations 10240 best_overlap 7
+ tail 16 moves 10179 iterations 10624 best_overlap 9
+ tail 16 moves 5057 iterations 14912 best_overlap 13
+ tail 16 moves 4812 iterations 13632 best_overlap 19
+ tail 16 moves 3652 iterations 12288 best_overlap 10
+attempts 6
+n 150 seed 3 areas [1476, 1476] cpu 0.6036049999999998 tail 16 moves 7288 iterations 17792 best_overlap 9
+ tail 16 moves 7288 iterations 17856 best_overlap 8
+ tail 16 moves 7967 iterations 17664 best_overlap 8
+ tail 16 moves 8582 iterations 17472 best_overlap 7
+ tail 16 moves 5751 iterations 18304 best_overlap 12
+ tail 16 moves 6198 iterations 17792 best_overlap 22
+attempts 6
+n 150 seed 4 areas [1512, 1512] cpu 0.6080919999999999 tail 16 moves 9175 iterations 6528 best_overlap 6
+ tail 16 moves 9175 iterations 5248 best_overlap 5
+ tail 16 moves 9175 iterations 8384 best_overlap 4
+ tail 16 moves 8625 iterations 4672 best_overlap 3
+ tail 16 moves 5120 iterations 12032 best_overlap 7
+ tail 16 moves 5866 iterations 10752 best_overlap 6
+attempts 6
+MEAN 150 [0.9568384082180413, 0.9568384082180413]
+n 250 seed 0 areas [2470, 2470] cpu 0.6092579999999999 tail 16 moves 6158 iterations 7040 best_overlap 5
+ tail 16 moves 6158 iterations 4672 best_overlap 3
+ tail 16 moves 6589 iterations 5760 best_overlap 4
+ tail 16 moves 5534 iterations 11328 best_overlap 7
+ tail 16 moves 7645 iterations 4608 best_overlap 4
+ tail 16 moves 4068 iterations 10752 best_overlap 9
+attempts 6
+n 250 seed 1 areas [2500, 2500] cpu 0.6102249999999995 tail 16 moves 8135 iterations 5696 best_overlap 6
+ tail 16 moves 9130 iterations 10752 best_overlap 6
+ tail 16 moves 8554 iterations 5184 best_overlap 4
+ tail 16 moves 4884 iterations 11520 best_overlap 8
+ tail 16 moves 9130 iterations 4800 best_overlap 4
+ tail 16 moves 5631 iterations 8512 best_overlap 10
+attempts 6
+n 250 seed 2 areas [2500, 2500] cpu 0.6098660000000001 tail 16 moves 9612 iterations 3648 best_overlap 4
+ tail 16 moves 9612 iterations 3840 best_overlap 5
+ tail 16 moves 10130 iterations 4672 best_overlap 4
+ tail 16 moves 8573 iterations 10240 best_overlap 6
+ tail 16 moves 5604 iterations 12992 best_overlap 9
+ tail 16 moves 8353 iterations 10112 best_overlap 9
+attempts 6
+n 250 seed 3 areas [2492, 2492] cpu 0.6083510000000009 tail 16 moves 4788 iterations 12160 best_overlap 8
+ tail 16 moves 4788 iterations 11264 best_overlap 9
+ tail 16 moves 6020 iterations 12736 best_overlap 12
+ tail 16 moves 3911 iterations 11584 best_overlap 17
+ tail 16 moves 3419 iterations 13248 best_overlap 29
+ tail 16 moves 7115 iterations 10112 best_overlap 11
+attempts 6
+n 250 seed 4 areas [2486, 2486] cpu 0.6087259999999997 tail 16 moves 7456 iterations 8128 best_overlap 6
+ tail 16 moves 7420 iterations 11392 best_overlap 7
+ tail 16 moves 8207 iterations 9728 best_overlap 7
+ tail 16 moves 5119 iterations 13120 best_overlap 11
+ tail 16 moves 4987 iterations 11008 best_overlap 13
+ tail 16 moves 4823 iterations 13120 best_overlap 11
+attempts 6
+MEAN 250 [0.9636059852470448, 0.9636059852470448]
+n 400 seed 0 areas [3984, 3984] cpu 0.6127990000000008 tail 16 moves 8782 iterations 4672 best_overlap 3
+ tail 16 moves 8782 iterations 6336 best_overlap 5
+ tail 16 moves 8275 iterations 4480 best_overlap 3
+ tail 16 moves 8869 iterations 11200 best_overlap 6
+ tail 16 moves 4792 iterations 13120 best_overlap 8
+ tail 16 moves 6920 iterations 11840 best_overlap 8
+attempts 6
+n 400 seed 1 areas [3920, 3920] cpu 0.6120440000000009 tail 16 moves 8338 iterations 6912 best_overlap 6
+ tail 16 moves 8338 iterations 4672 best_overlap 4
+ tail 16 moves 7496 iterations 5120 best_overlap 4
+ tail 16 moves 5656 iterations 11008 best_overlap 12
+ tail 16 moves 8188 iterations 4992 best_overlap 3
+ tail 16 moves 6539 iterations 10368 best_overlap 10
+attempts 6
+n 400 seed 2 areas [3960, 3960] cpu 0.610651999999999 tail 16 moves 7843 iterations 9408 best_overlap 7
+ tail 16 moves 7843 iterations 12032 best_overlap 9
+ tail 16 moves 8853 iterations 9856 best_overlap 6
+ tail 16 moves 5457 iterations 13504 best_overlap 21
+ tail 16 moves 7053 iterations 10880 best_overlap 12
+ tail 16 moves 5764 iterations 12608 best_overlap 25
+attempts 6
+n 400 seed 3 areas [3980, 3980] cpu 0.6128400000000004 tail 16 moves 9240 iterations 4800 best_overlap 5
+ tail 16 moves 9240 iterations 4736 best_overlap 4
+ tail 16 moves 10134 iterations 4672 best_overlap 4
+ tail 16 moves 6747 iterations 12288 best_overlap 23
+ tail 16 moves 5216 iterations 12416 best_overlap 8
+ tail 16 moves 7438 iterations 11584 best_overlap 7
+attempts 6
+n 400 seed 4 areas [3976, 3976] cpu 0.6114750000000001 tail 16 moves 5597 iterations 12864 best_overlap 7
+ tail 16 moves 5851 iterations 11008 best_overlap 8
+ tail 16 moves 6941 iterations 12416 best_overlap 10
+ tail 16 moves 3632 iterations 12288 best_overlap 11
+ tail 16 moves 6528 iterations 12672 best_overlap 11
+ tail 16 moves 3329 iterations 11520 best_overlap 16
+attempts 6
+MEAN 400 [0.9685290899706086, 0.9685290899706086]
+n 700 seed 0 areas [6888, 6888] cpu 0.6174610000000003 tail 16 moves 8274 iterations 5440 best_overlap 5
+ tail 16 moves 8274 iterations 7104 best_overlap 6
+ tail 16 moves 9003 iterations 9536 best_overlap 6
+ tail 16 moves 3797 iterations 13120 best_overlap 11
+ tail 16 moves 3398 iterations 11712 best_overlap 13
+ tail 16 moves 7728 iterations 12544 best_overlap 8
+attempts 6
+n 700 seed 1 areas [6816, 6816] cpu 0.6169180000000003 tail 16 moves 6364 iterations 11520 best_overlap 9
+ tail 16 moves 6364 iterations 11392 best_overlap 9
+ tail 16 moves 7457 iterations 12608 best_overlap 9
+ tail 16 moves 3701 iterations 11840 best_overlap 17
+ tail 16 moves 4983 iterations 12928 best_overlap 17
+ tail 16 moves 5248 iterations 10880 best_overlap 14
+attempts 6
+n 700 seed 2 areas [6848, 6848] cpu 0.6206309999999997 tail 16 moves 7642 iterations 4160 best_overlap 3
+ tail 16 moves 7642 iterations 4672 best_overlap 3
+ tail 16 moves 8822 iterations 4480 best_overlap 3
+ tail 16 moves 4628 iterations 13568 best_overlap 23
+ tail 16 moves 7315 iterations 9600 best_overlap 5
+ tail 16 moves 8773 iterations 11328 best_overlap 6
+attempts 6
+n 700 seed 3 areas [6880, 6880] cpu 0.6164770000000004 tail 16 moves 10851 iterations 4160 best_overlap 3
+ tail 16 moves 10851 iterations 4352 best_overlap 3
+ tail 16 moves 10802 iterations 5312 best_overlap 2
+ tail 16 moves 6994 iterations 9152 best_overlap 5
+ tail 16 moves 6216 iterations 12736 best_overlap 7
+ tail 16 moves 9411 iterations 5696 best_overlap 6
+attempts 6
+n 700 seed 4 areas [6880, 6880] cpu 0.617127999999999 tail 16 moves 5410 iterations 13888 best_overlap 8
+ tail 16 moves 5410 iterations 12864 best_overlap 7
+ tail 16 moves 8031 iterations 11008 best_overlap 8
+ tail 16 moves 2351 iterations 16384 best_overlap 17
+ tail 16 moves 6496 iterations 11392 best_overlap 11
+ tail 16 moves 3393 iterations 14336 best_overlap 17
+attempts 6
+MEAN 700 [0.9777103142432892, 0.9777103142432892]

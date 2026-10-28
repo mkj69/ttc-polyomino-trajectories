@@ -1,0 +1,6 @@
+score=98.26306182571429
+lineage=peer persistent small+medium + own .8area^.36largegeometry + mildresource + compactlargesuffix
+source=/logs/agent/multiagent-collab/anti-herding/work-2/medium-geometry-v16-standalone.cpp
+evidence=officialuuidaa335290;8thresholdproductioncasesvalidincl600/601/1200/1201 andextremeoffsets
+cost=1official+8production14.94s
+counterevidence=one largewallunderload1.928s; defaultsmallprefix andterminalcompactnotmergedyet

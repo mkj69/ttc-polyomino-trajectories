@@ -1,0 +1,6 @@
+lineage: teamnested32+slot0 cache/window/narrowwidth/cheap2ply/forcedblank+128fit sampling
+allowed sid32 .9664009427285708
+source:/app/solution.cpp,work-0/best96640.cpp
+evidence:30faithfulcatalogueinstances x6policies, large+.005densityat~12percentCPU
+cost:1grade+180fixedstudyruns18.36CPU
+counterevidence: phasepriorrejected,256costs48percentmoreCPU

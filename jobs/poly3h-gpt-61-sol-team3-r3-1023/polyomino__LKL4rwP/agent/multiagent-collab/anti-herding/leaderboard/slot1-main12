@@ -1,0 +1,7 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/main12.cpp
+Lineage: slot0 sid8 combined adaptive frontier plus default-lookahead shortlist12 (was4). Includes independently discovered slot1 two-ply path and slot2 per-trial exact final10 DFS.
+Measured official: 95.4554439242857/100, sid9 uuid9a2824d0-1760-4741-8f80-4f6ebdd1cb5a; beats slot0 sid8 95.35461339.
+Local evidence: seed1 n100 .943525 at1.500s,n1000 .975676 at1.463s; seed3 n10000 .986015 at1.088s. Paired five-seed medium branch4->12 mean .970735->.975359.
+Cost: one allowed graded call/70 cases; 85+68 local paired breadth comparisons and320 independent output tests with100 exact tiny references.
+Known counter-evidence: breadth20/28/40 worse on small n; breadth40 large approaches1.75s; breadth12 retained.
+Source now exposes FUTURE_WINDOW macro for local compile-time variation; default32 preserves measured sid9 behavior exactly.

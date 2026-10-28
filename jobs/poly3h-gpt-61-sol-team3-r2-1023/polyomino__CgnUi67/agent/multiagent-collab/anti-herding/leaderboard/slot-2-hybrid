@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/hybrid.cpp
+Lineage: immutable sid13 grouped350ms+legal-ejection n<500; shelf-safe root bitset snapshot n>=500 or allbars; namespace wrapper with replayed input and explicit renamed-entry return0.
+Evidence: allowedjudge sid15 raw96.14039628285713 normalized.9614 uuidab57d4b4-fcc4-4373-998b-868b55a72cb6; sid13 pureeject96.0585, sid12 purebitset95.8899.
+Reproduce: g++ -std=gnu++17 -O2 work-2/hybrid.cpp -o solver
+Cost:1judgecall;4localexactuniform n100/200/500/10000 verified placements, runtime1.70-1.75s.
+Counter-evidence: larger code59.6KB, duplicate representations and input replay; ejection still fails to improve some small seeds. Local scheduling sweep favors650ms greedy seed, being evaluated separately.

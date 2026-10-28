@@ -1,0 +1,21 @@
+Lineage: sid70 -> sid79 exact owner planes -> peer84 exact near-fit -> sid88 AVX2 owner planes.
+Best grade: sid88 raw96.9364120414 uuidc3eabbe4-61e1-4787-8785-c98152f3e749.
+Immutable source: work-1/best-96936.cpp, identical owner-avx-first.cpp.
+Root ownership: slot0; source published for reviewed promotion, no root edit by slot1.
+
+Defaults: ownerFilter4 (three binary owner-ID planes); fitKernel2; ownerSecond0; ownerVector2.
+Rows pack three owner bits plus occupied into four uint64 lanes.
+AVX2 shifts and ORs test all three planes together; runtime CPU detection, equivalent scalar fallback.
+Only impossible multi-owner or tabu alignments are rejected; original exact owner verification, traversal order, candidates and RNG remain.
+Max-two candidates retain the native compiled loop.
+
+Evidence: 59620 O2 + 25036 ASan/UBSan + 88693 repeat exact candidate-vector/RNG matches.
+Clean O2 microbenchmark: original max-one row filter .07787s vs AVX2 packed .05891s, 1.32x.
+Full twelve fresh cases: parent84 .963995462; AVX-only .964815221; 4hash max-two .964161618; combined .964858827.
+All48 full outputs independently legal, n100/200/400.
+Graded parent84 96.92800692 -> AVX-only88 96.9364120414.
+
+Counter-evidence: combined fourhash max-two89 96.93136531, despite max-two kernel3.65x faster and local combined slight advantage.
+Prior oneclass max-two81 graded96.91403144 below79.
+Small-index85 96.89698541 also failed20-case independent replication and is retired.
+Costs: 1750 generated proof inventories roughly20CPU-seconds;48 full runs89wall-seconds; two70-case grades.

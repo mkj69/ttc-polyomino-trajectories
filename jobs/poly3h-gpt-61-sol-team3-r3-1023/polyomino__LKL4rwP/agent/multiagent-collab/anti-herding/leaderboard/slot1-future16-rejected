@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/main-future16.cpp
+Lineage: sid9 main12 candidate, future next-piece window16 for n<500 instead of32.
+Official outcome:95.40482591285715/100, sid11 uuid5e13210e-0044-496b-9010-1ab5459cde3d; regressed from95.4554439242857.
+Local evidence:320 placements and100 tiny exact reference checks valid. Narrow future window improves single-trial ten-seed n100 mean but loses after multistart on official distribution.
+Cost:one allowed graded call/70 cases and320 local checks plus2 adaptive timing runs.
+Disposition:reject; retain main solution.cpp shortlist12/future32.

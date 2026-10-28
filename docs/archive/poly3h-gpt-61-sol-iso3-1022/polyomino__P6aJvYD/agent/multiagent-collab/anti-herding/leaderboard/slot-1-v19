@@ -1,0 +1,6 @@
+score=98.48234186714285
+source=work-1/filtered-constraint-beam-v19.cpp
+lineage=own bitset MRV8 + anchor4; adopted peer row/wall filters and measured pool384
+evidence=90 paired byte-identical fixed outputs; 11 production cases 2wins1loss
+cost=19.84s fixed +38.38s production +1 official
+counterevidence=team peer wide160 champion98.524248 remains higher

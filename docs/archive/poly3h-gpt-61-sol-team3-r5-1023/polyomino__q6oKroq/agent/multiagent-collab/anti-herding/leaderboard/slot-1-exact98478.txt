@@ -1,0 +1,7 @@
+Lineage: slot0 best98.44903796 + slot1 independently graded tiny-region DLX98.44014312.
+Measured:98.47787111857143 raw, normalized .9847787111857143.
+UUID:a90e6a3e-bcbb-4681-87d2-536f29c0aeda.
+Source:/logs/agent/multiagent-collab/anti-herding/work-1/best-98.47787112.cpp
+Reproduce:bash /app/submit.sh /logs/agent/multiagent-collab/anti-herding/work-1/best-98.47787112.cpp
+Cost:7 valid local cases plus1 allowed graded call/70cases.
+Counter-evidence: fixed-beam DLX often improves only one row and global n10000 largely unchanged; do not treat ungraded propagation or aspect changes as part of this candidate.

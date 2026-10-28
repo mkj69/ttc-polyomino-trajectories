@@ -1,0 +1,34 @@
+2026-10-23T23:19:15.217Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T23:19:15.220Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T23:19:15.220Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T23:19:15.238Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T23:19:15.238Z [INFO] OpenTelemetry tracker created for session cfa41b88-2611-4c0b-a209-f9ca05373aee
+2026-10-23T23:19:15.244Z [INFO] Workspace initialized: cfa41b88-2611-4c0b-a209-f9ca05373aee (checkpoints: 0)
+2026-10-23T23:19:15.254Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T23:19:15.254Z [INFO] Node.js version: v24.16.0
+2026-10-23T23:19:15.265Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T23:19:15.270Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T23:19:15.342Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T23:19:15.343Z [INFO]  
+2026-10-23T23:19:15.372Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T23:19:15.373Z [INFO] --- End of group ---
+2026-10-23T23:52:00.196Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T23:52:00.197Z [INFO] --- End of group ---
+2026-10-23T23:53:00.864Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T23:53:00.869Z [INFO] Persisted checkpoint #1: Skyline packing with geometric width search
+2026-10-23T23:53:22.710Z [INFO] CompactionProcessor: Compaction complete - replaced 79 messages with summary + 8 new messages, saved ~123011 tokens
+2026-10-24T00:27:34.591Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T00:27:34.591Z [INFO] --- End of group ---
+2026-10-24T00:28:57.086Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T00:28:57.091Z [INFO] Persisted checkpoint #2: All-orientations skyline packing implementation
+2026-10-24T00:31:07.477Z [INFO] CompactionProcessor: Compaction complete - replaced 121 messages with summary + 4 new messages, saved ~115317 tokens
+2026-10-24T01:03:27.346Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T01:03:27.346Z [INFO] --- End of group ---
+2026-10-24T01:04:42.303Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T01:04:42.309Z [INFO] Persisted checkpoint #3: Debugging regression from 72.84% best score
+2026-10-24T01:05:39.438Z [INFO] CompactionProcessor: Compaction complete - replaced 113 messages with summary + 8 new messages, saved ~124323 tokens
+2026-10-24T01:46:13.785Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T01:46:13.785Z [INFO] --- End of group ---
+2026-10-24T01:47:14.187Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T01:47:14.191Z [INFO] Persisted checkpoint #4: BL packing extension and hybrid approach
+2026-10-24T01:49:08.440Z [INFO] CompactionProcessor: Compaction complete - replaced 89 messages with summary + 4 new messages, saved ~122509 tokens

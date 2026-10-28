@@ -1,0 +1,8 @@
+n 10000 seed 0 block 6x5 area 96660 density 0.9930891785640389 cpu 1.272 block_count=22 pieces=67 nodes=4490 cpu=0.503692
+n 10000 seed 0 block 8x5 area 96672 density 0.9929659053293611 cpu 1.2635 block_count=35 pieces=147 nodes=1526 cpu=0.509647
+n 10000 seed 0 block 6x8 area 96660 density 0.9930891785640389 cpu 1.2451 block_count=60 pieces=301 nodes=479 cpu=0.509868
+n 10000 seed 0 block 10x6 area 96660 density 0.9930891785640389 cpu 1.3601 block_count=15 pieces=93 nodes=206 cpu=0.56267
+n 10000 seed 1 block 6x5 area 96624 density 0.9930452061599603 cpu 1.2304 block_count=42 pieces=134 nodes=5067 cpu=0.501482
+n 10000 seed 1 block 8x5 area 96624 density 0.9930452061599603 cpu 1.2658 block_count=37 pieces=158 nodes=1714 cpu=0.511116
+n 10000 seed 1 block 6x8 area 96624 density 0.9930452061599603 cpu 1.2479 block_count=37 pieces=186 nodes=1559 cpu=0.508611
+n 10000 seed 1 block 10x6 area 96600 density 0.9932919254658386 cpu 1.3076 block_count=26 pieces=161 nodes=208 cpu=0.526534

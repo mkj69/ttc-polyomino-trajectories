@@ -1,0 +1,34 @@
+2026-10-20T00:06:08.689Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-20T00:06:08.691Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-20T00:06:08.691Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-20T00:06:08.709Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-20T00:06:08.710Z [INFO] OpenTelemetry tracker created for session ca27ae6e-bb0b-4b06-a41f-573354250503
+2026-10-20T00:06:08.715Z [INFO] Workspace initialized: ca27ae6e-bb0b-4b06-a41f-573354250503 (checkpoints: 0)
+2026-10-20T00:06:08.725Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-20T00:06:08.725Z [INFO] Node.js version: v24.16.0
+2026-10-20T00:06:08.735Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-20T00:06:08.740Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-20T00:06:08.858Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-20T00:06:08.858Z [INFO]  
+2026-10-20T00:06:08.894Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T00:06:08.894Z [INFO] --- End of group ---
+2026-10-20T00:42:45.017Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T00:42:45.018Z [INFO] --- End of group ---
+2026-10-20T00:43:50.520Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T00:43:50.525Z [INFO] Persisted checkpoint #1: Polyomino packing skyline waste minimization
+2026-10-20T00:45:06.385Z [INFO] CompactionProcessor: Compaction complete - replaced 62 messages with summary + 4 new messages, saved ~120012 tokens
+2026-10-20T01:14:35.453Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T01:14:35.454Z [INFO] --- End of group ---
+2026-10-20T01:15:45.968Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T01:15:45.973Z [INFO] Persisted checkpoint #2: Multi-ordering BL packing with mysterious 95% result
+2026-10-20T01:16:05.409Z [INFO] CompactionProcessor: Compaction complete - replaced 89 messages with summary + 16 new messages, saved ~121155 tokens
+2026-10-20T02:01:04.135Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T02:01:04.136Z [INFO] --- End of group ---
+2026-10-20T02:02:38.240Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T02:02:38.244Z [INFO] Persisted checkpoint #3: Dual-mode placement criterion investigation
+2026-10-20T02:03:47.980Z [INFO] CompactionProcessor: Compaction complete - replaced 149 messages with summary + 8 new messages, saved ~116333 tokens
+2026-10-20T02:53:59.768Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T02:53:59.769Z [INFO] --- End of group ---
+2026-10-20T02:55:14.466Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T02:55:14.470Z [INFO] Persisted checkpoint #4: Judge gap analysis, k=10 sparse pieces root cause
+2026-10-20T02:56:01.438Z [INFO] CompactionProcessor: Compaction complete - replaced 127 messages with summary + 2 new messages, saved ~127294 tokens

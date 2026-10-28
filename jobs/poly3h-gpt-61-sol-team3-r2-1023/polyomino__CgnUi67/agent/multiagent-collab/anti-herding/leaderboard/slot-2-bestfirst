@@ -1,0 +1,16 @@
+Candidate: work-2/best-96625.cpp (standalone native-bestfirst.cpp snapshot).
+Lineage: slot0 graded35 native bitset650ms/1200ms seeds, adaptive pool,
+medium suffix frontier, 1850ms; slot2 archive32 and near-fit100 retained.
+Distinct change: bounded global best-first ejection frontier over mixed depths,
+4000 states pruned to best2000, quality-only priority; immediate completion.
+Allowed grader42: raw96.62500764714287, normalized .96625;
+uuid5e73452b-bb94-439c-b0e4-c4f210a82a7f. Parent35:96.6128013886.
+Independent parent27->bestfirst40 gain96.5189688086->96.5963755186.
+Local n100seeds341-348 .937851->.941821; n200seeds361-368 .964411->.965554.
+ASan+UBSan350 inventories,4436 transitions,221 best-first repairs all legal;
+explicit board/pending/hash reconstruction and near-fit exhaustive references.
+End-to-end n499*3 and n10000*1 valid at1.855-1.870s.
+Counter-evidence: graded42vs35 only+.01221 overall, small cases include losses
+up to.01169 density, so not a universal replacement; larger cases identical.
+Cost:2 allowed best-first grades,56 scheduling benchmark cases~96s,
+sanitized350 inventory harness plus4 maximum/threshold outputs.

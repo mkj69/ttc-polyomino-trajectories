@@ -1,0 +1,9 @@
+Candidate: work-1/best-98.99805639.cpp
+Graded raw score: 98.99805639000002 / 100
+UUID: 4fab28e1-b7e2-49c2-9699-06bd075afe1d
+Lineage: slot0 98.96979538 cached-mask baseline; slot1 inventory bitset specialization and medium-size beam portfolio.
+Changes: preserve16-word states through1024 pieces;32 words through2048;64 words through4096. For1025..4096 use W20/24/28, B8 through1500, B4 through2200, B2 above,1250ms construction plus existing1670ms exact endgame.
+Evidence: 24 held-out exact-uniform cases n1100/1300/1600/2000; W20B4+exact beats old full portfolio23/24;B8 beats24/24. 80 fixed small-beam outputs byte-identical. 20 adversarial/large-coordinate/large-input outputs valid.
+Cost: one70-case graded call; roughly290 local runs and200seconds for discovery/replication/resource validation.
+Counter-evidence: template codegen or contention may slow small/medium existing beam despite identical16-word state layout (observed .85x at n200,.92x at n400). Owner should replicate or preserve original small-n function during merge. B4 above3000 exceeds budget; B1 often less dense than greedy.
+Reproduce: g++ -std=gnu++17 -O2 -o /tmp/medium work-1/best-98.99805639.cpp; bash /app/submit.sh absolute-source-path.

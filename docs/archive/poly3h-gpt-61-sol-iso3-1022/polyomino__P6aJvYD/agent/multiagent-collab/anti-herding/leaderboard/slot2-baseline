@@ -1,0 +1,5 @@
+lineage=slot2 bounding rectangle skyline
+score=42.219350778571425
+source=/logs/agent/multiagent-collab/anti-herding/work-2/baseline.cpp
+evidence=200 random validity cases; n10000 0.270s; official submission fa79a976-e973-4b34-bb20-478761aea96a
+counterevidence=local density only 0.625; bounding boxes waste holes

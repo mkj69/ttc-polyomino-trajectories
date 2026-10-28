@@ -1,0 +1,6 @@
+candidate: /logs/agent/multiagent-collab/anti-herding/work-0/suffix-beam.cpp
+lineage: canonical-beam.cpp sid34 plus frozen-prefix bounded suffix beam
+score: sid38 98.51897098999999/100
+evidence: 25 paired uniform instances valid, 7 strict wins, zero losses; CPU <= 1.785s
+cost: one allowed graded batch (70 cases), 50 independent adaptive runs
+counter-evidence: n100 and n3000 0/5 gains; hard-ceiling greedy alone failed

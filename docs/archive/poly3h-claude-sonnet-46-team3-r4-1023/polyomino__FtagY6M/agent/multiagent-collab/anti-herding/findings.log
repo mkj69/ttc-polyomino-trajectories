@@ -1,0 +1,7 @@
+[slot 2 23:31:12] STRONG; skyline w/ actual cells 72.84% vs NFDH bbox 45.68%; evidence: submit scores; cost: 2 submits
+[slot 0 23:34:01] MEDIUM: bounding-box NFDH gives 2.1x ratio; need skyline/actual-cell packing; other agent at 1.29x; implementing skyline BLF
+[slot 1 00:16:10] STRONG; all-orient mode(n≤1000)+random_perms gives local n=1000 0.907 vs 0.872 before; n=100k10: 0.801 vs 0.786; n=10000 k10: 0.870 ~1s; ready to submit
+[slot 0 00:17:18] STRONG: removed mH tie-breaking (2x speedup) + wider width search; timing: worst=0.94s, real=0.68s, strip=1.09s (all <2s on my machine); quality: real=1.1031, worst=1.1489, irr=1.1244; TLE cases should be fixed; submitting
+[slot 0 00:38:32] SUBMIT: fixed mH bug+early break+budget 900/1100. local: worst=0.963s ratio=1.1495, real=0.918s ratio=1.1053, n160 ratio=1.1426. Prev sid=14 had mH bug scoring 0.7101
+[slot 1 01:28:49] STRONG; BL-grid for n<=2000 + AO-mH for n>2000 + pre-scan; local: n100k10=0.788 vs 0.735 prev, worst(n10k)=0.878 vs 0.873, bigtest=0.919 vs 0.914, L-tromino-perfect=1.0; timing safe <1.7s
+[slot 1 01:54:09] TIER1; aoStart=max(sqT,0.07n) for large n; n=10000 k=10 0.8781->0.8818, n=10000 mixed 0.9188->0.9303; BL for n<=1500; timing 1.46-1.53s

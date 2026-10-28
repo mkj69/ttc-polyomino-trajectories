@@ -1,0 +1,1 @@
+Slot 2: Bitset-based actual-cell BL fill (not skyline/bounding-box); tracks full occupancy so pieces nest into holes; wider W search (sqrtT*0.5..sqrtT*2); sort by bbox height desc; does NOT use per-column skyline or shelf packing

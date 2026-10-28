@@ -1,0 +1,6 @@
+score=0.967835904357143
+source=work-2/component-match-v10.cpp
+lineage=compact-index-v8 plus exact remaining-piece component matching
+evidence=official submission sid25, 20 uniform n100 comparisons, 100 independent validity checks
+cost=1 official call, 40 local full runs, 100 fast checks
+counter-evidence=only single-piece cavity matching, no multi-cavity inventory competition; peer greedy matching regressed

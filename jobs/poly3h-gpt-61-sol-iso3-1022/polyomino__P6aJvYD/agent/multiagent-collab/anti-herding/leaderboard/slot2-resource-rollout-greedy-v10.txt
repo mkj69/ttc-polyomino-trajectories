@@ -1,0 +1,6 @@
+score=97.89554287285716
+lineage=resource-aware-v10+terminal8+largegreedypriority20/10/0
+source=/logs/agent/multiagent-collab/anti-herding/work-2/resource-rollout-greedy-v10.cpp
+evidence=official3c22fb49-96a7-4e70-9c45-ef0323188fa5;200random+8paireduniform valid
+cost=oneofficial +216checks~29s
+counterevidence=heldoutdefault8 only1win1loss; strongerresourceconservationweight30 hurtsgreedy; debugargs9/10conflict fixedinprivateworking

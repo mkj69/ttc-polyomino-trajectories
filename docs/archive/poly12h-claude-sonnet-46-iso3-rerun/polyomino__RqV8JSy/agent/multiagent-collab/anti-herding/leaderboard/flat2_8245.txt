@@ -1,0 +1,1 @@
+slot2_flat2: 82.45%; bumpiness tie-breaking in valley skyline; sid=71; ancestor: v4(82.17%) + boundary bumpiness as 4th tie-breaker; n=700 +917, n=300 +947

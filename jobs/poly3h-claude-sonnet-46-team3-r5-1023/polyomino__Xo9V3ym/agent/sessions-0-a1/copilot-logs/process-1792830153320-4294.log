@@ -1,0 +1,35 @@
+2026-10-24T08:22:33.321Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-24T08:22:33.324Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-24T08:22:33.324Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-24T08:22:33.342Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-24T08:22:33.342Z [INFO] OpenTelemetry tracker created for session ed3ca8cd-677d-48df-b365-48d7ed8d12f3
+2026-10-24T08:22:33.351Z [INFO] Workspace initialized: ed3ca8cd-677d-48df-b365-48d7ed8d12f3 (checkpoints: 0)
+2026-10-24T08:22:33.359Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-24T08:22:33.359Z [INFO] Node.js version: v24.16.0
+2026-10-24T08:22:33.369Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-24T08:22:33.375Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-24T08:22:33.457Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-24T08:22:33.458Z [INFO]  
+2026-10-24T08:22:33.550Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T08:22:33.551Z [INFO] --- End of group ---
+2026-10-24T08:56:27.537Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T08:56:27.537Z [INFO] --- End of group ---
+2026-10-24T08:57:18.359Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T08:57:18.365Z [INFO] Persisted checkpoint #1: Polyomino packing skyline solver 76%
+2026-10-24T08:59:48.120Z [INFO] CompactionProcessor: Compaction complete - replaced 73 messages with summary + 4 new messages, saved ~117167 tokens
+2026-10-24T09:36:23.778Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T09:36:23.779Z [INFO] --- End of group ---
+2026-10-24T09:37:41.214Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T09:37:41.219Z [INFO] Persisted checkpoint #2: Bitset packer 77% score achieved
+2026-10-24T09:39:24.501Z [INFO] CompactionProcessor: Compaction complete - replaced 91 messages with summary + 4 new messages, saved ~114881 tokens
+2026-10-24T10:12:28.659Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T10:12:28.659Z [INFO] --- End of group ---
+2026-10-24T10:13:45.447Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T10:13:45.451Z [INFO] Persisted checkpoint #3: Bitset packer 77.43% score confirmed
+2026-10-24T10:13:53.740Z [INFO] CompactionProcessor: Compaction complete - replaced 125 messages with summary + 2 new messages, saved ~121934 tokens
+2026-10-24T10:31:23.109Z [INFO] System notification: Shell command "Test current solution on diverse k values" (shellId: test2) has c...
+2026-10-24T10:50:46.536Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T10:50:46.537Z [INFO] --- End of group ---
+2026-10-24T10:51:57.022Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T10:51:57.027Z [INFO] Persisted checkpoint #4: LookBack beats bitset for real inputs
+2026-10-24T10:53:14.990Z [INFO] CompactionProcessor: Compaction complete - replaced 89 messages with summary + 4 new messages, saved ~120572 tokens

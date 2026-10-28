@@ -1,0 +1,6 @@
+score=90.0613543342857
+lineage=slot0-core+slot2-exact-pocket-geometry-supply
+source=/logs/agent/multiagent-collab/anti-herding/work-2/exact-pocket-v1.cpp
+evidence=judge-sid6,325-valid-local-runs;catalogue10k-density0.987093,time0.695s
+cost=1 allowed submission
+counterevidence=single-width small-input losses; below slot1 multiwidth92.4552

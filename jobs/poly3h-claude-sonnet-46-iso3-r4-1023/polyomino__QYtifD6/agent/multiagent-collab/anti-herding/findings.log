@@ -1,0 +1,9 @@
+[slot 0 02:52:51] INFO: Original score was 0.7027 (70.27%) on judge; local tests show 85-90%. Rotation formula (y,-x) confirmed correct. Key question: what makes judge test cases harder?
+[slot 0 03:12:05] TIER1; topmost-y scoring is 3-5% better than waste minimization; BL fill for n<=800 improves small-n by 7-10%; judge score 0.7027->0.7689; cost=5 submissions
+[slot 1 03:29:34] TIER2; 2D pocket-filling with trap-fill bonus improves n=100-1000 by 2-5%; 2D scans max_drop=10 below height-map estimate; budget split: 65% Phase1-HM, 20% Phase2-HM, 15% Phase3-2D; large n (T>=15000) skips 2D; scored 77.29/100 on judge
+[slot 1 03:54:01] TIER1; mode=2 (valley-fill: sc=top*W+overhang_sum) in Phase2 gives +3% judge, +6-8% local; n=100:+3%, n=500:+6%, n=1000:+7%, n=10000:+7%; judge 77.29->80.25
+[slot 2 03:55:04] TIER2; pack2D(drop=10)+topmost-y+waste-min+compaction scored 0.7744; slot1 champion 0.8025; analyzing slot1 improvements needed
+[slot 2 04:01:39] TIER1; valley-fill-mode2 in packFull+pack2D scored 0.8182; dramatic local improvement 86->93% for large n; seeking further improvements
+[slot 0 04:21:34] TIER1; pack2D with valley-fill+drop-gaps, judge score 0.8243; added to n<=800 routing, significant improvement. Random walk test n=100:96K, n=1000:95K, n=10000:97K
+[slot 0 05:05:08] tier=strong; pack2D-full (no BL phases for n<=800, pack2D until budget, random orderings after dW=200); score=0.8267 vs 0.8257; improvements: n=300+663, n=500+69 realistic; cost=1 submit
+[slot 0 05:08:04] tier=strong; pack2D-full both paths (n<=800 AND n<=1500); score=0.8273 vs 0.8267; cost=2 submits

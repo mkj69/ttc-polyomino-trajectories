@@ -1,0 +1,9 @@
+Candidate: work-2/best-99.03561225.cpp
+Lineage: slot0 best99.03100550 learned-fit/refined-medium/B256 + slot2 first-small-n-pass inventory diversity
+Official: 99.03561225142856, UUID b1e773e1-916b-4a76-b866-8aa42548bc4c
+SHA256: 603788d94394a96069f0c97c47934e616a1617c9bf2e838539c0d72f58537f8a
+Mechanism: quota2 beam states per exact used-inventory hash only on first W13 pass when n<=140; deferred states fill beam.
+Evidence: 30 unseen uniform random n100..140, .981285 -> .981407, 4 wins 2 losses 24 ties, same1.685s runtime.
+Counter-evidence: quota on all passes mixed by n; tie-only quota worse. Small sample/grade differences may include timing noise.
+Cost: 60 full local executions ~101s + one70-case official submission. Slot2 total10 submissions.
+Deployment: owner slot0 notified; shared source subsequently reached99.04345666 via independent CSP improvement without quota. Merge still requires measurement.

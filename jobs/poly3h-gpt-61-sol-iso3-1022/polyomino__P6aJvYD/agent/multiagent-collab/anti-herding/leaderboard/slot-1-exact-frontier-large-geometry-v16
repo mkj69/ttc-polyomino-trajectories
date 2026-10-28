@@ -1,0 +1,6 @@
+score=98.34356752142858
+lineage=ownexact-frontier-v15+slot2largegeometry
+source=/logs/agent/multiagent-collab/anti-herding/work-1/exact-frontier-large-geometry-v16.cpp
+evidence=8independentdefaultpaired.991636->.991868,4wins1loss3ties;official
+cost=16runs27.47s+1official
+counterevidence=one2000piececase-.000154

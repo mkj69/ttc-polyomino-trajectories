@@ -1,0 +1,63 @@
+2026-10-27T20:02:55.817Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-27T20:02:55.822Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-27T20:02:55.822Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-27T20:02:55.843Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-27T20:02:55.844Z [INFO] OpenTelemetry tracker created for session 5cf41fd9-19fd-4421-816d-5ddecb191980
+2026-10-27T20:02:55.872Z [INFO] Workspace initialized: 5cf41fd9-19fd-4421-816d-5ddecb191980 (checkpoints: 0)
+2026-10-27T20:02:55.887Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-27T20:02:55.887Z [INFO] Node.js version: v24.16.0
+2026-10-27T20:02:55.907Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-27T20:02:55.914Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-27T20:02:56.108Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-27T20:02:56.108Z [INFO]  
+2026-10-27T20:02:56.197Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-27T20:02:56.198Z [INFO] --- End of group ---
+2026-10-27T20:38:00.486Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-27T20:38:00.487Z [INFO] --- End of group ---
+2026-10-27T20:39:08.942Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-27T20:39:08.949Z [INFO] Persisted checkpoint #1: Polyomino packing skyline algorithm
+2026-10-27T20:39:10.557Z [INFO] CompactionProcessor: Compaction complete - replaced 117 messages with summary + 12 new messages, saved ~125025 tokens
+2026-10-27T21:19:41.736Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-27T21:19:41.737Z [INFO] --- End of group ---
+2026-10-27T21:20:51.872Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-27T21:20:51.877Z [INFO] Persisted checkpoint #2: Polyomino packing hybrid BL+skyline+compaction
+2026-10-27T21:21:07.427Z [INFO] CompactionProcessor: Compaction complete - replaced 147 messages with summary + 12 new messages, saved ~123322 tokens
+2026-10-27T22:17:59.773Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-27T22:17:59.774Z [INFO] --- End of group ---
+2026-10-27T22:19:13.075Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-27T22:19:13.081Z [INFO] Persisted checkpoint #3: Hybrid BL+skyline adoption from slot2
+2026-10-27T22:19:23.811Z [INFO] CompactionProcessor: Compaction complete - replaced 199 messages with summary + 4 new messages, saved ~124317 tokens
+2026-10-27T22:23:57.664Z [INFO] System notification: Shell command "Compare base vs ordH variant across n values" (shellId: 208) has ...
+2026-10-27T22:53:27.399Z [INFO] System notification: Shell command "Compare local search vs base (n<=700)" (shellId: 246) has complet...
+2026-10-27T23:14:26.669Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-27T23:14:26.670Z [INFO] --- End of group ---
+2026-10-27T23:15:38.257Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-27T23:15:38.263Z [INFO] Persisted checkpoint #4: BL extended to n≤700, topK tuning
+2026-10-27T23:15:47.139Z [INFO] CompactionProcessor: Compaction complete - replaced 177 messages with summary + 4 new messages, saved ~122132 tokens
+2026-10-28T00:22:13.196Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-28T00:22:13.197Z [INFO] --- End of group ---
+2026-10-28T00:23:50.577Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-28T00:23:50.586Z [INFO] Persisted checkpoint #5: BL extended n≤1000, champion 78.27%
+2026-10-28T00:23:53.045Z [INFO] CompactionProcessor: Compaction complete - replaced 123 messages with summary + 2 new messages, saved ~122063 tokens
+2026-10-28T02:07:35.676Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-28T02:07:35.677Z [INFO] --- End of group ---
+2026-10-28T02:08:59.137Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-28T02:08:59.147Z [INFO] Persisted checkpoint #6: Adopting Valley-Filling Skyline Algorithm
+2026-10-28T02:10:07.687Z [INFO] CompactionProcessor: Compaction complete - replaced 134 messages with summary + 2 new messages, saved ~127911 tokens
+2026-10-28T03:47:38.280Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-28T03:47:38.281Z [INFO] --- End of group ---
+2026-10-28T03:49:25.485Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-28T03:49:25.494Z [INFO] Persisted checkpoint #7: Valley+Bumpiness+Width-Center 82.48% Champion
+2026-10-28T03:51:40.951Z [INFO] CompactionProcessor: Compaction complete - replaced 199 messages with summary + 8 new messages, saved ~122269 tokens
+2026-10-28T05:10:17.779Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-28T05:10:17.780Z [INFO] --- End of group ---
+2026-10-28T05:12:06.405Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-28T05:12:06.474Z [INFO] Persisted checkpoint #8: Delta-Bump + Priority Widths 82.87% Champion
+2026-10-28T05:13:05.342Z [INFO] CompactionProcessor: Compaction complete - replaced 205 messages with summary + 12 new messages, saved ~120860 tokens
+2026-10-28T06:58:29.092Z [INFO] System notification: Shell command "Compare triple vs krev" (shellId: 627) has completed successfully...
+2026-10-28T07:08:23.429Z [INFO] System notification: Shell command "Recheck n=2000 comparison individual seeds" (shellId: 633) has co...
+2026-10-28T07:42:46.287Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-28T07:42:46.288Z [INFO] --- End of group ---
+2026-10-28T07:44:29.436Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-28T07:44:29.441Z [INFO] Persisted checkpoint #9: Combined Metric 82.94% vs Slot0 83.04%
+2026-10-28T07:50:25.233Z [INFO] CompactionProcessor: Compaction complete - replaced 216 messages with summary + 10 new messages, saved ~122511 tokens

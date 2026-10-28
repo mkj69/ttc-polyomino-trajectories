@@ -1,0 +1,6 @@
+score=0.9779441503714288
+lineage=slot0adaptive-depth128+slot2potential80/componentmatch+slot1endgame
+source=/logs/agent/multiagent-collab/anti-herding/work-0/adaptive80-v11.cpp
+evidence=official41785366-c0eb-4ef4-8351-ca8bc4f03c10
+cost=1grade,11totalsslot0
+counterevidence=someheldoutsizationinconclusive,do not usebase384

@@ -1,0 +1,8 @@
+Candidate: exact-mrv-odd-v27.cpp
+Path: /logs/agent/multiagent-collab/anti-herding/work-0/exact-mrv-odd-v27.cpp
+Submitted SID: 65
+Normalized score: 0.9874771451428572
+Lineage: own persistent terminal/piece layers and lazy global beam; peer lazy receding beam, compact keys, portable CPU dispatch, unaliased odd widths; own exact six-piece bitset MRV leaf.
+Evidence: 20 fresh timed cases across n100/150/200/300 improve mean density over cell-first four-piece leaves by .00137/.00244/.00092/.00089. 100 varied small connected and translated outputs independently valid. 24 fixed constructor pairs byte-identical after compact-key/CPU-dispatch adoption, 1.38x faster.
+Cost: one judge submission plus 80 full timed holdouts approximately 140 seconds; 100 small geometry cases approximately 6 seconds.
+Counter-evidence: MRV eight-piece leaves are not monotone quality gains; extra 1450ms construction rarely helps; cascaded 4/6/8 exact calls have more runtime than the six-piece-only default.

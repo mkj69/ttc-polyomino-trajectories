@@ -1,0 +1,14 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/packed.cpp
+lineage=slot0 integrated+slot1 tail+slot2 packed masks; not BFS-open yet
+evidence=fixedpass15pairs bit-identical output, N10000 runtime.612->.471sec; fullscheduler mean density n10000.990262->.990695
+cost=60 localsolver runs roughly50sec wall
+counterevidence=n100 mask overhead slightly slower, fullschedule quality timing dependent
+approved_score=95.9469307457143
+submission=sid6 uuid a7f19fe1-eabf-4cb9-af32-234d0d699691
+lineage=slot0 multirestart+slot1 tail+BFSopen+slot2 packedmask
+evidence=21fixedpaired inputs bitidentical,200tinyexhaustive-referencevalid
+counterevidence=approvedscore.0273pointsbelowbytegrid95.9743; donotpromotebydefault
+cost=1judgecall20sec
+packed11_score=95.9123424157143
+packed11_submission=sid8
+recommendation=do_not_promote_over_slot1_exacttail96.0682

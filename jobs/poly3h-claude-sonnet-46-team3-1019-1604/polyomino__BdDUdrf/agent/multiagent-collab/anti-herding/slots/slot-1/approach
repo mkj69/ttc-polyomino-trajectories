@@ -1,0 +1,1 @@
+Skyline BL-fit with actual cell-level placement (not just bounding boxes). Will NOT assume strip-only packing is sufficient. Uses per-column max-height profile, tries multiple widths. Explores hole-filling variants.

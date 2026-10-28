@@ -1,0 +1,40 @@
+n=125 seed=143 policy=6 density=0.974673 seconds=1.788
+n=125 seed=143 policy=9 density=0.974673 seconds=1.788
+n=125 seed=143 policy=10 density=0.968344 seconds=1.787
+n=125 seed=925 policy=6 density=0.972222 seconds=1.786
+n=125 seed=925 policy=9 density=0.972222 seconds=1.788
+n=125 seed=925 policy=10 density=0.965909 seconds=1.786
+n=125 seed=2026 policy=6 density=0.965873 seconds=1.787
+n=125 seed=2026 policy=9 density=0.965873 seconds=1.787
+n=125 seed=2026 policy=10 density=0.962055 seconds=1.788
+MEAN 125 {6: (0.970923, 1.786899), 9: (0.970923, 1.787791), 10: (0.965436, 1.786949)}
+n=150 seed=143 policy=6 density=0.981557 seconds=1.787
+n=150 seed=143 policy=9 density=0.974898 seconds=1.788
+n=150 seed=143 policy=10 density=0.974898 seconds=1.788
+n=150 seed=925 policy=6 density=0.978127 seconds=1.787
+n=150 seed=925 policy=9 density=0.978127 seconds=1.788
+n=150 seed=925 policy=10 density=0.978127 seconds=1.789
+n=150 seed=2026 policy=6 density=0.968812 seconds=1.787
+n=150 seed=2026 policy=9 density=0.968812 seconds=1.788
+n=150 seed=2026 policy=10 density=0.968812 seconds=1.788
+MEAN 150 {6: (0.976166, 1.787093), 9: (0.973946, 1.788144), 10: (0.973946, 1.78808)}
+n=250 seed=143 policy=6 density=0.980840 seconds=1.792
+n=250 seed=143 policy=9 density=0.980840 seconds=1.791
+n=250 seed=143 policy=10 density=0.980840 seconds=1.782
+n=250 seed=925 policy=6 density=0.980753 seconds=1.791
+n=250 seed=925 policy=9 density=0.980753 seconds=1.790
+n=250 seed=925 policy=10 density=0.983169 seconds=1.790
+n=250 seed=2026 policy=6 density=0.983693 seconds=1.790
+n=250 seed=2026 policy=9 density=0.983693 seconds=1.790
+n=250 seed=2026 policy=10 density=0.983693 seconds=1.790
+MEAN 250 {6: (0.981762, 1.790863), 9: (0.981762, 1.790314), 10: (0.982567, 1.787573)}
+n=400 seed=143 policy=6 density=0.986684 seconds=1.795
+n=400 seed=143 policy=9 density=0.986684 seconds=1.795
+n=400 seed=143 policy=10 density=0.986684 seconds=1.794
+n=400 seed=925 policy=6 density=0.983308 seconds=1.708
+n=400 seed=925 policy=9 density=0.983308 seconds=1.699
+n=400 seed=925 policy=10 density=0.987874 seconds=1.791
+n=400 seed=2026 policy=6 density=0.985147 seconds=1.759
+n=400 seed=2026 policy=9 density=0.985147 seconds=1.654
+n=400 seed=2026 policy=10 density=0.985147 seconds=1.773
+MEAN 400 {6: (0.985046, 1.754171), 9: (0.985046, 1.715921), 10: (0.986568, 1.786352)}

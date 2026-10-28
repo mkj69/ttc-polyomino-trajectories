@@ -1,0 +1,7 @@
+lineage=slot1-frontier plus slot0 independent hashed beam frontier
+source=/logs/agent/multiagent-collab/anti-herding/work-0/frontier-beam-v1.cpp
+evidence=300 random beam-valid cases; n150 density .955933 vs base .936355
+cost=311 local cases20s; one official submission pending
+counterevidence=large-n remains old frontier fallback, inferior to cavity-fast-v3
+official_score=96.00700523142858
+submission=3d2a294b-0a94-4c79-b54c-ae8cb74b5ea7

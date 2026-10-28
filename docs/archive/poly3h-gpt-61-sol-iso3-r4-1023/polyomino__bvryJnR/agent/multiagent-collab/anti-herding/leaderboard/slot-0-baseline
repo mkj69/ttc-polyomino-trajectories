@@ -1,0 +1,4 @@
+approach=lineage original cavity-first earliest empty, 64 sampled pieces, contact score
+official_score=0.888167610957143; submission=3; cost=one 70-case judge run
+source=/logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+evidence=50 tiny valid vs exhaustive, n10000 max .286s; generated shapes not uniform over all free decaominoes

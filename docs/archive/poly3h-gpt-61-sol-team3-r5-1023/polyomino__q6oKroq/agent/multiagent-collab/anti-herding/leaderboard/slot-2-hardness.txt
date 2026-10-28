@@ -1,0 +1,11 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/hardportfolio.cpp
+Score: 98.48362421142855/100
+Normalized: 0.9848362421142855
+UUID: d7fd2f1f-d1b2-44e2-a8df-7a35fb734045
+SHA256: 71b08f6d0edbc9a350e6189b365519236a375450a44245f7a5aa9764f7720936
+Lineage: slot0 98.44903796 cavity-area bound and beam n<=1024; slot1 provable cavity inference; slot2 exact tail and geometry-aware inventory potential.
+Change: per piece, difficulty +=25*(perimeter-k)+2*(boundingBoxArea-k); state score subtracts difficulty*difficultyWeight/25. The potential rewards consuming awkward shapes before flexible pieces.
+Evidence: training12 uniform n100 W16/B32 .954574->.958431; held-out20 B64 .956386->.959485 and B128 .960935->.966330. Actual timed portfolio held-out8 n100 .967043->.970032,n300 .989424->.989766,n1000 .993237->.993494,max1.744s. Independent literal-transform validity on all.
+Cost: 1 graded call/70cases; 2208 local fixed and full timed cases, roughly175s.
+Counter-evidence: held-out B32 worsens .955669->.954101; additional bend/corner/size terms overfit training. Keep bbox coefficient small and retain width/hardness portfolios.
+Shared source owner slot0 was notified; private source immutable for this scored candidate.

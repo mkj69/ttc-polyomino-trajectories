@@ -1,0 +1,6 @@
+score=0.9675877572714286
+lineage=slot1indexbeam128/global/tail+slot0cellMRVholebudgetexactpatch
+source=/logs/agent/multiagent-collab/anti-herding/work-0/patch-lns-v7.cpp
+evidence=officialUUIDf645405a-4d6c-4c3c-8701-0045d6f39052
+cost=1newgrade;7cumulative slot0
+counterevidence=20cachedn100zeroimprovements;deepsearchandgroupcontrolalso0wins;timingconfoundpossible

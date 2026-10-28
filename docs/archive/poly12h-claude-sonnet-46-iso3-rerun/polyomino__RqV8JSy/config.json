@@ -1,0 +1,27 @@
+{
+    "task": {
+        "path": "/ssd1/kaijing/projects/test-time-communication/benchmarks/polyomino"
+    },
+    "trial_name": "polyomino__RqV8JSy",
+    "trials_dir": "/ssd1/kaijing/projects/test-time-communication/jobs/poly12h-claude-sonnet-46-iso3-rerun",
+    "agent_timeout_multiplier": 4.0,
+    "agent": {
+        "import_path": "agent:CollaborationAgent",
+        "model_name": "claude-sonnet-4.6"
+    },
+    "environment": {
+        "type": "docker",
+        "mounts": [
+            {
+                "type": "bind",
+                "source": "/ssd1/kaijing/projects/test-time-communication/.cache/copilot-1.0.70",
+                "target": "/mnt/release-copilot",
+                "read_only": true,
+                "bind": {
+                    "create_host_path": false
+                }
+            }
+        ]
+    },
+    "job_id": "a26d4fb3-2433-4ab4-b4d1-bcddc62d6ad3"
+}

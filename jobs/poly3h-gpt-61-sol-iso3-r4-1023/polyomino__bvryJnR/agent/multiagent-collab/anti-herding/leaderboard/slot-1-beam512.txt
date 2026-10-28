@@ -1,0 +1,5 @@
+score=96.36824730571428
+lineage=safe-tail256 plus small full-sequence beam512, width11/12-first
+path=/logs/agent/multiagent-collab/anti-herding/work-1/beam512-tail.cpp
+evidence=officiale5f75d10;32fixed uniform ordering ablation
+counterevidence=beam512 still gated n<=180 due runtime

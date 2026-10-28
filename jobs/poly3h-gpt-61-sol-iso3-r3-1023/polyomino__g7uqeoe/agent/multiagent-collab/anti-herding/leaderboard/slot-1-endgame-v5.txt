@@ -1,0 +1,9 @@
+Candidate: work-1/beam-endgame-v5.cpp
+Lineage: indexed beam + peer compact heap/component-match + partial-beam exact endgame
+Official normalized score: 0.9680449729714283
+Official raw score: 96.80449729714283/100
+Evidence: 20 uniform-catalog local paired inputs, baseline mean 0.95719138 versus 0.95823605; five wins, one timing loss. Genuine MRV height improvements logged.
+Validity: 100 active-endgame checks including arbitrary 1e12 coordinate offsets; six n1000/n10000 checks, maximum wall 1.879 seconds.
+Cost: one official submission for this candidate, 40 paired full runs plus 106 independent geometry/stress runs.
+Counter-evidence: n100 seed 41057 loses one beam-width completion because copying checkpoints slightly shifts timing. No global optimality claim. Endgame does not reuse already-skipped prefix holes.
+Reproduce: g++ -std=gnu++17 -O2 -o candidate work-1/beam-endgame-v5.cpp; run standard input; define ENDGAME_STATS for accepted completions.

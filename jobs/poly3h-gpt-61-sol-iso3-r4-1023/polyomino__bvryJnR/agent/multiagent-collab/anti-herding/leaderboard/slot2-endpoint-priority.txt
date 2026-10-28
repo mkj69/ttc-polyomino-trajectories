@@ -1,0 +1,8 @@
+Candidate: work-2/endpoint-priority.cpp
+Official raw score: 98.15064174714287 (sid59, 99c02196)
+Lineage: geometry-one.cpp + shape-topology inventory priority.
+Change: whole-inventory beam difficulty adds twice the number of degree-one cells for pieces of size >=5. Dense prefix and large-N construction retain their previous behavior.
+Evidence: 195 training and 192 held-out fixed-work outputs, 24 integrated uniform cases, 50 tiny exhaustive-reference cases, six structural stress cases; all valid. Endpoint priority improved the held-out average in all six size bands.
+Counter-evidence: individual training cases and some early size-150 averages were negative. Other features were not consistently positive.
+Cost: one official submission; local counts as above.
+Status: promoted under shared lock at 19:35:27 UTC.

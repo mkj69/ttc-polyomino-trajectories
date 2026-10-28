@@ -1,0 +1,1 @@
+lineage=slot0 cavity-scored-beam-v3 plus slot1 per-width exact-tail search; score=97.15613820857143; source=work-1/cavity-beam-elite-tail-v6.cpp; evidence=one official score,11 paired representative runs and250 valid randomized beam outputs; cost1 official call+272 local processes; counterevidence=9/11 paired cases unchanged, DFS caps bound exact search.

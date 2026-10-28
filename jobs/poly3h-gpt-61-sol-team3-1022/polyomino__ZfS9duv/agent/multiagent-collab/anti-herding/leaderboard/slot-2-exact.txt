@@ -1,0 +1,5 @@
+source: work-2/exact.cpp standalone
+lineage: tail inventory core + row-major bounded exact-cover DFS, blank budget, subset-sum component loss, transposition hash
+measured: .9554103165428573 (near safe.95564, not better than historical.95626)
+cost:1successfulgrade+1include-errorgrade;450referencecoordinatecases
+counter-evidence: exact tailoring alone not demonstrated gain under2s; next formulation piece-centric MRV without cell skips

@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/adaptive_indexed.cpp
+lineage=adaptivebeam sid18 +indexedmediumwholeinventory large768validfits
+score=97.60747119428576
+submission=sid19 uuid=d5793e38-34b4-4496-af86-d2dc6e49da8e
+evidence=strictgeometry40+cases; n3333+.00255density,n1000+.001density
+cost=1judge20s+40main66s
+counterevidence=n500fullinventorymainverymixed; noindexsmalln<=400

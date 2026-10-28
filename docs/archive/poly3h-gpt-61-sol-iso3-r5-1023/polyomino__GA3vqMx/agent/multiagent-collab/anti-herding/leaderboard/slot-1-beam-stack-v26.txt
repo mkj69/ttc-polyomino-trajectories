@@ -1,0 +1,6 @@
+score=96.68171380285715 sid61
+source=/logs/agent/multiagent-collab/anti-herding/work-1/frontier-beam-stack-v26.cpp
+lineage=compact-extra-v14+fullfrontierbeamstack
+evidence=60freshcataloguevalid+32matched;5wins0loss; allowedjudge+0.18184861
+cost=1judge+approximately155CPUseconds
+counterevidence=noneyet; discardedstates canrepeat acrossbranches, boundedbudget

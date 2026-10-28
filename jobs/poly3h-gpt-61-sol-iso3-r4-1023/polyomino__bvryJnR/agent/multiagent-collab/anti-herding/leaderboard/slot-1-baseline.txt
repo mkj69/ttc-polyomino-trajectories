@@ -1,0 +1,5 @@
+score=78.94315157
+lineage=independent skyline baseline
+path=/logs/agent/multiagent-collab/anti-herding/work-1/baseline.cpp
+evidence=200 random valid; 10000-piece run 0.53s; one judged call
+counterevidence=official density lower than grown-shape generator

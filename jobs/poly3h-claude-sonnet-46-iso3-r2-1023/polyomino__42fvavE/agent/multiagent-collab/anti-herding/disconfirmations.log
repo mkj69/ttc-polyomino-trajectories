@@ -1,0 +1,1 @@
+[slot 2 08:46:14] NEGATIVE: W-adaptive ordering (recompute order per width) is slower and doesn't improve over 3 precomputed orderings. Computing ord per width wastes ~30% of time budget.

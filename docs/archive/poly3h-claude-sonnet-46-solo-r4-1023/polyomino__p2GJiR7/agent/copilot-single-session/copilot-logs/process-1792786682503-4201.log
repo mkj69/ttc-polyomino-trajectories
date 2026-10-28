@@ -1,0 +1,35 @@
+2026-10-23T20:18:02.505Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T20:18:02.507Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T20:18:02.507Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T20:18:02.522Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T20:18:02.522Z [INFO] OpenTelemetry tracker created for session 58b1b66e-ff70-423e-a3c4-cd52e72d7cc7
+2026-10-23T20:18:02.584Z [INFO] Workspace initialized: 58b1b66e-ff70-423e-a3c4-cd52e72d7cc7 (checkpoints: 0)
+2026-10-23T20:18:02.597Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T20:18:02.597Z [INFO] Node.js version: v24.16.0
+2026-10-23T20:18:02.617Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T20:18:02.625Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T20:18:02.700Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T20:18:02.701Z [INFO]  
+2026-10-23T20:18:02.729Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T20:18:02.730Z [INFO] --- End of group ---
+2026-10-23T20:55:59.078Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T20:55:59.079Z [INFO] --- End of group ---
+2026-10-23T20:57:10.277Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T20:57:10.281Z [INFO] Persisted checkpoint #1: Polyomino packing solver performance optimization
+2026-10-23T20:58:13.342Z [INFO] CompactionProcessor: Compaction complete - replaced 40 messages with summary + 4 new messages, saved ~128382 tokens
+2026-10-23T21:29:41.272Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T21:29:41.272Z [INFO] --- End of group ---
+2026-10-23T21:30:58.023Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T21:30:58.027Z [INFO] Persisted checkpoint #2: AVX2 polyomino packer debugging WA
+2026-10-23T21:32:24.744Z [INFO] CompactionProcessor: Compaction complete - replaced 73 messages with summary + 4 new messages, saved ~123132 tokens
+2026-10-23T21:57:53.558Z [INFO] System notification: Shell command "Run assertion-checking version on 10000 seeds" (shellId: 59) has ...
+2026-10-23T22:08:28.360Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T22:08:28.360Z [INFO] --- End of group ---
+2026-10-23T22:09:28.403Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T22:09:28.408Z [INFO] Persisted checkpoint #3: Fixed rotation convention, 69% score achieved
+2026-10-23T22:10:12.952Z [INFO] CompactionProcessor: Compaction complete - replaced 84 messages with summary + 8 new messages, saved ~121734 tokens
+2026-10-23T22:44:59.324Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T22:44:59.324Z [INFO] --- End of group ---
+2026-10-23T22:46:11.392Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T22:46:11.397Z [INFO] Persisted checkpoint #4: All-orientation adaptive packing, 72.75% score
+2026-10-23T22:47:19.571Z [INFO] CompactionProcessor: Compaction complete - replaced 103 messages with summary + 4 new messages, saved ~124902 tokens

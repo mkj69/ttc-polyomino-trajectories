@@ -1,0 +1,29 @@
+2026-10-22T08:20:52.640Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-22T08:20:52.642Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-22T08:20:52.642Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-22T08:20:52.657Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-22T08:20:52.657Z [INFO] OpenTelemetry tracker created for session ce61ad1c-e1b0-4620-afe0-9cb8eb00a6be
+2026-10-22T08:20:52.669Z [INFO] Workspace initialized: ce61ad1c-e1b0-4620-afe0-9cb8eb00a6be (checkpoints: 0)
+2026-10-22T08:20:52.676Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-22T08:20:52.676Z [INFO] Node.js version: v24.16.0
+2026-10-22T08:20:52.741Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-22T08:20:52.746Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-22T08:20:52.945Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-22T08:20:52.945Z [INFO]  
+2026-10-22T08:20:53.059Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T08:20:53.059Z [INFO] --- End of group ---
+2026-10-22T09:10:01.149Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T09:10:01.149Z [INFO] --- End of group ---
+2026-10-22T09:11:06.872Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T09:11:06.888Z [INFO] Persisted checkpoint #1: Polyomino packing profile-based solution
+2026-10-22T09:11:32.348Z [INFO] CompactionProcessor: Compaction complete - replaced 59 messages with summary + 8 new messages, saved ~130450 tokens
+2026-10-22T09:46:40.081Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T09:46:40.081Z [INFO] --- End of group ---
+2026-10-22T09:47:49.368Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T09:47:49.373Z [INFO] Persisted checkpoint #2: BL-fill with random restarts, 76.10% champion
+2026-10-22T09:49:50.775Z [INFO] CompactionProcessor: Compaction complete - replaced 55 messages with summary + 6 new messages, saved ~113678 tokens
+2026-10-22T10:20:40.516Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T10:20:40.517Z [INFO] --- End of group ---
+2026-10-22T10:21:50.904Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T10:21:50.910Z [INFO] Persisted checkpoint #3: W=-1 bug fix, bord_g iterated local search, 77.20% champion
+2026-10-22T10:22:26.362Z [INFO] CompactionProcessor: Compaction complete - replaced 114 messages with summary + 6 new messages, saved ~123400 tokens

@@ -1,0 +1,8 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-1/cavity_fit.cpp
+lineage=exact sid33: slot2 bbox2 small inventory correction + slot0 medium indexed beam/P14 + slot2 ordinary indexed inventory/P15-11-7 + slot1 row-flood and exact streaming heap
+score=98.2367326342857
+submission=sid35 uuid37df8524-6ac2-401c-9451-460076abe72a
+new_method=dynamic actual shape and remaining-inventory compatibility for closed cavities of at most10 cells. When area<2*minimum remaining piece area, at most one piece fits; normalize and cache all fitting subset piece IDs, then penalize true unfillable cells. Defaultweight2, n<=400 only.
+evidence=18 full scheduler strict-valid cases through n10000, max1.662s. Full main matched small ablation12cases means about.9792 vs.9778.
+cost=1 approved judge about20s,180 fixed pairs12.36s,18full29.80s,12ablated19.85s
+counterevidence=45 fixed raw passes mean slightly negative .963465->.963312; n100 weaker while200/333 stronger. Approved gain only.01557 over33; deadline and restart variability remain.

@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-1/frontier_open.cpp
+lineage=slot2 inventory + slot0 cavity/narrow-width/multiweight + slot1 tail and corrected open-component BFS propagation
+score=95.97425882285714
+submission=sid5 uuidee4cc847-9fe2-47aa-abdb-38af1c92555f
+evidence=50 controlled local cases isolates open-BFS fix; gains4of5 n-groups, uniform N10000 .98939->.99040 at same runtime
+cost=one judgecall and ~8s controlled localCPU
+counterevidence=n333 fixed-width group slight regression; graded comparison also includes randomized coarse weights

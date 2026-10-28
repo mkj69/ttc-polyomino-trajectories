@@ -1,0 +1,1 @@
+Skyline packing with actual cell positions (not bounding boxes); maintain sky[x]=max height in column x; for each piece try all 8 orientations at all x; minimize newHeight=py+bh; NOT assuming bounding boxes are sufficient for good packing

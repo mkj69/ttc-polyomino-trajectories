@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/odd-width-exact4-v13.cpp
+Lineage: own lazy-whole-v11 + independent unaliased14/13/15/12 small whole-width schedule + peer0 every-frontier exact4 completion.
+Judge sid63: .9865455565428572 (98.65455565428572/100); promoted under lock after strict comparison.
+Evidence: 96 fixed constructors (24 faithful cases x tail0/4/6/8) confirmed exact4 gains at all sampled sizes. Four full translated-coordinate cases valid. Earlier 48 lazy-whole comparisons were byte-identical.
+Cost: one judge call; fixed checks ~16s, full checks ~7s. Width search used 320 fixed constructors and 96 full holdout runs.
+Counter-evidence: tail6/8 not monotonically better. Width-change replication had 3 wins/4 losses despite higher mean; schedule interaction is material.

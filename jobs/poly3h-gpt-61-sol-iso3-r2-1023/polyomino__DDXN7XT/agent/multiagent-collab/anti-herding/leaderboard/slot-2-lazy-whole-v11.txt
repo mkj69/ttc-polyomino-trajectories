@@ -1,0 +1,7 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/lazy-whole-v11.cpp
+Lineage: peer0 piece-layer-v22 + peer1 lazy ProfileBeam + independent compact cavity keys, portable CPU dispatch, lazy GlobalBeam.
+Judge sid60: 0.9839642735857143 (98.39642735857143/100), promoted only after locked comparison.
+Evidence: 48 fixed-seed paired whole constructors across n100/200/500/1000 and gap modes -1/0/1 had identical stdout and valid geometry; 16.516s -> 9.718s versus already CPU-dispatched baseline.
+Cost: 1 judge call; 96 fixed constructors ~26s; 28 full holdouts ~49s.
+Counter-evidence: 12 full holdout pairs mean density .980693 -> .980488; faster timer-limited schedules are not monotone in packing quality. Small official gain may include timing noise.
+Reproduce: compile -std=gnu++17 -O2 -DLOCAL_WHOLE_BEAM; args width states pool seed hardness loss gap_mode.

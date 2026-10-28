@@ -1,0 +1,10 @@
+lineage=slot2 inventory + slot0 stamped cavity shortlist / narrow width scheduling + slot1 bounded tail reconstruction
+source=/logs/agent/multiagent-collab/anti-herding/work-0/frontier.cpp
+check=python3 work-0/bench.py work-0/integrated --seeds 2
+measured_density=0.972946 mean across n100,333,1000,3333,10000 seeds2
+max_runtime=1.665s
+known_counterevidence=small n still ~6% waste; full search is heuristic; runtime uses steady-clock budget
+cost=10 uniform plus15 growth local cases; approved judge pending
+
+approved_sid=4
+approved_score=95.72851673714287

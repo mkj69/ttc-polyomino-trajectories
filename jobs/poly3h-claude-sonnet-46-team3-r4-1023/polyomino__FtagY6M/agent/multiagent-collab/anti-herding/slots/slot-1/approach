@@ -1,0 +1,1 @@
+Skyline packing with actual cell positions; try all 8 orientations dynamically during packing; NOT pure bounding-box

@@ -1,0 +1,5 @@
+lineage: native archive+nearfit27 +mediumfrontier30 +poolfallback32 +180boundaryframes33/36
+evidence: sid37 raw96.57607116571427 uuid2c4bab35-3dd2-4a5f-8f3b-92ad5a7ec557 > parent32 96.57096033; edge-effect positive3grades
+cost:3grades+47localvalidations80s
+counter-evidence:1850mspeer35stronger96.6128,combinepending;effectmodest/timing-sensitive
+source:/logs/agent/multiagent-collab/anti-herding/work-1/edge-suffix.cpp

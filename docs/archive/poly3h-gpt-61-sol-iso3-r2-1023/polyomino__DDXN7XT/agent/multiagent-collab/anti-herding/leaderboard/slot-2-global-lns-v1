@@ -1,0 +1,6 @@
+score=.961223018057143
+lineage=v8+120ms global-hole legal exact-cover LNS
+source=work-2/global-lns-v1.cpp
+evidence=sid27 raw96.1223018057143
+cost=1judge70cases
+counterevidence=0of18 post-v8 local400ms improvements; small aggregate advantage may include timing effects

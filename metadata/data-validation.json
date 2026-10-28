@@ -1,0 +1,270 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "id": "poly12h-claude-sonnet-46-iso3-rerun",
+      "steps": 4017,
+      "source_events": 624123,
+      "submissions": 117,
+      "tool_dispatches": 2349,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly12h-claude-sonnet-46-solo-1024",
+      "steps": 1108,
+      "source_events": 208889,
+      "submissions": 37,
+      "tool_dispatches": 681,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly12h-claude-sonnet-46-team3-1024",
+      "steps": 4571,
+      "source_events": 808499,
+      "submissions": 1069,
+      "tool_dispatches": 2555,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-1022",
+      "steps": 1018,
+      "source_events": 251182,
+      "submissions": 42,
+      "tool_dispatches": 599,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r2-1023",
+      "steps": 1245,
+      "source_events": 281296,
+      "submissions": 45,
+      "tool_dispatches": 726,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r3-1023",
+      "steps": 1342,
+      "source_events": 249452,
+      "submissions": 34,
+      "tool_dispatches": 786,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r4-1023",
+      "steps": 1555,
+      "source_events": 300974,
+      "submissions": 46,
+      "tool_dispatches": 896,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-iso3-r5-1023",
+      "steps": 1268,
+      "source_events": 266450,
+      "submissions": 40,
+      "tool_dispatches": 756,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-1019-1604",
+      "steps": 304,
+      "source_events": 74923,
+      "submissions": 10,
+      "tool_dispatches": 177,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r2-1023",
+      "steps": 348,
+      "source_events": 85428,
+      "submissions": 10,
+      "tool_dispatches": 207,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r3-1023",
+      "steps": 255,
+      "source_events": 92003,
+      "submissions": 9,
+      "tool_dispatches": 143,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r4-1023",
+      "steps": 309,
+      "source_events": 90568,
+      "submissions": 7,
+      "tool_dispatches": 176,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-solo-r5-1023",
+      "steps": 368,
+      "source_events": 92336,
+      "submissions": 6,
+      "tool_dispatches": 212,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-1019-1604",
+      "steps": 1439,
+      "source_events": 301017,
+      "submissions": 29,
+      "tool_dispatches": 814,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r2-1023",
+      "steps": 1327,
+      "source_events": 288782,
+      "submissions": 18,
+      "tool_dispatches": 751,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r3-1023",
+      "steps": 1250,
+      "source_events": 286101,
+      "submissions": 69,
+      "tool_dispatches": 711,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r4-1023",
+      "steps": 1396,
+      "source_events": 341204,
+      "submissions": 41,
+      "tool_dispatches": 802,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-claude-sonnet-46-team3-r5-1023",
+      "steps": 1298,
+      "source_events": 318600,
+      "submissions": 41,
+      "tool_dispatches": 739,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-1022",
+      "steps": 2348,
+      "source_events": 258180,
+      "submissions": 72,
+      "tool_dispatches": 1165,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r2-1023",
+      "steps": 2063,
+      "source_events": 284587,
+      "submissions": 73,
+      "tool_dispatches": 1111,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r3-1023",
+      "steps": 1516,
+      "source_events": 198878,
+      "submissions": 63,
+      "tool_dispatches": 987,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r4-1023",
+      "steps": 1670,
+      "source_events": 221481,
+      "submissions": 64,
+      "tool_dispatches": 934,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-iso3-r5-1023",
+      "steps": 1653,
+      "source_events": 212900,
+      "submissions": 70,
+      "tool_dispatches": 963,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-1022",
+      "steps": 738,
+      "source_events": 78503,
+      "submissions": 33,
+      "tool_dispatches": 229,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r2-1023",
+      "steps": 552,
+      "source_events": 66821,
+      "submissions": 29,
+      "tool_dispatches": 252,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r3-1023",
+      "steps": 794,
+      "source_events": 68084,
+      "submissions": 25,
+      "tool_dispatches": 277,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r4-1023",
+      "steps": 619,
+      "source_events": 62652,
+      "submissions": 21,
+      "tool_dispatches": 213,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-solo-r5-1023",
+      "steps": 846,
+      "source_events": 65023,
+      "submissions": 73,
+      "tool_dispatches": 359,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-1022",
+      "steps": 1989,
+      "source_events": 250200,
+      "submissions": 123,
+      "tool_dispatches": 1271,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r2-1023",
+      "steps": 2048,
+      "source_events": 240280,
+      "submissions": 90,
+      "tool_dispatches": 1241,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r3-1023",
+      "steps": 1634,
+      "source_events": 203108,
+      "submissions": 74,
+      "tool_dispatches": 1035,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r4-1023",
+      "steps": 1850,
+      "source_events": 229673,
+      "submissions": 67,
+      "tool_dispatches": 1166,
+      "unpaired_tool_results": 0
+    },
+    {
+      "id": "poly3h-gpt-61-sol-team3-r5-1023",
+      "steps": 1635,
+      "source_events": 207903,
+      "submissions": 34,
+      "tool_dispatches": 1026,
+      "unpaired_tool_results": 0
+    }
+  ],
+  "checks": "ATIF pydantic schema, sequential IDs and source-call references; exact semantic event coverage and source event type counts; all dispatches and completed submission scores; final rewards; archive download targets and deep-link pages."
+}

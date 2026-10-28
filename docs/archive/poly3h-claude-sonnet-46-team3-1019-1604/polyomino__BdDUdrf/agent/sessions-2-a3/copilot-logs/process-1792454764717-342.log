@@ -1,0 +1,34 @@
+2026-10-20T00:06:04.718Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-20T00:06:04.720Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-20T00:06:04.721Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-20T00:06:04.740Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-20T00:06:04.740Z [INFO] OpenTelemetry tracker created for session 4a3a9445-5832-4f9a-b97f-aa0deb74c655
+2026-10-20T00:06:04.793Z [INFO] Workspace initialized: 4a3a9445-5832-4f9a-b97f-aa0deb74c655 (checkpoints: 0)
+2026-10-20T00:06:04.808Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-20T00:06:04.808Z [INFO] Node.js version: v24.16.0
+2026-10-20T00:06:04.831Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-20T00:06:04.839Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-20T00:06:04.923Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-20T00:06:04.924Z [INFO]  
+2026-10-20T00:06:04.952Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T00:06:04.953Z [INFO] --- End of group ---
+2026-10-20T00:44:45.352Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T00:44:45.352Z [INFO] --- End of group ---
+2026-10-20T00:45:38.922Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T00:45:38.927Z [INFO] Persisted checkpoint #1: Polyomino Skyline Packing 71%
+2026-10-20T00:46:33.905Z [INFO] CompactionProcessor: Compaction complete - replaced 114 messages with summary + 6 new messages, saved ~123226 tokens
+2026-10-20T01:23:24.577Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T01:23:24.577Z [INFO] --- End of group ---
+2026-10-20T01:24:38.469Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T01:24:38.474Z [INFO] Persisted checkpoint #2: Polyomino Waste-Min Packing 82.84%
+2026-10-20T01:24:39.373Z [INFO] CompactionProcessor: Compaction complete - replaced 112 messages with summary + 2 new messages, saved ~125245 tokens
+2026-10-20T02:02:12.132Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T02:02:12.132Z [INFO] --- End of group ---
+2026-10-20T02:03:54.067Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T02:03:54.072Z [INFO] Persisted checkpoint #3: Phase2 Width Optimization Investigation
+2026-10-20T02:03:59.110Z [INFO] CompactionProcessor: Compaction complete - replaced 153 messages with summary + 14 new messages, saved ~120403 tokens
+2026-10-20T02:37:07.836Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-20T02:37:07.837Z [INFO] --- End of group ---
+2026-10-20T02:38:22.229Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-20T02:38:22.253Z [INFO] Persisted checkpoint #4: Phase2 Wide-Width Optimization
+2026-10-20T02:38:49.792Z [INFO] CompactionProcessor: Compaction complete - replaced 111 messages with summary + 4 new messages, saved ~125860 tokens

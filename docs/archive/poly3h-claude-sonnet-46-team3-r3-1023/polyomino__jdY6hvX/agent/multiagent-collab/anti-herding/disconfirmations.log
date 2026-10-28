@@ -1,0 +1,1 @@
+[slot 2 16:02:23] tested: min-cost metric vs leftmost-x; min-cost is clearly better (+5%). guided-restarts: neutral. SSE4.2+two-pass: marginal gain over scalar. height-sort of orientations: +1.2%

@@ -1,0 +1,1 @@
+Profile-based strip packing with per-cell exact placement (not bounding-box): try multiple sort orders (height-desc, cells-desc, aspect-ratio), exact cell-level collision check, interlock pieces within the profile. Try W range tighter around sqrt(T). NOT using segment-based skyline or bounding-box fitting.

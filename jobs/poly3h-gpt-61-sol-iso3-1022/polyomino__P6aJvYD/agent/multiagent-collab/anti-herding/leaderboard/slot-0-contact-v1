@@ -1,0 +1,5 @@
+lineage=independent-piece-centric-contact-v1
+evidence=300 random valid, max n 10000 all-decaminos density 0.923387 time 0.692s
+cost=304 local cases; one official submission pending
+counterevidence=random-grown generator is not uniform over free polyomino types
+path=/logs/agent/multiagent-collab/anti-herding/work-0/contact-v1.cpp

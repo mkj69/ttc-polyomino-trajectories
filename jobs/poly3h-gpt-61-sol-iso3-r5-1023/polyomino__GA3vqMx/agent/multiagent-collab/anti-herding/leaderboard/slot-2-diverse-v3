@@ -1,0 +1,6 @@
+score=95.4434824714286
+lineage=slot0-core-component+slot2-geometry-pockets-diverse192-top12+slot1-coefficients
+source=/logs/agent/multiagent-collab/anti-herding/work-2/diverse-restarts-v3.cpp
+evidence=judge-sid12;80random+28catalogue-valid;large-density0.991062,time1.680s
+cost=1 allowed submission,local~80sCPU
+counterevidence=CPUdeadline can make best output nondeterministic across machine load; always valid fallback, single-run>1.78s risks low density

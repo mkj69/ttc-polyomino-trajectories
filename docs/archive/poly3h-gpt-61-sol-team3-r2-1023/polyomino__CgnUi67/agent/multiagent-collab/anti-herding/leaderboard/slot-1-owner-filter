@@ -1,0 +1,24 @@
+Candidate: work-1/owner-filter.cpp, parent70 raw96.9051266471
+Algorithm: ejection candidates with at most one blocker use three binary owner
+label planes. An alignment covering both 0 and 1 labels on any plane cannot
+have <=1 owner, so exclude it word-parallel before exact native verification.
+Recent tabu masks also exclude alignments. Orientation/y/x enumeration order,
+scores, RNG consumption, candidate truncation and actual moves remain native.
+Only maxCollisions1 uses this path; max2 remains unfiltered.
+
+Evidence:35384 native vs filtered candidate vectors and post-call RNG states
+exactly match across8depths on500inventories;14952more underASan+UBSan on200,
+including +/-10^12 translated inputs.
+O2 per-collision-limit timing INCLUDING row construction:
+max1 native .179444s,threeplanes .0392764s (4.57x).
+max2 native .400814s vs .375751s despite unnecessary label building; disabled.
+
+Counter-evidence:12fresh full timed runs mean parent .96486446,
+same source filter0 .96339709,2planes .96207825,3planes .96225063.
+All48 legal. Time-limited construction schedules differ even between exact
+parent/filter0 due code layout and concurrency. Full gain not established.
+Grade79:96.9196363043,uuid2dc2ba41-84e0-4d14-96ce-4f3c581ba80e.
+Immutable work-1/best-96920.cpp, positive versus parent70 by+.01450966.
+Root remains owner0. Further max2 class filter is mutable owner-filter.cpp,
+not this frozen candidate.
+Cost:800inventories+57840candidatecomparisons,48fullruns89s,onegrade.

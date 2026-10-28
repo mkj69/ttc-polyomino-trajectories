@@ -1,0 +1,8 @@
+Lineage: slot0 91-bit first-empty packing and inventory-aware frontier beam; slot1 bounded component and exact-shape cavity scoring; slot2 highest-tail MRV repacking.
+Candidate: /app/solution.cpp
+Graded score: 0.9840475494428573 normalized / 98.40475494428573 raw.
+Submit UUID: c5f2c1b3-b365-4db6-820c-39ab63706cce.
+Cost: 1 graded call / 70 cases for integrated candidate; slot0 total 2 calls.
+Independent local densities: n100 .968220 (8); n1000 .988663 (3); n10000 .993348 (3).
+Runtime: max1.7482s among those checks (2s limit), bounds/overlap/transforms independently validated.
+Counter-evidence: fixed local beams can over-prioritize awkward pieces; width/score portfolio mitigates; global optimality not guaranteed.

@@ -1,0 +1,16 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/ceiling-support.cpp
+Lineage: exact persistent sid53 morphology-coverage baseline plus finite-ceiling
+legal-placement coverage only for bounded suffixes with <=24 pieces remaining.
+Measured sid58 score: 98.66658119285712 (sid53 98.64160475714284).
+Evidence: 20 paired uniform cases n100/300/1000/3000/10000; 2 wins, no losses,
+18 ties. All 60 outputs including a cover8 ablation independently validated.
+Max optimized child CPU 1.790043 seconds. 36 ASan/UBSan outputs also valid,
+including 20 tiny brute-force cross-checks and 16 adaptive cases up to n10000.
+Exact support honors the target ceiling, computes full support union (stop0),
+and rejects only proven uncovered cells plus committed skips exceeding slack.
+Global morphology, coverage, portfolio, construction and beam energy unchanged.
+Cost: one allowed graded 70-case submission, ~107 CPU sec paired outputs,
+~58 CPU sec sanitizer validation. 100000 explicit finite-ceiling legal-support
+union comparisons independently passed.
+Known counter-evidence: cover8 ablation gains only one local case; runtime may
+change neutral suffix trajectories, so official gain is modest, not universal.

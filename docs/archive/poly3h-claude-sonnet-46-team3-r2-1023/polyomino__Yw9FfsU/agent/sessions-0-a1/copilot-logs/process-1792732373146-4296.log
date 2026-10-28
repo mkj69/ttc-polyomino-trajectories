@@ -1,0 +1,36 @@
+2026-10-23T05:12:53.147Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T05:12:53.149Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T05:12:53.149Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T05:12:53.168Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T05:12:53.168Z [INFO] OpenTelemetry tracker created for session c289c397-e504-49b4-968d-e3dfd5139f4f
+2026-10-23T05:12:53.174Z [INFO] Workspace initialized: c289c397-e504-49b4-968d-e3dfd5139f4f (checkpoints: 0)
+2026-10-23T05:12:53.184Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T05:12:53.184Z [INFO] Node.js version: v24.16.0
+2026-10-23T05:12:53.195Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T05:12:53.200Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T05:12:53.276Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T05:12:53.277Z [INFO]  
+2026-10-23T05:12:53.310Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T05:12:53.310Z [INFO] --- End of group ---
+2026-10-23T05:48:20.635Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T05:48:20.635Z [INFO] --- End of group ---
+2026-10-23T05:49:26.806Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T05:49:26.812Z [INFO] Persisted checkpoint #1: Polyomino skyline packer with timing fix
+2026-10-23T05:50:04.347Z [INFO] CompactionProcessor: Compaction complete - replaced 131 messages with summary + 4 new messages, saved ~121242 tokens
+2026-10-23T06:25:54.895Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T06:25:54.896Z [INFO] --- End of group ---
+2026-10-23T06:27:18.699Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T06:27:18.704Z [INFO] Persisted checkpoint #2: Polyomino packer priority width search
+2026-10-23T06:28:01.113Z [INFO] CompactionProcessor: Compaction complete - replaced 127 messages with summary + 8 new messages, saved ~120084 tokens
+2026-10-23T06:44:14.891Z [INFO] System notification: Shell command "Submit to judge" (shellId: submit2) has completed successfully. U...
+2026-10-23T07:04:45.272Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T07:04:45.273Z [INFO] --- End of group ---
+2026-10-23T07:06:13.004Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T07:06:13.009Z [INFO] Persisted checkpoint #3: Snug packing 77.59% judge score
+2026-10-23T07:06:46.874Z [INFO] CompactionProcessor: Compaction complete - replaced 147 messages with summary + 8 new messages, saved ~126922 tokens
+2026-10-23T07:26:21.109Z [WARNING] [StreamingChunkDisplay] Received a chunk with a different streaming ID: native-anthropic-c54f90b8-8635-44c5-8784-c44b9df25645
+2026-10-23T07:46:30.697Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T07:46:30.698Z [INFO] --- End of group ---
+2026-10-23T07:48:01.668Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T07:48:01.674Z [INFO] Persisted checkpoint #4: All-snug rewrite investigating regressions
+2026-10-23T07:51:23.747Z [INFO] CompactionProcessor: Compaction complete - replaced 105 messages with summary + 4 new messages, saved ~109782 tokens

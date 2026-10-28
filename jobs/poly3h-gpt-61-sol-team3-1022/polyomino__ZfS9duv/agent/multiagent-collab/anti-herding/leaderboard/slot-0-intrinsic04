@@ -1,0 +1,8 @@
+Candidate: work-0/best98056.cpp
+Lineage: peer2 bounded20row compact all-size beam best98031; own runtime-popcnt/alive-bitsets/geometric-diversity; intrinsic enclosed-cell cache and global rank minus .4*placed_intrinsic_holes; local refund disabled.
+Allowed grade sid80: 98.05603890571429/100.
+Independent full CPU-budget holdouts: twenty new faithful n100/200/400/700/1500, rank0/.4/.75/1.2 means .982134/.982616/.982002/.980466; rank.4 wins10/20, total115.43 child CPU seconds.
+Prior short-budget 120run ablation64.28CPU favored global-only and disconfirmed local refunds; global.75 grade79 98.02139, combined grade78 97.99125.
+Known counter-evidence: .4 gain small relative to timer/RNG noise; only10wins20. Intrinsic holes may be fillable, ranking heuristic is not a hard lower-bound pruning claim.
+Audit: 220 fresh ASan/UBSan mixed-shape/extreme-origin outputs valid, including n1/2/99/100/499/500/501/1000/10000; 31.86 child CPU seconds. Independent Python cavity flood checked all50148 oriented shapes from6473free catalogue, all cached counts correct (48315noholes,1727onehole,106twoholes); .366 childCPU.
+Persistent: /app/solution.cpp promoted with a clarifying comment; immutable best98056.cpp retained.

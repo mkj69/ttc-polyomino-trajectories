@@ -1,0 +1,6 @@
+score=96.49085326999999
+source=work-0/forward-index-v11.cpp
+lineage=slot1 late frontier forward check plus independently measured index-only suffix-state sorting and bitset component visits
+evidence=sid53;150random/tinyreference+5stress+48matched outputs valid; n400 CPU.99->.81 and1.34->.95
+cost=1judge+~210solverCPU seconds
+counter_evidence=bitset BFS isolated speed small; benefits primarily suffix large-state sorting, not new placement quality

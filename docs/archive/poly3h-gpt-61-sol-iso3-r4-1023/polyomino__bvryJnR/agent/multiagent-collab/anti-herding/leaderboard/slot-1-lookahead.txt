@@ -1,0 +1,5 @@
+score=94.75387545714288
+lineage=slot0 baseline plus independent hard-shape prioritization and two-placement lookahead
+path=/logs/agent/multiagent-collab/anti-herding/work-1/lookahead.cpp
+evidence=200 random valid and18 uniform stress; official submission dbea3b64; max local1.74s
+counterevidence=difficulty and lookahead not separately ablated yet

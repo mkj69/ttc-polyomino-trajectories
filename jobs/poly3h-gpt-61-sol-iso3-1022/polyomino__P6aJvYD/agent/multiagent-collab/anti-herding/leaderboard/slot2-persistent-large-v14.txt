@@ -1,0 +1,6 @@
+score=98.21685657285715
+lineage=peer persistent compact small constructor + own mild large-resource priority + compact suffix
+source=/logs/agent/multiagent-collab/anti-herding/work-2/persistent-large-v14-standalone.cpp
+evidence=officialuuid9fdedac4;8productionpairedallvalid; large3wins1tie, smallone schedulingloss despite exact algorithm
+cost=1official+28.25spaired
+counterevidence=wall deadlines produce some compiler/scheduling variability

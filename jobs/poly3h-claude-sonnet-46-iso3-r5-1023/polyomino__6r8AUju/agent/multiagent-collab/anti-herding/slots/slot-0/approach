@@ -1,0 +1,1 @@
+Skyline BL packing: sort pieces by bounding-box area desc, try all 8 orientations, place at lowest-left skyline position. Will NOT assume fixed aspect ratio or pre-sorted shelves.

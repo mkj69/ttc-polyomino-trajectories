@@ -1,0 +1,28 @@
+2026-10-26T08:56:14.661Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-26T08:56:14.662Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-26T08:56:14.664Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-26T08:56:14.666Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-26T08:56:14.787Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-26T08:56:14.787Z [INFO] OpenTelemetry tracker created for session f639c32d-f00f-43c7-a798-ec2dec77edae
+2026-10-26T08:56:14.788Z [INFO] Workspace initialized: f639c32d-f00f-43c7-a798-ec2dec77edae (checkpoints: 0)
+2026-10-26T08:56:14.858Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-26T08:56:14.858Z [INFO] Node.js version: v24.16.0
+2026-10-26T08:56:14.869Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-26T08:56:14.874Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-26T08:56:14.937Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-26T08:56:14.937Z [INFO]  
+2026-10-26T08:56:14.938Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-26T08:56:14.938Z [INFO] --- End of group ---
+2026-10-26T08:56:14.956Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T08:56:14.957Z [INFO] --- End of group ---
+2026-10-26T09:00:00.514Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T09:00:00.514Z [INFO] --- End of group ---
+2026-10-26T09:02:29.101Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T09:02:29.107Z [INFO] Persisted checkpoint #1: Compact Beam Packing Optimization
+2026-10-26T09:03:40.286Z [INFO] CompactionProcessor: Compaction complete - replaced 224 messages with summary + 12 new messages, saved ~89802 tokens
+2026-10-26T09:14:15.756Z [INFO] System notification: Shell command "Evaluate eager exact-inventory forced-hole advancement before bea...
+2026-10-26T10:05:53.069Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T10:05:53.069Z [INFO] --- End of group ---
+2026-10-26T10:09:03.636Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T10:09:03.641Z [INFO] Persisted checkpoint #2: Inventory Potentials and Beam Expansion
+2026-10-26T10:09:14.952Z [INFO] CompactionProcessor: Compaction complete - replaced 217 messages with summary + 10 new messages, saved ~88171 tokens

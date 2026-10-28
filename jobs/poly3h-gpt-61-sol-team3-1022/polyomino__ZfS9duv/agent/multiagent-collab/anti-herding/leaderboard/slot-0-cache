@@ -1,0 +1,6 @@
+lineage: slot0 cache+restartcap over slot2tail+slot1inventory
+source: /app/solution.cpp and work-0/best95687.cpp
+score: .9568715119428569 allowed sid19
+evidence: 300byte-identical fixedwidth solves beforecapchange;600coordinatechecks; timed3catalogue sizes valid
+cost:1gradedcontinuation,localtimings findings
+counterevidence: timing noise ~.1%; fulloptimality notguaranteed

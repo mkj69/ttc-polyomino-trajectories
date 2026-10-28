@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/multiseed.cpp
+Lineage: sid14 native bitset seed650ms plus independent archive32 (max4per dimensions), rank by pieces ejected from better-area target rectangles across widths; alternate currentbest and portfolio seeds;250ms legal ejection attempts to1.7s. No global constructive beam.
+Evidence: allowedjudge sid22 raw96.49872814571427 normalized.9650 uuid7ebbf4fc-ddd4-4864-a581-a2a2f8549a24; priorbest21=96.44414582.
+Local:30 uniform n100 seed181-190 outputs valid: baseline .929936(2improvements), portfolio alternating .934470(16), portfolioonly .935145(21). Another16 n200 outputs legal.
+Cost:1judgecall;46localcases~79s+compile.
+Counter-evidence: archive overhead changes time-budgeted seed count; policy2 not consistently stronger than alternating. Initialization350ms under investigation, safe current650ms untouched. Archive computed hashes repeatedly (possible optimization).

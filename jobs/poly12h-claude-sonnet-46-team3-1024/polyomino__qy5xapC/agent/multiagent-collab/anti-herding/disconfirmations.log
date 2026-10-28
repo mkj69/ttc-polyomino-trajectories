@@ -1,0 +1,2 @@
+[slot 0 12:48:15] disconfirm: extending sys W_hi from 21→22-28 hurts (84.139% max vs 84.164%); pre_whi25 sweet spot only for pre-sweep, not sys phase
+[slot 2 12:51:25] DISCONFIRM; sqS*23/10 or sqS*24/10 anchors NOT better than sqS*22/10 (both=84.085%); ct*7=84.042%, ct*9=84.124% — ct*8 is optimal for sol_ct8 arch; full_scan=false for modes0-4 hurts (84.087%); 2-opt SA on orderings doesn't help (same 84.145%); W-specific orderings in adaptive don't help (84.139%); exploit with 6 modes=same as 2 modes

@@ -1,0 +1,8 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/best-98.44903796.cpp
+Current /app/solution.cpp is this candidate.
+Lineage: slot0 91-bit constructive/frontier inventory beam + slot1 exact cavity lower bound + slot2 top-tail exact repair, strengthened unavailable-shape area loss and extended beam through1024.
+Measured official raw score98.44903795714286/100; normalized .9844903795714286.
+Submission04088d3c-6d18-45ca-bdba-60ad920be085.
+Local uniform n1000 mean .992900(5 cases),n10000 .993787(3),max1.7195s.
+Cost:8 local cases and1 official call/70cases; slot0 total3 official calls at preservation.
+Counterevidence: medium beam extension trades constructive random width variation for stronger but narrower frontier search; near1024 timing depends on local host contention. No known validity failure.

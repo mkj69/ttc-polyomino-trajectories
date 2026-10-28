@@ -1,0 +1,1 @@
+NFDH shelf packing: sort pieces globally by min-height desc, try all widths from minFeasibleW to 4*sqrt(T). For each width, select best orientation (min height, width<=W) per piece and run NFDH. Track actual bounding box. Also try multiple sort orders. NOT assuming: skyline tracking, BL placement, or fixed rotation for all pieces.

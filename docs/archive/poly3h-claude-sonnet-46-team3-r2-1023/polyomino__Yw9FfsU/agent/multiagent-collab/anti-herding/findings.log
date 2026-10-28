@@ -1,0 +1,5 @@
+[slot 2 05:34:25] MEDIUM; profile-BL packing with geometric W search (10 values, ratio 1.25, 0.8x to 6x sqrt(T)); colMin optimization + early-exit when globalMinTop reached; 93.3% density for n=10000, 1.2s; WEAK on n=100 (79-86%); area formula: W in {189,236,...,1408} for sqS=236
+[slot 1 05:41:19] STRONG: Skyline packer with colMin opt + 19 widths (75%-700% of sqrt(S)). n=10000: area=58750-59000, density~93.7%, time=1.9s. Valid. Sorting by bh asc + skip bad orientations. Key: sort pieces by size desc, try all x positions.
+[slot 0 06:54:46] STRONG: random sort orders for small n improves density ~1-3% avg; bestW_struct separation prevents anchor drift; calibrated: n<=200: 25rand, n<=400: 10rand, n<=600: 4rand, n<=1200: 1rand; consistent improvements, no regressions on 72 test cases; validated VALID
+[slot 2 07:43:09] STRONG; ascending-W snug improves large n: n=5000: +0.62%, n=7000: +0.21%, n=2000: +0.24%; key insight: optimal W≈2xsqS not 4xsqS; timing safe (max 1770ms local)
+[slot 2 07:56:24] Submitting current solution (CENTER=3xsqS, phase2 ±2xsqS, 24 geom iters)

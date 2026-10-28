@@ -1,0 +1,55 @@
+{
+    "id": "add8d715-4c9e-4c2b-a86a-6f916ce8e7c3",
+    "started_at": "2026-10-23T00:12:08.845574",
+    "updated_at": "2026-10-23T03:13:09.508083",
+    "finished_at": "2026-10-23T03:13:09.508083",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "release-collaboration__claude-sonnet-4.6__adhoc": {
+                "n_trials": 1,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "reward": 0.7783040549714287,
+                        "score": 77.83040549714288,
+                        "score_unbounded": 77.83040549714288
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.7783040549714287": [
+                            "polyomino__Yw9FfsU"
+                        ]
+                    },
+                    "score": {
+                        "77.83040549714288": [
+                            "polyomino__Yw9FfsU"
+                        ]
+                    },
+                    "score_unbounded": {
+                        "77.83040549714288": [
+                            "polyomino__Yw9FfsU"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "AgentTimeoutError": [
+                        "polyomino__Yw9FfsU"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": 0,
+        "n_cache_tokens": null,
+        "n_output_tokens": 0,
+        "cost_usd": null
+    }
+}

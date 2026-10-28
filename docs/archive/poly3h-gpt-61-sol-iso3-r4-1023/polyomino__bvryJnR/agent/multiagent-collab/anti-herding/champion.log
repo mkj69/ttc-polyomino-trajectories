@@ -1,0 +1,28 @@
+[slot 1 17:03:28] score=78.94315157; lineage=skyline baseline; path=/logs/agent/multiagent-collab/anti-herding/work-1/baseline.cpp
+[slot 0 17:04:15] score=88.8167610957143; lineage=original cavity-first; path=/logs/agent/multiagent-collab/anti-herding/work-0/baseline.cpp
+[slot 0 17:08:12] score=92.95754355285715; lineage=original multistart cavity-first; path=/logs/agent/multiagent-collab/anti-herding/work-0/multistart.cpp
+[slot 1 17:12:12] score=94.75387545714288; lineage=slot0 cavity plus independent difficulty/lookahead; path=/logs/agent/multiagent-collab/anti-herding/work-1/lookahead.cpp
+[slot 1 17:17:35] score=95.10334486428567; lineage=adaptive difficulty/lookahead; path=/logs/agent/multiagent-collab/anti-herding/work-1/adaptive.cpp
+[slot 2 17:19:38] score=95.37456151857143; lineage=slot0 cavity+slot1 lookahead+slot2 exact tail repair; path=/logs/agent/multiagent-collab/anti-herding/work-2/lookahead-tail.cpp
+[slot 1 17:22:25] score=95.51360418285712; lineage=adaptive difficulty depth3 and128 samples; path=/logs/agent/multiagent-collab/anti-herding/work-1/depth3.cpp
+[slot 2 17:29:10] score=95.7528229557143; lineage=depth3 sample128 plus exact neutral tail; path=/logs/agent/multiagent-collab/anti-herding/work-2/depth3-neutral-tail.cpp
+[slot 0 17:34:07] score=95.88744595571427; lineage=depth3-neutral-tail+unique256+timeout/bounds safety; path=/logs/agent/multiagent-collab/anti-herding/work-0/safe-tail256.cpp
+[slot 1 17:46:09] score=96.1726328; lineage=safe-tail256+small frontier beam; path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-tail.cpp
+[slot 1 17:49:25] score=96.36824730571428; lineage=safe-tail256+beam512 width11first; path=/logs/agent/multiagent-collab/anti-herding/work-1/beam512-tail.cpp
+[slot 1 18:01:46] score=96.78669669857143; lineage=beam512+cavity256+dispatch-popcnt; path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-cavity.cpp
+[slot 1 18:09:40] score=97.08964414571429; lineage=beam-cavity+adaptive-medium-n400; path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-medium.cpp
+[slot 2 18:13:24] score=97.12293191571432; lineage=beam-cavity+exact-bitwise-component1..3-forecast; path=/logs/agent/multiagent-collab/anti-herding/work-2/morphology3.cpp
+[slot 2 18:15:47] score=97.45866889857142; lineage=morphology3+adaptive-medium-n400; path=/logs/agent/multiagent-collab/anti-herding/work-2/morphology-medium.cpp
+[slot 2 18:18:34] score=97.53416226571427; lineage=morphology-medium+remaining-smallpiece-counts; path=/logs/agent/multiagent-collab/anti-herding/work-2/morphology-dynamic.cpp
+[slot 0 18:20:00] score=97.62020501285714; lineage=morphology-medium+dense128wide24cavity120; path=/logs/agent/multiagent-collab/anti-herding/work-0/dense-morph24.cpp
+[slot 0 18:24:58] score=97.74256100000002; lineage=morphology-dynamic+dense24scorebound+componentareabudget3; path=/logs/agent/multiagent-collab/anti-herding/work-0/dense-dynamic-components.cpp
+[slot 1 18:27:47] score=97.75793809142857; lineage=dense-dynamic-components+beam14first-n220..300; path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-wide14.cpp
+[slot 0 18:29:02] score=97.79249133; lineage=dense-dynamic-components+large-dense-multiwidthportfolio; path=/logs/agent/multiagent-collab/anti-herding/work-0/dense-multiwidth.cpp
+[slot 2 18:36:44] score=97.88045761999999; lineage=dense-multiwidth+late-full-frontier-flood+exactminsize+scorebound; path=/logs/agent/multiagent-collab/anti-herding/work-2/flood-dense.cpp
+[slot 2 18:42:34] score=97.89520147571426; lineage=flood-dense+shapeaware-component<=10bound; path=/logs/agent/multiagent-collab/anti-herding/work-2/shape-aware.cpp
+[slot 0 19:06:56] score=97.93057138857141; lineage=shape-aware+fine-anytime-beam100mswarm1600deadline+denseprefix96+smallcomponentcapacity; path=/logs/agent/multiagent-collab/anti-herding/work-0/beam-first100.cpp
+[slot 0 19:19:32] score=97.94898398142861; lineage=beam-first100+geometryquota1smallonly; path=/logs/agent/multiagent-collab/anti-herding/work-0/geometry-one.cpp
+[slot 1 19:29:08] score=97.9534686657143; lineage=geometry1+first-linear-later-row-mostconstrained-n120to400; path=/logs/agent/multiagent-collab/anti-herding/work-1/row-mixed-contact.cpp
+[slot 2 19:35:27] score=98.15064174714287; lineage=geometryquota1+endpointtopologydifficulty2; path=/logs/agent/multiagent-collab/anti-herding/work-2/endpoint-priority.cpp
+[slot 0 19:57:41] score=98.17706674571431; lineage=endpoint-priority+tail-heavy-growing-beam-n<=300+conservative128bitboundaryflood; path=/logs/agent/multiagent-collab/anti-herding/work-0/tail-heavy-beam.cpp
+[slot 2 20:00:30] score=98.2968574414286; lineage=endpoint-priority+exact-two-copy-rectangle-waste; path=/logs/agent/multiagent-collab/anti-herding/work-2/self-pair-priority.cpp

@@ -1,0 +1,6 @@
+lineage:native46+cachedinitialownerclosestFitweight20beforetop6,allpendingbestfirst
+score:sid49 raw96.70972822285715 uuidc361d8bf-6ac3-4154-89e7-8345f6894397
+evidence:49>46by.01361,47>43by.02886;40legaluniformlayouts+max100001.871s
+cost:2grades+40localruns74s
+counter-evidence:100/300weightweakerlocal;staticmobilitystaleafterexchanges
+source:/logs/agent/multiagent-collab/anti-herding/work-1/best-96710.cpp

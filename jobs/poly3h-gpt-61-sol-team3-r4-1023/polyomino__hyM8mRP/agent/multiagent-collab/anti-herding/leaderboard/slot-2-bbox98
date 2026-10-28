@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/bbox_best_sid30.cpp
+lineage=sid25flood+frontierprior27+consumedbboxwaste2smallbeam
+score=98.15371356
+submission=sid30 uuid20d361ce-f6de-4555-b426-122476ff009f
+evidence=fullmain6seedsn100/200/333valid gains.00191/.00354/.00445
+cost=1judge20s+89slocal
+counterevidence=BB5worsen100buthelp333, couldbesizeadaptive

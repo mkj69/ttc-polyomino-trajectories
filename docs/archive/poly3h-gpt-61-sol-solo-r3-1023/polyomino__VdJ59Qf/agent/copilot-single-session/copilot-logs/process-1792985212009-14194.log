@@ -1,0 +1,22 @@
+2026-10-26T03:26:52.010Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-26T03:26:52.011Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-26T03:26:52.013Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-26T03:26:52.015Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-26T03:26:52.244Z [INFO] Workspace initialized: 160f9ff0-2429-4222-b1d2-6a048cdbfbfd (checkpoints: 1)
+2026-10-26T03:26:52.268Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-26T03:26:52.269Z [INFO] OpenTelemetry tracker created for session 160f9ff0-2429-4222-b1d2-6a048cdbfbfd
+2026-10-26T03:26:52.286Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-26T03:26:52.286Z [INFO] Node.js version: v24.16.0
+2026-10-26T03:26:52.304Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-26T03:26:52.312Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-26T03:26:52.392Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-26T03:26:52.392Z [INFO]  
+2026-10-26T03:26:52.392Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-26T03:26:52.392Z [INFO] --- End of group ---
+2026-10-26T03:26:52.406Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T03:26:52.406Z [INFO] --- End of group ---
+2026-10-26T04:27:04.771Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-26T04:27:04.772Z [INFO] --- End of group ---
+2026-10-26T04:29:16.672Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-26T04:29:16.678Z [INFO] Persisted checkpoint #2: Narrow Frontier Beam Optimization
+2026-10-26T04:29:23.534Z [INFO] CompactionProcessor: Compaction complete - replaced 273 messages with summary + 10 new messages, saved ~89459 tokens

@@ -1,0 +1,48 @@
+n 100 seed 0 areas [1032, 1032] cpu 1.0090949999999999 tail 48 moves 118391 iterations 83008 best_overlap 10
+ tail 48 moves 118391 iterations 84992 best_overlap 7
+ tail 48 moves 119140 iterations 83520 best_overlap 8
+ tail 48 moves 113357 iterations 19392 best_overlap 10
+attempts 4
+n 100 seed 1 areas [1008, 1008] cpu 1.011494 tail 48 moves 125212 iterations 53248 best_overlap 16
+ tail 48 moves 123586 iterations 83392 best_overlap 15
+ tail 48 moves 125212 iterations 87872 best_overlap 24
+ tail 48 moves 125212 iterations 17216 best_overlap 25
+attempts 4
+n 100 seed 2 areas [1020, 1020] cpu 1.012519 tail 48 moves 127258 iterations 75328 best_overlap 23
+ tail 48 moves 131957 iterations 75584 best_overlap 21
+ tail 48 moves 131978 iterations 75584 best_overlap 21
+ tail 48 moves 127098 iterations 17472 best_overlap 20
+attempts 4
+MEAN 100 [0.941605776677596, 0.941605776677596]
+n 250 seed 0 areas [2470, 2470] cpu 1.0137639999999997 tail 48 moves 121729 iterations 84352 best_overlap 28
+ tail 48 moves 117406 iterations 81792 best_overlap 25
+ tail 48 moves 117746 iterations 76096 best_overlap 24
+ tail 48 moves 118095 iterations 16384 best_overlap 29
+attempts 4
+n 250 seed 1 areas [2500, 2500] cpu 1.0132870000000005 tail 48 moves 117946 iterations 83072 best_overlap 21
+ tail 48 moves 117422 iterations 84672 best_overlap 22
+ tail 48 moves 121479 iterations 89792 best_overlap 32
+ tail 48 moves 117134 iterations 20608 best_overlap 17
+attempts 4
+n 250 seed 2 areas [2500, 2500] cpu 1.0135699999999999 tail 48 moves 120279 iterations 83136 best_overlap 31
+ tail 48 moves 120279 iterations 88576 best_overlap 26
+ tail 48 moves 122547 iterations 88320 best_overlap 23
+ tail 48 moves 121459 iterations 19136 best_overlap 19
+attempts 4
+MEAN 250 [0.9638526315789474, 0.9638526315789474]
+n 400 seed 0 areas [3984, 3984] cpu 1.016418 tail 48 moves 122862 iterations 78784 best_overlap 23
+ tail 48 moves 122862 iterations 85312 best_overlap 22
+ tail 48 moves 122907 iterations 89152 best_overlap 21
+ tail 48 moves 120248 iterations 19328 best_overlap 26
+attempts 4
+n 400 seed 1 areas [3920, 3920] cpu 1.0153960000000006 tail 48 moves 113639 iterations 88576 best_overlap 19
+ tail 48 moves 113639 iterations 96320 best_overlap 17
+ tail 48 moves 111682 iterations 84864 best_overlap 11
+ tail 48 moves 100899 iterations 20480 best_overlap 17
+attempts 4
+n 400 seed 2 areas [3960, 3960] cpu 1.011561000000001 tail 48 moves 117803 iterations 87680 best_overlap 23
+ tail 48 moves 116732 iterations 88768 best_overlap 24
+ tail 48 moves 117623 iterations 90368 best_overlap 30
+ tail 48 moves 98120 iterations 23488 best_overlap 35
+attempts 4
+MEAN 400 [0.968328860691167, 0.968328860691167]

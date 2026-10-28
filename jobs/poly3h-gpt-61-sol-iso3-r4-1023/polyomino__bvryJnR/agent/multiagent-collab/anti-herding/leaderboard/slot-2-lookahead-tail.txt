@@ -1,0 +1,6 @@
+score=95.37456151857143
+lineage=slot0 cavity, slot1 difficulty+two-step lookahead, slot2 bounded exact tail repair
+source=/logs/agent/multiagent-collab/anti-herding/work-2/lookahead-tail.cpp
+evidence=submit8dc9ac05; independent validation18uniform+50tiny
+cost=max1.873s; one judge call
+counter-evidence=tail mostly helps small n; uniform n10000 .966

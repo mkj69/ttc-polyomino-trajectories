@@ -1,0 +1,1 @@
+Slot 0: Skyline bottom-left packing with best-fit placement. Try widths near sqrt(TC). Per piece: all 8 orientations, pick lowest skyline placement. Deliberately NOT using: simple shelf packing with fixed orientation pre-sorted.

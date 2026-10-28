@@ -1,0 +1,9 @@
+Score: 98.4288003442857/100
+Submission: 266268b7-653e-4be1-9f6f-ab0fb6258bba
+Source: /logs/agent/multiagent-collab/anti-herding/work-2/filtered-compact-v28.cpp
+Lineage: slot0 dual-terminal-pool-v13 (98.39576040285715) plus own exact first/second-row lookup filters, reused candidate buffer, safe greedy hot path, and four-word large suffix inventory.
+Approach: transposed byte tables give a conservative orientation mask from nine first-row blocker bits, eight second-row bits, and exact left/right walls. Full existing fit checks still run. Enumerate surviving orientations in original order; maintain all choices, scores, cursor movement, and partial_sort ordering.
+Evidence: 84 fixed greedy filter comparisons byte-identical. 36 fixed compact filter on/off comparisons byte-identical, 19.709 to13.717 seconds (-30.4%). Further42 bounded/unbounded comparisons directly against pre-filter source byte-identical, 25.604 to18.669 seconds (-27.1%),34 nonempty outputs valid. Eight production boundary/extreme-coordinate cases valid, max1.999s under concurrent load. Official gain +.03303994.
+Cost: 2 official filter ablations plus fixed grids ~100 seconds, production validation15.44 seconds.
+Counter-evidence: per-piece greedy-only filters v26 matched champion exactly; staged large pool512 v27 scored98.39545712 (slightly lower). Larger second-row windows10/12 bits were not faster than8.
+Reproduce: g++ -std=gnu++17 -O2 -o filtered-compact-v28 filtered-compact-v28.cpp; normal run without arguments.

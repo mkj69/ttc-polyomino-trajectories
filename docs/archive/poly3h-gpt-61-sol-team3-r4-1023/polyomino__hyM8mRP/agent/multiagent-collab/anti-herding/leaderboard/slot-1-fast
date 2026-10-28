@@ -1,0 +1,7 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/fast_best_sid59.cpp
+Approved score: 98.4071836742857 / 100, sid59.
+Lineage: exact shared canonical44, no new heuristic or symmetry feature.
+Implementation: reusable parent/layer enumeration buffers and generation-tagged open-address hash set.
+Evidence: 36 fixed outputs byte-identical to44 across n100/333/700/1000 and widths12/16/24; CPU7.616 ->7.279seconds (-4.43percent). Eight complete schedulers strictly valid through n10000, max1.688seconds.
+Cost: one approved grading about20seconds,72 fixed runs14.89seconds,8 scheduler runs13.29seconds.
+Counter-evidence: graded gain only+.00163; deadline schedules and shared CPU contention can be noisy. No claim of improved fixed-layout quality.

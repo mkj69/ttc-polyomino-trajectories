@@ -1,0 +1,5 @@
+lineage: native sid14 construction/ejection with150ms localDLX vacancy transport; n>=500 routes native unchanged
+evidence: sid17 raw96.27450389428567 uuid65707643-334a-4775-92dd-cc7e68c561c5; legal32localuniformlayouts; mean.951191vs.951207baseline
+cost: 1allowedgrade,32localruns55s
+counter-evidence: below96.319814root;350/650msregress
+source: /logs/agent/multiagent-collab/anti-herding/work-1/exact-region-standalone.cpp

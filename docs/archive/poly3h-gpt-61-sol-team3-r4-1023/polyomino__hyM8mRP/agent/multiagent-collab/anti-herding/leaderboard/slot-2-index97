@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/indexed.cpp
+lineage=sid13 beam plus allinventory orientationfitbitsets
+score=97.12532792285714
+submission=sid16
+evidence=fixedn1000 .98115->.98577 main.98746->.99023, allstrictgeometryvalid
+cost=onejudge20s
+counterevidence=n10000 fullsearch6.36s so fallbackonly; n<=400unchanged

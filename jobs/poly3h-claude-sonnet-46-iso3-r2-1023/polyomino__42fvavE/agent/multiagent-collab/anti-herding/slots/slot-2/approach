@@ -1,0 +1,1 @@
+skyline-BL packing with width sweep; sort by bbox-area desc; deduplicate orientations; minimize top per placement. DIFFERENT from slot1: uses best-top metric (not leftmost), and different width formula

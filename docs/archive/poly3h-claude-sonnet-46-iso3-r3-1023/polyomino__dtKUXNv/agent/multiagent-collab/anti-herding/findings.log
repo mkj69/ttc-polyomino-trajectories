@@ -1,0 +1,8 @@
+[slot 0 17:44:16] STRONG: protrusion-based secondary cost dramatically improves BL packing (73%->80% score); avoids placing pieces above existing skyline unnecessarily
+[slot 1 17:51:23] tier=strong; grid-based packing for n<=200 boosts fill to 82.7% (was 78.6%); score=0.7576 vs 0.7027 (+0.055); cost=2 submissions
+[slot 1 18:06:09] tier=strong; grid+skyline, dual target W (1.25 & 1.7 sqrtS), outer=W for grid; score=0.7672; local n=700 fill=85%
+[slot 1 18:11:27] STRONG: protrusion-based skyline placement (minimize new_height then protrusion) gives massive improvement; n=10000 fill 87%->96%, score 0.7672->0.8244 (+7.7%); cost=1 sub
+[slot 2 18:47:40] STRONG: protrusion+gap cost (prot=protrusion above sky, gap=empty space below piece) beats prot-only; score 83.88%→83.93%; cost=1 sub. gap = ym+minY[cx]-h[c+cx] per column; combined cost=protrusion+gap
+[slot 0 19:43:12] STRONG: 84.34% with narrowest-first ori sort + K=500/200 + TBEAM=1.5 + pure prot + early term. Behind slot1's 84.43%.
+[slot 0 20:05:25] STRONG: 84.43% (raw=84.4266). ceil(sqrt) fix + early termination key improvements. +0.048% vs v4b locally. n=3000 +0.34% vs v4b.
+[slot 2 20:05:26] STRONG: K=500+TBEAM=1.5+narrowest_first gives 84.14% (was 83.93%); +0.21% from beam quality; adopted K=500/TBEAM=1.5 from slot1_v4b

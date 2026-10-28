@@ -1,0 +1,49 @@
+{
+  "runs": 33,
+  "steps": 46373,
+  "submissions": 2581,
+  "summary": [
+    {
+      "model": "Sonnet 4.6",
+      "setup": "solo",
+      "n": 5,
+      "mean": 0.7673417752771429,
+      "std_sample": 0.05112184317276166
+    },
+    {
+      "model": "Sonnet 4.6",
+      "setup": "team3",
+      "n": 5,
+      "mean": 0.8117246637114286,
+      "std_sample": 0.0484246529968265
+    },
+    {
+      "model": "Sonnet 4.6",
+      "setup": "iso3",
+      "n": 5,
+      "mean": 0.8123735949200003,
+      "std_sample": 0.02807708584648547
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "setup": "solo",
+      "n": 5,
+      "mean": 0.9828189538742858,
+      "std_sample": 0.005403505496354767
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "setup": "team3",
+      "n": 5,
+      "mean": 0.9829760646771428,
+      "std_sample": 0.008062808749650683
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "setup": "iso3",
+      "n": 5,
+      "mean": 0.9819033391514285,
+      "std_sample": 0.007902801955397675
+    }
+  ]
+}

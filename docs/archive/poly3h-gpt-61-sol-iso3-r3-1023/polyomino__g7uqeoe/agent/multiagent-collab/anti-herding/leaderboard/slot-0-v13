@@ -1,0 +1,6 @@
+score=0.9803123964000002
+lineage=adaptive160+checkpoint6+mediumexactpatch+scaled-dedupwidthportfolio
+source=/logs/agent/multiagent-collab/anti-herding/work-0/profile-width-v13.cpp
+evidence=official1eb4c01c-ae20-4fac-9929-320e9340dc1e
+cost=1grade,total13slot0
+counterevidence=width12beats18forn220;preferredscaleawaitingrefinement

@@ -1,0 +1,6 @@
+lineage=slot1 frontier+elite tail;slot0 beam;slot2 streaming flood+diversity+CPU allocation
+score=96.8296673257143
+source=/logs/agent/multiagent-collab/anti-herding/work-2/cavity-beam-tail-v6.cpp
+evidence=officialcc83b5d8;7 uniform cases
+cost=1 submission;CPU1.80s including preprocessing
+counterevidence=small n uniform densities.945,.955,.963; no global exact optimum

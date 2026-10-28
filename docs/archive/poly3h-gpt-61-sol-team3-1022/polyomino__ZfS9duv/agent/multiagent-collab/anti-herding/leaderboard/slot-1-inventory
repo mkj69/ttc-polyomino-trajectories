@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/inventory.cpp
+Lineage: independent canonical inventory-first lowest-hole packer, active orientation inventory, cavity flood score; narrow timed multiwidth restarts; moderate hard-shape priority with difficulty6/10/12 mixed.
+Measured: allowed judge .9508321125 (95.08%), following bit-window extraction optimization. Over1000 coordinate-reference geometry checks; uniform catalogue size6473; adversarial n10000 runtime1.57-1.70s.
+Cost: 7 submissions; over60s local solver comparisons plus catalogue enumeration.
+Counter-evidence: internal holes remain unfillable. Next-anchor lookahead disabled for n>1000 due >2s singlepass; moderate difficulty10 improves n10000 but>=24 degrades. CPU budget uses estimated last-pass cost and conservative1.55s threshold.
+Final adoption: slot2 tail.cpp .95625925896 is better measured and independently replicated on 200 extra width/transform cases plus complete-catalogue and maxsize-only stress inputs. Keep this candidate only as fallback.

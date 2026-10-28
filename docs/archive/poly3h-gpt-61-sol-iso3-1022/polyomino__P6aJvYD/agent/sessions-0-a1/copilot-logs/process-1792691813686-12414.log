@@ -1,0 +1,43 @@
+2026-10-22T17:56:53.687Z [WARNING] Model "gpt-5.6-sol" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-10-22T17:56:53.687Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-22T17:56:53.689Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-22T17:56:53.693Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-22T17:56:53.817Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-22T17:56:53.817Z [INFO] OpenTelemetry tracker created for session a1556b85-f892-4f9c-aa10-9587903a745e
+2026-10-22T17:56:53.819Z [INFO] Workspace initialized: a1556b85-f892-4f9c-aa10-9587903a745e (checkpoints: 0)
+2026-10-22T17:56:53.834Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-22T17:56:53.834Z [INFO] Node.js version: v24.16.0
+2026-10-22T17:56:53.901Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-22T17:56:53.908Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-22T17:56:53.969Z [INFO] Using custom provider: type=openai, baseUrl=https://<gateway>/v1, wireApi=responses
+2026-10-22T17:56:53.969Z [INFO]  
+2026-10-22T17:56:53.969Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-10-22T17:56:53.969Z [INFO] --- End of group ---
+2026-10-22T17:56:53.986Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T17:56:53.986Z [INFO] --- End of group ---
+2026-10-22T17:57:33.376Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T17:57:33.376Z [INFO] --- End of group ---
+2026-10-22T17:59:33.304Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T17:59:33.312Z [INFO] Persisted checkpoint #1: Resuming Global Exact-Cover Optimization
+2026-10-22T17:59:49.351Z [INFO] CompactionProcessor: Compaction complete - replaced 168 messages with summary + 10 new messages, saved ~88434 tokens
+2026-10-22T18:33:27.100Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T18:33:27.100Z [INFO] --- End of group ---
+2026-10-22T18:35:33.202Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T18:35:33.209Z [INFO] Persisted checkpoint #2: Resource-Aware Packing and Terminal Rollouts
+2026-10-22T18:35:38.685Z [INFO] CompactionProcessor: Compaction complete - replaced 187 messages with summary + 9 new messages, saved ~89834 tokens
+2026-10-22T18:59:54.024Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T18:59:54.025Z [INFO] --- End of group ---
+2026-10-22T19:02:45.362Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T19:02:45.385Z [INFO] Persisted checkpoint #3: Compact Packing and Strip Geometry
+2026-10-22T19:03:37.793Z [INFO] CompactionProcessor: Compaction complete - replaced 146 messages with summary + 15 new messages, saved ~84882 tokens
+2026-10-22T19:23:27.761Z [INFO] System notification: Shell command "Grid thin persistent beam quality and runtime against strong cach...
+2026-10-22T19:36:36.961Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T19:36:36.961Z [INFO] --- End of group ---
+2026-10-22T19:39:39.923Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T19:39:39.929Z [INFO] Persisted checkpoint #4: Large Reservoirs and Constraint Repair
+2026-10-22T19:41:54.238Z [INFO] CompactionProcessor: Compaction complete - replaced 157 messages with summary + 19 new messages, saved ~83310 tokens
+2026-10-22T20:14:07.106Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T20:14:07.107Z [INFO] --- End of group ---
+2026-10-22T20:16:39.235Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T20:16:39.242Z [INFO] Persisted checkpoint #5: Exact Filters and Gated Widening
+2026-10-22T20:16:59.219Z [INFO] CompactionProcessor: Compaction complete - replaced 161 messages with summary + 10 new messages, saved ~85968 tokens

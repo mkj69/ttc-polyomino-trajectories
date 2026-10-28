@@ -1,0 +1,1 @@
+[slot 2 09:58:48] Was: all S<=25000 cases used BL-fill. For n≈4000, k≈5, S≈20000: single BL-fill trial takes 1.55s and aborts at last checkpoint. All trials abort → W=-1. Fix: added profile fallback when bestW==-1 after main loop. Profile is always fast (<200ms for these cases).

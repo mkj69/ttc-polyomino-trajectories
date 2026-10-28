@@ -1,0 +1,34 @@
+2026-10-23T23:19:08.261Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T23:19:08.263Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T23:19:08.263Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T23:19:08.282Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T23:19:08.283Z [INFO] OpenTelemetry tracker created for session 3a681567-a07b-4191-8bf9-906b6ced9deb
+2026-10-23T23:19:08.341Z [INFO] Workspace initialized: 3a681567-a07b-4191-8bf9-906b6ced9deb (checkpoints: 0)
+2026-10-23T23:19:08.356Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T23:19:08.356Z [INFO] Node.js version: v24.16.0
+2026-10-23T23:19:08.377Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T23:19:08.386Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T23:19:08.477Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T23:19:08.477Z [INFO]  
+2026-10-23T23:19:08.566Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T23:19:08.567Z [INFO] --- End of group ---
+2026-10-23T23:52:26.040Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T23:52:26.041Z [INFO] --- End of group ---
+2026-10-23T23:53:32.859Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T23:53:32.865Z [INFO] Persisted checkpoint #1: Polyomino packing skyline BLF optimization
+2026-10-23T23:54:12.954Z [INFO] CompactionProcessor: Compaction complete - replaced 104 messages with summary + 4 new messages, saved ~122215 tokens
+2026-10-24T00:25:48.517Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T00:25:48.517Z [INFO] --- End of group ---
+2026-10-24T00:27:02.630Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T00:27:02.634Z [INFO] Persisted checkpoint #2: Polyomino packing TLE fix and quality optimization
+2026-10-24T00:27:20.531Z [INFO] CompactionProcessor: Compaction complete - replaced 117 messages with summary + 2 new messages, saved ~124518 tokens
+2026-10-24T00:56:18.298Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T00:56:18.298Z [INFO] --- End of group ---
+2026-10-24T00:57:33.765Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T00:57:33.769Z [INFO] Persisted checkpoint #3: Polyomino packing width search optimization
+2026-10-24T00:58:05.499Z [INFO] CompactionProcessor: Compaction complete - replaced 85 messages with summary + 2 new messages, saved ~122678 tokens
+2026-10-24T01:33:32.318Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T01:33:32.319Z [INFO] --- End of group ---
+2026-10-24T01:34:54.032Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T01:34:54.036Z [INFO] Persisted checkpoint #4: Polyomino BLF with random restarts and downward scan
+2026-10-24T01:35:21.886Z [INFO] CompactionProcessor: Compaction complete - replaced 89 messages with summary + 2 new messages, saved ~124773 tokens

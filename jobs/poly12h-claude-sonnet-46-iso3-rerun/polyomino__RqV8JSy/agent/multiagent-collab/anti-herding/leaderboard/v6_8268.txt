@@ -1,0 +1,1 @@
+slot2_v6: 82.68%; boundary_bump + internal_top_bump tiebreaker in skylinePackValley; sid=75; n=100: +388, n=300: +242, n=500: +197 vs flat2

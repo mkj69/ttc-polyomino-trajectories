@@ -1,0 +1,30 @@
+2026-10-22T08:20:52.593Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-22T08:20:52.595Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-22T08:20:52.595Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-22T08:20:52.639Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-22T08:20:52.640Z [INFO] OpenTelemetry tracker created for session 1039affc-ddfa-4144-88b1-970ecf5dccf7
+2026-10-22T08:20:52.652Z [INFO] Workspace initialized: 1039affc-ddfa-4144-88b1-970ecf5dccf7 (checkpoints: 0)
+2026-10-22T08:20:52.658Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-22T08:20:52.658Z [INFO] Node.js version: v24.16.0
+2026-10-22T08:20:52.669Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-22T08:20:52.674Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-22T08:20:52.864Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-22T08:20:52.864Z [INFO]  
+2026-10-22T08:20:53.050Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T08:20:53.050Z [INFO] --- End of group ---
+2026-10-22T08:50:44.528Z [WARNING] [StreamingChunkDisplay] Received a chunk with a different streaming ID: native-anthropic-89af7486-19f7-4fd9-b4d4-1882efc5f912
+2026-10-22T09:11:22.793Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T09:11:22.793Z [INFO] --- End of group ---
+2026-10-22T09:12:26.429Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T09:12:26.435Z [INFO] Persisted checkpoint #1: Skyline Polyomino Packing Implementation
+2026-10-22T09:13:00.580Z [INFO] CompactionProcessor: Compaction complete - replaced 91 messages with summary + 4 new messages, saved ~122055 tokens
+2026-10-22T09:54:38.843Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T09:54:38.844Z [INFO] --- End of group ---
+2026-10-22T09:55:39.037Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T09:55:39.043Z [INFO] Persisted checkpoint #2: Skyline Packing Score 75.5% Optimization
+2026-10-22T09:55:39.371Z [INFO] CompactionProcessor: Compaction complete - replaced 95 messages with summary + 2 new messages, saved ~131031 tokens
+2026-10-22T10:37:27.844Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-22T10:37:27.844Z [INFO] --- End of group ---
+2026-10-22T10:38:39.342Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-22T10:38:39.350Z [INFO] Persisted checkpoint #3: BL-fill + Profile Improvements Score 77.42%
+2026-10-22T10:39:15.806Z [INFO] CompactionProcessor: Compaction complete - replaced 163 messages with summary + 4 new messages, saved ~121104 tokens

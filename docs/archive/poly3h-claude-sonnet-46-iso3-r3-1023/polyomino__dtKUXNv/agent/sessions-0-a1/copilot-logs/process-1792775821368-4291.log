@@ -1,0 +1,35 @@
+2026-10-23T17:17:01.369Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T17:17:01.372Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T17:17:01.372Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T17:17:01.391Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T17:17:01.391Z [INFO] OpenTelemetry tracker created for session 94ecdd55-a330-4a15-9246-379247281f20
+2026-10-23T17:17:01.397Z [INFO] Workspace initialized: 94ecdd55-a330-4a15-9246-379247281f20 (checkpoints: 0)
+2026-10-23T17:17:01.407Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T17:17:01.407Z [INFO] Node.js version: v24.16.0
+2026-10-23T17:17:01.422Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T17:17:01.428Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T17:17:01.503Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T17:17:01.504Z [INFO]  
+2026-10-23T17:17:01.533Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:17:01.534Z [INFO] --- End of group ---
+2026-10-23T17:52:14.814Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:52:14.814Z [INFO] --- End of group ---
+2026-10-23T17:53:13.786Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T17:53:13.791Z [INFO] Persisted checkpoint #1: Polyomino BL-fill packing, 71.8% score
+2026-10-23T17:55:37.297Z [INFO] CompactionProcessor: Compaction complete - replaced 65 messages with summary + 2 new messages, saved ~116261 tokens
+2026-10-23T18:28:39.011Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T18:28:39.011Z [INFO] --- End of group ---
+2026-10-23T18:30:00.271Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T18:30:00.275Z [INFO] Persisted checkpoint #2: Pareto bug fix boosts density 80→88%
+2026-10-23T18:36:34.178Z [INFO] CompactionProcessor: Compaction complete - replaced 85 messages with summary + 6 new messages, saved ~100572 tokens
+2026-10-23T19:05:48.293Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T19:05:48.293Z [INFO] --- End of group ---
+2026-10-23T19:06:55.649Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T19:06:55.654Z [INFO] Persisted checkpoint #3: Protrusion+gap beats 83.93% team best
+2026-10-23T19:07:22.724Z [INFO] CompactionProcessor: Compaction complete - replaced 89 messages with summary + 2 new messages, saved ~128545 tokens
+2026-10-23T20:05:26.591Z [INFO] System notification: Shell command "Promote v15b as new champion (84.14%)" (shellId: 164) has complet...
+2026-10-23T20:06:15.797Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T20:06:15.797Z [INFO] --- End of group ---
+2026-10-23T20:07:41.929Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T20:07:41.934Z [INFO] Persisted checkpoint #4: 84.14% with K=500/TBEAM=1.5 adoption
+2026-10-23T20:07:49.849Z [INFO] CompactionProcessor: Compaction complete - replaced 165 messages with summary + 8 new messages, saved ~119378 tokens

@@ -1,0 +1,6 @@
+score=94.0150780771429
+lineage=slot0 multistart plus exact bottom-window repair
+source=/logs/agent/multiagent-collab/anti-herding/work-2/tail.cpp
+evidence=submit af93c867; uniform n100=.91858 n150=.94083
+cost=max1.66s local; one official call
+counter-evidence=below slot1 lookahead94.75388; large-n density unchanged

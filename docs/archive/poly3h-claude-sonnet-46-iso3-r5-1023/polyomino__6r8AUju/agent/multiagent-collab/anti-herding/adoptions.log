@@ -1,0 +1,3 @@
+[ADOPT slot 1 2026-10-24] source=slot0 (75.49%); evidence=graded score clearly better than mine (72.90%); what remains different: adding random shuffle phase to explore sort-order space, which slot0 doesn't have
+[ADOPT slot 1 12:49:41] source=slot2; evidence=77.47% vs 76.67%, drop-packing for n<=500 improves small-n by +535pts; variation=keep 4-sort-orders+stochastic-restarts+drop-in-shuffle-phase
+[ADOPT slot 1 13:14:51] source=slot0; evidence=78.91%>78.47%; adopt group-shuffle+drop for n<=300; variation=keep dense-sweep-drop+full-random-shuffle for n>300
