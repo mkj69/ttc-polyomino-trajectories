@@ -1,0 +1,4 @@
+Lineage: slot2 own v15 exact open-hole propagation + slot1 measured large256 v10, common MRV6 v27.
+Evidence: v15 sid69=.987623256557143, peer v10 sid68=.9876887540857142; disjoint gates <=300 and >1500.
+Cost: two submitted source baselines and local integration checks recorded in findings.
+Counter-evidence: timed code layout can alter attempt count; merged result requires own grade.

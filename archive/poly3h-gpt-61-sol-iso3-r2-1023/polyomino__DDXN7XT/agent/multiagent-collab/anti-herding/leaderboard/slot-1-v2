@@ -1,0 +1,6 @@
+score=0.8497
+lineage=independent skyline height-leveling
+path=/logs/agent/multiagent-collab/anti-herding/work-1/skyline-v2.cpp
+local=200 random+stress+edges valid, 1.206s n10000
+counter-evidence=growth-biased generator overestimates quality (.969 vs .8497 graded)
+cost=1 graded call after 66 local sweeps

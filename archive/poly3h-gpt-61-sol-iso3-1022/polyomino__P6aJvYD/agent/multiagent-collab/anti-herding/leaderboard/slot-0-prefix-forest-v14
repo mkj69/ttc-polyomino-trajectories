@@ -1,0 +1,6 @@
+score=98.4180777242857
+lineage=dual6+4 terminal plus own allprefix forest32/128/60ms and peer measuredlargepool384
+evidence=official a2b715e3-0f34-4638-8dc6-94ca88f7c41b; 18production4wins1loss,200valid
+cost=1official+36production68.6s+fixed60/18.1s
+counterevidence=forest64/40msweak,only1of18;tail24samefixedworkstrongerbutproduction2wins2loss
+path=/logs/agent/multiagent-collab/anti-herding/work-0/prefix-forest-v14.cpp

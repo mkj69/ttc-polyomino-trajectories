@@ -1,0 +1,1 @@
+score=95.7501040457143; lineage=slot0 packed-pocket core + fixed-prefix suffix beam search; source=/logs/agent/multiagent-collab/anti-herding/work-0/beam-tail-v2.cpp; evidence=sid18 uuid46e297af-bfba-4b54-b54d-769c7c14a011; cost=1 judged submission+228 local checks; counter-evidence=large-n slightly weaker than own old all-restart or peer192/top12, beams most useful at n100-300.

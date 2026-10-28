@@ -1,0 +1,5 @@
+trial width=64 pool=512 density=0.98238 evaluations=42252928 skips=1593 cpu=0.970007
+
+real	0m0.994s
+user	0m0.935s
+sys	0m0.060s

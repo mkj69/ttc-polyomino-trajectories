@@ -1,0 +1,5 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/beam_best_sid12.cpp
+Lineage: sid7 exact-tail incumbent + slot0 simultaneous frontier beam, perimeter/difficulty inventory correction, 600ms beam budget for n<=400.
+Evidence: approved sid12 score96.9663940442857; 10independenttruecatalogcases valid, mean density.974201, maxruntime1.659s.
+Cost: 1approvedcall +local10cases16.55s.
+Counter-evidence: beam without used-perimeter correction clearly worse; ungatedlarge scaling O(n^2) untested.

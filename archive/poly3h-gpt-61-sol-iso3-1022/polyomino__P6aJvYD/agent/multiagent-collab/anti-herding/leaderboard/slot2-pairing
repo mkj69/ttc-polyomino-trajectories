@@ -1,0 +1,5 @@
+lineage=slot2 exact complement pairs plus rectangle skyline
+score=42.23472002571428
+source=/logs/agent/multiagent-collab/anti-herding/work-2/pairing.cpp
+evidence=200 random validity cases; n10000 0.287s; official4cdaab32
+counterevidence=only0.0154 point gain; tiny inventory of useful exact complements

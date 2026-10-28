@@ -1,0 +1,7 @@
+score=98.24613282285715
+source=/logs/agent/multiagent-collab/anti-herding/work-0/persistent-elite-suffix-v8.cpp
+submission=04b3d26b-2eb5-4916-a4f0-bf1b560f576f
+lineage=peer persistent128 constructor + own multiwidth suffix and first-valid bounded terminal completion + peer large compact suffix
+evidence=100 exact compact output matches against peer;300 canonical mirror transforms validated;200 terminal-rollout outputs validated;4 default sizes including10000 valid
+cost=1official submission;27sec fixed cases;8sec default audits
+counterevidence=interior seam0/18;mirrored prefix same wins;bounded component proof should remain off for suffix

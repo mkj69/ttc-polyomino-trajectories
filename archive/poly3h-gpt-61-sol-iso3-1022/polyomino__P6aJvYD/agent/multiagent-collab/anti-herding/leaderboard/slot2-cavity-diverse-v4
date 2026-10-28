@@ -1,0 +1,6 @@
+lineage=slot1-frontier-v1 plus slot2 cached flood-fill and diversified multistart
+score=95.79195451857142
+source=/logs/agent/multiagent-collab/anti-herding/work-2/cavity-diverse-v4.cpp
+evidence=7 representative uniform cases;official0d9baf40
+cost=one submission;CPU budget1.75s
+counterevidence=small-n6% waste; no tail search

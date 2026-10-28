@@ -1,0 +1,6 @@
+score=97.75793809142857
+lineage=dense-dynamic-components+beam14first for n220..300
+path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-wide14.cpp
+evidence=officialbfe9d2a4;3freshn250/300means improved
+counterevidence=width24first worse, wide14n200/400worse; gatedsubcase only
+cost=1graded+84local+200reference

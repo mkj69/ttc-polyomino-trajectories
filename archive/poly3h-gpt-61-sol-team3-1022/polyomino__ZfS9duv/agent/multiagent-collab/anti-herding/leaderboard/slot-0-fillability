@@ -1,0 +1,6 @@
+lineage: cached slot0 +slot2tail + slot1inventory, slot0 candidate-aware forcedblank lookahead on half n<=500 trials
+score:.9576157861285712 allowed sid21
+source:/app/solution.cpp,work-0/best95761.cpp
+evidence:540fixedn100packings, mean+.00509 density forweight30~11percentCPUoverhead
+cost:1gradeplus published3.59CPUlocal
+counterevidence:limitedto small n currently;scoregain .074point mayinclude timingnoise

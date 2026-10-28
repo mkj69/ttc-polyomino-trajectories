@@ -1,0 +1,7 @@
+lineage=slot0 independent contact-scored strip frontier
+source=/app/solution.cpp
+compile=g++ -std=gnu++17 -O2 -o baseline /app/solution.cpp
+check=python3 work-0/check.py baseline --cases 2 --large 10000 --mode large
+measured_density=0.908959 mean, runtime_max=0.667s
+counterevidence=fixed order leaves isolated cavities; no proven optimality
+cost=202 local instances, approved judge pending

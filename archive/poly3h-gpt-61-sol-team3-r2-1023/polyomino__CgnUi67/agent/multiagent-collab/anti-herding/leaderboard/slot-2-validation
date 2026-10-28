@@ -1,0 +1,5 @@
+lineage: adopted slot0 bitmask sweep after negative patch and wide-row experiments
+evidence: 20000 random exact-kind cavity penalties equal independent exhaustive reference, ASan+UBSan clean; 900 tiny legality cases across 3 revisions plus 18 maxsize edges
+cost: 0 judge calls, approximately 55s local experiment CPU
+known counter-evidence: first unbounded run previously risked TLE on allbars, now exact linear fast path replicated
+repro: g++ -std=gnu++17 -O2 -fsanitize=address,undefined work-2/pocket_fuzz.cpp -o fuzz && ./fuzz; work-2/adversarial.py --exe snapshot

@@ -1,0 +1,6 @@
+lineage=96.49085327 lateforward-index + templated compact suffixboards/byte moves + medium post-baseline constructive diversification
+score=96.49986519571428 sid56
+evidence=150mixedreference+5stress valid;25matched 1clearwin and1deadlineartifactloss; compact representation24ties
+cost=2judge (1compileerror),~170CPU sec
+counterevidence=extra restarts mostlytie; need larger cavity reasoning or adaptive alternatives
+source=/logs/agent/multiagent-collab/anti-herding/work-0/compact-extra-v14.cpp

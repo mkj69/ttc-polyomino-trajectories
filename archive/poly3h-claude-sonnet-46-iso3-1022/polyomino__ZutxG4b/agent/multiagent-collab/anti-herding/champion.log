@@ -1,0 +1,10 @@
+[slot 0 09:09:38] score=0.7418; skyline-bestfit; /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 0 09:14:43] score=0.7532; clock-based budget 1.75s; ordBB+ordShp; strategic widths+dense
+[slot 2 09:35:18] score=0.7568; BL-fill packing for S<=25000, profile for larger; improved from 71.37% to 75.68%
+[slot 1 09:46:46] score=0.7575; min-py+fill metric+wider-W+clock-budget+shelf-sort+compaction; /logs/agent/multiagent-collab/anti-herding/work-1/solution.cpp
+[slot 2 09:58:41] score=0.7718; bug fix: profile fallback when BL-fill aborts all trials (was W=-1 for case9); now ~1.1% gain; /logs/agent/multiagent-collab/anti-herding/work-2/solution.cpp
+[slot 0 10:21:18] score=0.7719; v18b: BL-fill(S<=25000)+profile(S>25000)+ord_bb for profile+gravity compaction; /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 0 10:27:06] score=0.7741; v19: BL-fill+profile(fill-tiebreaker+wider-widths+dense-phase)+compaction; /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 0 10:33:38] score=0.7742; v19b: threshold30k+fill_tiebreaker+wider_widths+dense+compact; /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 0 10:40:04] score=0.7747; v20: extended_delta_range[-20,200]+ord_bb_for_small_BL(S<=12k); /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+[slot 0 11:00:42] score=0.7748; v21: extended_profile_dense_phase_1850ms+compaction_guard_1950ms; /logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp

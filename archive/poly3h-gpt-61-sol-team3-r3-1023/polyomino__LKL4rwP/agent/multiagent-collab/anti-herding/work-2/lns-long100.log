@@ -1,0 +1,6 @@
+seed=0 before=0.9349282 after=0.9349282 elapsed=3.0068 diagnostics='LNS trials=167 wins=0'
+seed=1 before=0.9372549 after=0.9372549 elapsed=3.0717 diagnostics='LNS trials=146 wins=0'
+seed=2 before=0.9325513 after=0.9325513 elapsed=3.3511 diagnostics='LNS trials=379 wins=0'
+seed=3 before=0.9366472 after=0.9366472 elapsed=3.0464 diagnostics='LNS trials=190 wins=0'
+seed=4 before=0.9385366 after=0.9385366 elapsed=3.0267 diagnostics='LNS trials=164 wins=0'
+SUMMARY n=100 wins=0/5 before=0.9359836 after=0.9359836

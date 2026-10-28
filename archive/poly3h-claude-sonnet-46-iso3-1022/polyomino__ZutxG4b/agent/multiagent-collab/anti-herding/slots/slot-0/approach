@@ -1,0 +1,1 @@
+Skyline-based bin packing with dynamic width search. Try multiple widths around sqrt(total_area), use skyline packing algorithm with all 8 orientations per piece (4 rotations x 2 reflections). Sort pieces by descending bounding-box height first. NOT assuming fixed rectangle shape or greedy shelf approach.

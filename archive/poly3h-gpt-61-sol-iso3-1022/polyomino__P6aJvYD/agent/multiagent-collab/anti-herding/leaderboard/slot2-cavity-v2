@@ -1,0 +1,6 @@
+lineage=slot1-frontier-v1 plus slot2 flood-fill and CPU-budgeted multistart
+score=95.13333393714288
+source=/logs/agent/multiagent-collab/anti-herding/work-2/cavity-v2.cpp
+evidence=200 validity cases;7 representative uniform cases;official1114cf77
+cost=one submission;CPU budget1.75s
+counterevidence=large n usually one trial only; small n tail still6% wastage

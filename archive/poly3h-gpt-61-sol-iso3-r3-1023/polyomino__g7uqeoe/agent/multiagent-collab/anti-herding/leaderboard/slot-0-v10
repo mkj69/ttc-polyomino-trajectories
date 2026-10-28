@@ -1,0 +1,6 @@
+score=0.9722144547571429
+lineage=slot0inverse-remainingdepthwidth128+slot2perimeter20/componentmatch+slot1checkpointendgame
+source=/logs/agent/multiagent-collab/anti-herding/work-0/adaptive-difficulty-v10.cpp
+evidence=official07763f6d-396c-42dd-b71d-a00c1cb4e924;18heldoutcasesconfirmed
+cost=1grade,10cumulativeslot0
+counterevidence=earlybeam384adaptivefailed;do not blindlyincreasebasewidth

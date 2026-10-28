@@ -1,0 +1,1 @@
+Slot 2: Skyline-based strip packing. Pack pieces into rectangle using height-map skyline. For each piece try all 8 orientations, pick orientation minimizing local height increase. Target W near sqrt(total_cells). Will NOT assume pieces are axis-aligned rectangles.

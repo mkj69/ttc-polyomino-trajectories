@@ -1,0 +1,6 @@
+score=0.9820335276000003
+lineage=adaptive160+box40+canonicaltypes+scaledwidthportfolio+endgame/mediumexactcover
+source=/logs/agent/multiagent-collab/anti-herding/work-0/canonical-box-v14.cpp
+evidence=official39cf60c4-80de-46d3-be39-80e8c512f815
+cost=1grade,total14slot0;14full+280controlledvalidcases
+counterevidence=40uniformsinglebeamscanonicalslightlyworse,100duplicateheavybetter;actualaggregatecontributionunknown

@@ -1,0 +1,6 @@
+score=0.9424203351428577
+lineage=frontier-v1 + restart schedule + stages + one-blocker tail augmentation
+evidence=official grade and 212 local-valid runs
+cost=1 graded call
+counterevidence=slightly below restart-only official0.9426764662
+source=/logs/agent/multiagent-collab/anti-herding/work-1/augment-v1.cpp

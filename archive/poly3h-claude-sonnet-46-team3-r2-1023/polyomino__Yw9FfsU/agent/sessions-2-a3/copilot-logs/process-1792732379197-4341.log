@@ -1,0 +1,34 @@
+2026-10-23T05:12:59.198Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T05:12:59.201Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T05:12:59.201Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T05:12:59.219Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T05:12:59.220Z [INFO] OpenTelemetry tracker created for session 920241c2-28f5-45c8-8da5-7735114d0531
+2026-10-23T05:12:59.225Z [INFO] Workspace initialized: 920241c2-28f5-45c8-8da5-7735114d0531 (checkpoints: 0)
+2026-10-23T05:12:59.235Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T05:12:59.235Z [INFO] Node.js version: v24.16.0
+2026-10-23T05:12:59.250Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T05:12:59.255Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T05:12:59.315Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T05:12:59.315Z [INFO]  
+2026-10-23T05:12:59.345Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T05:12:59.346Z [INFO] --- End of group ---
+2026-10-23T05:48:56.933Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T05:48:56.934Z [INFO] --- End of group ---
+2026-10-23T05:50:00.537Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T05:50:00.544Z [INFO] Persisted checkpoint #1: Polyomino packing profile-based solver
+2026-10-23T05:50:20.235Z [INFO] CompactionProcessor: Compaction complete - replaced 96 messages with summary + 2 new messages, saved ~127798 tokens
+2026-10-23T06:27:40.091Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T06:27:40.092Z [INFO] --- End of group ---
+2026-10-23T06:28:49.409Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T06:28:49.413Z [INFO] Persisted checkpoint #2: Polyomino BL packing multi-ordering improvement
+2026-10-23T06:29:21.107Z [INFO] CompactionProcessor: Compaction complete - replaced 133 messages with summary + 2 new messages, saved ~122277 tokens
+2026-10-23T07:06:43.260Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T07:06:43.261Z [INFO] --- End of group ---
+2026-10-23T07:07:39.938Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T07:07:39.943Z [INFO] Persisted checkpoint #3: Hybrid BL+Snug packing improvement
+2026-10-23T07:08:34.483Z [INFO] CompactionProcessor: Compaction complete - replaced 109 messages with summary + 4 new messages, saved ~122525 tokens
+2026-10-23T07:53:34.969Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T07:53:34.969Z [INFO] --- End of group ---
+2026-10-23T07:54:50.747Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T07:54:50.752Z [INFO] Persisted checkpoint #4: Pure-snug W search optimization
+2026-10-23T07:55:37.360Z [INFO] CompactionProcessor: Compaction complete - replaced 107 messages with summary + 2 new messages, saved ~126220 tokens

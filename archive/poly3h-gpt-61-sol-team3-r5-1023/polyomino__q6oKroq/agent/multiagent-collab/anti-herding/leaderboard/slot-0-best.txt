@@ -1,0 +1,14 @@
+Slot0/team official best: 99.04345665999999/100
+Submission: 3a972203-c01b-4133-afb6-bccc2bfc4a59
+Source: work-0/best-99.04345666.cpp, deployed unchanged at /app/solution.cpp.
+Lineage: compact first-empty geometry -> inventory frontier beam -> cavity scoring -> DLX repair -> competing 3-8-piece exact prefix completions -> B256/1300ms small-input portfolio -> compact masks, unique boundaries, row placements, shared preparation -> slot1 medium inventory extension -> learned intrinsic fit difficulty161..1024.
+Evidence: official 70-case score; independent literal output validation; exact-speed changes matched all 50 deterministic paired outputs.
+Cost: 13 slot0 graded calls through this result; hundreds of measured local comparisons recorded in findings/disconfirmations.
+
+Current contribution: fitvalue.cpp learns each group's probability of any dihedral orientation fitting128 greedy frontier observations, adding100*-log(probability) to prior geometry.
+Held-out full-duration quality gains at n200/300/600/800/1000; approximately +.0003..+.00085. Official gain+.010821 over99.01903152.
+Counter-evidence: learned-only and regression-residual potentials fail; strength200/300 regresses; smallest n100 remains tied, so learning enabled only161..1024.
+Objective-consistent shortlist rejected by official98.91413840; only isolated B256 legacy shortlist adopted, graded99.01903152.
+Merged medium budget refinement (B8<=1300,B6<=1800,B3<=3000,B2<=4096;1400ms) adds+.001153 official to99.02985.
+Merged peer TinyCSP2 only for <=8 pieces and <=128 active support cells. Independent3000 randomized domain instances through12 pieces match exhaustive reference;100tiny UBSAN/bruteoutputs valid. Official+.012451 over99.031.
+Counter-evidence:9..12-prefix extension negative; row-cellMRV and shallow width racing not replicated. Private alternatives: conflict-based exact search and indirect state sorting. No ungraded shared change.

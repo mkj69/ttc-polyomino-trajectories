@@ -1,0 +1,5 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/compact_best_sid15.cpp
+Lineage: approved sid13 positiveperimeter frontier + compact12rowbeam and sampled150inventory, n<=1500 gate750ms, beam8to700else4.
+Evidence: approved sid15=97.11974612428568;16strictgeometrycasesvalid;meanpaired.983740->.985028.
+Cost:1approvedcall+32pairedruns52.6swall.
+Knowncounterevidence:n1500onepairslightlyworse, gainsmodest.

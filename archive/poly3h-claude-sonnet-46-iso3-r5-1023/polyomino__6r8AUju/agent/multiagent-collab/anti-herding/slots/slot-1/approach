@@ -1,0 +1,1 @@
+NFDH shelf packing + try all 8 orientations per piece per placement; sort by decreasing bbox area; try 80 widths from sqrt/2 to 3*sqrt; also transpose. Different from slot-0 skyline-BL.

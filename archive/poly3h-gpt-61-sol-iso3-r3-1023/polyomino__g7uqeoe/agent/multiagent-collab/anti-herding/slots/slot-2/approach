@@ -1,0 +1,1 @@
+Opposite-parity strip portfolio and area-lattice width selection: existing preferred,+2,-2,+4,+6 sequence mostly explores one parity and leaves adjacent widths absent. Test +1/-1 alternation, preserve incumbent area cap and independent arithmetic candidate ordering. Do not assume more widths or width12 advantage extrapolates to n220.

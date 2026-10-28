@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/priority_best_sid27.cpp
+lineage=flood sid25 plusretunedfrontierinventorydifficulty
+score=97.75866909142859
+submission=sid27
+evidence=48controlledmainmediumvalid, fixedn500P15+.006
+cost=1judge20s+80slocal
+counterevidence=n500mainmixed; n10000keepsP7

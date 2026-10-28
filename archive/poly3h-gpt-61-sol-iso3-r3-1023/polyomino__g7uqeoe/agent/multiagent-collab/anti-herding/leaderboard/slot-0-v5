@@ -1,0 +1,6 @@
+score=0.9652814811857141
+lineage=slot0floodv4+cap10;adoptedslot2sealed-profilebeam96;slot0exacttop4/6/8/10MRVconflictbitsets
+source=/logs/agent/multiagent-collab/anti-herding/work-0/beam-tail-v5.cpp
+evidence=114localendgamecases+130earliertailcases;officialUUID1d88c120-ad2a-420b-a98a-f77b41c6a8cd
+cost=1newgrade;5cumulative slot0
+counterevidence=exacttailisbounded,600placementsperpiece,60knodes;notglobaloptimalityproof

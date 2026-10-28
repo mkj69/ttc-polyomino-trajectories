@@ -1,0 +1,15 @@
+1 eligible 1/1 mean degree 20
+2 eligible 1/1 mean degree 28
+3 eligible 2/2 mean degree 14
+4 eligible 5/5 mean degree 6.8
+5 eligible 8/12 mean degree 4.16667
+6 eligible 20/35 mean degree 2.14286
+7 eligible 27/108 mean degree 0.657407
+8 eligible 51/369 mean degree 0.327913
+9 eligible 59/1285 mean degree 0.0856031
+10 eligible 139/4655 mean degree 0.050913
+n 100 paired area 0
+n 300 paired area 0.00571324
+n 1000 paired area 0.00981864
+n 3000 paired area 0.0188313
+n 10000 paired area 0.0289176

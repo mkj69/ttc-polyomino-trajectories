@@ -1,0 +1,6 @@
+score=0.9578761474142856
+lineage=slot0 finite-pool flood + slot1 global orientation incidence index for n>=3000
+evidence=official grade,203 random validity cases,9 uniform catalog cases
+cost=1grade
+counterevidence=slightly below finite-pool flood due small-loop overhead; globallargegain real but small
+source=/logs/agent/multiagent-collab/anti-herding/work-1/index-flood-v1.cpp

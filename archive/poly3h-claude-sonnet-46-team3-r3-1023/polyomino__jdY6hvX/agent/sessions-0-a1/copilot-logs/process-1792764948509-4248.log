@@ -1,0 +1,39 @@
+2026-10-23T14:15:48.510Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-23T14:15:48.514Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-23T14:15:48.514Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-23T14:15:48.528Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-23T14:15:48.528Z [INFO] OpenTelemetry tracker created for session 3fce8578-73ce-4633-b6aa-f13fcf4fed36
+2026-10-23T14:15:48.600Z [INFO] Workspace initialized: 3fce8578-73ce-4633-b6aa-f13fcf4fed36 (checkpoints: 0)
+2026-10-23T14:15:48.614Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-23T14:15:48.614Z [INFO] Node.js version: v24.16.0
+2026-10-23T14:15:48.636Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-23T14:15:48.646Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-23T14:15:48.736Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-23T14:15:48.736Z [INFO]  
+2026-10-23T14:15:48.766Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T14:15:48.766Z [INFO] --- End of group ---
+2026-10-23T14:48:54.969Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T14:48:54.970Z [INFO] --- End of group ---
+2026-10-23T14:49:59.080Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T14:49:59.085Z [INFO] Persisted checkpoint #1: Skyline packing with SSE4.2 optimization
+2026-10-23T14:50:32.699Z [INFO] CompactionProcessor: Compaction complete - replaced 70 messages with summary + 6 new messages, saved ~124079 tokens
+2026-10-23T15:22:43.833Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T15:22:43.833Z [INFO] --- End of group ---
+2026-10-23T15:23:55.316Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T15:23:55.320Z [INFO] Persisted checkpoint #2: Strategic wide-width skyline with 3x sqT coverage
+2026-10-23T15:24:49.196Z [INFO] CompactionProcessor: Compaction complete - replaced 113 messages with summary + 8 new messages, saved ~123628 tokens
+2026-10-23T15:56:32.787Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T15:56:32.787Z [INFO] --- End of group ---
+2026-10-23T15:57:47.248Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T15:57:47.254Z [INFO] Persisted checkpoint #3: maxOrients=8 breakthrough, 79.83% score
+2026-10-23T15:57:57.287Z [INFO] CompactionProcessor: Compaction complete - replaced 99 messages with summary + 12 new messages, saved ~122641 tokens
+2026-10-23T16:35:02.663Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T16:35:02.663Z [INFO] --- End of group ---
+2026-10-23T16:36:17.375Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T16:36:17.380Z [INFO] Persisted checkpoint #4: scanD=2 gap-filling, 82.30% score
+2026-10-23T16:36:58.586Z [INFO] CompactionProcessor: Compaction complete - replaced 179 messages with summary + 8 new messages, saved ~119717 tokens
+2026-10-23T17:10:18.650Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-23T17:10:18.650Z [INFO] --- End of group ---
+2026-10-23T17:11:44.875Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-23T17:11:44.880Z [INFO] Persisted checkpoint #5: OGBF improvements, 86.40% score
+2026-10-23T17:11:51.786Z [INFO] CompactionProcessor: Compaction complete - replaced 123 messages with summary + 16 new messages, saved ~122114 tokens

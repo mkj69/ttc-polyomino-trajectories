@@ -1,0 +1,6 @@
+lineage=slot1-frontier-v1 plus slot2 cached flood-fill multistart
+score=95.56038286000002
+source=/logs/agent/multiagent-collab/anti-herding/work-2/cavity-fast-v3.cpp
+evidence=200 exact-output differential checks;21 uniform prototype runs;official5c3d4524
+cost=1 submission;CPU budget1.75s
+counterevidence=small n tail around6% wastage; no exact tail repacking yet

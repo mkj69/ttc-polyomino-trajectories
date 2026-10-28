@@ -1,0 +1,6 @@
+score=97.31808539999999
+lineage=cavity-beam-elite-tail-v6 + inventory-frontier-normalization + bounded-ceiling + quarter-power width
+source=/logs/agent/multiagent-collab/anti-herding/work-1/bounded-narrow-beam-v9.cpp
+evidence=11paired held-out catalogue cases mean0.970117->0.973755, no losses; official score
+cost=22local processes~35s, 1official submission
+counterevidence=pure mode2 normalized frontier prior official97.1533 below baseline; mixture retained

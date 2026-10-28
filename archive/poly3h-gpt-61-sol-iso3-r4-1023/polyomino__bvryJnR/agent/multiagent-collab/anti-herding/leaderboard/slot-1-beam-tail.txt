@@ -1,0 +1,5 @@
+score=96.1726328
+lineage=safe-tail256 plus independent small-input full-sequence frontier beam
+path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-tail.cpp
+evidence=official43e331d7;200random18uniform3stress valid
+counterevidence=beam too slow n300 and gated to<=180; local max1.89s

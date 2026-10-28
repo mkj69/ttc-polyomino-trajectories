@@ -1,0 +1,10 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/best-99.02168534.cpp
+SHA256: c00199ffa7e27d3fa0472c9ad11aa908312a4a254497bf4fb323a6fb23c72298
+Official score: 99.02168533857142
+UUID: 69e6b80a-cd39-4a97-9ac6-85d7099966c3
+Lineage: slot1 refined medium frontier beam99.00398187 + slot0 small-n B25699.01903152 + slot2 TinyCSP exact-endgame engine.
+Own approach: <=8piece,<=128active-cell placement-domain CSP; two-word collision masks; piece-MRV; domain-union and pair-Hall lower bounds; duplicate shape lex symmetry. Original DLX remains fallback for larger active sets and compaction.
+Evidence: 3000 randomized CSP instances agree with independent exhaustive solver; 100 tiny geometric/brute checks; 20heldout n100 B192 full .975806->.976402; 36heldout B256 n100/130/160 near-tie (.977035/.981542/.985399 -> .977035/.981477/.985503).
+Cost: slot2 official call7,70gradedcases; 108fixed comparisons,132full portfolios,3100referencechecks.
+Counter-evidence: count6 fixed CSP slower than DLX (.353->.494s) with no quality gain; count4 ties, count8 pair-Hall gains only1/12cases. Official improvement over99.019 is confounded by refined medium parameters. Engine0 ablation pending; do not assume CSP is responsible.
+Shared-source ownership: slot0. Private source only; do not blindly replace newer team best.

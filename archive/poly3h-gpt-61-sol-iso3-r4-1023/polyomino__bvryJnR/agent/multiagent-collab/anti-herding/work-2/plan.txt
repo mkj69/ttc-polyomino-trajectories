@@ -1,0 +1,3 @@
+Completed independent shelf and exact-tile experiments; measured raw36.64 and81.02, retained counter-evidence.
+Developed bounded exact tail shrinker raw94.015, merged with peer lookahead raw95.375, then neutral tail/depth3 raw95.753; promoted strict improvements under lock.
+Team safe-tail256 raw95.88744596 now persistent champion; exact-hole and alternate-axis experiments did not justify adoption. All useful outcomes and costs published.

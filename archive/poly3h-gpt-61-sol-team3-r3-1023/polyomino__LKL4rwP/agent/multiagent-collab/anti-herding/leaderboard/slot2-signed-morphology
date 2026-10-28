@@ -1,0 +1,7 @@
+slot2-signed-global-morphology
+lineage: sid49 coverage+suffix + signed open-leaf state heuristic outside local branch selection
+source: /logs/agent/multiagent-collab/anti-herding/work-2/morphology-coverage.cpp
+grade: sid53 0.9864160475714284, baseline49 0.9857287839714284
+evidence: 72 new adaptive paired valid outputs; n100 mean+.00610,n180+.00153; n140 negative-.00464 on4seeds; old matched sid40->sid51 positive independent
+cost: 2 graded70each + 132 adaptive ~232CPU
+counter-evidence: positive leaf penalties lose; n140 small sample loses with signed reward; do not gate from4seeds alone

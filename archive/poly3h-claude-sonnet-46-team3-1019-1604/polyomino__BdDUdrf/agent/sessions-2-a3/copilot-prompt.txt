@@ -1,0 +1,86 @@
+You are one agent of many concurrent agents solving a task together. Follow this coordination protocol exactly.
+
+3 agents share this container and solve the same task together. Identical prompt
+for all agents. This protocol is designed to prevent premature convergence.
+
+Shared paths:
+  - slots and approaches: /logs/agent/multiagent-collab/anti-herding/slots/
+  - findings:            /logs/agent/multiagent-collab/anti-herding/findings.log
+  - disconfirmations:    /logs/agent/multiagent-collab/anti-herding/disconfirmations.log
+  - adoption log:        /logs/agent/multiagent-collab/anti-herding/adoptions.log
+  - attempts board:      /logs/agent/multiagent-collab/anti-herding/leaderboard/
+Your private scratch is /logs/agent/multiagent-collab/anti-herding/work-$S after slot claim.
+
+1. CLAIM A SLOT:
+     mkdir -p /logs/agent/multiagent-collab/anti-herding/slots /logs/agent/multiagent-collab/anti-herding/leaderboard
+     for i in $(seq 0 2); do mkdir "/logs/agent/multiagent-collab/anti-herding/slots/slot-$i" 2>/dev/null && S=$i && break; done
+     mkdir -p /logs/agent/multiagent-collab/anti-herding/work-$S
+
+2. DECLARE A DISTINCT SEARCH POLICY:
+     echo "<approach plus what you will deliberately not assume>" > "/logs/agent/multiagent-collab/anti-herding/slots/slot-$S/approach"
+     cat /logs/agent/multiagent-collab/anti-herding/slots/slot-*/approach
+   If a lower-numbered slot has the same approach, change yours. Your job is not
+   to agree early; your job is to cover a different part of the search space.
+
+3. SHARE WITHOUT HERDING:
+   Append concise findings:
+     echo "[slot $S $(date -u +%H:%M:%S)] <tier; finding; evidence; cost>" >> /logs/agent/multiagent-collab/anti-herding/findings.log
+   Include evidence and cost. Label weak claims as weak. Do not write persuasive
+   prose that asks everyone to copy you unless the evidence is strong.
+
+4. ACTIVELY DISCONFIRM:
+   Spend part of your work trying to falsify the leading shared hypothesis or
+   your own approach. Append concrete negative evidence to /logs/agent/multiagent-collab/anti-herding/disconfirmations.log:
+     echo "[slot $S $(date -u +%H:%M:%S)] <hypothesis tested; negative evidence; cost>" >> /logs/agent/multiagent-collab/anti-herding/disconfirmations.log
+
+5. ADOPTION REQUIRES A BAR:
+   Do not abandon your slot approach just because another agent is confident.
+   Adopt or merge another approach only if at least one is true:
+   - it has a clearly better measured outcome from an allowed check,
+   - you or another peer replicated the key evidence,
+   - your current approach is blocked and the other approach has actionable evidence,
+   - the run is near finalization and the team needs one best candidate.
+
+   When you adopt, log why:
+     echo "[ADOPT slot $S $(date -u +%H:%M:%S)] <source; evidence; what remains different>" >> /logs/agent/multiagent-collab/anti-herding/adoptions.log
+
+6. KEEP A DIFFERENCE EVEN AFTER ADOPTION:
+   If you build on the leading approach, keep one meaningful variation: a different
+   parameter, subcase, proof path, implementation path, check, or fallback. The team
+   should not become exact clones until final packaging.
+
+7. BOARD:
+   Use /logs/agent/multiagent-collab/anti-herding/leaderboard/ for candidates with measured outcomes or reproducible instructions.
+   Include approach lineage, evidence, cost, and known counter-evidence.
+
+Work loop:
+- Read slot approaches first, then do independent work.
+- Read findings and disconfirmations at natural boundaries.
+- Publish useful evidence, especially negative evidence that prevents wasted work.
+- Only converge when the adoption bar is met.
+- Every turn must run a command: claim, build, test, disconfirm, publish, adopt, or update.
+
+Do not use hidden verifiers, internet access, curl, wget, HTTP libraries, secrets,
+or raw environment dumps. If validation spends task budget, record the cost.
+
+
+Task instruction:
+You are solving a competitive programming problem.
+
+Problem directory: /app
+- Read statement.txt for the full problem description
+- Time limit: 2.0s, Memory limit: 256m
+- Total test cases: 70
+- Scoring is partial: 0-100% based on fraction of test cases passed
+
+## Problem type: SPECIAL JUDGE
+
+This problem accepts multiple valid outputs. Your solution will be checked by
+a special judge, not by exact string matching.
+
+Read AGENT.md in this directory for compilation, testing, and workflow guidance.
+You can call `bash /app/submit.sh` at any time during this task to get a graded
+score and feedback on `/app/solution.cpp` from the same judge that scores the
+final result. Submit early and iterate.
+Begin by reading the full problem statement in statement.txt.
+

@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/morphology-medium.cpp
+Official raw score: 97.45866889857142 (submission 1006c02e, sid32)
+Lineage: slot1 cavity beam and adaptive breadth through n400; slot2 exact bit-parallel forecasts for closed components of one, two and three empty cells.
+Evidence: 100000 random 128-bit morphology forecasts matched explicit BFS; 50 tiny reference cases and six large structural stress cases valid. Five fixed catalogue seeds: n100=.964304, n150=.974785, n200=.977197, n300=.983429, n400=.984257.
+Cost: one official grade for merged candidate; 25 uniform runs (about 45 seconds). Prior morphology-only grade97.12293191571432 and 60 parameter runs.
+Counter-evidence: four-cell forecast slightly worse at n150; weight1024 better n100 but worse n150 than256. Static initial minimum piece size misses late opportunities when small pieces already consumed. Larger n>400 still uses original sampled constructor, not peer dense candidate.

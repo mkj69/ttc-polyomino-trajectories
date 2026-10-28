@@ -1,0 +1,7 @@
+score=96.71025725142859
+submission=sid65
+source=/logs/agent/multiagent-collab/anti-herding/work-2/frontier-stack-leaf-backtrack-v28.cpp
+lineage=slot1 beam-stack v26 plus slot2 exact future-leaf propagation only after overflow restoration
+evidence=allowed judge; 20 matched catalogue cases; 80 random/brute cases and five stress cases for generalized proof implementation
+cost=one judge, approximately 240 local CPU seconds across competing variants
+counterevidence=naive always-on leaf merge loses; degree-two extension loses locally; peer anytime v27 already scores 96.76888932714284, so v28 was not promoted

@@ -1,0 +1,1 @@
+Skyline BL packing, multiple sort orders (by size AND by bounding-box area), dynamic width selection via area minimization across ~8 candidate widths. Uses tightest-fit column selection within each row band. Does NOT use per-column min/max tracking structure.

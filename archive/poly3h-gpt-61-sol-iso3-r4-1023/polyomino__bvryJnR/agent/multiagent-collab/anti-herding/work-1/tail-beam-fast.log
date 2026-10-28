@@ -1,0 +1,119 @@
+200 143 0 [] 0.9816138917262512 time=0.290685 successes=0 shrinks=0
+200 143 3 ['12', '256', '3', '1'] 0.9816138917262512 success 4 shrink 0
+time=0.25041 successes=1 shrinks=0
+200 143 3 ['12', '256', '7', '1'] 0.9816138917262512 success 4 shrink 0
+success 9 shrink 0
+time=0.322399 successes=2 shrinks=0
+200 925 0 [] 0.9815100154083205 time=0.255979 successes=1 shrinks=0
+200 925 3 ['12', '256', '3', '1'] 0.9815100154083205 success 4 shrink 0
+success 9 shrink 0
+time=0.245111 successes=2 shrinks=0
+200 925 3 ['12', '256', '7', '1'] 0.9815100154083205 success 9 shrink 0
+time=0.367402 successes=1 shrinks=0
+200 2026 0 [] 0.9757575757575757 time=0.196344 successes=0 shrinks=0
+200 2026 3 ['12', '256', '3', '1'] 0.9757575757575757 success 4 shrink 0
+time=0.256389 successes=1 shrinks=0
+200 2026 3 ['12', '256', '7', '1'] 0.9757575757575757 success 4 shrink 0
+success 9 shrink 0
+time=0.322137 successes=2 shrinks=0
+200 9173 0 [] 0.9753892516323456 time=0.134225 successes=3 shrinks=0
+200 9173 3 ['12', '256', '3', '1'] 0.9753892516323456 success 9 shrink 0
+time=0.234289 successes=1 shrinks=0
+200 9173 3 ['12', '256', '7', '1'] 0.9753892516323456 success 9 shrink 0
+time=0.320514 successes=1 shrinks=0
+250 143 0 [] 0.976461038961039 time=0.179714 successes=2 shrinks=0
+250 143 3 ['12', '256', '3', '1'] 0.9808397880146759 success 0 shrink 1
+time=0.293271 successes=1 shrinks=1
+250 143 3 ['12', '256', '7', '1'] 0.9808397880146759 success 0 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.305706 successes=3 shrinks=1
+250 925 0 [] 0.9851912793089264 time=0.287915 successes=1 shrinks=0
+250 925 3 ['12', '256', '3', '1'] 0.9851912793089264 time=0.212178 successes=0 shrinks=0
+250 925 3 ['12', '256', '7', '1'] 0.9851912793089264 time=0.283186 successes=0 shrinks=0
+250 2026 0 [] 0.979301948051948 time=0.210835 successes=0 shrinks=0
+250 2026 3 ['12', '256', '3', '1'] 0.979301948051948 success 4 shrink 0
+success 9 shrink 0
+time=0.279964 successes=2 shrinks=0
+250 2026 3 ['12', '256', '7', '1'] 0.979301948051948 success 4 shrink 0
+success 9 shrink 0
+time=0.363253 successes=2 shrinks=0
+250 9173 0 [] 0.9765656565656565 time=0.132299 successes=1 shrinks=0
+250 9173 3 ['12', '256', '3', '1'] 0.9809253246753247 success 0 shrink 1
+time=0.222377 successes=1 shrinks=1
+250 9173 3 ['12', '256', '7', '1'] 0.9809253246753247 success 1 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.284204 successes=3 shrinks=1
+300 143 0 [] 0.937946718648473 time=0.0642166 successes=4 shrinks=0
+300 143 3 ['12', '256', '3', '1'] 0.937946718648473 time=2.9937e-05 successes=0 shrinks=0
+300 143 3 ['12', '256', '7', '1'] 0.937946718648473 time=4.6769e-05 successes=0 shrinks=0
+300 925 0 [] 0.9324236517218973 time=0.0632094 successes=8 shrinks=1
+300 925 3 ['12', '256', '3', '1'] 0.9163473818646233 time=1.4668e-05 successes=0 shrinks=0
+300 925 3 ['12', '256', '7', '1'] 0.9163473818646233 time=1.8665e-05 successes=0 shrinks=0
+300 2026 0 [] 0.9810040705563093 time=0.128131 successes=4 shrinks=0
+300 2026 3 ['12', '256', '3', '1'] 0.9883800410116199 success 1 shrink 1
+success 5 shrink 1
+time=0.253645 successes=2 shrinks=2
+300 2026 3 ['12', '256', '7', '1'] 0.9846782431052093 success 2 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.319315 successes=3 shrinks=1
+300 9173 0 [] 0.9431448992852501 time=0.115398 successes=3 shrinks=1
+300 9173 3 ['12', '256', '3', '1'] 0.9268837803320562 time=1.8926e-05 successes=0 shrinks=0
+300 9173 3 ['12', '256', '7', '1'] 0.9268837803320562 time=1.9276e-05 successes=0 shrinks=0
+400 143 0 [] 0.9839121552604698 time=0.159604 successes=3 shrinks=0
+400 143 3 ['12', '256', '3', '1'] 0.9866837387964148 success 1 shrink 1
+time=0.303777 successes=1 shrinks=1
+400 143 3 ['12', '256', '7', '1'] 0.9866837387964148 success 1 shrink 1
+success 9 shrink 0
+time=0.31459 successes=2 shrinks=1
+400 925 0 [] 0.986093226886428 time=0.199717 successes=2 shrinks=0
+400 925 3 ['12', '256', '3', '1'] 0.986093226886428 success 4 shrink 0
+success 9 shrink 0
+time=0.253331 successes=2 shrinks=0
+400 925 3 ['12', '256', '7', '1'] 0.986093226886428 success 4 shrink 0
+success 9 shrink 0
+time=0.315171 successes=2 shrinks=0
+400 2026 0 [] 0.9851472471190781 time=0.163808 successes=3 shrinks=0
+400 2026 3 ['12', '256', '3', '1'] 0.9879301489470981 success 0 shrink 1
+time=0.335918 successes=1 shrinks=1
+400 2026 3 ['12', '256', '7', '1'] 0.9879301489470981 success 0 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.371388 successes=3 shrinks=1
+400 9173 0 [] 0.9553571428571429 time=0.160106 successes=6 shrinks=2
+400 9173 3 ['12', '256', '3', '1'] 0.9264069264069265 time=2.7562e-05 successes=0 shrinks=0
+400 9173 3 ['12', '256', '7', '1'] 0.9264069264069265 time=2.3344e-05 successes=0 shrinks=0
+1000 143 0 [] 0.9895104895104895 time=0.135181 successes=2 shrinks=1
+1000 143 3 ['12', '256', '3', '1'] 0.9895104895104895 success 2 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.324472 successes=3 shrinks=1
+1000 143 3 ['12', '256', '7', '1'] 0.9895104895104895 success 1 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.40775 successes=3 shrinks=1
+1000 925 0 [] 0.989247311827957 time=0.0792146 successes=6 shrinks=0
+1000 925 3 ['12', '256', '3', '1'] 0.989247311827957 success 4 shrink 0
+success 9 shrink 0
+time=0.358722 successes=2 shrinks=0
+1000 925 3 ['12', '256', '7', '1'] 0.989247311827957 success 4 shrink 0
+success 9 shrink 0
+time=0.491276 successes=2 shrinks=0
+1000 2026 0 [] 0.9879950749025241 time=0.0974556 successes=4 shrinks=0
+1000 2026 3 ['12', '256', '3', '1'] 0.9902303578774168 success 4 shrink 0
+success 5 shrink 1
+time=0.326018 successes=2 shrinks=1
+1000 2026 3 ['12', '256', '7', '1'] 0.9902303578774168 success 4 shrink 0
+success 5 shrink 1
+time=0.436979 successes=2 shrinks=1
+1000 9173 0 [] 0.9907981803143093 time=0.124296 successes=2 shrinks=1
+1000 9173 3 ['12', '256', '3', '1'] 0.9907981803143093 success 1 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.258205 successes=3 shrinks=1
+1000 9173 3 ['12', '256', '7', '1'] 0.9907981803143093 success 1 shrink 1
+success 4 shrink 0
+success 9 shrink 0
+time=0.406212 successes=3 shrinks=1

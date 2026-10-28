@@ -1,0 +1,5 @@
+lineage: independent slot0 bitparallel replacement of baseline
+evidence: 200 reference coordinate validations, n10000 adversarial density .933809393 .406223s
+reproduce: g++ -std=gnu++17 -O2 work-0/bitpack.cpp -o work-0/bitpack; python3 work-0/validate.py work-0/bitpack --cases 200 --stress 10000
+cost: 203 local cases; judge pending
+counter-evidence: catalogue-uniform test not yet generated, tiny n width10 wastes area

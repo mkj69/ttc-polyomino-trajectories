@@ -1,0 +1,8 @@
+Candidate: global-exact-tail-v26.cpp
+Path: /logs/agent/multiagent-collab/anti-herding/work-0/global-exact-tail-v26.cpp
+Submitted SID: 62
+Normalized score: 0.9844051219285713
+Lineage: peer lazy receding ProfileBeam + own lazy whole-instance terminal/piece layers + bounded exact four-piece leaf completion.
+Evidence: 31 matched constructors across n100/200/300/500/1000, all geometry-valid including 10^12 translations. Density gains .00764/.00602/.00321/.00130/.00132 respectively. Exact search starts at every eligible beam frontier rather than one frozen final prefix.
+Cost: one graded submission; 62 fixed constructors approximately 18 seconds; leaf maximum 4000 nodes per height.
+Counter-evidence: six-piece DFS matched four-piece final areas but cost 20-30% more. Standalone whole-beam corner ordering improved fixed constructors but lowered the full v25 grade.

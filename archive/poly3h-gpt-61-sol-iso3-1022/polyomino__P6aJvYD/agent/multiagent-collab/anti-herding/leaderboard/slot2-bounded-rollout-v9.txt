@@ -1,0 +1,6 @@
+score=97.35525307999998
+lineage=slot1-bounded-narrow-v9+slot2-terminal-completion8
+source=/logs/agent/multiagent-collab/anti-herding/work-2/bounded-narrow-rollout-v9.cpp
+evidence=official705d68c9-fff7-4b94-a5d2-ff1a99653e05;9paireddefaultmean.965959->.966246;7uniformvalid
+cost=one submission;25defaultlocalprocesses~41s
+counterevidence=effect small on strong default; full-global exactcover and nestedrollout weaker

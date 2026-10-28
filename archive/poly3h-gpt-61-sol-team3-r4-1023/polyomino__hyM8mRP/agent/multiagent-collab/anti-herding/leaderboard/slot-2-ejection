@@ -1,0 +1,6 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-2/ejection.cpp
+lineage=hardnonoverlapiterativeguidedlocalrepair+incumbentexacttail
+score=96.05458996285712
+submission=sid11
+cost=1judgecall+130localcasepairs
+counterevidence=smalln100 regressions, no clear net advantage

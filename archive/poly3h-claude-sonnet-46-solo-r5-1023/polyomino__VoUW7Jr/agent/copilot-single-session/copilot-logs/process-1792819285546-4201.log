@@ -1,0 +1,36 @@
+2026-10-24T05:21:25.547Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-24T05:21:25.550Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-24T05:21:25.550Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-24T05:21:25.569Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-24T05:21:25.569Z [INFO] OpenTelemetry tracker created for session 1fa3b7e5-264b-42fa-a870-3456611607f1
+2026-10-24T05:21:25.631Z [INFO] Workspace initialized: 1fa3b7e5-264b-42fa-a870-3456611607f1 (checkpoints: 0)
+2026-10-24T05:21:25.647Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-24T05:21:25.647Z [INFO] Node.js version: v24.16.0
+2026-10-24T05:21:25.668Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-24T05:21:25.676Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-24T05:21:25.762Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-24T05:21:25.763Z [INFO]  
+2026-10-24T05:21:25.792Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T05:21:25.792Z [INFO] --- End of group ---
+2026-10-24T05:58:11.390Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T05:58:11.390Z [INFO] --- End of group ---
+2026-10-24T05:59:02.090Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T05:59:02.096Z [INFO] Persisted checkpoint #1: Polyomino packing optimization, 68% score
+2026-10-24T06:00:11.478Z [INFO] CompactionProcessor: Compaction complete - replaced 52 messages with summary + 6 new messages, saved ~143089 tokens
+2026-10-24T06:31:07.685Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T06:31:07.685Z [INFO] --- End of group ---
+2026-10-24T06:32:19.594Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T06:32:19.599Z [INFO] Persisted checkpoint #2: Polyomino packing 77.79% score
+2026-10-24T06:33:50.381Z [INFO] CompactionProcessor: Compaction complete - replaced 51 messages with summary + 6 new messages, saved ~118305 tokens
+2026-10-24T07:08:21.536Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T07:08:21.536Z [INFO] --- End of group ---
+2026-10-24T07:09:30.237Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T07:09:30.242Z [INFO] Persisted checkpoint #3: Polyomino packing 77.86% with vectorized skyline
+2026-10-24T07:10:59.563Z [INFO] CompactionProcessor: Compaction complete - replaced 147 messages with summary + 4 new messages, saved ~120293 tokens
+2026-10-24T07:23:26.897Z [INFO] System notification: Shell command "ordW sweep W=500-900 ym=2" (shellId: 114) has completed successfu...
+2026-10-24T07:33:23.815Z [INFO] System notification: Shell command "Compare ym=0 vs ym=5 optimal W for r1778" (shellId: 125) has comp...
+2026-10-24T07:55:08.679Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T07:55:08.680Z [INFO] --- End of group ---
+2026-10-24T07:56:15.739Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T07:56:15.743Z [INFO] Persisted checkpoint #4: Wide-W skyline search implementation
+2026-10-24T07:56:41.539Z [INFO] CompactionProcessor: Compaction complete - replaced 123 messages with summary + 4 new messages, saved ~126073 tokens

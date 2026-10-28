@@ -1,0 +1,5 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-2/eject-standalone.cpp
+Lineage: slot1 grouped350ms seed + slot2 legal missing-piece ejection beam in H-1 fixed rectangle; allows eject1-2owners while all placed pieces nonoverlap, tabu inverse moves, top16/64/128beam.
+Evidence: allowedjudge sid13 raw96.05851364142855 normalized.9606 uuidc55be2be-228a-452f-bee8-0299dd88242b; priorbest95.73796. Local exactuniform n100 seeds2/3/4/6 shrink one row.
+Cost: 2judgecalls(1bad include),14localejectionruns~24s
+Knowncounter-evidence: many seedsplateau pending1-3 pieces; n>=500 currently originalgrouped rather than fast largerpool; beam currently limitedmax500layers and 6missingpieces, first run clock forecast allows <=1.7s.

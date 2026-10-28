@@ -1,0 +1,6 @@
+score=96.76888932714284 sid63
+source=/logs/agent/multiagent-collab/anti-herding/work-1/frontier-anytime-v27.cpp
+lineage=beamstackv26+anytimeheighttightening
+evidence=40freshvalid+32matched; allowedjudge+0.08717552
+cost=1judge+approximately125CPUseconds
+counterevidence=localmostlyties; longer.15budgetungraded

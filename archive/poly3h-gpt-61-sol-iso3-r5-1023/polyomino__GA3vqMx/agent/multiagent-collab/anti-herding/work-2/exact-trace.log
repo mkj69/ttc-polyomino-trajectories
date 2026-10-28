@@ -1,0 +1,24 @@
+exact-tail setup pieces 8 rows 9 cells 100 slack 22
+exact-tail generated 1031 milliseconds-left 11.373
+exact-tail moves 1031 cells 100 slack 22 nodes 4801 solved 0
+exact-tail setup pieces 8 rows 9 cells 101 slack 22
+exact-tail generated 1066 milliseconds-left 11.532
+exact-tail moves 1066 cells 101 slack 22 nodes 4449 solved 0
+exact-tail setup pieces 8 rows 11 cells 106 slack 26
+exact-tail generated 2049 milliseconds-left 11.707
+exact-tail moves 2049 cells 106 slack 26 nodes 8065 solved 0
+exact-tail setup pieces 8 rows 11 cells 106 slack 26
+exact-tail generated 1703 milliseconds-left 11.409
+exact-tail moves 1703 cells 106 slack 26 nodes 3489 solved 0
+exact-tail setup pieces 8 rows 9 cells 116 slack 36
+exact-tail generated 928 milliseconds-left 11.527
+exact-tail moves 928 cells 116 slack 36 nodes 5729 solved 0
+exact-tail setup pieces 8 rows 8 cells 115 slack 35
+exact-tail generated 1114 milliseconds-left 11.495
+exact-tail moves 1114 cells 115 slack 35 nodes 5665 solved 0
+exact-tail setup pieces 8 rows 7 cells 97 slack 17
+exact-tail generated 105 milliseconds-left 0.955
+exact-tail moves 105 cells 97 slack 17 nodes 1 solved 0
+exact-tail setup pieces 8 rows 7 cells 97 slack 17
+exact-tail generated 126 milliseconds-left 0.511
+exact-tail moves 126 cells 97 slack 17 nodes 21 solved 0

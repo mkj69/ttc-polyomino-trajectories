@@ -1,0 +1,7 @@
+lineage=slot1-frontier-slot2-streaming-cavity-slot0-cavity-scored-beam
+source=/logs/agent/multiagent-collab/anti-herding/work-0/cavity-scored-beam-v3.cpp
+evidence=n150 10seed mean .964199 versus previous .955933;300 random cavity-beam checks
+cost=310 local cases25s; official pending
+counterevidence=1.7s deadline; large-n still inherited currentv2
+official_score=96.87170742857141
+submission=6e9d5bc3-6c0f-439e-bb88-57d3a14ded68

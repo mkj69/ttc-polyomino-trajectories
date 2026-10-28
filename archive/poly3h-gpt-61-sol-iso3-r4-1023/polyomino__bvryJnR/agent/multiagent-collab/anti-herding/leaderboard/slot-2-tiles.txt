@@ -1,0 +1,6 @@
+score=81.01981615428575
+lineage=independent bounded multi-piece exact-cover tile search
+source=/logs/agent/multiagent-collab/anti-herding/work-2/tiles.cpp
+evidence=submit f0a05134; random n100/1000/10000 densities .833/.903/.910
+cost=1.55s worst-budget per case; one judge submission
+counter-evidence=below cavity baseline; fixed tile boundary overhead

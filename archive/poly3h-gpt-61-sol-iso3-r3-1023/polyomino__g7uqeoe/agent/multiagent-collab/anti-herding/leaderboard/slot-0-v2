@@ -1,0 +1,6 @@
+score=0.9449486620428569
+lineage=slot0 v1 + independent 190-bit signatures + adaptive pools + narrow CPU-bounded restarts
+source=/logs/agent/multiagent-collab/anti-herding/work-0/bitfront-v2.cpp
+evidence=204 signature validation cases plus8 final uniform cases; official UUID5db212cc-6bab-4d89-9492-374b5bcd8ba0
+cost=1 new grade;2 cumulative slot0
+counterevidence=small n100 density remains0.918 and first-trial runtime is sensitive to cache contention

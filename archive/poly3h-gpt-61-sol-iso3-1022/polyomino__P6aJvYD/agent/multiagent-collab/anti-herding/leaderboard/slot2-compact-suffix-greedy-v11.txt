@@ -1,0 +1,6 @@
+score=97.95304714714287
+lineage=resource beam + terminal completion + mild large-greedy conservation + compact large-suffix beam
+source=/logs/agent/multiagent-collab/anti-herding/work-2/compact-suffix-greedy-v11.cpp
+evidence=official uuidab6febeb 97.9530471; independent12large paired 8wins0losses, mean .990209->.991613;200random+6production valid
+cost=1official; 24production paired42.99s + validation~14s
+counterevidence=global streaming inferior; this only repairs bounded suffix after unchanged full construction; still inherits beam failure modes

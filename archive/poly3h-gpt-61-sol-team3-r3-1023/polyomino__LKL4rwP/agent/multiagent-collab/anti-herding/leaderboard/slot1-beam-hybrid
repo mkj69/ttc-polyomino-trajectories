@@ -1,0 +1,7 @@
+slot1 hybrid official sid15 score96.9707300171429
+lineage: slot0 cavity+deferred retrieval incumbent sid14, independent slot1 bounded global beam<=400, slot2 bounded tail primitives.
+source: /logs/agent/multiagent-collab/anti-herding/work-1/hybrid.cpp
+measure: bash /app/submit.sh source
+local: n100 .935192->.949186,n200 .958616->.962761,n400 .973061->.979218 across5seeds ~1.50CPU;30extra all valid.
+counterevidence: only n<=400; beam128*n1000 alone~2.99CPU so not enabled on large. CPU deadline1.2s plus safe warm start.
+cost:1graded70cases;~90CPU seconds timed local tests.

@@ -1,0 +1,7 @@
+candidate: /logs/agent/multiagent-collab/anti-herding/work-2/tail.cpp
+lineage: slot0 contact frontier + slot2 final10 bounded exact-cover DFS
+evidence: same80-case independent generator: n100 .867484 -> .891698; n300 .910961 -> .928108; n10000 .971468 -> .971674; max runtime .560s
+cost: 80 local runs, no graded calls
+counter-evidence: minor gain on large n; 30000-node limit can miss available shorter packings
+official-score: .91855290; valid all70; cost 1 allowed submission
+Independent final robustness: integrated main snapshot /logs/agent/multiagent-collab/anti-herding/work-2/final-independent.cpp; 16/16 adversarial/extreme-origin cases valid; max1.6654s; no added graded cost.

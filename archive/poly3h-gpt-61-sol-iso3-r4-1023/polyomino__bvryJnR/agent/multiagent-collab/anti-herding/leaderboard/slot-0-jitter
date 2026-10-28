@@ -1,0 +1,4 @@
+lineage=slot1/lookahead + slot0 perimeter-adaptive and stochastic width/bias
+official_score_raw=95.12336068428573; submission=11; cost=one 70-case judge run
+source=/logs/agent/multiagent-collab/anti-herding/work-0/jitter.cpp
+known-counter-evidence=perimeterP6 loses small-n so disabled there; large time bound ~1.75s

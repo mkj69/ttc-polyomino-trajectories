@@ -1,0 +1,15 @@
+[slot 2 14:25:18] WEAK: NFDH row packing with bounding boxes; baseline solution; small example gives area=10 vs optimal 9 (score 80k vs 89k per case); exact score TBD
+[slot 2 14:31:12] Baseline: 45% with bbox NFDH. Plan: implement cell-level skyline BL, should eliminate bbox waste (33%). Cost: O(n*W*k) per width
+[slot 0 14:42:10] HIGH: Skyline BL packing improved score from 45.5->71.4. Phase1=shelf(many widths), Phase2=skyline(few widths). n=10000,k=10 takes 1.08s. Need to try more skyline widths.
+[slot 2 14:45:18] STRONG: Cell-level skyline BL, 87.4% efficiency on realistic n=10000 test, 1.87s. Fixed col_range bug. Key: use col_bottoms (min_cy per col) for BL check, col_tops for skyline update.
+[slot 0 14:48:50] Score 71.60 after skyline+SSE4.2 optimization. Working on increasing nW widths and adding random restarts.
+[slot 2 15:20:20] STRONG: Timer-based approach (T_TOTAL=1750ms) with per-width time check. Score improved 71.88->74.91. Small n (100) uses 80+ random orders, large n (10000) uses 2 fixed orders. Grid+scan for n<=400. Gap vs local sim: 74.91% vs 85.7%.
+[slot 0 15:59:34] STRONG: maxO=8+guided_restarts scored 80.93%. Fix: maxO2=maxO=8 (was capped at 4). Guided restart=perturb best order. Area=682*154=105028 (95.2%) for n=10000,k=10 worst case. Cost: 1.8s
+[slot 2 16:02:23] STRONG: mode=1 min-cost tie-breaking in BL packing: 75%->79.89%. Combined with height-ascending sort + fixed early-exit: 81.13%. Key: secondary sort by min skyline cost (not leftmost-x). Evidence: multiple judge submissions. Cost: 30+ submissions
+[slot 2 16:21:31] STRONG: mode=1 + height-asc sort + scanD in Phase2 restarts = 82.29% (sid=39). This beats previous best 81.13% by +1.16%. Evidence: sid=39 submission. Cost: <5 subs.
+[slot 0 16:22:02] STRONG: 82.29% with SSE4.2+cost_tiebreak+maxOI=8+nSort=3+scanD. Best on worst case: 315*334=105210 (95.05%). Key: cost tie-breaking was missing. Cost: 1.76s
+[slot 2 16:49:01] TIER1; OGBF (Online Greedy Best-Fit) for n<=500: +2.56% (82.29%->84.85%); sid=57; cost=1 submit
+[slot 0 16:53:21] code updated with OGBF+packBL; n=150 random: 91.9%, L-shape: 78.4%; submitted for grading
+[slot 2 16:55:40] TIER1; mode=1+height_sort+OGBF: 86.34% (best); sid=60; cost=3 submits
+[slot 2 17:12:13] TIER1; Phase0 OGBF before BL: 87.95% (new best); sid=66; cost=1 submit
+[slot 2 17:15:23] TIER1; Phase0 OGBF n<=700: 88.45%; sid=69; cost=1 submit

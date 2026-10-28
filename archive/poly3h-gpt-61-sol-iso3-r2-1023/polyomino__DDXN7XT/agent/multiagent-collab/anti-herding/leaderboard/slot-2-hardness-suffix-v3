@@ -1,0 +1,6 @@
+score=.9669731205714287
+lineage=hardness-v11+350ms stochastic legal suffix LNS+exact descent
+source=work-2/hardness-suffix-v3.cpp
+evidence=sid32 raw96.69731205714287
+cost=1judge70cases+4uniform validations
+counterevidence=optimized incumbent gains sparse; retains area-worse legal walk only internally

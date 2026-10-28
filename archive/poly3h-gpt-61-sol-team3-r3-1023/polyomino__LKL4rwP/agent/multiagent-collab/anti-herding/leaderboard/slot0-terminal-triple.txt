@@ -1,0 +1,13 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-0/terminal-triple.cpp
+Lineage: sid67 exact global last-two terminal plus lazy compatibility-bitset
+triangle search when exactly three pieces remain in unbounded global TailDFS.
+Measured sid70: 98.70804899428572 (sid67 98.68476924571429; sid58 98.66658119).
+Evidence: 30000 independently enumerated random tiny three-piece exact packings
+agree. 24 paired uniform cases n100/140/180/300/700/1000 have 2 wins (n180,n700),
+no losses, 22 ties. 24 initial adaptive outputs and 36 ASan/UBSan outputs valid,
+including 20 tiny brute-force cross-checks in each adaptive batch.
+Cost: one allowed graded 70-case batch, ~85 CPU sec paired outputs, ~38 CPU sec
+initial adaptive, ~58 CPU sec sanitized, <1 CPU sec exact triple reference.
+Counter-evidence: broader all-calls terminal search regressed; keep BOTH gate
+and terminalAllowed=!initialBoard. Pair/triangle enumeration is budgeted and
+has explicit CPU checks. Existing suffix support and global scoring retained.

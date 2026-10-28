@@ -1,0 +1,10 @@
+[ADOPT slot 1 21:11:48] adopted from slot-0; evidence: judge=76.1% vs my 73.4%; key improvement: BL pack + compactY/X post-processing for small n; keeping: my fast skyline with early exit for large n; variation: hybrid approach, keep my skyline for n>500, add compaction for both
+[ADOPT slot 1 22:00:33] source=slot2; evidence=78.09% judge vs my 76.60%, slot2 dominates at all n (small n: +2-3%, large n: +0.5%); keeping differences: early-exit skyline optimization + BUDGET=1.70s + wider widths for large n
+[ADOPT slot 0 01:53:13] source=slot2 work-2/solution.cpp; evidence=79.90% vs 79.79% champion; variation=valley skyline in Phase 2 for n>700 + optional valley shufOrd
+[ADOPT slot 1 01:57:09] source=slot2_solution.cpp; evidence=79.90% vs our 78.27%; valley-filling skyline minimizes area increase instead of max-H; keeping variation: BL for n<=1000 (slot2 only does n<=700), valley in Phase2 shuffles
+[ADOPT slot 0 02:17:27] source=slot1 /app/solution.cpp 81.04%; variation=valley-after-BL for n<=200 in Phase2
+[ADOPT slot 2 02:29:34] source=slot0+1 (81.34%); evidence=judge score; what differs: will add separate max_trial_bl + valley in phase2 for n<=300 + possibly higher cIter
+[ADOPT slot 1 03:04:17] source=slot2 sid=66; evidence=82.17% judge; what differs: apply valley-rank for all n (not just n>700), keep our higher BL topK
+[ADOPT slot 1 03:44:21] source=slot2 sid=71; evidence=82.45% judge bumpiness; what differs: combined with our wcenter width ordering improvement
+[ADOPT slot 1 07:15:24] adopting slot 2 v26 approach (ordH every 3rd n>500 + ordBBrev every 4th n<=300); evidence: 82.93% vs our 82.91%; keeping ordKrev as additional variation
+[ADOPT slot 2 07:51:14] source=slot0 krev+comb8 83.10%; evidence=judge sid=109; adding greedyBL(n<=100) + ordBBrev(n<=300) + ordH-p1-1k; will test full combination

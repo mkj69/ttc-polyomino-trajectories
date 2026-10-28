@@ -1,0 +1,30 @@
+n=100 width=20 trials=24 hole=26.0 height=1.5 density=0.874545 seconds=0.0073
+n=100 width=20 trials=48 hole=26.0 height=1.5 density=0.866729 seconds=0.0082
+n=100 width=20 trials=96 hole=26.0 height=1.5 density=0.882635 seconds=0.0089
+n=100 width=32 trials=24 hole=26.0 height=1.5 density=0.835069 seconds=0.0076
+n=100 width=32 trials=48 hole=26.0 height=1.5 density=0.871547 seconds=0.0082
+n=100 width=32 trials=96 hole=26.0 height=1.5 density=0.897602 seconds=0.0090
+n=100 width=56 trials=24 hole=26.0 height=1.5 density=0.799416 seconds=0.0070
+n=100 width=56 trials=48 hole=26.0 height=1.5 density=0.818027 seconds=0.0084
+n=100 width=56 trials=96 hole=26.0 height=1.5 density=0.838457 seconds=0.0095
+BEST 100 (0.8976019385026739, 32, 96, 26.0, 1.5, 0.00900706899119541)
+n=1000 width=20 trials=24 hole=26.0 height=1.5 density=0.910097 seconds=0.0635
+n=1000 width=20 trials=48 hole=26.0 height=1.5 density=0.931312 seconds=0.0612
+n=1000 width=20 trials=96 hole=26.0 height=1.5 density=0.951585 seconds=0.0679
+n=1000 width=32 trials=24 hole=26.0 height=1.5 density=0.916173 seconds=0.0586
+n=1000 width=32 trials=48 hole=26.0 height=1.5 density=0.940590 seconds=0.0586
+n=1000 width=32 trials=96 hole=26.0 height=1.5 density=0.958621 seconds=0.0631
+n=1000 width=56 trials=24 hole=26.0 height=1.5 density=0.916874 seconds=0.0558
+n=1000 width=56 trials=48 hole=26.0 height=1.5 density=0.939484 seconds=0.0576
+n=1000 width=56 trials=96 hole=26.0 height=1.5 density=0.957851 seconds=0.0662
+BEST 1000 (0.9586207358525233, 32, 96, 26.0, 1.5, 0.06312227598391473)
+n=10000 width=20 trials=24 hole=26.0 height=1.5 density=0.919188 seconds=3.5944
+n=10000 width=20 trials=48 hole=26.0 height=1.5 density=0.941748 seconds=2.5288
+n=10000 width=20 trials=96 hole=26.0 height=1.5 density=0.960227 seconds=1.7376
+n=10000 width=32 trials=24 hole=26.0 height=1.5 density=0.925789 seconds=3.5500
+n=10000 width=32 trials=48 hole=26.0 height=1.5 density=0.950596 seconds=2.1894
+n=10000 width=32 trials=96 hole=26.0 height=1.5 density=0.967782 seconds=1.5970
+n=10000 width=56 trials=24 hole=26.0 height=1.5 density=0.930964 seconds=3.1789
+n=10000 width=56 trials=48 hole=26.0 height=1.5 density=0.954037 seconds=2.1320
+n=10000 width=56 trials=96 hole=26.0 height=1.5 density=0.970523 seconds=1.4680
+BEST 10000 (0.9705230675839741, 56, 96, 26.0, 1.5, 1.4679888745304197)

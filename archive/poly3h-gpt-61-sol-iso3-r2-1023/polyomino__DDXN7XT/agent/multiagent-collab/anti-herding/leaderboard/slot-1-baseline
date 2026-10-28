@@ -1,0 +1,6 @@
+score=0.6342
+lineage=independent skyline baseline
+path=/logs/agent/multiagent-collab/anti-herding/work-1/solution.cpp
+local=200 random+stress+edges valid, .296s n10000
+counter-evidence=lost cavities, .516 local density at n10000
+cost=1 graded call

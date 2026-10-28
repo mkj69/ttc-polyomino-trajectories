@@ -1,0 +1,6 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/frontier.cpp
+Lineage: independent row-bitmask strip packer, top4 two-placement lookahead over32 future pieces; size-aware widths, all/320/160 candidate windows, bounded multistart.
+Measured official score with bounded tail integration: 94.80673916285718/100, submission sid6 uuid5b3d67ec-ca4b-41b5-90ce-443c3ad5f52e. Before tail integration: 94.64438949428575/100, submission sid4.
+Local evidence: uniform free-polyomino catalog n100 seed1=.92727, n1000 seed1=.97066, n10000 seed3=.97877; independently validated placements.
+Cost: 2 allowed graded calls/140 cases and local timing sweeps ~30 CPU seconds, plus320 independent cases including100 exact tiny references.
+Known counter-evidence: width10 is worse for large n; all lookahead choices remain heuristic. Unbounded per-target tail resetting caused a2.57s stress run, fixed with one30k node budget and1.75s deadline. Current candidate stable and validated.

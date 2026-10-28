@@ -1,0 +1,39 @@
+n=125 seed=430 policy=-1 density=0.963797 seconds=1.787
+n=125 seed=430 policy=0 density=0.972403 seconds=1.786
+n=125 seed=430 policy=6 density=0.972403 seconds=1.787
+n=125 seed=811 policy=-1 density=0.973301 seconds=1.788
+n=125 seed=811 policy=0 density=0.973301 seconds=1.786
+n=125 seed=811 policy=6 density=0.973301 seconds=1.787
+n=125 seed=2067 policy=-1 density=0.972154 seconds=1.786
+n=125 seed=2067 policy=0 density=0.972154 seconds=1.787
+n=125 seed=2067 policy=6 density=0.972154 seconds=1.788
+n=125 seed=19971 policy=-1 density=0.969968 seconds=1.786
+n=125 seed=19971 policy=0 density=0.969968 seconds=1.787
+n=125 seed=19971 policy=6 density=0.976307 seconds=1.788
+MEAN 125 {-1: (0.969805, 1.786605), 0: (0.971956, 1.786684), 6: (0.973541, 1.787464)}
+n=150 seed=430 policy=-1 density=0.976934 seconds=1.793
+n=150 seed=430 policy=0 density=0.976934 seconds=1.788
+n=150 seed=430 policy=6 density=0.976934 seconds=1.788
+n=150 seed=811 policy=-1 density=0.976934 seconds=1.789
+n=150 seed=811 policy=0 density=0.976934 seconds=1.789
+n=150 seed=811 policy=6 density=0.976934 seconds=1.788
+n=150 seed=2067 policy=-1 density=0.977444 seconds=1.788
+n=150 seed=2067 policy=0 density=0.977444 seconds=1.789
+n=150 seed=2067 policy=6 density=0.977444 seconds=1.786
+n=150 seed=19971 policy=-1 density=0.977444 seconds=1.788
+n=150 seed=19971 policy=0 density=0.977444 seconds=1.788
+n=150 seed=19971 policy=6 density=0.977444 seconds=1.788
+MEAN 150 {-1: (0.977189, 1.789408), 0: (0.977189, 1.78835), 6: (0.977189, 1.787572)}
+n=175 seed=430 policy=-1 density=0.981232 seconds=1.789
+n=175 seed=430 policy=0 density=0.981232 seconds=1.788
+n=175 seed=430 policy=6 density=0.981232 seconds=1.807
+n=175 seed=811 policy=-1 density=0.981935 seconds=1.789
+n=175 seed=811 policy=0 density=0.981935 seconds=1.789
+n=175 seed=811 policy=6 density=0.981935 seconds=1.789
+n=175 seed=2067 policy=-1 density=0.976107 seconds=1.789
+n=175 seed=2067 policy=0 density=0.976107 seconds=1.789
+n=175 seed=2067 policy=6 density=0.976107 seconds=1.789
+n=175 seed=19971 policy=-1 density=0.981700 seconds=1.789
+n=175 seed=19971 policy=0 density=0.981700 seconds=1.789
+n=175 seed=19971 policy=6 density=0.981700 seconds=1.789
+MEAN 175 {-1: (0.980243, 1.788943), 0: (0.980243, 1.788573), 6: (0.980243, 1.793304)}

@@ -1,0 +1,3 @@
+[ADOPT slot 2 03:32:03] source=slot1+slot0; evidence=slot1:77.29%>mine:72.40%; adopting waste-minimization scoring+drop-into-gaps+time-budget; keeping compaction-pass as unique differentiator
+[ADOPT slot 1 04:05:58] source=slot-2; evidence=0.8182 vs my 0.8025; adopting: compaction pass + mode2 scale-100 variant in 2D + packFast for large n; keeping difference: mode2 scale=W in HM vs scale=100, my 2D uses mode=0,1,2 vs slot2's 0,2,1 order
+[ADOPT slot 1 04:36:17] source=slot0 82.57%; evidence=packBL/pack2D(9999) dominates n<=1500 (+2-3K per case), slot0 beats mine by 2.32% judge; what remains different: for n>2000 keep my wide HM sweep (no packFixed, no compaction)

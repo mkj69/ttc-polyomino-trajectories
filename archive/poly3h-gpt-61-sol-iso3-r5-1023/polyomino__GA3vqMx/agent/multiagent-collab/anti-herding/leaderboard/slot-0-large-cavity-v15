@@ -1,0 +1,6 @@
+lineage=compact-extra96.49986520 + global sealed11..20cell exact2piecegeometry
+score=96.52191295714286 sid59
+evidence=150mixed+5stressvalid;18matched2wins16ties;20extra-onlyties
+cost=1judge+~240CPU sec
+known-counterevidence=uniformmostsizesunchanged; addedfloodcostcanreduceportfolio
+source=/logs/agent/multiagent-collab/anti-herding/work-0/large-cavity-all-v15.cpp

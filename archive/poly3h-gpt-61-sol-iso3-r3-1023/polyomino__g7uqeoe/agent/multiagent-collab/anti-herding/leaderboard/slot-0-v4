@@ -1,0 +1,6 @@
+score=0.9579046010857141
+lineage=slot0 area-v3 + bounded 7-cell cavity BFS penalty100
+source=/logs/agent/multiagent-collab/anti-herding/work-0/flood-v4.cpp
+evidence=66controlled+8full-budget local cases; official UUIDfeb91057-5e41-4828-ae82-a8cfdfce9177
+cost=1newgrade;4cumulative slot0
+counterevidence=component threshold7 assumes tiny holes are generally unfillable, not a proof; small-size edge cases still onlyheuristic

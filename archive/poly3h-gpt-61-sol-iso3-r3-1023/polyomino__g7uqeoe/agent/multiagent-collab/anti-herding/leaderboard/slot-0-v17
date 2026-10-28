@@ -1,0 +1,6 @@
+score=0.9851285263571427
+source=/logs/agent/multiagent-collab/anti-herding/work-0/capped-beam-v17.cpp
+lineage=v16b+incumbent-area-capped-full-depthbeam
+evidence=official6cec10b8-f32c-413d-8791-7c49b4e8ab02
+cost=1grade,total18slot0;80assert+52pairedfullcases
+counterevidence=n220/300localallties

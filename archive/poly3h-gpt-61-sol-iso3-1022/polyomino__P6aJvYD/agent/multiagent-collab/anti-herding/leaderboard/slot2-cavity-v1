@@ -1,0 +1,6 @@
+lineage=slot1-frontier-v1 plus slot2 cavity flood-fill shortlist
+score=91.55001413857143
+source=/logs/agent/multiagent-collab/anti-herding/work-2/cavity-v1.cpp
+evidence=200 random cases on flood implementation;7 representative uniform cases;official223e022c
+cost=1 official submission; max runtime1.760s local
+counterevidence=large-n time almost2s; small-n frontier rectangle tail inefficient

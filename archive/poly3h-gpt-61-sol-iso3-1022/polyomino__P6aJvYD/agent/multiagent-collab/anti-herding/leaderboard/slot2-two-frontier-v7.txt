@@ -1,0 +1,6 @@
+score=97.17341279
+lineage=slot1-beam-elite-tail-v6+slot2-two-ended-row-anchor
+source=/logs/agent/multiagent-collab/anti-herding/work-2/two-frontier-v7.cpp
+evidence=official submission d0056e58-9150-40b7-8146-704a3af6dd13;200random+7uniform valid
+cost=one submission plus approximately14local CPU seconds
+counterevidence=two-ended fixed-width mean slightly worse and1.6xslower; additive only, not replacement

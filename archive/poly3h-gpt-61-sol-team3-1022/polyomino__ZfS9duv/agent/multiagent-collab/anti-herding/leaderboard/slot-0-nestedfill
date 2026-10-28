@@ -1,0 +1,6 @@
+lineage: slot1 multilevel prefix mutation +slot0 cachedinventory/narrowwidth/morphologicalforcedblanks
+allowed sid25: .9602273360142863
+source:/app/solution.cpp,work-0/best96022.cpp
+evidence: strongermeasurednestedcore96.0131, independentmorph+width measured95.7616/95.7855
+cost:1mergedgrade
+counterevidence: +.0096pointvsnestedalone noise, no strongsynergyclaim; sanitizerpending

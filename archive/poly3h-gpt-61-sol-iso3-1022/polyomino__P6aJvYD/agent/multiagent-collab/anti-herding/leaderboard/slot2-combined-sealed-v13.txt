@@ -1,0 +1,6 @@
+score=98.07752583714284
+lineage=combinedsuffix v12 plus peer sealed-area subset proof bound
+source=/logs/agent/multiagent-collab/anti-herding/work-2/combined-sealed-v13-standalone.cpp
+evidence=officialuuid3ac72908;200random+10productionvalid; prefixchecksdisabledtorespect11rowhorizon
+cost=1official+41.2s local
+counterevidence=10local productionpairs1win2loss, mean.981132->.980819; officialgain+.08054

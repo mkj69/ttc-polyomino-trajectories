@@ -1,0 +1,6 @@
+score=98.15935229857145
+lineage=persistent-compact-beam-v12+slot2largegreedyresource20/10/0
+source=/logs/agent/multiagent-collab/anti-herding/work-1/compact-resource-greedy-v13.cpp
+evidence=6largepaired .989486->.990088,2wins1loss;official
+cost=12localprocesses20s+1official
+counterevidence=n6000 one densityregression.993838->.993015; diversifiednotpure replacement

@@ -1,0 +1,6 @@
+score=97.85681205
+source=/logs/agent/multiagent-collab/anti-herding/work-0/resource-suffix-beam-v4.cpp
+lineage=slot1resource-v10 plus slot0 constrainedsuffix-lookahead
+evidence=officialsid31;80fixedbeamdifferential+5uniform150valid
+cost=1official+13.5slocal
+counterevidence=stronger baseline shrinks incremental suffixgain to.05919pp

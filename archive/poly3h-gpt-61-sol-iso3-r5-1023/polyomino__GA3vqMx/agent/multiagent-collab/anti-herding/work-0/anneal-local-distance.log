@@ -1,0 +1,39 @@
+n 100 seed 0 areas [1032, 1032] cpu 0.511907 tail 48 moves 118391 iterations 4736 best_overlap 2
+ tail 48 moves 118391 iterations 4032 best_overlap 2
+ tail 48 moves 119140 iterations 4928 best_overlap 3
+attempts 4
+n 100 seed 1 areas [1008, 1008] cpu 0.513016 tail 48 moves 125212 iterations 3648 best_overlap 5
+ tail 48 moves 123586 iterations 3648 best_overlap 5
+ tail 48 moves 125212 iterations 4480 best_overlap 5
+attempts 4
+n 100 seed 2 areas [1020, 1020] cpu 0.514328 tail 48 moves 127258 iterations 2816 best_overlap 4
+ tail 48 moves 131957 iterations 2816 best_overlap 4
+ tail 48 moves 131978 iterations 3584 best_overlap 2
+attempts 4
+MEAN 100 [0.941605776677596, 0.941605776677596]
+n 250 seed 0 areas [2470, 2470] cpu 0.5148729999999999 tail 48 moves 121729 iterations 3264 best_overlap 4
+ tail 48 moves 117406 iterations 4224 best_overlap 5
+ tail 48 moves 117746 iterations 5440 best_overlap 2
+attempts 4
+n 250 seed 1 areas [2500, 2500] cpu 0.5147970000000001 tail 48 moves 117946 iterations 4736 best_overlap 6
+ tail 48 moves 117422 iterations 3968 best_overlap 6
+ tail 48 moves 121479 iterations 4800 best_overlap 4
+attempts 4
+n 250 seed 2 areas [2500, 2500] cpu 0.5155759999999999 tail 48 moves 120279 iterations 4160 best_overlap 6
+ tail 48 moves 120279 iterations 4032 best_overlap 4
+ tail 48 moves 122547 iterations 4480 best_overlap 4
+attempts 4
+MEAN 250 [0.9638526315789474, 0.9638526315789474]
+n 400 seed 0 areas [3984, 3984] cpu 0.5180000000000002 tail 48 moves 122862 iterations 3456 best_overlap 5
+ tail 48 moves 122862 iterations 3840 best_overlap 5
+ tail 48 moves 122907 iterations 4928 best_overlap 4
+attempts 4
+n 400 seed 1 areas [3920, 3920] cpu 0.5183639999999996 tail 48 moves 113639 iterations 3648 best_overlap 6
+ tail 48 moves 113639 iterations 4224 best_overlap 4
+ tail 48 moves 111682 iterations 5440 best_overlap 5
+attempts 4
+n 400 seed 2 areas [3960, 3960] cpu 0.5184859999999998 tail 48 moves 117803 iterations 4160 best_overlap 8
+ tail 48 moves 116732 iterations 3968 best_overlap 7
+ tail 48 moves 117623 iterations 4928 best_overlap 8
+attempts 4
+MEAN 400 [0.968328860691167, 0.968328860691167]

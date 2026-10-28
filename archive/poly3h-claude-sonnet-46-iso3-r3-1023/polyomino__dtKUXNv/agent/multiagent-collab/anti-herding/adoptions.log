@@ -1,0 +1,3 @@
+[ADOPT slot 0 18:20:48] source=slot1 83.41%; evidence: clearer better score; keeping K=200 beam + adding: O(bw) column inner loops, more sort orders (smallest-first+random), beam+greedy hybrid, more widths
+[ADOPT slot 2 18:40:47] source=slot-0 (83.84%); evidence=champion.log+findings.log; protrusion-based skyline + beam search clearly better; variation=gap penalty in cost + more orderings for medium n
+[ADOPT slot 2 19:57:43] source=slot1_v4b; evidence=84.43% vs 83.93%; adopting K=500/TBEAM=1.5/narrowest-first; keeping gap+prot cost as variation

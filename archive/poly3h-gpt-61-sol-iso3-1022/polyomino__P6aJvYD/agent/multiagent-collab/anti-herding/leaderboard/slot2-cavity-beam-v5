@@ -1,0 +1,6 @@
+lineage=slot1-frontier + slot2 cached cavity multistart + slot0 beam
+score=96.53202758571426
+source=/logs/agent/multiagent-collab/anti-herding/work-2/cavity-beam-v5.cpp
+evidence=official02fe080f;7 representative uniformcases
+cost=one submission;CPU budget1.80s including preprocessing
+counterevidence=small n still3-6% waste; no exact tail DFS

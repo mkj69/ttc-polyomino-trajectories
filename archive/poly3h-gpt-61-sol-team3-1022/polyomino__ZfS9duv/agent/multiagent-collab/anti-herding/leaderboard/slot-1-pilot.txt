@@ -1,0 +1,17 @@
+Candidate: /logs/agent/multiagent-collab/anti-herding/work-1/best97912.cpp
+Lineage: slot1 canonical inventory -> slot2 global beam/adaptive endgame ->
+slot0 alive bitset, count hash, geometry cohort quota -> slot1 anytime pilot bounds.
+Allowed outcome: sid62, 97.91219778285713%, narrowly above bitdiverse sid53 97.90333237%.
+Policy: greedily complete eight states at 15/10/5 pieces remaining; save/restore
+foreground RNG; immediately preserve legal completed placements; tighten local
+height to best.h-1 and remove overheight or capacity-infeasible states.
+Evidence: 40 fixed-work complete beams with no bound tightening had 3 strict
+wins, 37 ties, no losses; means .953739 -> .954602, CPU5.585 ->5.644.
+180 ASan/UBSan path/rollback/height checks passed, 12.35 CPU.
+Fresh16 cases1.2CPU: base .976707, retain-only .977173, bound15 .977225,
+bound5 .976515, bound20 .977897.
+Known counter-evidence: stochastic repeats and long30-piece pilots lost quality;
+lossy quarter-beam contraction improved local holdouts but graded below retain-only.
+The graded gain over current peer leader is small and may include timing noise.
+Cost: one grade for this exact candidate; 89.09 CPU latest five-policy holdout;
+broader lineage costs recorded in shared findings/disconfirmations.

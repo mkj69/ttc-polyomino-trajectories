@@ -1,0 +1,39 @@
+n 100 seed 0 areas [1032, 1032] cpu 1.235119 tail 100 moves 531884 iterations 19328 best_overlap 10
+ tail 100 moves 531884 iterations 22784 best_overlap 9
+ tail 100 moves 531884 iterations 17536 best_overlap 10
+attempts 3
+n 100 seed 1 areas [1008, 1008] cpu 1.2295319999999998 tail 100 moves 573032 iterations 15424 best_overlap 34
+ tail 100 moves 573032 iterations 21376 best_overlap 36
+ tail 100 moves 573032 iterations 18880 best_overlap 36
+attempts 3
+n 100 seed 2 areas [1020, 1020] cpu 1.2298689999999999 tail 100 moves 590604 iterations 17664 best_overlap 28
+ tail 100 moves 590604 iterations 21184 best_overlap 28
+ tail 100 moves 590604 iterations 18624 best_overlap 35
+attempts 3
+MEAN 100 [0.941605776677596, 0.941605776677596]
+n 250 seed 0 areas [2470, 2470] cpu 1.2451680000000005 tail 128 moves 982127 iterations 3072 best_overlap 35
+ tail 128 moves 979410 iterations 6720 best_overlap 33
+ tail 128 moves 979035 iterations 2304 best_overlap 50
+attempts 3
+n 250 seed 1 areas [2500, 2500] cpu 1.247088 tail 128 moves 969486 iterations 2624 best_overlap 25
+ tail 128 moves 969486 iterations 6464 best_overlap 22
+ tail 128 moves 971360 iterations 2432 best_overlap 32
+attempts 3
+n 250 seed 2 areas [2500, 2500] cpu 1.2481119999999997 tail 128 moves 970385 iterations 3392 best_overlap 34
+ tail 128 moves 970385 iterations 6464 best_overlap 21
+ tail 128 moves 976998 iterations 1856 best_overlap 28
+attempts 3
+MEAN 250 [0.9638526315789474, 0.9638526315789474]
+n 400 seed 0 areas [3984, 3984] cpu 1.2488770000000011 tail 128 moves 977130 iterations 3776 best_overlap 26
+ tail 128 moves 977130 iterations 7104 best_overlap 32
+ tail 128 moves 978849 iterations 2688 best_overlap 34
+attempts 3
+n 400 seed 1 areas [3920, 3920] cpu 1.2477679999999998 tail 128 moves 939922 iterations 5120 best_overlap 20
+ tail 128 moves 939922 iterations 8256 best_overlap 20
+ tail 128 moves 936170 iterations 3712 best_overlap 20
+attempts 3
+n 400 seed 2 areas [3960, 3960] cpu 1.2497519999999986 tail 128 moves 951912 iterations 4480 best_overlap 33
+ tail 128 moves 953088 iterations 6976 best_overlap 29
+ tail 128 moves 951668 iterations 2944 best_overlap 27
+attempts 3
+MEAN 400 [0.968328860691167, 0.968328860691167]

@@ -1,0 +1,7 @@
+small cross-validation: 50 valid outputs vs exhaustive reference
+n=100 mode=random density=0.99917 time=1.2802s
+n=100 mode=large density=0.99206 time=1.5478s
+n=1000 mode=random density=0.99928 time=1.6717s
+n=1000 mode=large density=0.99463 time=1.7999s
+n=10000 mode=random density=0.99992 time=1.8180s
+n=10000 mode=large density=0.99693 time=1.8838s

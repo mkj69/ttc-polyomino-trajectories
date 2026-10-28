@@ -1,0 +1,6 @@
+lineage=collision-first96.82003576 + size-gated exact2cavity andadaptiveconstruct2ply
+score=96.83418188285712 sid70
+evidence=150mixed+5stress+100ASANUBSANvalid
+cost=1judge+~150CPU sec
+counterevidence=gainonly.01415; smallnfrontierstilldominates
+source=/logs/agent/multiagent-collab/anti-herding/work-0/fast-cavity-lookahead-v18.cpp

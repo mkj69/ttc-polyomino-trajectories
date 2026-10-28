@@ -1,0 +1,6 @@
+score=98.43412269000001
+lineage=ownMRV8v17+bitsetexactcoveracceleration
+source=/logs/agent/multiagent-collab/anti-herding/work-1/bitset-constraint-beam-v18.cpp
+evidence=72+84byteidenticalpairedoutputchecks;10pctthen2.5pctfaster;8defaultalltied;official
+cost=144diff24.29s+168diff30.01s+16production28.17s+1official
+counterevidence=8productionnogain,speedclaimfixedworkonly

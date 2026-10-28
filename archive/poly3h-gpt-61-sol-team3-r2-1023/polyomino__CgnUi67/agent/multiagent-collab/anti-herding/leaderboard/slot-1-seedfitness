@@ -1,0 +1,6 @@
+lineage: native59 plus cached archive initial repair topology tie-break
+score: sid65 raw96.85615442 uuid1ff1a53f-236f-43c6-9bb6-2d9dde3d9695
+evidence: parent59 raw96.82674170,12freshdefaultnarrow0 mean+.0019624,36validoutputs
+cost:1grade+36localruns67s
+counter-evidence: weight10/100sameoutcomes; originalpending-countdominance unchanged; no causalproofindividualcavitycomponentvalue
+source:/logs/agent/multiagent-collab/anti-herding/work-1/best-96856.cpp

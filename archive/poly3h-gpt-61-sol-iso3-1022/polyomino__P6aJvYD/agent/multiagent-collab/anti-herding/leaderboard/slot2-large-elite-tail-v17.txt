@@ -1,0 +1,6 @@
+score=98.26396381571429
+lineage=v16 plus four-word specialized suffix and alternate-width large elites
+source=/logs/agent/multiagent-collab/anti-herding/work-2/large-elite-tail-v17-standalone.cpp
+evidence=officialuuid a50c7d7a-7453-4995-a316-e31748abcd6b;16production valid incl scheduling boundaries and extreme coordinates
+cost=1official+26production49.48s
+counterevidence=paired local mean slightly worse; official gain .000902 only; max end-to-end 1.970s

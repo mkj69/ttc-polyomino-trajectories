@@ -1,0 +1,52 @@
+n=100 seed=314 policy=0 density=0.958835 seconds=1.785
+n=100 seed=314 policy=2 density=0.958835 seconds=1.785
+n=100 seed=314 policy=3 density=0.954046 seconds=1.785
+n=100 seed=159 policy=0 density=0.965863 seconds=1.785
+n=100 seed=159 policy=2 density=0.961039 seconds=1.787
+n=100 seed=159 policy=3 density=0.954365 seconds=1.785
+n=100 seed=265 policy=0 density=0.959839 seconds=1.785
+n=100 seed=265 policy=2 density=0.959839 seconds=1.786
+n=100 seed=265 policy=3 density=0.959839 seconds=1.784
+n=100 seed=358 policy=0 density=0.970041 seconds=1.785
+n=100 seed=358 policy=2 density=0.966049 seconds=1.786
+n=100 seed=358 policy=3 density=0.966049 seconds=1.786
+MEAN 100 {0: (0.963645, 1.784905), 2: (0.961441, 1.786087), 3: (0.958575, 1.784874)}
+n=150 seed=314 policy=0 density=0.964310 seconds=1.790
+n=150 seed=314 policy=2 density=0.978142 seconds=1.786
+n=150 seed=314 policy=3 density=0.971506 seconds=1.785
+n=150 seed=159 policy=0 density=0.964572 seconds=1.786
+n=150 seed=159 policy=2 density=0.977642 seconds=1.784
+n=150 seed=159 policy=3 density=0.971717 seconds=1.786
+n=150 seed=265 policy=0 density=0.978127 seconds=1.786
+n=150 seed=265 policy=2 density=0.970828 seconds=1.785
+n=150 seed=265 policy=3 density=0.970828 seconds=1.786
+n=150 seed=358 policy=0 density=0.977241 seconds=1.787
+n=150 seed=358 policy=2 density=0.975895 seconds=1.785
+n=150 seed=358 policy=3 density=0.975895 seconds=1.786
+MEAN 150 {0: (0.971063, 1.787181), 2: (0.975627, 1.785072), 3: (0.972487, 1.78544)}
+n=250 seed=314 policy=0 density=0.979617 seconds=1.788
+n=250 seed=314 policy=2 density=0.975244 seconds=1.739
+n=250 seed=314 policy=3 density=0.975244 seconds=1.708
+n=250 seed=159 policy=0 density=0.980024 seconds=1.787
+n=250 seed=159 policy=2 density=0.980024 seconds=1.787
+n=250 seed=159 policy=3 density=0.980024 seconds=1.786
+n=250 seed=265 policy=0 density=0.978394 seconds=1.791
+n=250 seed=265 policy=2 density=0.982801 seconds=1.788
+n=250 seed=265 policy=3 density=0.978394 seconds=1.789
+n=250 seed=358 policy=0 density=0.982231 seconds=1.791
+n=250 seed=358 policy=2 density=0.986716 seconds=1.787
+n=250 seed=358 policy=3 density=0.985489 seconds=1.788
+MEAN 250 {0: (0.980067, 1.789359), 2: (0.981196, 1.77534), 3: (0.979788, 1.767541)}
+n=400 seed=314 policy=0 density=0.985063 seconds=1.645
+n=400 seed=314 policy=2 density=0.987862 seconds=1.790
+n=400 seed=314 policy=3 density=0.985063 seconds=1.709
+n=400 seed=159 policy=0 density=0.984423 seconds=1.735
+n=400 seed=159 policy=2 density=0.987196 seconds=1.788
+n=400 seed=159 policy=3 density=0.984423 seconds=1.645
+n=400 seed=265 policy=0 density=0.985876 seconds=1.747
+n=400 seed=265 policy=2 density=0.988669 seconds=1.788
+n=400 seed=265 policy=3 density=0.991477 seconds=1.789
+n=400 seed=358 policy=0 density=0.988086 seconds=1.790
+n=400 seed=358 policy=2 density=0.988086 seconds=1.792
+n=400 seed=358 policy=3 density=0.988086 seconds=1.698
+MEAN 400 {0: (0.985862, 1.729234), 2: (0.987953, 1.789496), 3: (0.987262, 1.710422)}

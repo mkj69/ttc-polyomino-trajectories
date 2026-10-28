@@ -1,0 +1,5 @@
+Lineage: slot0 exact4 frontier endgame98.64856251 + strict two-phase reserve-and-patch diversified pass n>1024.
+Measured:98.65657065714288 raw,uuid3038e93e-5e3c-4ea2-9841-b9900ca09526.
+Source:/logs/agent/multiagent-collab/anti-herding/work-1/best-98.65657066.cpp
+Cost:32 full local cases plus1allowed grade/70cases; preliminary phase sweeps separately logged.
+Counter-evidence: matchedn1500 worse .991386->.990705,n10000 equal .993964; small official gain may be timing-sensitive. Repeat or prefer orthogonal stronger evidence when integrating.

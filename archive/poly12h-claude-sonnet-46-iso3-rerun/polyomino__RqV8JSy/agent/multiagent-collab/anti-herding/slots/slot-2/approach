@@ -1,0 +1,1 @@
+Approach: Fast shelf-pack sweep (200 W values, O(n log n)/W) to pre-screen promising widths, then skyline BL-packing on top-5 W candidates with 2 sort orders (min-BB-area-desc, k-desc). Key differences: wide sweep identifies non-obvious optimal W; skyline variant tries both orderings not just tallest-first.

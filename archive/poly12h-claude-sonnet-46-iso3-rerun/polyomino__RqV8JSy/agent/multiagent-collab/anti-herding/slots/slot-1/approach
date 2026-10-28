@@ -1,0 +1,1 @@
+Skyline packing with multiple tested widths (W=sqrt(T)*{0.85,1.0,1.2}), pieces sorted largest-first; unique orientations precomputed with dedup; minimize W*H; NOT assuming a fixed aspect ratio or BL-only placement

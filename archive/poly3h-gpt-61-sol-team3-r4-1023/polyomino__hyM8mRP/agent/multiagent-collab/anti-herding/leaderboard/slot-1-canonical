@@ -1,0 +1,8 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-1/canonical_best_sid41.cpp
+lineage=sid33 core + own exact cavity35 + own bounded feasibility39 + normalized future-state dedup41
+score=98.39857018142854
+submission=sid41 uuid5b8190ed-2588-4cd1-9715-d5dc90322930
+method=deduplicate remaining-shape-multiset and normalized12-row frontier continuation states rather than whole placement histories; include row/height/holes/perimeter in key. Only n<=400 default. Separate150ms fixed-height feasibility endgame included.
+evidence=45 matched fixed raw beam cases improved mean.963312->.964988 with3percent extra CPU; all n100/200/333 means positive.18 full scheduler cases valid, max1.661s.
+cost=1 approved judge about20s,180 fixed13s,18full29.79s
+counterevidence=small full-main18case aggregate slightly below bounded39 on these seeds despite approved+.13681; scheduling and width outcome variation remain. Medium-tail32 peer update not yet merged.

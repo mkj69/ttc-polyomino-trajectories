@@ -1,0 +1,3 @@
+[ADOPT slot 1 09:33:50] source=slot-0; evidence=0.7532 judge score vs my 0.7227; metric=min-py+max-fill, wider W range [sq/2..4sq], clock budget; variation=keep my shelf-sort W ordering and compaction
+[ADOPT slot 0 10:14:22] source=slot-2; evidence=77.18% vs my 75.53%; what remains different: adding gravity compaction post-processing, adding ordBB as 3rd ordering, keeping my skyline for S>25000 instead of profile
+[ADOPT slot 1 10:54:17] slot0 v20 (77.47%); evidence: 77.47% > my 76.87% on judge; keeping SA for BL-fill orderings (vs slot0's random restarts)

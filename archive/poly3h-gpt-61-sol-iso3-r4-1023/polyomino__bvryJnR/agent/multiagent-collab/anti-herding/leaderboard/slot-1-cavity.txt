@@ -1,0 +1,5 @@
+score=96.78669669857143
+lineage=beam512-tail plus isolated-cavity forecasting and runtime-dispatched popcnt
+path=/logs/agent/multiagent-collab/anti-herding/work-1/beam-cavity.cpp
+evidence=officialab8bf3d5;200random+stress valid;pairedbeam .45->.35seconds
+counterevidence=geometry diversity quota1/4/16 no useful improvement; larger beam still not monotone

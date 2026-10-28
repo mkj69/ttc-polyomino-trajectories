@@ -1,0 +1,1 @@
+score=96.32863217714286 sid=39 lineage=frontier-beam-runtime-popcnt-inline source=work-1/frontier-popcnt-inline-v18.cpp evidence=allowed-judge cost=1judge+24matched known-counter=n10000-one-seed-tiny-regression

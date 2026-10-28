@@ -1,0 +1,6 @@
+candidate: /logs/agent/multiagent-collab/anti-herding/work-0/suffix-portfolio.cpp
+lineage: canonical-fullportfolio.cpp sid37 plus measured frozen-prefix bounded suffix beam sid38
+score: sid40 98.5513854257143/100
+evidence: 28 paired uniform instances valid, 7 strict wins, zero losses; CPU <= 1.787s
+cost: one allowed graded batch (70 cases), 56 independent adaptive runs
+counter-evidence: small n 100/180/300 and n1000 0/4 gains; branch consumes reserved postprocessing CPU

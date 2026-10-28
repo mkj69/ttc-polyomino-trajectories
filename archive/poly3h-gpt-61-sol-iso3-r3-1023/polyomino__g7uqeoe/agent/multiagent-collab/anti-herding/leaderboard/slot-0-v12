@@ -1,0 +1,6 @@
+score=0.9798591220142862
+lineage=slot0adaptive128+mediumexactcover+slot2potential160/componentmatch+slot1checkpoint6
+source=/logs/agent/multiagent-collab/anti-herding/work-0/adaptive160-patch-v12.cpp
+evidence=officialbbf65b42-0f7a-4c44-beda-0dc4026f11c7
+cost=1grade,12totalslot0;14localvalidruns
+counterevidence=noextendedbeamthrough512inthiscandidate;peer0.97902mayhaveusefulmediumgains

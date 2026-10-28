@@ -1,0 +1,6 @@
+score=.961948667357143
+lineage=v8+350ms stochastic legal suffix LNS with exact descent
+source=work-2/suffix-lns-v2.cpp
+evidence=sid30 raw96.1948667357143; full-v8 local improvements2of9
+cost=1judge70cases;100random prefix reuse valid
+counterevidence=7of9 optimized locals unchanged, small gain relative runtime

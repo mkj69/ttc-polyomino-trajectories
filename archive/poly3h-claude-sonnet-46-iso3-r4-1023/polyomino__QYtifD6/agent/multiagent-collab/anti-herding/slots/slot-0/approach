@@ -1,0 +1,1 @@
+Skyline-based strip packing: try multiple W values; for each W use greedy skyline with actual polyomino cell positions (not just bounding boxes); choose orientation per piece minimizing height; will NOT use bounding-box-only approach or pure shelf packing

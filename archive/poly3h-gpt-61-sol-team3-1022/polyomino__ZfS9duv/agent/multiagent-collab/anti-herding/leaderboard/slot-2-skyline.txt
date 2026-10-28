@@ -1,0 +1,5 @@
+lineage: slot-2 independent skyline surface cost / multiwidth 16,24,32,48,64 with 3 costs
+source: /logs/agent/multiagent-collab/anti-herding/work-2/skyline.cpp
+score: 0.8115922041; 1 allowed submission
+checks: 250 valid random n<=40 placements; 3 mixed-size n=10000 <=0.534s
+counter-evidence: mixed-size random-growth generator density 95% is optimistic vs true judge 81.16%; skyline never revisits occluded cavities

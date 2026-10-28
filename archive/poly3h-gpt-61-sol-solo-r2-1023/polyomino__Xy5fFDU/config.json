@@ -1,0 +1,27 @@
+{
+    "task": {
+        "path": "/ssd1/kaijing/projects/test-time-communication/benchmarks/polyomino"
+    },
+    "trial_name": "polyomino__Xy5fFDU",
+    "trials_dir": "/ssd1/kaijing/projects/test-time-communication/jobs/poly3h-gpt-61-sol-solo-r2-1023",
+    "agent_timeout_multiplier": 1.0,
+    "agent": {
+        "import_path": "agent:CollaborationAgent",
+        "model_name": "gpt-6.1-sol"
+    },
+    "environment": {
+        "type": "docker",
+        "mounts": [
+            {
+                "type": "bind",
+                "source": "/ssd1/kaijing/projects/test-time-communication/.cache/copilot-1.0.70",
+                "target": "/mnt/release-copilot",
+                "read_only": true,
+                "bind": {
+                    "create_host_path": false
+                }
+            }
+        ]
+    },
+    "job_id": "db0c24a4-eaf6-44ea-ba30-d0a6cef7338b"
+}

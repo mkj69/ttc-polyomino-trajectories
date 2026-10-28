@@ -1,0 +1,1 @@
+NFDH-shelf + skyline BL-fill hybrid: try many strip widths; NFDH gives baseline; skyline-guided BL-fill with all 8 orientations tried per position improves packing; sort pieces by decreasing bbox height; NOT assuming greedy-only or fixed orientation

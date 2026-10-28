@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-1/flood_indexed.cpp
+lineage=slot0 long/adaptive beam + slot2 indexed cached inventory + slot0 popcount dispatch + slot1 row-bitmask cavity flood
+score=97.74023488714288
+submission=sid25 uuidf9d01c49-6c76-48fd-bfaf-e92ff8a36635
+evidence=27 fixed beam comparisons byte-identical placements, 12.26 percent total speedup; 12 full scheduler cases valid including n10000
+cost=one approved judge call about20s plus 54 paired fixed passes14.1s and12 full cases19.86s
+counterevidence=score gain only0.00457 over cached indexed baseline; scheduling effects are noisy; global SAT, tabu, rectangle, and narrow widths did not beat beam

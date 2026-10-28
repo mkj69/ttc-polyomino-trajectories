@@ -1,0 +1,7 @@
+candidate=/logs/agent/multiagent-collab/anti-herding/work-1/candidate93.cpp
+lineage=slot2 inventory baseline + slot1 bounded-height tail ruin/recreate
+score=93.17915799
+submission=sid3 uuid633073a9-8772-4dcc-b00c-656099857716
+evidence=222 independently validated cases; mean small-case density .893208 vs .867113; maxN10000 runtime1.267s
+cost=one judgecall + ~28s localCPU
+counterevidence=N10000 gains small; width unchanged; rings unchanged

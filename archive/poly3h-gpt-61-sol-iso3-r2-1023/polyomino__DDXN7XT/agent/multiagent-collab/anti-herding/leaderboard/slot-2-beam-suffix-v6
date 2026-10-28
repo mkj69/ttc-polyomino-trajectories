@@ -1,0 +1,6 @@
+score=.9744024562285716
+lineage=tuned-profilebeam-v3+mixed stochastic legal suffix descent350ms
+source=work-2/beam-suffix-v6.cpp
+evidence=sid42 raw97.44024562285716
+cost=1judge70cases+3uniform validations
+counterevidence=tiny delta relative runtime noise; tuned beam construction drives main gain

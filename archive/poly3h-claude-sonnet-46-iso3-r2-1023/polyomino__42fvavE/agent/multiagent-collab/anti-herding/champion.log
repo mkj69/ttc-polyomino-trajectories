@@ -1,0 +1,12 @@
+[slot 1 09:19:13] 0.7643; gridBL n<=2000 1pack, skyline rest; work-1/solution.cpp
+[slot 0 09:47:32] 0.7664; gridBL(BL-scan-from-0, wider pct W range 70-140%, adaptive T^2 budget) n<=2000 + adaptive-skyline-NFDH n>2000; work-0/solution.cpp
+[slot 0 09:51:14] 0.7686; fixed skyline cost=oy+bh (minimize top not bottom), skyOrd=cell-count-only for n>2000 gives +4% on large cases; work-0/solution.cpp
+[slot 0 09:54:16] 0.7691; restart fix: size-only sort in restarts (preserves shuffle), Wbase_r always tried in restarts; work-0/solution.cpp
+[slot 0 10:01:26] 0.7733; 1.2B budget cap=80 (was 60), numRestarts uses actual unique W count; size-only sort in restarts; work-0/solution.cpp
+[slot 0 10:08:19] 0.7758; budget 1.0B cap=400 (was 1.2B cap=80): small-T cases get ~400 restarts instead of ~18, big improvement on n~100-200 cases; work-0/solution.cpp
+[slot 0 10:09:58] 0.7762; extend gridBL to n<=2500 (with budget fallback); case9 n=2197 improves 0.777->0.804; work-0/solution.cpp
+[slot 0 10:24:41] 0.7766; alternating bestW/Wbase_r restarts + wall clock timeout 1.7s; work-0/solution.cpp
+[slot 2 10:38:29] score=0.7768; leftmost-tiebreak+minBBox-ordering+wall-clock-restarts; /logs/agent/multiagent-collab/anti-herding/work-2/solution.cpp
+[slot 2 10:48:58] score=0.7770; ph1=600ms(more restarts for n~500)+leftmost-tiebreak+minBBox-ordering+wall-clock; work-2/solution.cpp
+[slot 2 11:02:40] score=0.8185; sky-increase tiebreaker in gridBLPack: flatter sky profile → 87-91% packing efficiency vs prior 83-86%; work-2/solution.cpp
+[slot 2 11:05:57] score=0.8227; sky-increase tiebreaker in BOTH gridBLPack and skylinePack; work-2/solution.cpp

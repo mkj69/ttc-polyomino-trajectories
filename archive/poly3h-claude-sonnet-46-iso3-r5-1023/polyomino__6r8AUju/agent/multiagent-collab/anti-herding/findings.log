@@ -1,0 +1,13 @@
+[slot 1 11:54:52] STRONG: mcy+bh_tiebreak+actual_bbox gave 71.17 (vs 70.15 baseline). Key: sort by k-desc+min-bh-desc, try W in 8-16 candidates, track actual bounding box
+[slot 0 12:21:11] STRONG: 4 sort orders (A=min-bh, B=k+bh, C=min-bbox-area, D=max-fill-ratio) + col_gaps+ssum+dense_sweep gave 75.49; each order improvement: B+0.35, C+0.08, D+0.53
+[slot 1 12:23:54] STRONG: 76.67% — col_gaps+ssum+4orders+dense_sweep+random_shuffles; n=100→79431 n=1k→84736 n=10k→88649 (up from 72.90%)
+[slot 2 12:57:42] STRONG: 77.73% — width-sweep-per-order (ordA→ordB→C→D each full sweep) + drop for n≤500 + stochastic restarts; key: ordering ordA before ordB ensures large-n gets full width coverage
+[slot 1 12:59:51] STRONG: 78.47% — fix drop_packing bug (else break → no break allows dropping past obstacles); n=100→80508 (vs slot2=79966); drop_packing correctly finds gaps below obstacles now
+[slot 2 13:17:35] STRONG: 78.17% — unlimited drop (max_drop=1000 vs 10) for n<=500 gives +0.58-0.87% density at n=100-316; key: drop tries all positions below gravity baseline up to y=0
+[slot 0 13:21:28] STRONG: drop_packing(max_drop=20)+stochastic gave 78.91% (sid=23). Full drop gave 78.85% (worse, fewer restarts). Local: n100+3.9%, n200+3.3%, n500+0.84%
+[slot 2 13:27:27] TIER1; v12=79.07% beats prev champion 78.91%; drop-stochastic(n<=300)+dynamic-TL(n>5000:1.60,n>1000:1.65,n>200:1.70,else:1.75)+dense-sweep-n<=300-only+4-sort-orders+unlimited-drop; fixes n=10000-TLE and n=1000-regression-from-v11
+[slot 0 13:45:31] TIER1; v16=79.16% beats prev champion 79.09%; drop-stochastic(n<=500,25%)+ordC+phase3-time-cap+break-at-py0; extends Slot2-v15 with n=500 drop stochastic
+[slot 0 13:54:50] TIER1; v18=79.19% beats 79.16%; extends drop-stochastic to n<=700(22%); ordE(sparse-first) in regular stochastic; n=700 local +4.8% but judge only +0.03%
+[slot 0 14:09:03] TIER1; v21=79.22% beats 79.19%; combined Phase2-drop-n<=700+Phase4-drop-stoch-n<=700; n=700 local +0.0054 vs v18
+[slot 1 14:18:20] TIER1; 79.24% beats 79.22%; W140-anchor(1.40*W_base) added to wCands fills gap in wlist (jumps 1.3→1.5); n=750+783 n=1000+303 over v21; key: 1.40*W_base not in wlist, phase3 skipped for n>300, so stochastic never explores 1.40* without anchor
+[slot 0 14:19:22] TIER1; v23=79.27%; Phase1-budget(n>2000:55%TL) allows Phase4-stochastic for large-n; +0.05% judge; local n5000+1.17% n10k+0.6%

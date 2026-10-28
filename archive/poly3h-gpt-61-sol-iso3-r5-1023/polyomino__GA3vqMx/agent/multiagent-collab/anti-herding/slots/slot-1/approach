@@ -1,0 +1,1 @@
+Global best-first beam-stack restoration: compare pendingstates acrossdepths using rank plus remaining-depth cost3or6 instead of alwaysdeepest. Originalsuccessfulforwardbeamunchanged. Also exactstale-height/holebound earlyrejection afteranytime tightening. Measuredbest96.82003576safe; do not assume deeperbacktracking orstrongerpruning helps finiteCPU.

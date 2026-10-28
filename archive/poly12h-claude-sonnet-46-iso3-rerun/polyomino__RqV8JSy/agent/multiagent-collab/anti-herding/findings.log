@@ -1,0 +1,33 @@
+[slot 1 20:59:08] T2; TLE-safe timing with max_trial_time; fixed non-monotone width ordering overshoot; score 73.09% (sid=8)
+[slot 0 21:05:15] tier1; two-phase skyline+BL with compaction scores 76.1% (vs 70.9% prev); n=100→82.8% n=1000→84.0% n=10000→87.5% local; judge=76.1%; cost: 1-1.5s all n
+[slot 2 21:55:42] score=78.09%; BL for n<=500, skyline for n>500, Y+X compact; BL achieves ~96% density n=100 uniform, ~84% n=100 realistic; beats champion by ~2%
+[slot 0] 77.70% - getOrients+new_skyline+focused_n>700
+[slot 1 00:04:59] T1; BL extended n<=1000(topK=4 for 800, topK=2 for 1000): score=78.27% (was 78.26%); avg n=800 -188 cells, n=1000 -100 cells improvement; safety baseline ensures no regression
+[slot 1 01:06:32] tier=negative; sep1500(78.15%), cIter1(78.21%), adap_cIter(untested), ph3ordh(78.15%); all worse than champion; binary layout shifts affect n=700-1000 timing; timing sensitivity is core constraint
+[slot 2 01:45:04] TIER1; valley-filling skyline gives +712/85510=+0.83% locally, +1.51% on judge (79.77% vs 78.26%); minimize-skyline-area-increase objective instead of max-H; huge for n=100-300; cost=many BL trials
+[slot 1 02:13:26] TIER-1; valley_v2 scores 81.04% (sid=57) vs 79.90% prev champion; key: replaced skylinePack with skylinePackValley in runSky lambda + kept BL n<=1000 extension; both phases use valley now
+[slot 0 02:23:38] TIER1; valley-after-BL in Phase2 for n<=200: 81.34% vs 81.04% prev; mechanism: BL+valley ensemble gives diverse packings; n=100: 8/15 seeds improved avg 7.9 cells, n=200: 3/12 seeds improved avg 4 cells; no regressions found; adopted slot1 v3 code
+[slot 2 02:27:27] TIER1; p2v300: separate max_trial_bl + valley in phase2 for n<=300; judge=80.37% (+0.47% over 79.90%); n=100 local +1089, n=300 mixed, n>700 unchanged
+[slot 0 02:42:03] TIER1; valley-ranking for n=701-1000: 81.70% vs 81.34%; mechanism=valley skyline more accurate for ranking W candidates than regular skyline; n=800: avg +562 cells (5 seeds), n=1000: avg +758 cells (5 seeds); no regressions for n<=700 or n>1000; combined with valley-after-BL n<=200
+[slot 2 02:42:28] TIER1; mine_v2: sep max_trial_bl + ordH n<=1000 + valley_p2 n<=300 on champion; judge=81.46% (+0.12% over 81.34%); n=500: +1482 n=700: +1711 locally; key: BL time no longer throttles valley
+[slot 2 02:48:56] TIER1; v3: sep_max_trial_bl + valley_p2_n300 on 81.70% champion gives 81.85% (+0.15%); n=700: +1914 locally; mechanism: BL time no longer throttles valley trials
+[slot 2 02:55:40] TIER1; v4: valley-ranking for ALL n + tryR saves ranking results for n<=700; judge=82.17%; n=700: +7521, n=500: +3275 locally; key: free solutions from ranking phase
+[slot 1 03:04:17] TIER-1; vrankall 82.18% (sid=68); key: valley ranking for ALL n + tryR saves ranking results as free solutions; n=500 avg -254 n=700 avg -450 vs sep_mxbl; adopted slot2's valley-rank insight but applied to all n not just n>700
+[slot 2 03:31:49] tier=STRONG; bumpiness tie-breaking in skylinePackValley; 82.45% (was 82.18% champion); n=700: +917, n=300: +947, overall: +665 locally vs v4; minimal overhead (~2 ops/pos)
+[slot 1 03:44:21] TIER-1; bump 82.48% (sid=74); wcenter(82.20%) + bumpiness tie-breaking from slot2's 82.45% idea; n=5000 avg -241 n=500-1000 all better; unique: combined with wcenter width-centering for n=1001-5000
+[slot 2 03:46:06] tier=STRONG; internal top_bump in valley tiebreak; 82.68% (was 82.48%); n=100 +388, n=300 +242, n=500 +197 locally; precomputed per orientation
+[slot 2 03:53:35] tier=STRONG; delta-bumpiness in skylinePackValley; 82.73% (was 82.68%); n100 +432, n700 +298 locally vs v6; prefix sum adds O(W) per piece overhead; sid=77
+[slot 2 04:02:44] tier=STRONG; bump-before-ym; 82.80% (was 82.73%); n300 +307, n500 +349, n700 +144, n1000 +188, n100 -112; sid=78
+[slot 1 04:16:19] TIER-STRONG; adoptv2 82.84% (sid=80); delta-bump (full boundary delta + top_bump - old_interior) + bump-before-ym on our wcenter+ibump base; n=700 avg -25 n=1000 avg -87 vs ibump (5 seeds); wcenter width-centering is our unique addition vs slot 2
+[slot 2 06:09:15] tier2; shelfH pre-ranking for n=1001-1500: locally +37 vs v15, but judge 82.866% < v15 82.876%. Binary layout timing issue. shelfH picks wrong widths for some n. Not adopting.
+[slot 1 06:31:53] tier=WEAK; ordBBrev (small-first) in Phase2 for n<=300 (every 4th iter); n=100 avg-2 n=200 avg-4 n=300 avg-2 (10 seeds); n=700 slight regression noise; submitting to judge
+[slot 2 06:41:04] TIER1; v26 ordBBrev for n<=300 phase2 (every 4th iter): 82.93% (was 82.87%); n=100 +152 locally but slot1 saw negatives. Key: ordBBrev gives small-piece diversity in BL. Combined with v15 base (strategic+ordH). sid=100
+[slot 1 06:48:12] TIER-STRONG; krev 82.91% (sid=101); ordKrev (ascending k-span) every 5th in Phase2 for n>500 + ordBBrev every 4th for n<=300; n=700 avg-11 n=1000 avg-7; stacks on bbrev
+[slot 0 07:00:59] TIER-STRONG; combined metric 8*dA+bump vs sequential dA->bump; 83.04% (was 82.93%); n=700 9/5 wins, n=1000 10/4, n=1500 10/4 (16 seeds); mechanism: allows trading 1 extra cell for 9+ bump reduction
+[slot 0 07:26:36] TIER-2; ordh2 (ordH every 2nd in P2): locally 13W/2L but judge 83.03% < comb8 83.04%; small negative or neutral on judge; reverting to comb8 base
+[slot 0 07:26:36] TIER-2; comb9 (weight=9): locally 10W/22L overall (n700: 1/7 bad, but n3000: 6/2 good, n300: 5/2 good); mixed; n=300 and n=3000 benefit from weight=9 but n=700-1500 hurt
+[slot 0 07:26:36] TIER-2; krev (ordKrev every 6th P2 n>500): locally 5W/2L (mild positive n=1000-1500); citer1k (cIter=3 n<=1000): locally 3W/1L for n=700; both mild
+[slot 1 07:33:35] TIER-STRONG; h1000 82.94% (sid=108); ordH every 3rd ONLY for n=501-1000 + ordBBrev n<=300 + coarse2 priority widths; key: limiting ordH to n<=1000 avoids regression at n>1000; beats slot2 82.93%
+[slot 1 07:43:37] TIER-STRONG; comb8_plain 83.10% (sid=110); combined(8*dA+bump) metric in skylinePackValley; n=100 avg-6, n=3000 avg-68, n=5000 avg-191; beats slot0 83.04%
+[slot 0 07:45:25] TIER1; ordh_p1_1k (ordH Phase1 n<=1000): 83.10% (same as krev); independent improvements both +0.06%; sid=111
+[slot 2 07:59:38] TIER1; v43 83.14% (was 83.10%); greedyBLPack(1-step-lookahead) for n<=100 + ordBBrev_p2 for n<=300, on top of comb8+krev_p1_1k base; n=100:+76 n=200:+63 n=500:+33 n=1500:+27 locally vs champ; sid=116

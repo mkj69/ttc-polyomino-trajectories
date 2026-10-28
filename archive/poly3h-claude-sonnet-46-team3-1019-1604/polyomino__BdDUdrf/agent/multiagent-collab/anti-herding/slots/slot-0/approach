@@ -1,0 +1,1 @@
+Slot 0 approach: Bounding-box strip packing with NFDH/FFDH. Try multiple widths near sqrt(totalCells). Rotate/reflect pieces to minimize bounding box per width. Will NOT assume perfect fitting or greedy profile approaches.

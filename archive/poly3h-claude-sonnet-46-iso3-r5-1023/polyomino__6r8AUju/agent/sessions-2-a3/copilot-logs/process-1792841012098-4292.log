@@ -1,0 +1,30 @@
+2026-10-24T11:23:32.099Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-24T11:23:32.102Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-24T11:23:32.102Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-24T11:23:32.121Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-24T11:23:32.122Z [INFO] OpenTelemetry tracker created for session 92d8cbef-e401-40dc-b9f4-fa64f75b8145
+2026-10-24T11:23:32.129Z [INFO] Workspace initialized: 92d8cbef-e401-40dc-b9f4-fa64f75b8145 (checkpoints: 0)
+2026-10-24T11:23:32.139Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-24T11:23:32.139Z [INFO] Node.js version: v24.16.0
+2026-10-24T11:23:32.155Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-24T11:23:32.160Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-24T11:23:32.237Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-24T11:23:32.238Z [INFO]  
+2026-10-24T11:23:32.333Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T11:23:32.333Z [INFO] --- End of group ---
+2026-10-24T11:56:23.624Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T11:56:23.624Z [INFO] --- End of group ---
+2026-10-24T11:57:17.028Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T11:57:17.034Z [INFO] Persisted checkpoint #1: Polyomino packing skyline BL optimization
+2026-10-24T11:57:40.971Z [INFO] CompactionProcessor: Compaction complete - replaced 93 messages with summary + 10 new messages, saved ~119865 tokens
+2026-10-24T12:35:46.934Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T12:35:46.935Z [INFO] --- End of group ---
+2026-10-24T12:36:51.948Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T12:36:51.953Z [INFO] Persisted checkpoint #2: Polyomino packing 76.88% with stochastic restarts
+2026-10-24T12:41:03.511Z [INFO] CompactionProcessor: Compaction complete - replaced 173 messages with summary + 2 new messages, saved ~110106 tokens
+2026-10-24T13:13:49.645Z [INFO] System notification: Shell command "Test max_drop=30 quality and timing" (shellId: 167) has completed...
+2026-10-24T13:29:45.419Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-24T13:29:45.420Z [INFO] --- End of group ---
+2026-10-24T13:30:52.637Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-24T13:30:52.642Z [INFO] Persisted checkpoint #3: Drop packing achieving 78.91% champion
+2026-10-24T13:31:04.241Z [INFO] CompactionProcessor: Compaction complete - replaced 139 messages with summary + 4 new messages, saved ~123572 tokens

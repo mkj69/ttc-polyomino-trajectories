@@ -1,0 +1,6 @@
+score=0.9817821239142859
+source=work-2/box40-v21.cpp
+lineage=perimeter160+minbboxwaste40, template beam1024, peer checkpoint6 and medium patch
+evidence=official sid44, 42 paired uniform comparisons
+cost=1 official call; 108 local full runs in decomposition and bbox tests
+counter-evidence=negative bbox weight strongly worse; 80 not better than40 locally; exact size potential +/-160 worse

@@ -1,0 +1,35 @@
+2026-10-19T21:05:04.636Z [INFO] Shell completions: no supported shell detected, skipping
+2026-10-19T21:05:04.639Z [INFO] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-19T21:05:04.639Z [INFO] Session indexing debug: SESSION_INDEXING=true, repository=undefined
+2026-10-19T21:05:04.658Z [INFO] OpenTelemetry SDK initialized successfully
+2026-10-19T21:05:04.658Z [INFO] OpenTelemetry tracker created for session b452595a-9021-4cc4-99fa-6e2f764a1698
+2026-10-19T21:05:04.721Z [INFO] Workspace initialized: b452595a-9021-4cc4-99fa-6e2f764a1698 (checkpoints: 0)
+2026-10-19T21:05:04.737Z [INFO] Starting Copilot CLI: 1.0.70
+2026-10-19T21:05:04.737Z [INFO] Node.js version: v24.16.0
+2026-10-19T21:05:04.759Z [WARNING] Loading repo hooks in prompt mode (folder is trusted or opt-in set)
+2026-10-19T21:05:04.768Z [WARNING] Loading workspace MCP sources in prompt mode (folder is trusted or opt-in set)
+2026-10-19T21:05:04.856Z [INFO] Using custom provider: type=anthropic, baseUrl=https://<gateway> wireApi=completions
+2026-10-19T21:05:04.856Z [INFO]  
+2026-10-19T21:05:04.886Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-19T21:05:04.886Z [INFO] --- End of group ---
+2026-10-19T21:26:35.341Z [INFO] System notification: Shell command "Test example and timing" (shellId: 20) has completed successfully...
+2026-10-19T21:42:46.232Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-19T21:42:46.233Z [INFO] --- End of group ---
+2026-10-19T21:43:58.685Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-19T21:43:58.689Z [INFO] Persisted checkpoint #1: Polyomino packing skyline BL solver
+2026-10-19T21:44:10.797Z [INFO] CompactionProcessor: Compaction complete - replaced 86 messages with summary + 8 new messages, saved ~129632 tokens
+2026-10-19T22:22:38.812Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-19T22:22:38.813Z [INFO] --- End of group ---
+2026-10-19T22:23:48.439Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-19T22:23:48.444Z [INFO] Persisted checkpoint #2: True BL gap-filling polyomino packer
+2026-10-19T22:24:29.211Z [INFO] CompactionProcessor: Compaction complete - replaced 45 messages with summary + 4 new messages, saved ~127948 tokens
+2026-10-19T23:06:07.745Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-19T23:06:07.746Z [INFO] --- End of group ---
+2026-10-19T23:07:35.262Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-19T23:07:35.267Z [INFO] Persisted checkpoint #3: Polyomino packer trueBL n≤3000 scoring 73.79
+2026-10-19T23:13:45.741Z [INFO] CompactionProcessor: Compaction complete - replaced 69 messages with summary + 4 new messages, saved ~103748 tokens
+2026-10-19T23:47:32.230Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-10-19T23:47:32.231Z [INFO] --- End of group ---
+2026-10-19T23:48:46.105Z [INFO] CompactionProcessor: Background compaction completed successfully
+2026-10-19T23:48:46.109Z [INFO] Persisted checkpoint #4: trueBL n≤5000 + orientation dedup scoring 73.83
+2026-10-19T23:51:34.580Z [INFO] CompactionProcessor: Compaction complete - replaced 119 messages with summary + 4 new messages, saved ~115565 tokens

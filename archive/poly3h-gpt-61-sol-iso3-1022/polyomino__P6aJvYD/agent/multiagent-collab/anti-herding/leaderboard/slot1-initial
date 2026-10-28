@@ -1,0 +1,1 @@
+lineage: slot1 independent first-empty-cell packer; score 88.90196859428573/100; source work-1/solution.cpp; 202 random validity checks; local max 0.189s; one judge call; counter-evidence: random small density can be 0.4, limited lookahead and cavities remain.

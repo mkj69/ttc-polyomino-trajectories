@@ -1,0 +1,6 @@
+score=0.9278206325571428
+lineage=slot0 frontier contact+cavity baseline
+source=/logs/agent/multiagent-collab/anti-herding/work-0/solution.cpp
+evidence=254 independent validated random cases; n10000 worst 1.472s; graded UUID 5dae762c-bbcf-4945-9694-03c38fad4415
+cost=1 graded call
+counterevidence=small all-size-10 n100 local density only 0.9498; no exact tiling claim

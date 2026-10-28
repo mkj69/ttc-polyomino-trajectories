@@ -1,0 +1,5 @@
+lineage=slot2 depth3-neutral-tail + slot0 unique256 + guaranteed valid shelf timeout fallback + row0/depth3 bounds safety
+official_score_raw=95.88744595571427; submission=19; cost=one 70-case judge run
+source=/logs/agent/multiagent-collab/anti-herding/work-0/safe-tail256.cpp
+evidence=forced0ms50tiny and n100/1000/10000 valid; ASAN+UBSAN50tiny+12stress valid
+known-counter-evidence=wallclock can exceed2 underinstrumentation/concurrency; official CPUmax~1.84s

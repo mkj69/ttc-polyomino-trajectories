@@ -1,0 +1,5 @@
+score=79.16857141857146
+lineage=independent complementary pairs then skyline, best-of baseline
+path=/logs/agent/multiagent-collab/anti-herding/work-1/pairs.cpp
+evidence=200 random cases valid; max local runtime 1.02s; official submission 9f24565d
+counterevidence=small improvement; fewer pairing opportunities than hoped

@@ -1,0 +1,6 @@
+score=0.4472439265428571
+lineage=exact-pair-shelves
+evidence=one graded call, 203 valid random cross-validations, nine uniform stresses
+cost=1 graded call
+counterevidence=pair coverage <=3.36%, shelves waste over half area
+source=/logs/agent/multiagent-collab/anti-herding/work-1/pair-shelves.cpp
